@@ -1,0 +1,43 @@
+Create an env specific for seqfinder 
+ must be using python 2.7.15
+ conda install pandas==0.23.4
+ conda install -c conda-forge biopython
+ conda install -c conda-forge parallel
+
+
+
+(base) [p170122@PC-228 WGS_sub875rpt_Mar20]$ conda activate seqfinder
+(seqfinder) [p170122@PC-228 WGS_sub875rpt_Mar20]$ conda list
+# packages in environment at /home/p170122/anaconda2/envs/seqfinder:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main    conda-forge
+biopython                 1.76             py27h516909a_0    conda-forge
+bzip2                     1.0.8                h516909a_2    conda-forge
+ca-certificates           2019.11.28           hecc5488_0    conda-forge
+certifi                   2019.11.28               py27_0    conda-forge
+libblas                   3.8.0               14_openblas    conda-forge
+libcblas                  3.8.0               14_openblas    conda-forge
+libffi                    3.2.1             he1b5a44_1006    conda-forge
+libgcc-ng                 9.2.0                hdf63c60_0    conda-forge
+libgfortran-ng            7.3.0                hdf63c60_5    conda-forge
+liblapack                 3.8.0               14_openblas    conda-forge
+libopenblas               0.3.7                h5ec1e0e_6    conda-forge
+libstdcxx-ng              9.2.0                hdf63c60_0    conda-forge
+ncurses                   6.1               hf484d3e_1002    conda-forge
+numpy                     1.16.5           py27h95a1406_0    conda-forge
+openssl                   1.1.1d               h516909a_0    conda-forge
+pandas                    0.23.4          py27h637b7d7_1000    conda-forge
+pip                       19.3.1                   py27_0    conda-forge
+python                    2.7.15            h721da81_1008    conda-forge
+python-dateutil           2.8.1                      py_0    conda-forge
+pytz                      2019.3                     py_0    conda-forge
+readline                  7.0               hf8c457e_1001    conda-forge
+setuptools                42.0.2                   py27_0    conda-forge
+six                       1.14.0                   py27_0    conda-forge
+sqlite                    3.28.0               h8b20d00_0    conda-forge
+tk                        8.6.10               hed695b0_0    conda-forge
+wheel                     0.33.6                   py27_0    conda-forge
+xz                        5.2.4             h14c3975_1001    conda-forge
+zlib                      1.2.11            h516909a_1006    conda-forge
+

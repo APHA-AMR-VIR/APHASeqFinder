@@ -1,0 +1,10 @@
+Reference Acc#,Location,CDS,Complement strand,Gene Name,locus tag,Product,Comment,Refs for comment,nucleotide sequence,aa sequence
+CP001360,Plasmid,15095..16105,complement,not_given_1,BHWA1_02678,Fe-S oxidoreductase containing radical SAM domain,plasmid virulence gene,La etal 2014 VetRes 45:131 ,,
+CP001360,Plasmid,16246..17511,no,not_given_2,BHWA1_02679,glycosyl transferase, group 1-like protein,plasmid virulence gene,La etal 2014 VetRes 45:131 ,,
+CP001360,Plasmid,17508..18368,complement,not_given_3,BHWA1_02680,NAD dependent epimerase/dehydratase family superfamily protein,plasmid virulence gene,La etal 2014 VetRes 45:131 ,,
+CP001360,Plasmid,18371..18904,complement,rfbC_1,BHWA1_02681,dTDP-4-dehydrorhamnose 3,5-epimerase,plasmid virulence gene,La etal 2014 VetRes 45:131 ,,
+CP001360,Plasmid,23463..24122,complement,not_given_4,BHWA1_02686,putative replicative DNA helicase,used for plasmid detection,La etal 2011 Vet Microbiol. 153(1-2):150-5,,
+CP001360,Plasmid,29816..30886,no,rfbB,BHWA1_02691,dTDP-glucose 4,6-dehydratase,used for plasmid detection,Backhans etal 2011 Vet Microbiol. 21;153(1-2):156-62,,
+CP001360,Plasmid,30900..31763,complement,rfbA,BHWA1_02692,glucose-1-phosphate thymidylyltransferase,used for plasmid detection,Backhans etal 2011 Vet Microbiol. 21;153(1-2):156-62,,
+CP001360,Plasmid,31782..32642,complement,rfbD,BHWA1_02693,dTDP-4-keto-L-rhamnose reductase,used for plasmid detection,Backhans etal 2011 Vet Microbiol. 21;153(1-2):156-62,,
+CP001360,Plasmid,32648..33226,complement,rfbC_2,BHWA1_02694,dTDP-4-dehydrorhamnose 3,5-epimerase,used for plasmid detection,Backhans etal 2011 Vet Microbiol. 21;153(1-2):156-62,,
