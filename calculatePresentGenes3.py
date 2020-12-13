@@ -5,9 +5,9 @@
 # also provide the mean coverage for each gene and the number of good snps and their
 # corresponding annotation. 
 
-import sys,re,csv,itertools
-from operator import *
-from itertools import *
+import sys,re,csv
+from operator import itemgetter
+from itertools import groupby
 import numpy
 
 args=sys.argv
@@ -30,10 +30,10 @@ else:
     gSAnnot=sys.argv[7]
     
 def readTable(fname,ch,dig=0):
-    infile=open(fname,"rb")
+    infile=open(fname,"r")
     data = csv.reader(infile, delimiter=ch)
     if dig!=0:
-        dataOut = [map(strToint,row) for row in data]
+        dataOut = [[strToint(x) for x in row] for row in data]
     else:
         dataOut = [row for row in data]
     infile.close()
@@ -43,12 +43,13 @@ def strToint(s):
     if "." in s:
         return(float(s))
     if s.isdigit():
-        return int(s)
-    return s
+        return(int(s))
+    return(s)
     
 def readfqFileSeveralContigsOld(fname):
-    fileIn = open(fname, 'rb')
+    fileIn = open(fname, 'r')
     lines= fileIn.readlines()
+    lines=[x.strip() for x in lines]
     idsPos=[]
     plusPos=[]
     cont=0
@@ -61,61 +62,64 @@ def readfqFileSeveralContigsOld(fname):
     ids=[]
     seqs=[]
     for idPos,pluPos in zip(idsPos,plusPos):
-        ids.append(lines[idPos][1:-1])
+        ids.append(lines[idPos][1:])
         seq=lines[idPos+1:pluPos]
-        seq="".join([x[:-1] for x in seq])
+        seq="".join([x for x in seq])
         seqs.append(seq)
-    return ids,seqs
+    return(ids,seqs)
     
 def readfqFileSeveralSequences(fname):
-    fileIn = open(fname, 'rb')
+    fileIn = open(fname, 'r')
     lines= fileIn.readlines()
-    pluses = [i for i in range(0,len(lines)) if lines[i]=="+\n"]
+    lines=[x.strip() for x in lines]
+    pluses = [i for i in range(0,len(lines)) if lines[i]=="+"]
     ini=0
     ids=[]
     seqs=[]
     for plus in pluses:
-        ids=ids+[lines[ini][1:-1]]
-        seqs=seqs+["".join([lines[i][:-1] for i in range(ini+1,plus)])]
+        ids=ids+[lines[ini][1:]]
+        seqs=seqs+["".join([lines[i] for i in range(ini+1,plus)])]
         ini = plus+(plus-ini)
-    return ids,seqs
+    return(ids,seqs)
 
 def readfnaFileSeveralSequences(fname):
-    fileIn = open(fname, 'rb')
+    fileIn = open(fname, 'r')
     lines= fileIn.readlines()
+    lines=[x.strip() for x in lines]
     ids=[]
     seqs=[]
     seq=""
     for line in lines:
+        #print("**************")
         if line[0]==">":
             if len(ids)>0:
                 seqs.append(seq)
                 seq=""
-            ids.append(line[1:-1].strip())
+            ids.append(line[1:])
         else:
-            seq=seq+line[:-1].strip()
+            seq=seq+line
     seqs.append(seq)
-    return ids,seqs
+    return(ids,seqs)
 
 def findDeletionPos(seq,ch):
     gaps = [m.start() for m in re.finditer(ch.upper(), seq.upper())]
     intervals = []
-    for k, g in groupby(enumerate(gaps), lambda (i,x):i-x):
-        interval = map(itemgetter(1), g)
+    for k,g in groupby(enumerate(gaps), lambda x: x[1]-x[0]):
+        interval = list(map(itemgetter(1), g))
         intervals= intervals + [[interval[0],interval[-1]]]
-    return intervals
+    return(intervals)
 
 def writeCSV(fname,matrix):
-    with open(fname, "wb") as fileOut:
+    with open(fname, "w") as fileOut:
         writer = csv.writer(fileOut)
         writer.writerows(matrix)
-        print "file "+fname+" saved."
+        print("file "+fname+" saved.")
 
 def checkSnps(qual,gcovRF,gcovRR,gcovAF,gcovAR):
     if qual>=thqual and gcovRF<=thSnpCovProp*gcovAF and gcovRR<=thSnpCovProp*gcovAR and (gcovAF>=thMinGC or gcovAR>=thMinGC):
-        return True
+        return(True)
     else:
-        return False
+        return(False)
 
 def isACGT(c):
     return c in ["a","A","c","C","g","G","t","T"]
@@ -129,10 +133,10 @@ def complement(s):
             new=new+[basecomplement[l]]
         else:
             new=new+[l]
-    return ''.join(new)
+    return(''.join(new))
 
 def revcom(s):
-    return complement(s[::-1])
+    return(complement(s[::-1]))
 
 def translate_dna(sequence,pos=-1):
 
@@ -174,7 +178,7 @@ def translate_dna(sequence,pos=-1):
                 codonInfo=[sequence[n:pos]+"("+sequence[pos]+")"+sequence[pos+1:n+3],codontable[sequence[n:n+3]]]
         #else:
         #    print "not found "+sequence[n:n+3]+" at position "+str(n)
-    return proteinsequence,codonInfo
+    return(proteinsequence,codonInfo)
 
     
 def gsAnnot(x,seqref):
@@ -188,32 +192,35 @@ def gsAnnot(x,seqref):
         annot="syn"
     else:
         annot="non"    
-    return x+[refCodon,geneCodon,annot]
+    return(x+[refCodon,geneCodon,annot])
 
+################################################################################################
 
 ids,seqs=readfqFileSeveralSequences(fqFile)
 
 refids,refseqs = readfnaFileSeveralSequences(fnaFile)
 
-cvs = readTable(csvFile,",",1)
-prefName=cvs[0].index("refName")
-ppos=cvs[0].index("pos")
-pref=cvs[0].index("ref")
-palt=cvs[0].index("alt_vcf")
-pqual=cvs[0].index("qual")
-pcov=cvs[0].index("cov")
-pgcovRF=cvs[0].index("gcovRF")
-pgcovRR=cvs[0].index("gcovRR")
-pgcovAF=cvs[0].index("gcovAF")
-pgcovAR=cvs[0].index("gcovAR")
+cvs_table=readTable(csvFile,",",1)
+
+prefName=cvs_table[0].index("refName")
+ppos=cvs_table[0].index("pos")
+pref=cvs_table[0].index("ref")
+palt=cvs_table[0].index("alt_vcf")
+pqual=cvs_table[0].index("qual")
+pcov=cvs_table[0].index("cov")
+pgcovRF=cvs_table[0].index("gcovRF")
+pgcovRR=cvs_table[0].index("gcovRR")
+pgcovAF=cvs_table[0].index("gcovAF")
+pgcovAR=cvs_table[0].index("gcovAR")
 
 table=[]
 tabledel=[["Gene","Star","End","Length","Sequence","SequenceToBlast"]]
 allgoodsnps=[]
-
 for idref,seqref in zip(refids,refseqs):
     lenRef = len(seqref)
+    
     if idref in ids:
+ 
         geneSeq=seqs[ids.index(idref)]
         
         cov=[x for x in geneSeq if x!="n"]
@@ -222,7 +229,7 @@ for idref,seqref in zip(refids,refseqs):
         lenNs=len(Ns)+(lenRef-len(geneSeq))
         other=[x for x in geneSeq if (not isACGT(x) and x!="n")]
         
-        mapp=[x for x in cvs if x[prefName]==idref]
+        mapp=[x for x in cvs_table if x[prefName]==idref]
         covVector = [x[pcov] for x in mapp]
         covAver=round(numpy.mean(covVector),2)
         snps=[x for x in mapp if x[pref]!=x[palt] and x[palt].upper() in ["A","C","G","T"]]
@@ -262,7 +269,9 @@ if gSAnnot.upper()=="YES":
     table=[["id","real-len","mapped-len","meanCov","Gaps","% mapped-gaps/real","snps","other","goodSnps","#syn","#non","annot"]]+table
 else:
     table=[["id","real-len","mapped-len","meanCov","Gaps","% mapped-gaps/real","snps","other"]]+table
-writeCSV(fqFile[:-3]+"_CompareTo_"+fnaFile.split("/")[-1].split(".")[0]+".csv",table)
+
+out_file=fqFile[:-3]+"_CompareTo_"+fnaFile.split("/")[-1].split(".")[0]+".csv"
+writeCSV(out_file,table)
 writeCSV(fqFile[:-3]+"_DeletedSequences.csv",tabledel)
 writeCSV(fqFile[:-3]+"_goodsnps.csv",allgoodsnps)
 
