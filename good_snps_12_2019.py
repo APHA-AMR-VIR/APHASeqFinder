@@ -41,6 +41,7 @@ file_name = sys.argv[1]
 strain_name = file_name.split('_')
 per_ID=float(sys.argv[2])  
 numsnps=float(sys.argv[3])
+efsa_dict=sys.argv[4]
 def gene_code(id_string):
     '''Given an id string, return the gene prefix, defined as the first four characters after the 
     first underscore.'''
@@ -166,12 +167,12 @@ def main():
     merge = drop_ampP_gyrA_parC,tet34_filter,df_gyrA_parC_cip,df_ampP_filter_snps,ant3_filter_long
     filtered_gyrA_parC_ampP = pd.concat(merge)
 ###Using gene and antimicrobial EFSA dictions to make another column with the AMR conferred by the gene
-    test_dict_df = pd.read_csv('~/mnt/BactiPipes_MA2017/APHA_pipelines/SeqFinder_v1.2/seqfinder/EFSA_antimcriobial_panel_dictionary_191219.csv')
+    test_dict_df = pd.read_csv(efsa_dict)
     df_as_dict = test_dict_df.set_index('id').T.to_dict('list')
     filtered_gyrA_parC_ampP['antimicrobial']= filtered_gyrA_parC_ampP['id'].map(df_as_dict)
     # Set output filename and columns
-    output_filename = sys.argv[1].split('_')[0] + '_good_snps.csv'
-    output_filename_chromosomal = sys.argv[1].split('_')[0] + '_good_snps_only_chromosomal.csv'
+    output_filename = sys.argv[1].replace('.csv','_good_snps.csv')
+    output_filename_chromosomal =  sys.argv[1].replace('.csv','_good_snps_only_chromosomal.csv')
     original_columns = list(data_raw) # Get columns of input csv
     original_columns.insert(1, 'gene') # Set 'gene' as second column of output
     original_columns.insert(2, 'class') # Set 'class' as the third column of output

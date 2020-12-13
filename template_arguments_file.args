@@ -1,0 +1,7 @@
+soft_path="/home/javi/APHASeqFinder"
+reference="/home/javi/APHASeqFinder/references/AMR/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.fna"
+data_path="/home/javi/WGS_Data/Project_1/fastq"
+results_path="/home/javi/WGS_Results/Project_1"
+percentageID=70
+numofsnps=5
+efsa_dict="/home/javi/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
