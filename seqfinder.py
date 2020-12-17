@@ -252,6 +252,14 @@ numofsnps=5
 efsa_dict="/home/javi/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
 '''
 
+try:
+    value=int(input('Number of cores to use? (There are '+str(mp.cpu_count())+' available:\n'))
+    if value<=mp.cpu_count():
+        ncores=value
+except:
+    ncores=1
+    
+
 if not os.path.exists(results_path):
     os.system('mkdir -p '+results_path)
 
@@ -261,7 +269,7 @@ fils=[os.path.join(data_path,fil) for fil in fils]
 #for fil in fils:
 #    one_sample(fil)
 
-pool=mp.Pool(mp.cpu_count()-1)
+pool=mp.Pool(ncores)
 result=pool.map_async(one_sample,fils)
 result.wait()
 
@@ -278,7 +286,6 @@ df = pd.concat((pd.read_csv(f) for f in list_of_files))
 df_final=df.drop(['real-len','other'],1)
 df_final.to_csv(os.path.join(results_path,"seqfinder_chr_compilation.csv"),index=False)
 print('Done! Output written to seqfinder_chr_compilation.csv')
-    
     
 
 
