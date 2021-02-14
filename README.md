@@ -1,9 +1,17 @@
 # APHA SeqFinder
 This is a tool that determines the presence of genes in bacteria from illumina sequencing data.
+It runs first SeqFinder, then spades to create the assemblies (this step is optional, see below argument fastas_folder), then abricate and finally it combines both results.
+
+The output files for each samples are in results_path/sample_name (see below how to set results_path)
+Also in results_path, all the output files combining all the sample will be dropped.
 
 Requirements: Forward and reverse reads that follow the illumina format of *R1_001.fastq.gz | *R2_001.fastq.gz
+Dependencies: abricate (https://github.com/tseemann/abricate) 
 
-Edit file "template_arguments_file.args" and modify the global variables as appropiate. Following is an example:
+
+How to run SeqFinder:
+
+Edit file "template_arguments_file.args" and modify the global variables as appropiate. Following is an example, please read:
 
 #path to the seqFinder
 soft_path="/home/javi/APHASeqFinder"
@@ -25,6 +33,17 @@ numofsnps=5
 
 #EFSA antimicrobial panel dictionary. Thi spipeline includes several versions at /soft_path/EFSA_panel
 efsa_dict="/home/javi/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
+
+#fastas_folder. If the assemblies for the samples have already been done, specify the path where they are. If fasta_folder is leave it equal to "" seqfinder will run spades
+fastas_folder=""
+#fastas_folder="/home/javi/WGS_Results/Project_1/fastas"
+
+#spades_folder. If fastas_folder="", then you need to specified where the spades assembler folder is. Seqfinder have a version in the third_party_software, so no need to modify this unless you prefer a different version of spades.
+spades_path="/home/javi/APHASeqFinder/third_party_software/spades/assembler"
+
+#
+#
+#
 
 You can save the new arguments with a different file name. For example: "/my/path/to/my_arguments_file_for_my_new_run.args"
 
