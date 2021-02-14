@@ -12,7 +12,7 @@ Usage: goodSNPs.py csv_file [-h <help>]
 #           Nana Mensah <nmensah93@gmail.com>
 # Created : 14/12/17
 # Edited for perhaps the last time by Nick on 19/12/2019
-import sys
+import sys,os
 import pandas as pd
 import logging
 import warnings
@@ -38,7 +38,10 @@ def amr_dataframe():
 # split into the strain name and added to the dataframe        
 file_name = sys.argv[1]
 #file_name='3820_CompareTo_AMRDatabase_20180308_ND.csv'
-strain_name = file_name.split('_')
+print(file_name)
+strain_name = file_name.split(os.sep)[-1].split('_CompareTo_')[0]
+print(strain_name)
+print("***********")
 per_ID=float(sys.argv[2])  
 numsnps=float(sys.argv[3])
 efsa_dict=sys.argv[4]
@@ -55,7 +58,7 @@ def filter_by_gene(dataframe):
     # as the first 4 characters after the first underscore in the 'id' column of each entry
     dataframe['gene'] = [ gene_code(gene) for gene in dataframe['id'] ]
     # Add a column to the dataframe with the name of the strain the genes are from
-    dataframe['strain']=strain_name[0]
+    dataframe['strain']=strain_name
     idlist = dataframe['id']
     amr_class=list()
     for i in idlist:
