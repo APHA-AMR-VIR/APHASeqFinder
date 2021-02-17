@@ -20,10 +20,6 @@ numofsnps=5
 efsa_dict="/home/javi/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
 
 #fastas_folder
-#fastas_folder=""
-fastas_folder="/home/javi/WGS_Results/Project_1/fastas"
-
-#spades_folder
-spades_path="/home/javi/APHASeqFinder/third_party_software/spades/assembler"
-
+fastas_folder=""
+#fastas_folder="/home/javi/WGS_Results/Project_1/fastas"
 
