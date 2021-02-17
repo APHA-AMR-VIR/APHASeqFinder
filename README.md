@@ -43,6 +43,7 @@ fastas_folder=""
 
 #
 #
+#
 
 You must save the new arguments with a different file name in any folder you want. For example: "/my/path/to/my_arguments_file_for_my_new_run.args"
 
