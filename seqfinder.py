@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 '''
 Dec 2020
 Javier Nunez, AMR Team, Bacteriology
@@ -258,7 +260,7 @@ def one_sample(r1_file):
     ##### assembler
     if fastas_folder=="":
         assem_folder=os.path.join(sample_folder,sample_name+"_spades")
-        run_cmd([os.path.join(spades_path,'spades.py'),'--careful','-1',r1_file_trimmed_paired,'-2',r2_file_trimmed_paired,'-o',assem_folder])
+        run_cmd(['spades.py','--careful','-1',r1_file_trimmed_paired,'-2',r2_file_trimmed_paired,'-o',assem_folder])
         assem_file=os.path.join(assem_folder,"contigs.fasta")
         fasta_file=os.path.join(sample_folder,sample_name+"_spades.fasta")
         filter_contigs(assem_file,fasta_file)
@@ -291,7 +293,8 @@ def one_sample(r1_file):
     delete_files(sample_folder,'.smi')
     delete_files(sample_folder,'.bcf')
     delete_files(sample_folder,'.vcf')
-    delete_files(sample_folder,'.snp')               
+    delete_files(sample_folder,'.snp')
+    run_cmd(['rm','-r',assem_folder])               
 
 ###################################
 ###################################
@@ -306,7 +309,6 @@ results_path=""
 percentageID=70
 numofsnps=5
 efsa_dict=""
-spades_path=""
 fastas_folder=""
 
 args=sys.argv
@@ -333,7 +335,6 @@ percentageID=70
 numofsnps=5
 efsa_dict="/home/javi/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
 fastas_folder=""
-spades_path="/home/javi/APHASeqFinder/third_party_software/spades/assembler"
 abricate_ref_folder="/home/javi/APHASeqFinder/references" 
 '''
 
@@ -364,7 +365,7 @@ fils=find_file("*R1*.fastq.gz", data_path)
 fils=[os.path.join(data_path,fil) for fil in fils]
 
 ###############sequencial
-#for fil in fils:
+#for fil in fils[:1]:
 #    one_sample(fil)
 
 ############### parallel

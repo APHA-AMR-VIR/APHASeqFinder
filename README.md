@@ -6,8 +6,10 @@ The output files for each samples are in results_path/sample_name (see below how
 Also in results_path, all the output files combining all the sample will be dropped.
 
 Requirements: Forward and reverse reads that follow the illumina format of *R1_001.fastq.gz | *R2_001.fastq.gz
-Dependencies: abricate (https://github.com/tseemann/abricate) 
+Dependencies: 
 
+	- abricate (https://github.com/tseemann/abricate)
+	- SPAdes (https://github.com/ablab/spades) 
 
 How to run SeqFinder:
 
@@ -38,10 +40,7 @@ efsa_dict="/home/javi/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictiona
 fastas_folder=""
 #fastas_folder="/home/javi/WGS_Results/Project_1/fastas"
 
-#spades_folder. If fastas_folder="", then you need to specified where the spades assembler folder is. Seqfinder have a version in the third_party_software, so no need to modify this unless you prefer a different version of spades.
-spades_path="/home/javi/APHASeqFinder/third_party_software/spades/assembler"
 
-#
 #
 #
 
