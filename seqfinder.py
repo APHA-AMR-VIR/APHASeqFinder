@@ -318,8 +318,6 @@ if len(args)>1:
 else:
     print("Argument file not given or doesn't exist. Please re run with /full/path/to/arguments/file/arguments_file.args")
     sys.exit()
-    #Just to run the script from a GUI
-    #arguments_file='/home/javi/APHASeqFinder/template_arguments_file.args'
 
 ########Loading other arguments from the arguments file
 print('Reading arguments from file: '+arguments_file)
