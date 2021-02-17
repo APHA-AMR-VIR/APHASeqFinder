@@ -44,9 +44,9 @@ fastas_folder=""
 #
 #
 
-You can save the new arguments with a different file name. For example: "/my/path/to/my_arguments_file_for_my_new_run.args"
+You must save the new arguments with a different file name in any folder you want. For example: "/my/path/to/my_arguments_file_for_my_new_run.args"
 
-To run the pipeline: python seqfinder.py /my/path/to/my_arguments_file_for_my_new_run.args
+To run the pipeline: ./seqfinder.py /my/path/to/my_arguments_file_for_my_new_run.args
 
 You will be asked how many cores you want to use. If you enter a wrong option, only 1 core will be used. For each sample, a folder with the same name as the sample will be created. The main results are summarised in a CSV file called "sample_name_CompareTo_database_name.csv".
 Summary tables (CSV) for all the samples analysed can be found in folder results_path.
