@@ -37,6 +37,7 @@ numofsnps=5
 efsa_dict="/home/javi/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
 
 #fastas_folder. If the assemblies for the samples have already been done, specify the path where they are. If fasta_folder is left equal to "" seqfinder will run spades
+
 fastas_folder=""
 #fastas_folder="/home/javi/WGS_Results/Project_1/fastas"
 
