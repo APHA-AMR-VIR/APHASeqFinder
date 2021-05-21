@@ -5,7 +5,7 @@ It runs first SeqFinder, then spades to create the assemblies (this step is opti
 The output files for each samples are in results_path/sample_name (see below how to set results_path)
 Also in results_path, all the output files combining all the sample will be dropped.
 
-Requirements: Forward and reverse reads that follow the illumina format of *R1_001.fastq.gz | *R2_001.fastq.gz
+Requirements: Forward and reverse reads. For example sample_R1_001.fastq.gz and sample_R2_001.fastq.gz
 Dependencies: 
 
 	- abricate (https://github.com/tseemann/abricate)
@@ -21,8 +21,15 @@ soft_path="/home/javi/APHASeqFinder"
 #database path and name. You can use any fasta file you wish. We this pipeline we provide several databases which you can find at /soft_path/references
 reference="/home/javi/APHASeqFinder/references/AMR/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.fna"
 
-#path to the fastq files. Notice the name's format that the pipeline would be expecting (see above). 
+#path to the fastq files. 
 data_path="/home/javi/WGS_Data/Project_1/fastq"
+
+#pattern followed by the R1 fastq file so seqFinder can find all the sample to run, e.i. some pattern unique in the R1 fastq files names that differentiate form other files. Examples:     
+R1_pattern="_R1_"
+
+or
+
+R1_pattern="_R1."  if the R1 files is named sample_R1.fastq.gz
 
 #path to the directory where the results will be placed
 results_path="/home/javi/WGS_Results/Project_1"
@@ -44,6 +51,8 @@ or
 
 fastas_folder="/home/javi/WGS_Results/Project_1/fastas"  (if the assemblies are already available in /home/javi/WGS_Results/Project_1/fastas)
 
+#Number of cores to be used to run the samples in parallel. If you want to know how many cores your instance has got, type the command: htop 
+ncores=2
 
 #
 #

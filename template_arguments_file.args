@@ -5,7 +5,10 @@ soft_path="/home/javi/APHASeqFinder"
 reference="/home/javi/APHASeqFinder/references/AMR/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.fna"
 
 #path to the fastq files. Notice the name's format that the pipeline would be expecting (see above). 
-data_path="/home/javi/WGS_Data/Project_1/fastq"
+data_path="/home/javi/WGS_Data/Project_1/fastqs"
+
+#fastq R1 pattern
+R1_pattern="_R1_"
 
 #path to the directory where the results will be placed
 results_path="/home/javi/WGS_Results/Project_1"
@@ -20,6 +23,9 @@ numofsnps=5
 efsa_dict="/home/javi/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
 
 #fastas_folder
-fastas_folder=""
+fastas_folder="/home/javi/WGS_Data/Project_1/fastas"
+
+#ncores
+ncores=2
 
 

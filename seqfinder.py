@@ -26,6 +26,7 @@ import multiprocessing as mp
 from pathlib import Path
 import pandas as pd
 from os import listdir
+import numpy as np
 
 ###################################
 # functions used in this script
@@ -199,6 +200,11 @@ def readfnaFileSeveralSequences(fname):
     seqs.append(seq)
     return(ids,seqs)
 
+def contig_checker(fname):
+    ids,seqs=readfnaFileSeveralSequences(fname)
+    lens=[len(seqs[i]) for i in range(len(seqs))]
+    return([fname.split(os.sep)[-1],len(seqs),round(np.mean(lens)),min(lens)])
+
 def filter_contigs(fin,fout,min_size=300):
     ids,seqs=readfnaFileSeveralSequences(fin)
     lines=[]
@@ -213,7 +219,10 @@ def filter_contigs(fin,fout,min_size=300):
 
     fileOut = open(fout, 'w')
     fileOut.writelines(lines)
-    fileOut.close()  
+    fileOut.close()
+    return(contig_checker(fout))
+
+
 
 def delete_files(results_path,strin):
     print('Deleting files ending in '+strin+' in '+results_path)
@@ -225,45 +234,59 @@ def delete_files(results_path,strin):
         
    
 def one_sample(r1_file):
-    r2_file=r1_file.replace("R1","R2")
-    sample_name=r1_file.split(os.sep)[-1].split("R1")[0][:-1]
-    print("Processing sample: "+sample_name)
-    sample_folder=os.path.join(results_path,sample_name)
-    if not os.path.exists(sample_folder):
-        os.system('mkdir -p '+sample_folder)
+    try:
+        r2_file=r1_file.replace("R1","R2")
+        sample_name=r1_file.split(os.sep)[-1].split("R1")[0][:-1]
+        print("Processing sample: "+sample_name)
+        sample_folder=os.path.join(results_path,sample_name)
+        if not os.path.exists(sample_folder):
+            os.system('mkdir -p '+sample_folder)
+        
+        [r1_file_trimmed_paired,r1_file_trimmed_unpaired,r2_file_trimmed_paired,r2_file_trimmed_unpaired]=trimming(sample_name,sample_folder,r1_file,r2_file)
     
-    [r1_file_trimmed_paired,r1_file_trimmed_unpaired,r2_file_trimmed_paired,r2_file_trimmed_unpaired]=trimming(sample_name,sample_folder,r1_file,r2_file)
-
-    fastq_trimmed=os.path.join(sample_folder,sample_name+'.trimmed.fastq.gz')
-    run_cmd(['cat',r1_file_trimmed_paired,r1_file_trimmed_unpaired,r2_file_trimmed_paired,r2_file_trimmed_unpaired,'>',fastq_trimmed])
-    
-    ref_index=os.path.join(sample_folder,reference.split(os.sep)[-1])
-    run_cmd([os.path.join(soft_path,'third_party_software','smalt'),'index -k 13 -s 6',ref_index,reference])
-    run_cmd([os.path.join(soft_path,'third_party_software','smalt'),'map -d -1 -y 0.7 -x -f samsoft -o',os.path.join(sample_folder,sample_name+".sam"),ref_index, fastq_trimmed])
-    run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'view -Sh -F 4',os.path.join(sample_folder,sample_name+".sam"),'>',os.path.join(sample_folder,sample_name+".F4.sam")])
-    sam_flag_changed(os.path.join(sample_folder,sample_name+".F4.sam")) #produces .60.sam
-    run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'view -Shu',os.path.join(sample_folder,sample_name+'.F4.sam'),'>',os.path.join(sample_folder,sample_name+'.bam')]) 
-    run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'sort',os.path.join(sample_folder,sample_name+'.bam'),os.path.join(sample_folder,sample_name+'.sorted')])       
-    run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'index',os.path.join(sample_folder,sample_name+'.sorted.bam')])
-    run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'faidx -o',os.path.join(sample_folder,reference.split(os.sep)[-1]+'.faidx'),reference])
-    run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'mpileup','-uf',reference,os.path.join(sample_folder,sample_name+'.sorted.bam'),'>',os.path.join(sample_folder,sample_name+'.mpileup.bcf')])    
-    run_cmd([os.path.join(soft_path,'third_party_software','bcftools_0.1.19'),'view -cg',os.path.join(sample_folder,sample_name+'.mpileup.bcf'),'>',os.path.join(sample_folder,sample_name+'.mpileup.vcf')])
-    run_cmd(['perl',os.path.join(soft_path,'third_party_software','vcfutils.pl'),'vcf2fq',os.path.join(sample_folder,sample_name+'.mpileup.vcf'),'>',os.path.join(sample_folder,sample_name+'.fq')])   
-    run_cmd([os.path.join(soft_path,'third_party_software','bcftools_0.1.19'),'view -vcg',os.path.join(sample_folder,sample_name+'.mpileup.bcf'),'>',os.path.join(sample_folder,sample_name+'.snp')])
-    snps_filter(150,1,2,os.path.join(sample_folder,sample_name+'.snp'),os.path.join(sample_folder,sample_name+'_SN.csv'))
-    pileup_stats_file=pileupStats(os.path.join(sample_folder,sample_name+".mpileup.vcf"),os.path.join(sample_folder,sample_name+".fq"),reference,3)
-    run_cmd(['python',os.path.join(soft_path,'calculatePresentGenes3.py'),os.path.join(sample_folder,sample_name+'.fq'),reference,pileup_stats_file,'150','0.2','2','yes'])
-    
-    compare_file=find_file('*_CompareTo_*',sample_folder)[0]
-    run_cmd(['python',os.path.join(soft_path,'good_snps_12_2019.py'),os.path.join(sample_folder,compare_file),str(percentageID),str(numofsnps),efsa_dict])
-
+        fastq_trimmed=os.path.join(sample_folder,sample_name+'.trimmed.fastq.gz')
+        run_cmd(['cat',r1_file_trimmed_paired,r1_file_trimmed_unpaired,r2_file_trimmed_paired,r2_file_trimmed_unpaired,'>',fastq_trimmed])
+        
+        ref_index=os.path.join(sample_folder,reference.split(os.sep)[-1])
+        run_cmd([os.path.join(soft_path,'third_party_software','smalt'),'index -k 13 -s 6',ref_index,reference])
+        run_cmd([os.path.join(soft_path,'third_party_software','smalt'),'map -d -1 -y 0.7 -x -f samsoft -o',os.path.join(sample_folder,sample_name+".sam"),ref_index, fastq_trimmed])
+        run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'view -Sh -F 4',os.path.join(sample_folder,sample_name+".sam"),'>',os.path.join(sample_folder,sample_name+".F4.sam")])
+        sam_flag_changed(os.path.join(sample_folder,sample_name+".F4.sam")) #produces .60.sam
+        run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'view -Shu',os.path.join(sample_folder,sample_name+'.F4.sam'),'>',os.path.join(sample_folder,sample_name+'.bam')]) 
+        run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'sort',os.path.join(sample_folder,sample_name+'.bam'),os.path.join(sample_folder,sample_name+'.sorted')])       
+        run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'index',os.path.join(sample_folder,sample_name+'.sorted.bam')])
+        run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'faidx -o',os.path.join(sample_folder,reference.split(os.sep)[-1]+'.faidx'),reference])
+        run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'mpileup','-uf',reference,os.path.join(sample_folder,sample_name+'.sorted.bam'),'>',os.path.join(sample_folder,sample_name+'.mpileup.bcf')])    
+        run_cmd([os.path.join(soft_path,'third_party_software','bcftools_0.1.19'),'view -cg',os.path.join(sample_folder,sample_name+'.mpileup.bcf'),'>',os.path.join(sample_folder,sample_name+'.mpileup.vcf')])
+        run_cmd(['perl',os.path.join(soft_path,'third_party_software','vcfutils.pl'),'vcf2fq',os.path.join(sample_folder,sample_name+'.mpileup.vcf'),'>',os.path.join(sample_folder,sample_name+'.fq')])   
+        run_cmd([os.path.join(soft_path,'third_party_software','bcftools_0.1.19'),'view -vcg',os.path.join(sample_folder,sample_name+'.mpileup.bcf'),'>',os.path.join(sample_folder,sample_name+'.snp')])
+        snps_filter(150,1,2,os.path.join(sample_folder,sample_name+'.snp'),os.path.join(sample_folder,sample_name+'_SN.csv'))
+        pileup_stats_file=pileupStats(os.path.join(sample_folder,sample_name+".mpileup.vcf"),os.path.join(sample_folder,sample_name+".fq"),reference,3)
+        run_cmd(['python',os.path.join(soft_path,'calculatePresentGenes3.py'),os.path.join(sample_folder,sample_name+'.fq'),reference,pileup_stats_file,'150','0.2','2','yes'])
+        
+        compare_file=find_file('*_CompareTo_*',sample_folder)[0]
+        run_cmd(['python',os.path.join(soft_path,'good_snps_12_2019.py'),os.path.join(sample_folder,compare_file),str(percentageID),str(numofsnps),efsa_dict])
+    except:
+        print("Something went wrong with the mapping stage.")
+        print("Therefore, "+sample_name+" no processed at all.")
+        return([sample_name,"NA","NA","NA"])
+        
+        
     ##### assembler
     if fastas_folder=="":
         assem_folder=os.path.join(sample_folder,sample_name+"_spades")
-        run_cmd(['spades.py','--careful','-1',r1_file_trimmed_paired,'-2',r2_file_trimmed_paired,'-o',assem_folder])
+        k='-k 25'
+        run_cmd(['spades.py','--careful',k,'-1',r1_file_trimmed_paired,'-2',r2_file_trimmed_paired,'-o',assem_folder])
         assem_file=os.path.join(assem_folder,"contigs.fasta")
         fasta_file=os.path.join(sample_folder,sample_name+"_spades.fasta")
-        filter_contigs(assem_file,fasta_file)
+        if os.path.isfile(assem_file):
+            [fasta_name,number_contigs,mean_size_bp,min_size_bp]=filter_contigs(assem_file,fasta_file)
+            spades_stats_table=[["fasta_name","number_contigs","mean_size_bp","min_size_bp"],[fasta_name,number_contigs,mean_size_bp,min_size_bp]]
+            writeCSV(fasta_file.replace("_spades.fasta","_spades_stats.csv"),spades_stats_table)
+        else:
+            print("Something went wrong with the spades assembly.")
+            print("Therefore, no abricate run")
+            return([sample_name,"NA","NA","NA"])
     else:
         fasta_file=[f for f in listdir(fastas_folder) if f[:len(sample_name)]==sample_name and f.split(".")[-1] in ["fasta","fa"]]
         if len(fasta_file)==1:
@@ -271,19 +294,19 @@ def one_sample(r1_file):
         else:
             print("No corresponding fasta file detected in folder "+fastas_folder)
             print("Therefore, no abricate run")
-            return()
+            return([sample_name,"NA","NA","NA"])
     
     ###### abricate
     #abricate --setupdb
     reference_name=reference.split(os.sep)[-1].replace(".fna","")
     abricate_file_name=os.path.join(sample_folder,sample_name+".abricate")
-    run_cmd(['abricate','--datadir',results_path,'--db',reference_name,fasta_file,'>',abricate_file_name])
+    run_cmd(['abricate','--datadir',str(Path.home()),'--db',reference_name,fasta_file,'>',abricate_file_name])
     
     if os.path.isfile(abricate_file_name):
         ####### combination seqfinder abricate
         seqfinder_file_name=os.path.join(sample_folder,compare_file.replace('.csv','_good_snps.csv'))
         run_cmd(['python',os.path.join(soft_path,'abricate_combine_with_seqfinder_v1.py'),abricate_file_name,seqfinder_file_name])
-                    
+    '''                
     ########## deleting unwanted files
     delete_files(sample_folder,'.fastq.gz')
     delete_files(sample_folder,'.sam')
@@ -295,7 +318,8 @@ def one_sample(r1_file):
     delete_files(sample_folder,'.vcf')
     delete_files(sample_folder,'.snp')
     run_cmd(['rm','-r',assem_folder])               
-
+    '''
+    
 ###################################
 ###################################
 ###################################
@@ -305,19 +329,22 @@ def one_sample(r1_file):
 soft_path=""
 reference=""
 data_path=""
+R1_pattern=""
 results_path=""
 percentageID=70
 numofsnps=5
 efsa_dict=""
 fastas_folder=""
+ncores=0
 
 args=sys.argv
 if len(args)>1:
     arguments_file=args[1]
 
 else:
+    arguments_file="/home/javi/APHASeqFinder/template_arguments_file.args"
     print("Argument file not given or doesn't exist. Please re run with /full/path/to/arguments/file/arguments_file.args")
-    sys.exit()
+    #sys.exit()
 
 ########Loading other arguments from the arguments file
 print('Reading arguments from file: '+arguments_file)
@@ -326,34 +353,37 @@ with open(arguments_file,'r') as f:
         if line[0] not in ['\n',' ','#']:
             print('Loading argument: '+ line.strip())
             exec(line.strip())
-'''  
-soft_path="/home/javi/APHASeqFinder"
-reference="/home/javi/APHASeqFinder/references/AMR/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.fna"
-data_path="/home/javi/WGS_Data/Project_1/fastq"
-results_path="/home/javi/WGS_Results/Project_1"
+            
+            
+''' Explanation of the loaded arguments 
+soft_path="/home/user/APHASeqFinder"
+reference="/home/user/APHASeqFinder/references/AMR/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.fna"
+data_path="/home/user/WGS_Data/Project_1/fastq"
+results_path="/home/user/WGS_Results/Project_1"
 percentageID=70
 numofsnps=5
-efsa_dict="/home/javi/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
+efsa_dict="/home/user/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
 fastas_folder=""
-abricate_ref_folder="/home/javi/APHASeqFinder/references" 
+R1_pattern
 '''
 
-
 ####### ask user how many cores to use
-try:
-    value=int(input('Number of cores to use? (There are '+str(mp.cpu_count())+' available:\n'))
-    if value<=mp.cpu_count():
-        ncores=value
-except:
-    ncores=1
+#try:
+#    if ncores==0:
+#        value=int(input('Number of cores to use? (There are '+str(mp.cpu_count())+' available:\n'))
+#        if value<=mp.cpu_count():
+#            ncores=value
+#except:
+#    ncores=1
  
 ####### results directory
 if not os.path.exists(results_path):
     run_cmd(['mkdir','-p',results_path])
+run_cmd(['cp ',arguments_file,os.path.join(results_path,arguments_file.split(os.sep)[-1])])
 
 ########## abricate database creation
 reference_name=reference.split(os.sep)[-1].split(".")[0]
-abricate_ref_folder=os.path.join(results_path,reference_name)
+abricate_ref_folder=os.path.join(Path.home(),reference_name)
 if not os.path.exists(abricate_ref_folder):
     run_cmd(['mkdir','-p',abricate_ref_folder])
 run_cmd(['cp',reference,os.path.join(abricate_ref_folder,"sequences")])
@@ -361,14 +391,19 @@ run_cmd(['makeblastdb','-in',os.path.join(abricate_ref_folder,"sequences"),'-dbt
 
 
 ###################################################         
-fils=find_file("*R1*.fastq.gz", data_path)
-fils=[os.path.join(data_path,fil) for fil in fils]
+fils_R1=find_file("*"+R1_pattern+"*.fastq.gz", data_path)
+fils_R2=find_file("*"+R1_pattern.replace("R1","R2")+"*.fastq.gz", data_path)
+fils=[os.path.join(data_path,fil) for fil in fils_R1 if fil.replace("R1","R2") in fils_R2]
+print("Processing "+str(len(fils))+" samples. These are:")
+for fil in fils:
+    print(fil.split(os.sep)[-1].split("R1")[0][:-1])
+
 
 ###############sequencial
 #for fil in fils[:1]:
 #    one_sample(fil)
 
-############### parallel
+############### parallel processing of the samples
 pool=mp.Pool(ncores)
 result=pool.map_async(one_sample,fils)
 result.wait()
@@ -391,6 +426,6 @@ print('Done! Output written to seqfinder_chr_compilation.csv')
 run_cmd(['python',os.path.join(soft_path,'compilation_for_abricate_seqfinder.py'),results_path,reference_name])
 
 ########## deleting abricate database
-run_cmd(['rm','-r',abricate_ref_folder])
+#run_cmd(['rm','-r',abricate_ref_folder])
 
     
