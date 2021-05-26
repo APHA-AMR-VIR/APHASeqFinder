@@ -110,7 +110,7 @@ abricate_columns=(df_sf.loc[:,['plasmid_abr','coverage_abr','identity_abr','loca
 df_sf=df_sf.iloc[:,:-4]
 merge=df_sf,abricate_columns
 df_sf=pd.concat([df_sf, abricate_columns], axis=1, sort=False)
-output_filename = sys.argv[2].split('.')[0] + '_abricate_seqfinder_current_version.csv'
+output_filename = sys.argv[2].split('.')[0] + '_abricate_seqfinder.csv'
 df_sf.to_csv(output_filename,index=False)
 print('Done! Saved output as {}.'.format(output_filename))
 ###To automatically solve the CTX, TEM and CMY multiple occurance issue this can be turned on
@@ -121,7 +121,7 @@ print('Done! Saved output as {}.'.format(output_filename))
 #print(grouped_df)
 
 
-
+'''
 ###javi filtering #########################
 combi=df_sf.values.tolist()
 cols=df_sf.columns.tolist()
@@ -144,6 +144,6 @@ df_new_sf.columns=cols
 #Determine the output filename
 output_filename = sys.argv[2].split('.')[0] + '_abricate_seqfinder.csv'
 df_new_sf.to_csv(output_filename,index=False)
-
+'''
 
 

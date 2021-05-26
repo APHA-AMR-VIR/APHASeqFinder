@@ -43,15 +43,27 @@ def run_cmd(lis,ver=1):
         print(" ".join(lis))
         print("********************************")
     os.system(" ".join(lis))
-    
+'''    
 def trimming(sample_name,sample_folder,r1_file,r2_file):
     r1_file_trimmed_paired=os.path.join(sample_folder,r1_file.split(os.sep)[-1].replace(".fastq.gz","_trimmed_paired.fastq.gz"))
     r1_file_trimmed_unpaired=os.path.join(sample_folder,r1_file.split(os.sep)[-1].replace(".fastq.gz","_trimmed_unpaired.fastq.gz"))
     r2_file_trimmed_paired=os.path.join(sample_folder,r2_file.split(os.sep)[-1].replace(".fastq.gz","_trimmed_paired.fastq.gz"))
     r2_file_trimmed_unpaired=os.path.join(sample_folder,r2_file.split(os.sep)[-1].replace(".fastq.gz","_trimmed_unpaired.fastq.gz"))
+    run_cmd(['java -jar',os.path.join(soft_path,'third_party_software','trimmomatic-0.30.jar'),'PE -phred33','-threads 1',r1_file,r2_file,r1_file_trimmed_paired,r1_file_trimmed_unpaired,r2_file_trimmed_paired,r2_file_trimmed_unpaired,'SLIDINGWINDOW:10:20 MINLEN:80'])
+    fastq_trimmed=os.path.join(sample_folder,sample_name+'.trimmed.fastq.gz')
+    run_cmd(['cat',r1_file_trimmed_paired,r1_file_trimmed_unpaired,r2_file_trimmed_paired,r2_file_trimmed_unpaired,'>',fastq_trimmed])    
+    return(fastq_trimmed)    
+'''
+def trimming(sample_name,sample_folder,r1_file,r2_file):
+    r1_file_trimmed_paired=os.path.join(sample_folder,r1_file.split(os.sep)[-1].replace(".fastq.gz","_trimmed_paired.fastq.gz"))
+    r2_file_trimmed_paired=os.path.join(sample_folder,r2_file.split(os.sep)[-1].replace(".fastq.gz","_trimmed_paired.fastq.gz"))
     #fastq_trimmed=os.path.join(sample_folder,sample_name+'.trimmed.fastq.gz')
-    run_cmd(['java -jar',os.path.join(soft_path,'third_party_software','trimmomatic-0.39.jar'),'PE','-threads 1',r1_file,r2_file,r1_file_trimmed_paired,r1_file_trimmed_unpaired,r2_file_trimmed_paired,r2_file_trimmed_unpaired,'SLIDINGWINDOW:10:20 MINLEN:80'])
-    return([r1_file_trimmed_paired,r1_file_trimmed_unpaired,r2_file_trimmed_paired,r2_file_trimmed_unpaired])    
+    run_cmd(['java -jar',os.path.join(soft_path,'third_party_software','trimmomatic-0.30.jar'),'SE -phred33',r1_file,r1_file_trimmed_paired,'SLIDINGWINDOW:10:20 MINLEN:80'])
+    run_cmd(['java -jar',os.path.join(soft_path,'third_party_software','trimmomatic-0.30.jar'),'SE -phred33',r2_file,r2_file_trimmed_paired,'SLIDINGWINDOW:10:20 MINLEN:80'])
+    fastq_trimmed=os.path.join(sample_folder,sample_name+'.trimmed.fastq.gz')
+    run_cmd(['cat',r1_file_trimmed_paired,r2_file_trimmed_paired,'>',fastq_trimmed])
+    return(fastq_trimmed)    
+
 
 def sam_flag_changed(fname,mapqth=60):
     print("Changing flags to sam file: "+fname)
@@ -242,21 +254,19 @@ def one_sample(r1_file):
         if not os.path.exists(sample_folder):
             os.system('mkdir -p '+sample_folder)
         
-        [r1_file_trimmed_paired,r1_file_trimmed_unpaired,r2_file_trimmed_paired,r2_file_trimmed_unpaired]=trimming(sample_name,sample_folder,r1_file,r2_file)
+        fastq_trimmed=trimming(sample_name,sample_folder,r1_file,r2_file)
     
-        fastq_trimmed=os.path.join(sample_folder,sample_name+'.trimmed.fastq.gz')
-        run_cmd(['cat',r1_file_trimmed_paired,r1_file_trimmed_unpaired,r2_file_trimmed_paired,r2_file_trimmed_unpaired,'>',fastq_trimmed])
         
         ref_index=os.path.join(sample_folder,reference.split(os.sep)[-1])
         run_cmd([os.path.join(soft_path,'third_party_software','smalt'),'index -k 13 -s 6',ref_index,reference])
         run_cmd([os.path.join(soft_path,'third_party_software','smalt'),'map -d -1 -y 0.7 -x -f samsoft -o',os.path.join(sample_folder,sample_name+".sam"),ref_index, fastq_trimmed])
         run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'view -Sh -F 4',os.path.join(sample_folder,sample_name+".sam"),'>',os.path.join(sample_folder,sample_name+".F4.sam")])
         sam_flag_changed(os.path.join(sample_folder,sample_name+".F4.sam")) #produces .60.sam
-        run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'view -Shu',os.path.join(sample_folder,sample_name+'.F4.sam'),'>',os.path.join(sample_folder,sample_name+'.bam')]) 
+        run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'view -Shu',os.path.join(sample_folder,sample_name+'.60.sam'),'>',os.path.join(sample_folder,sample_name+'.bam')]) 
         run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'sort',os.path.join(sample_folder,sample_name+'.bam'),os.path.join(sample_folder,sample_name+'.sorted')])       
         run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'index',os.path.join(sample_folder,sample_name+'.sorted.bam')])
-        run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'faidx -o',os.path.join(sample_folder,reference.split(os.sep)[-1]+'.faidx'),reference])
-        run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'mpileup','-uf',reference,os.path.join(sample_folder,sample_name+'.sorted.bam'),'>',os.path.join(sample_folder,sample_name+'.mpileup.bcf')])    
+        run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'faidx',reference])
+        run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'mpileup','-q -1 -uf',reference,os.path.join(sample_folder,sample_name+'.sorted.bam'),'>',os.path.join(sample_folder,sample_name+'.mpileup.bcf')])    
         run_cmd([os.path.join(soft_path,'third_party_software','bcftools_0.1.19'),'view -cg',os.path.join(sample_folder,sample_name+'.mpileup.bcf'),'>',os.path.join(sample_folder,sample_name+'.mpileup.vcf')])
         run_cmd(['perl',os.path.join(soft_path,'third_party_software','vcfutils.pl'),'vcf2fq',os.path.join(sample_folder,sample_name+'.mpileup.vcf'),'>',os.path.join(sample_folder,sample_name+'.fq')])   
         run_cmd([os.path.join(soft_path,'third_party_software','bcftools_0.1.19'),'view -vcg',os.path.join(sample_folder,sample_name+'.mpileup.bcf'),'>',os.path.join(sample_folder,sample_name+'.snp')])
@@ -306,7 +316,7 @@ def one_sample(r1_file):
         ####### combination seqfinder abricate
         seqfinder_file_name=os.path.join(sample_folder,compare_file.replace('.csv','_good_snps.csv'))
         run_cmd(['python',os.path.join(soft_path,'abricate_combine_with_seqfinder_v1.py'),abricate_file_name,seqfinder_file_name])
-    '''                
+                    
     ########## deleting unwanted files
     delete_files(sample_folder,'.fastq.gz')
     delete_files(sample_folder,'.sam')
@@ -318,7 +328,7 @@ def one_sample(r1_file):
     delete_files(sample_folder,'.vcf')
     delete_files(sample_folder,'.snp')
     run_cmd(['rm','-r',assem_folder])               
-    '''
+
     
 ###################################
 ###################################
@@ -426,6 +436,6 @@ print('Done! Output written to seqfinder_chr_compilation.csv')
 run_cmd(['python',os.path.join(soft_path,'compilation_for_abricate_seqfinder.py'),results_path,reference_name])
 
 ########## deleting abricate database
-#run_cmd(['rm','-r',abricate_ref_folder])
+run_cmd(['rm','-r',abricate_ref_folder])
 
     
