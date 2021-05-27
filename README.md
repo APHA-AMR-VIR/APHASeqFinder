@@ -25,7 +25,7 @@ reference="/home/javi/APHASeqFinder/references/AMR/AMRDatabase_20200729_and_Ente
 data_path="/home/javi/WGS_Data/Project_1/fastq"
 
 #pattern followed by the R1 fastq file so seqFinder can find all the sample to run, e.i. some pattern unique in the R1 fastq files names that differentiate form other files. Examples:     
-R1_pattern="_R1_"
+R1_pattern="_R1_"   if the R1 files is named sample_R1_001.fastq.gz
 
 or
 
@@ -33,12 +33,6 @@ R1_pattern="_R1."  if the R1 files is named sample_R1.fastq.gz
 
 #path to the directory where the results will be placed
 results_path="/home/javi/WGS_Results/Project_1"
-
-#percentage of similarity between a sequence in the database and the sample being analysed to mark the gene as present.  
-percentageID=70
-
-#maximum number of snps in a sequence w.r.t. to the reference allowed to be called present.
-numofsnps=5
 
 #EFSA antimicrobial panel dictionary. Thi spipeline includes several versions at /soft_path/EFSA_panel
 efsa_dict="/home/javi/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
@@ -62,5 +56,5 @@ You must save the new arguments with a different file name in any folder you wan
 
 To run the pipeline: ./seqfinder.py /my/path/to/my_arguments_file_for_my_new_run.args
 
-You will be asked how many cores you want to use. If you enter a wrong option, only 1 core will be used. For each sample, a folder with the same name as the sample will be created. The main results are summarised in a CSV file called "sample_name_CompareTo_database_name.csv".
-Summary tables (CSV) for all the samples analysed can be found in folder results_path.
+For each sample, a folder with the same name as the sample will be created. The main results are summarised in a CSV file called "sample_name_CompareTo_database_name.csv".
+Summary tables (CSV) for all the samples analysed can be found in folder results_path. To keep track of how you run seqfinder, a copy of the arguments file will be place in the results path.
