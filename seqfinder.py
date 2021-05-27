@@ -248,7 +248,7 @@ def delete_files(results_path,strin):
 def one_sample(r1_file):
     try:
         r2_file=r1_file.replace("R1","R2")
-        sample_name=r1_file.split(os.sep)[-1].split("R1")[0][:-1]
+        sample_name=r1_file.split(os.sep)[-1].split("_")[0]
         print("Processing sample: "+sample_name)
         sample_folder=os.path.join(results_path,sample_name)
         if not os.path.exists(sample_folder):
