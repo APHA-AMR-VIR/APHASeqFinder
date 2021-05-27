@@ -11,13 +11,7 @@ data_path="/home/javi/Desktop/seq/fastqs"
 R1_pattern="_R1_"
 
 #path to the directory where the results will be placed
-results_path="/home/javi/Desktop/seq/results_019_corr"
-
-#percentage of similarity between a sequence in the database and the sample being analysed to mark the gene as present.  
-percentageID=70
-
-#maximum number of snps in a sequence w.r.t. to the reference allowed to be called present.
-numofsnps=5
+results_path="/home/javi/Desktop/seq/results"
 
 #EFSA antimicrobial panel dictionary. Thi spipeline includes several versions at /soft_path/EFSA_panel
 efsa_dict="/home/javi/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"

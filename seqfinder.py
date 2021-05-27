@@ -327,6 +327,7 @@ def one_sample(r1_file):
     delete_files(sample_folder,'.bcf')
     delete_files(sample_folder,'.vcf')
     delete_files(sample_folder,'.snp')
+    delete_files(sample_folder,'_alignment_stats.csv')
     run_cmd(['rm','-r',assem_folder])               
 
     
@@ -335,14 +336,16 @@ def one_sample(r1_file):
 ###################################
 ###################################
 
+########### Global variables
+percentageID=70
+numofsnps=100
+
 ###########Command line arguments parshing
 soft_path=""
 reference=""
 data_path=""
 R1_pattern=""
 results_path=""
-percentageID=70
-numofsnps=5
 efsa_dict=""
 fastas_folder=""
 ncores=0
@@ -370,8 +373,6 @@ soft_path="/home/user/APHASeqFinder"
 reference="/home/user/APHASeqFinder/references/AMR/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.fna"
 data_path="/home/user/WGS_Data/Project_1/fastq"
 results_path="/home/user/WGS_Results/Project_1"
-percentageID=70
-numofsnps=5
 efsa_dict="/home/user/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
 fastas_folder=""
 R1_pattern
