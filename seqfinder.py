@@ -22,11 +22,13 @@ python WGS_mapper.py /media/javier/3TB/Software/WGS_BTB/WGS_mapper_arguments_bTB
 '''
 
 import sys,os,fnmatch,csv,os.path
-import multiprocessing as mp
+#import multiprocessing as mp
+from multiprocessing import Pool
 from pathlib import Path
 import pandas as pd
 from os import listdir
 import numpy as np
+from pathlib import Path
 
 ###################################
 # functions used in this script
@@ -245,9 +247,12 @@ def delete_files(results_path,strin):
     #    run_cmd(['rm',fil])
         
    
-def one_sample(r1_file):
+def one_sample(files_to_process):
     try:
-        r2_file=r1_file.replace("R1","R2")
+        r1_file=os.path.join(data_path,files_to_process[0])
+        r2_file=os.path.join(data_path,files_to_process[1])
+        fasta_file=os.path.join(fastas_folder,files_to_process[2])
+        #r2_file=r1_file.replace("R1","R2")
         sample_name=r1_file.split(os.sep)[-1].split("_")[0]
         print("Processing sample: "+sample_name)
         sample_folder=os.path.join(results_path,sample_name)
@@ -281,7 +286,7 @@ def one_sample(r1_file):
         print("Therefore, "+sample_name+" no processed at all.")
         return([sample_name,"NA","NA","NA"])
         
-        
+    '''    
     ##### assembler
     if fastas_folder=="":
         assem_folder=os.path.join(sample_folder,sample_name+"_spades")
@@ -298,13 +303,14 @@ def one_sample(r1_file):
             print("Therefore, no abricate run")
             return([sample_name,"NA","NA","NA"])
     else:
-        fasta_file=[f for f in listdir(fastas_folder) if f[:len(sample_name)]==sample_name and f.split(".")[-1] in ["fasta","fa"]]
-        if len(fasta_file)==1:
-            fasta_file=os.path.join(fastas_folder,fasta_file[0])
-        else:
-            print("No corresponding fasta file detected in folder "+fastas_folder)
-            print("Therefore, no abricate run")
-            return([sample_name,"NA","NA","NA"])
+    fasta_file=[f for f in listdir(fastas_folder) if f[:len(sample_name)]==sample_name and f.split(".")[-1] in ["fasta","fa"]]
+    if len(fasta_file)==1:
+        fasta_file=os.path.join(fastas_folder,fasta_file[0])
+    else:
+        print("No corresponding fasta file detected in folder "+fastas_folder)
+        print("Therefore, no abricate run")
+        return([sample_name,"NA","NA","NA"])
+    '''
     
     ###### abricate
     #abricate --setupdb
@@ -328,7 +334,7 @@ def one_sample(r1_file):
     delete_files(sample_folder,'.vcf')
     delete_files(sample_folder,'.snp')
     delete_files(sample_folder,'_alignment_stats.csv')
-    run_cmd(['rm','-r',assem_folder])               
+    #run_cmd(['rm','-r',assem_folder])               
 
     
 ###################################
@@ -348,7 +354,7 @@ R1_pattern=""
 results_path=""
 efsa_dict=""
 fastas_folder=""
-ncores=0
+ncores=1
 
 args=sys.argv
 if len(args)>1:
@@ -401,13 +407,42 @@ run_cmd(['cp',reference,os.path.join(abricate_ref_folder,"sequences")])
 run_cmd(['makeblastdb','-in',os.path.join(abricate_ref_folder,"sequences"),'-dbtype','nucl','-hash_index'])
 
 
-###################################################         
-fils_R1=find_file("*"+R1_pattern+"*.fastq.gz", data_path)
-fils_R2=find_file("*"+R1_pattern.replace("R1","R2")+"*.fastq.gz", data_path)
-fils=[os.path.join(data_path,fil) for fil in fils_R1 if fil.replace("R1","R2") in fils_R2]
-print("Processing "+str(len(fils))+" samples. These are:")
-for fil in fils:
-    print(fil.split(os.sep)[-1].split("R1")[0][:-1])
+########## checking that fastas folder exists
+if not os.path.exists(fastas_folder):
+    sys.exit("fastas_folder doesn't exist so out "+fastas_folder)
+
+
+########## checking that R2 and assembly files exist 
+print("***** Checking samples to be run")
+fastq_R1s=find_file("*"+R1_pattern+"*.fastq.gz", data_path)
+R2_pattern=R1_pattern.replace("R1","R2")
+fastq_to_process=[]
+
+for fastq_R1 in fastq_R1s:
+    fastq_R2=fastq_R1.replace(R1_pattern,R2_pattern)
+    sample_name=fastq_R1.split(os.sep)[-1].split("_")[0]
+    if os.path.isfile(os.path.join(data_path,fastq_R2)):
+        R2_ok="yes"
+    else:
+        R2_ok="no"
+        print("Missing R2 fastq for file: "+fastq_R1)
+    fasta_file=[f for f in listdir(fastas_folder) if f[:len(sample_name)]==sample_name and f.split(".")[-1] in ["fasta","fa"]]    
+    if len(fasta_file)==1:
+        fasta_ok="yes"
+        fasta_file=fasta_file[0]
+    elif len(fasta_file)==0:
+        fasta_ok="no"
+        print("Missing assembly file for file: "+fastq_R1)
+    else:
+        fasta_ok="no"
+        print("More than one assembly for: "+fastq_R1)
+       
+    if R2_ok=="yes" and fasta_ok=="yes":
+        fastq_to_process.append([fastq_R1,fastq_R1,fasta_file])
+        
+print("***** Processing "+str(len(fastq_to_process))+" samples.")
+#for fil in fastq_to_process:
+#    print(fil[0].split(os.sep)[-1]+"   "+fil[1].split(os.sep)[-1]+"   "+fil[2].split(os.sep)[-1])
 
 
 ###############sequencial
@@ -415,9 +450,9 @@ for fil in fils:
 #    one_sample(fil)
 
 ############### parallel processing of the samples
-pool=mp.Pool(ncores)
-result=pool.map_async(one_sample,fils)
-result.wait()
+pool=Pool(ncores)
+result=pool.map(one_sample,fastq_to_process)
+#result.wait()
 
 #### combine results
 print('Now combining all the good_snps.csv files')
