@@ -1,11 +1,11 @@
 # APHA SeqFinder
-This is a tool that determines the presence of genes in bacteria from illumina sequencing data.
-It runs first SeqFinder, then spades to create the assemblies (this step is optional, see below argument fastas_folder), then abricate and finally it combines both results.
+This is a tool that determines the presence of AMR genes in bacteria from illumina sequencing data.
+It runs first SeqFinder and then abricate and finally it combines both results.
 
 The output files for each samples are in results_path/sample_name (see below how to set results_path)
 Also in results_path, all the output files combining all the sample will be dropped.
 
-Requirements: Forward and reverse reads. For example sample_R1_001.fastq.gz and sample_R2_001.fastq.gz
+Requirements: Forward and reverse reads. For example sample_R1_001.fastq.gz and sample_R2_001.fastq.gz and assembliy fasta files. The fasta files' names have to match with the fastq R1 file up to the first "_" which is taken as the sample_name. Also hte tasta files extension must be ".fasta" or ".fa"
 Dependencies: 
 
 	- abricate (https://github.com/tseemann/abricate)
@@ -37,13 +37,8 @@ results_path="/home/javi/WGS_Results/Project_1"
 #EFSA antimicrobial panel dictionary. Thi spipeline includes several versions at /soft_path/EFSA_panel
 efsa_dict="/home/javi/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
 
-#fastas_folder. If the assemblies for the samples have already been done, specify the path where they are. If fasta_folder is left equal to "" seqfinder will run spades
-
-fastas_folder=""           (if you want to run spades to create the assemblies)
-
-or
-
-fastas_folder="/home/javi/WGS_Results/Project_1/fastas"  (if the assemblies are already available in /home/javi/WGS_Results/Project_1/fastas)
+#fastas_folder. Path to the assemblies. The fasta files' names have to match with the fastq_R1 file up to the first "_" which is taken as the sample_name
+fastas_folder="/home/javi/WGS_Results/Project_1/fastas"
 
 #Number of cores to be used to run the samples in parallel. If you want to know how many cores your instance has got, type the command: htop 
 ncores=2
