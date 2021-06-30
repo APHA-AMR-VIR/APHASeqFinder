@@ -64,6 +64,8 @@ def trimming(sample_name,sample_folder,r1_file,r2_file):
     run_cmd(['java -jar',os.path.join(soft_path,'third_party_software','trimmomatic-0.30.jar'),'SE -phred33',r2_file,r2_file_trimmed_paired,'SLIDINGWINDOW:10:20 MINLEN:80'])
     fastq_trimmed=os.path.join(sample_folder,sample_name+'.trimmed.fastq.gz')
     run_cmd(['cat',r1_file_trimmed_paired,r2_file_trimmed_paired,'>',fastq_trimmed])
+    run_cmd(['rm',r1_file_trimmed_paired])
+    run_cmd(['rm',r2_file_trimmed_paired])
     return(fastq_trimmed)    
 
 
@@ -261,17 +263,22 @@ def one_sample(files_to_process):
         
         fastq_trimmed=trimming(sample_name,sample_folder,r1_file,r2_file)
     
-        
         ref_index=os.path.join(sample_folder,reference.split(os.sep)[-1])
         run_cmd([os.path.join(soft_path,'third_party_software','smalt'),'index -k 13 -s 6',ref_index,reference])
         run_cmd([os.path.join(soft_path,'third_party_software','smalt'),'map -d -1 -y 0.7 -x -f samsoft -o',os.path.join(sample_folder,sample_name+".sam"),ref_index, fastq_trimmed])
+        run_cmd(["rm",fastq_trimmed])
         run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'view -Sh -F 4',os.path.join(sample_folder,sample_name+".sam"),'>',os.path.join(sample_folder,sample_name+".F4.sam")])
+        run_cmd(["rm",os.path.join(sample_folder,sample_name+".sam")])
         sam_flag_changed(os.path.join(sample_folder,sample_name+".F4.sam")) #produces .60.sam
+        run_cmd(["rm",os.path.join(sample_folder,sample_name+".F4.sam")])
         run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'view -Shu',os.path.join(sample_folder,sample_name+'.60.sam'),'>',os.path.join(sample_folder,sample_name+'.bam')]) 
+        run_cmd(["rm",os.path.join(sample_folder,sample_name+'.60.sam')])
         run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'sort',os.path.join(sample_folder,sample_name+'.bam'),os.path.join(sample_folder,sample_name+'.sorted')])       
+        run_cmd(["rm",os.path.join(sample_folder,sample_name+'.bam')])
         run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'index',os.path.join(sample_folder,sample_name+'.sorted.bam')])
         run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'faidx',reference])
         run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'mpileup','-q -1 -uf',reference,os.path.join(sample_folder,sample_name+'.sorted.bam'),'>',os.path.join(sample_folder,sample_name+'.mpileup.bcf')])    
+        run_cmd(["rm",os.path.join(sample_folder,sample_name+'.sorted.bam')])
         run_cmd([os.path.join(soft_path,'third_party_software','bcftools_0.1.19'),'view -cg',os.path.join(sample_folder,sample_name+'.mpileup.bcf'),'>',os.path.join(sample_folder,sample_name+'.mpileup.vcf')])
         run_cmd(['perl',os.path.join(soft_path,'third_party_software','vcfutils.pl'),'vcf2fq',os.path.join(sample_folder,sample_name+'.mpileup.vcf'),'>',os.path.join(sample_folder,sample_name+'.fq')])   
         run_cmd([os.path.join(soft_path,'third_party_software','bcftools_0.1.19'),'view -vcg',os.path.join(sample_folder,sample_name+'.mpileup.bcf'),'>',os.path.join(sample_folder,sample_name+'.snp')])
@@ -284,33 +291,7 @@ def one_sample(files_to_process):
     except:
         print("Something went wrong with the mapping stage.")
         print("Therefore, "+sample_name+" no processed at all.")
-        return([sample_name,"NA","NA","NA"])
-        
-    '''    
-    ##### assembler
-    if fastas_folder=="":
-        assem_folder=os.path.join(sample_folder,sample_name+"_spades")
-        k='-k 25'
-        run_cmd(['spades.py','--careful',k,'-1',r1_file_trimmed_paired,'-2',r2_file_trimmed_paired,'-o',assem_folder])
-        assem_file=os.path.join(assem_folder,"contigs.fasta")
-        fasta_file=os.path.join(sample_folder,sample_name+"_spades.fasta")
-        if os.path.isfile(assem_file):
-            [fasta_name,number_contigs,mean_size_bp,min_size_bp]=filter_contigs(assem_file,fasta_file)
-            spades_stats_table=[["fasta_name","number_contigs","mean_size_bp","min_size_bp"],[fasta_name,number_contigs,mean_size_bp,min_size_bp]]
-            writeCSV(fasta_file.replace("_spades.fasta","_spades_stats.csv"),spades_stats_table)
-        else:
-            print("Something went wrong with the spades assembly.")
-            print("Therefore, no abricate run")
-            return([sample_name,"NA","NA","NA"])
-    else:
-    fasta_file=[f for f in listdir(fastas_folder) if f[:len(sample_name)]==sample_name and f.split(".")[-1] in ["fasta","fa"]]
-    if len(fasta_file)==1:
-        fasta_file=os.path.join(fastas_folder,fasta_file[0])
-    else:
-        print("No corresponding fasta file detected in folder "+fastas_folder)
-        print("Therefore, no abricate run")
-        return([sample_name,"NA","NA","NA"])
-    '''
+    
     
     ###### abricate
     #abricate --setupdb
@@ -333,8 +314,7 @@ def one_sample(files_to_process):
     delete_files(sample_folder,'.bcf')
     delete_files(sample_folder,'.vcf')
     delete_files(sample_folder,'.snp')
-    delete_files(sample_folder,'_alignment_stats.csv')
-    #run_cmd(['rm','-r',assem_folder])               
+    delete_files(sample_folder,'_alignment_stats.csv')             
 
     
 ###################################
@@ -438,7 +418,7 @@ for fastq_R1 in fastq_R1s:
         print("More than one assembly for: "+fastq_R1)
        
     if R2_ok=="yes" and fasta_ok=="yes":
-        fastq_to_process.append([fastq_R1,fastq_R1,fasta_file])
+        fastq_to_process.append([fastq_R1,fastq_R2,fasta_file])
         
 print("***** Processing "+str(len(fastq_to_process))+" samples.")
 #for fil in fastq_to_process:
