@@ -1,27 +1,26 @@
 #path to the seqFinder
 soft_path="/home/javiernunezgarcia/APHASeqFinder"
  
+ 
 #database path and name. You can use any fasta file you wish. We this pipeline we provide several databases which you can find at /soft_path/references
-reference="/home/javiernunezgarcia/APHASeqFinder/references/AMR/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.fna"
+reference="/home/javiernunezgarcia/APHASeqFinder/references/metal/BacMet_HeavyMetal_resistance_20180803.fas"
 
 #path to the fastq files. Notice the name's format that the pipeline would be expecting (see above). 
-data_path='/home/javiernunezgarcia/Chris/fastqs'
+data_path="/home/javiernunezgarcia/mnt/fsx-016/VM0533/Raw_Seq_Reads_DO.NOT.EDIT/ETEC_surveillance_SConnelly2021"
 
 #fastq R1 pattern
 R1_pattern="_R1_"
 
 #path to the directory where the results will be placed
-results_path='/home/javiernunezgarcia/Chris/seqfinder'
-
+results_path="/home/javiernunezgarcia/javi_temp/Sam"
 
 #EFSA antimicrobial panel dictionary. Thi spipeline includes several versions at /soft_path/EFSA_panel
 efsa_dict="/home/javiernunezgarcia/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
 
 #fastas_folder
-fastas_folder='/home/javiernunezgarcia/Chris/fastqs'
-
+fastas_folder="/home/javiernunezgarcia/mnt/fsx-016/VM0533/Analysis/ETEC_surveillance_SConnelly2021/ETEC_assemblies_nameschanged"
 
 #ncores
-ncores=4
+ncores=1
 
 

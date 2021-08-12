@@ -241,12 +241,13 @@ def filter_contigs(fin,fout,min_size=300):
 
 
 def delete_files(results_path,strin):
+    print("********************************")
     print('Deleting files ending in '+strin+' in '+results_path)
     files_to_delete=[str(path) for path in Path(results_path).rglob('*'+strin)]
-    run_cmd(['rm']+files_to_delete,ver=0)
-    #for fil in files_to_delete:
-    #    print('Deleting file: '+fil)
-    #    run_cmd(['rm',fil])
+    for fil in files_to_delete:
+        print('Deleting file: '+fil)
+        run_cmd(['rm',fil])
+    print("********************************")
         
    
 def one_sample(files_to_process):
@@ -295,7 +296,7 @@ def one_sample(files_to_process):
     
     ###### abricate
     #abricate --setupdb
-    reference_name=reference.split(os.sep)[-1].replace(".fna","")
+    #reference_name=reference.split(os.sep)[-1].replace(".fna","")
     abricate_file_name=os.path.join(sample_folder,sample_name+".abricate")
     run_cmd(['abricate','--datadir',str(Path.home()),'--db',reference_name,fasta_file,'>',abricate_file_name])
     
@@ -335,13 +336,14 @@ results_path=""
 efsa_dict=""
 fastas_folder=""
 ncores=1
+sample_list=""
 
 args=sys.argv
 if len(args)>1:
     arguments_file=args[1]
 
 else:
-    arguments_file="/home/javi/APHASeqFinder/template_arguments_file.args"
+    arguments_file="/home/javiernunezgarcia/APHASeqFinder/manal_2.args"
     print("Argument file not given or doesn't exist. Please re run with /full/path/to/arguments/file/arguments_file.args")
     #sys.exit()
 
@@ -362,6 +364,7 @@ results_path="/home/user/WGS_Results/Project_1"
 efsa_dict="/home/user/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
 fastas_folder=""
 R1_pattern
+sample_list
 '''
 
 ####### ask user how many cores to use
@@ -392,9 +395,25 @@ if not os.path.exists(fastas_folder):
     sys.exit("fastas_folder doesn't exist so out "+fastas_folder)
 
 
-########## checking that R2 and assembly files exist 
+########## checking that R2 and assembly files exist
 print("***** Checking samples to be run")
-fastq_R1s=find_file("*"+R1_pattern+"*.fastq.gz", data_path)
+if sample_list=="":
+    fastq_R1s=find_file("*"+R1_pattern+"*.fastq.gz", data_path)
+else:
+    if os.path.isfile(sample_list):
+        with open(sample_list) as f:
+            samples=[line.rstrip() for line in f]
+        fastq_R1s=[]
+        for sample in samples:
+            sample_R1=find_file(sample+"*"+R1_pattern+"*.fastq.gz", data_path)
+            if len(sample_R1)!=1:
+                print("sample "+sample+" with "+len(sample_R1)+ "found and not being processed.")
+            else:
+                fastq_R1s.append(sample_R1[0])
+    else:
+        print("File not found: "+sample_list)
+        exit
+
 R2_pattern=R1_pattern.replace("R1","R2")
 fastq_to_process=[]
 
