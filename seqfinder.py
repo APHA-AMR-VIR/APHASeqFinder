@@ -438,7 +438,8 @@ for fastq_R1 in fastq_R1s:
        
     if R2_ok=="yes" and fasta_ok=="yes":
         fastq_to_process.append([fastq_R1,fastq_R2,fasta_file])
-        
+
+    
 print("***** Processing "+str(len(fastq_to_process))+" samples.")
 #for fil in fastq_to_process:
 #    print(fil[0].split(os.sep)[-1]+"   "+fil[1].split(os.sep)[-1]+"   "+fil[2].split(os.sep)[-1])
@@ -473,4 +474,39 @@ run_cmd(['python',os.path.join(soft_path,'compilation_for_abricate_seqfinder.py'
 ########## deleting abricate database
 run_cmd(['rm','-r',abricate_ref_folder])
 
+########## checking results
+for i in range(len(fastq_to_process)):
+    sample_name=fastq_to_process[i][0].split(os.sep)[-1].split("_")[0]
+    sample_folder=os.path.join(results_path,sample_name)
     
+    abri_file=os.path.join(sample_folder,sample_name+".abricate")
+    if os.path.isfile(abri_file):
+        if os.path.getsize(abri_file):
+            abri="ok"
+        else:
+            abri="no_contents"
+    else:
+        abri="not_present"
+    
+    seq_file=os.path.join(sample_folder,sample_name+"_CompareTo_"+reference_name+"_good_snps.csv")
+    if os.path.isfile(seq_file):
+        if os.path.getsize(seq_file):
+            seq="ok"
+        else:
+            seq="no_contents"
+    else:
+        seq="not_present"
+        
+    comp_file=os.path.join(sample_folder,sample_name+"_CompareTo_"+reference_name+"_good_snps_abricate_seqfinder.csv")
+    if os.path.isfile(comp_file):
+        if os.path.getsize(comp_file):
+            comp="ok"
+        else:
+            comp="no_contents"
+    else:
+        comp="not_present"    
+    
+    fastq_to_process[i]=fastq_to_process[i]+[seq,abri,comp]    
+        
+fastq_to_process=[["R1","R2","fasta","Seqfinder","Abricate","Compilation"]]+fastq_to_process
+writeCSV(os.path.join(results_path,"run_summary.csv"),fastq_to_process)    
