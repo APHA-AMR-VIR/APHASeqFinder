@@ -4,24 +4,27 @@ soft_path="/home/javiernunezgarcia/APHASeqFinder"
 #database path and name. You can use any fasta file you wish. We this pipeline we provide several databases which you can find at /soft_path/references
 reference="/home/javiernunezgarcia/APHASeqFinder/references/AMR/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.fna"
 
-#path to the fastq files. Notice the name's format that the pipeline would be expecting (see above). 
-data_path='/home/javiernunezgarcia/Chris/fastqs'
-
-#fastq R1 pattern
-R1_pattern="_R1_"
-
-#path to the directory where the results will be placed
-results_path='/home/javiernunezgarcia/Chris/seqfinder'
-
-
 #EFSA antimicrobial panel dictionary. Thi spipeline includes several versions at /soft_path/EFSA_panel
 efsa_dict="/home/javiernunezgarcia/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
 
-#fastas_folder
-fastas_folder='/home/javiernunezgarcia/Chris/fastqs'
 
+#path to the fastq files. Notice the name's format that the pipeline would be expecting (see above). 
+data_path='/home/javiernunezgarcia/wgs_data/test'
+
+#fastq R1 pattern
+R1_pattern='_R1_'
+
+#fastas_folder
+fastas_folder='/home/javiernunezgarcia/wgs_data/test'
+
+## comma separated table containing a list of R1_fastq and corresponding fasta (same line, one sasmple each line)
+## This argument overwrite data_path and fastas_folder.
+#sample_list_file='/home/javiernunezgarcia/wgs_data/test/samples_list.csv'
+sample_list_file=''
+
+#path to the directory where the results will be placed
+results_path='/home/javiernunezgarcia/wgs_data/test/seqfinder_one_wrong'
 
 #ncores
-ncores=4
-
+ncores=2
 
