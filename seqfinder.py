@@ -25,7 +25,6 @@ import sys,os,fnmatch,csv,os.path
 #import multiprocessing as mp
 from multiprocessing import Pool
 from pathlib import Path
-import pandas as pd
 from os import listdir
 import numpy as np
 from pathlib import Path
@@ -113,6 +112,14 @@ def writeCSV(fname,matrix):
         writer = csv.writer(fileOut)
         writer.writerows(matrix)
         print("file "+fname+" saved.")
+
+def readCSV(fname,ch=','):
+    infile=open(fname,"r")
+    data = csv.reader(infile, delimiter=ch)
+    dataOut = [row for row in data]
+    infile.close()
+    return(dataOut)
+
 def readfqFileSeveralContigs(fname):
     print('readfqFileSeveralSequences')
     print(fname)
@@ -238,6 +245,13 @@ def filter_contigs(fin,fout,min_size=300):
     fileOut.close()
     return(contig_checker(fout))
 
+def combine_tables_of_results(mother_path,pattern,out_file):
+    print('Now combining files in '+mother_path+' that contais '+pattern)
+    list_of_files=[str(p) for p in Path(results_path).rglob(pattern)]
+    out_table=readCSV(list_of_files[0])
+    for fil in list_of_files[1:]:
+        out_table=out_table+[x for x in readCSV(fil)[1:]]
+    writeCSV(out_file,out_table)
 
 
 def delete_files(results_path,strin):
@@ -250,12 +264,11 @@ def delete_files(results_path,strin):
     print("********************************")
         
    
-def one_sample(files_to_process):
+def one_sample(file_to_process):
     try:
-        r1_file=os.path.join(data_path,files_to_process[0])
-        r2_file=os.path.join(data_path,files_to_process[1])
-        fasta_file=os.path.join(fastas_folder,files_to_process[2])
-        #r2_file=r1_file.replace("R1","R2")
+        r1_file=file_to_process[0]
+        r2_file=file_to_process[1]
+        fasta_file=file_to_process[2]
         sample_name=r1_file.split(os.sep)[-1].split("_")[0]
         print("Processing sample: "+sample_name)
         sample_folder=os.path.join(results_path,sample_name)
@@ -266,6 +279,7 @@ def one_sample(files_to_process):
     
         ref_index=os.path.join(sample_folder,reference.split(os.sep)[-1])
         run_cmd([os.path.join(soft_path,'third_party_software','smalt'),'index -k 13 -s 6',ref_index,reference])
+        #0.7
         run_cmd([os.path.join(soft_path,'third_party_software','smalt'),'map -d -1 -y 0.7 -x -f samsoft -o',os.path.join(sample_folder,sample_name+".sam"),ref_index, fastq_trimmed])
         run_cmd(["rm",fastq_trimmed])
         run_cmd([os.path.join(soft_path,'third_party_software','samtools_0.1.19'),'view -Sh -F 4',os.path.join(sample_folder,sample_name+".sam"),'>',os.path.join(sample_folder,sample_name+".F4.sam")])
@@ -336,16 +350,18 @@ results_path=""
 efsa_dict=""
 fastas_folder=""
 ncores=1
-sample_list=""
+sample_list_file=""
 
 args=sys.argv
 if len(args)>1:
     arguments_file=args[1]
 
 else:
-    arguments_file="/home/javiernunezgarcia/APHASeqFinder/manal_2.args"
+    arguments_file="/home/javiernunezgarcia/APHASeqFinder/template_arguments_file.args"
+
+if not os.path.exists(arguments_file):    
     print("Argument file not given or doesn't exist. Please re run with /full/path/to/arguments/file/arguments_file.args")
-    #sys.exit()
+    sys.exit()
 
 ########Loading other arguments from the arguments file
 print('Reading arguments from file: '+arguments_file)
@@ -396,58 +412,81 @@ if not os.path.exists(fastas_folder):
 
 
 ########## checking that R2 and assembly files exist
-print("***** Checking samples to be run")
-if sample_list=="":
-    fastq_R1s=find_file("*"+R1_pattern+"*.fastq.gz", data_path)
-else:
-    if os.path.isfile(sample_list):
-        with open(sample_list) as f:
-            samples=[line.rstrip() for line in f]
-        fastq_R1s=[]
-        for sample in samples:
-            sample_R1=find_file(sample+"*"+R1_pattern+"*.fastq.gz", data_path)
-            if len(sample_R1)!=1:
-                print("sample "+sample+" with "+len(sample_R1)+ "found and not being processed.")
-            else:
-                fastq_R1s.append(sample_R1[0])
-    else:
-        print("File not found: "+sample_list)
-        exit
 
-R2_pattern=R1_pattern.replace("R1","R2")
 fastq_to_process=[]
+R2_pattern=R1_pattern.replace("R1","R2")
 
-for fastq_R1 in fastq_R1s:
-    fastq_R2=fastq_R1.replace(R1_pattern,R2_pattern)
-    sample_name=fastq_R1.split(os.sep)[-1].split("_")[0]
-    if os.path.isfile(os.path.join(data_path,fastq_R2)):
-        R2_ok="yes"
+print("***** Checking samples to be run")
+if sample_list_file=="":
+    if not os.path.exists(data_path) or not os.path.exists(fastas_folder):
+        print("Check your paths arguments data_path and fastas_folder: "+data_path+" and "+fastas_folder)
+        sys.exit()
     else:
-        R2_ok="no"
-        print("Missing R2 fastq for file: "+fastq_R1)
-    fasta_file=[f for f in listdir(fastas_folder) if f[:len(sample_name)]==sample_name and f.split(".")[-1] in ["fasta","fa"]]    
-    if len(fasta_file)==1:
-        fasta_ok="yes"
-        fasta_file=fasta_file[0]
-    elif len(fasta_file)==0:
-        fasta_ok="no"
-        print("Missing assembly file for file: "+fastq_R1)
+        summary=[["R1_fastq","R2_status","fasta_status"]]
+        fastq_R1s=find_file("*"+R1_pattern+"*.fastq.gz", data_path)
+        for fastq_R1 in fastq_R1s:
+            fastq_R2=fastq_R1.replace(R1_pattern,R2_pattern)
+            if os.path.isfile(os.path.join(data_path,fastq_R2)):
+                R2_ok="found"
+                sample_name=fastq_R1.split(os.sep)[-1].split("_")[0]
+                fasta_file=[f for f in listdir(fastas_folder) if f[:len(sample_name)]==sample_name and f.split(".")[-1] in ["fasta","fa"]]    
+                if len(fasta_file)==1:
+                    fasta_ok="found"
+                    fasta_file=fasta_file[0]
+                elif len(fasta_file)==0:
+                    fasta_ok="not_found"
+                    print("Missing assembly file for file: "+fastq_R1)
+                else:
+                    fasta_ok="several_found"
+                    print("More than one assembly for: "+fastq_R1)
+            else:
+               R2_ok="not_found"
+               print("Missing R2 for file: "+fastq_R1)
+            
+            if R2_ok=="found" and fasta_ok=="found":
+                fastq_to_process.append([os.path.join(data_path,fastq_R1),os.path.join(data_path,fastq_R2),os.path.join(fastas_folder,fasta_file)])
+                
+            summary.append([fastq_R1,R2_ok,fasta_ok])
+else:
+    if not os.path.isfile(sample_list_file):
+        print("Cannot fine sample_list_file at "+sample_list_file)
+        sys.exit()
     else:
-        fasta_ok="no"
-        print("More than one assembly for: "+fastq_R1)
-       
-    if R2_ok=="yes" and fasta_ok=="yes":
-        fastq_to_process.append([fastq_R1,fastq_R2,fasta_file])
-
-    
+        summary=[["R1_file","fasta_file","R1_status","R2_status","fasta_status"]]
+        samples=readCSV(sample_list_file)
+        for sample in samples:
+            fastq_R1=sample[0]
+            fastq_R2=fastq_R1.replace(R1_pattern,R2_pattern)
+            fasta_file=sample[1]
+            if os.path.isfile(fastq_R1):
+                R1_ok="found"
+            else:
+                R1_ok="not_found"
+                print("Missing file: "+fastq_R1)
+            if os.path.isfile(fastq_R2):
+                R2_ok="found"
+            else:
+                R2_ok="not_found"
+                print("Missing file: "+fastq_R2)
+                
+            if os.path.isfile(fasta_file):
+                fasta_ok="found"
+            else:
+                fasta_ok="not_found"
+                print("Missing file: "+fasta_file)
+            if R1_ok=="found" and R2_ok=="found" and fasta_ok=="found":
+                fastq_to_process.append([fastq_R1,fastq_R2,fasta_file])
+            
+            summary.append(sample+[R1_ok,R2_ok,fasta_ok])
+            
+writeCSV(os.path.join(results_path,"initial_file_testing.csv"),summary)    
+print("Check file "+os.path.join(results_path,"summary.csv")) 
 print("***** Processing "+str(len(fastq_to_process))+" samples.")
-#for fil in fastq_to_process:
-#    print(fil[0].split(os.sep)[-1]+"   "+fil[1].split(os.sep)[-1]+"   "+fil[2].split(os.sep)[-1])
 
+value=input('happy to go ahead (y/n)?\n')
+if value!='y':
+    sys.exit()
 
-###############sequencial
-#for fil in fils[:1]:
-#    one_sample(fil)
 
 ############### parallel processing of the samples
 pool=Pool(ncores)
@@ -455,26 +494,19 @@ result=pool.map(one_sample,fastq_to_process)
 #result.wait()
 
 #### combine results
-print('Now combining all the good_snps.csv files')
-list_of_files=[p for p in Path(results_path).rglob('*CompareTo*good_snps.csv')]
-df = pd.concat((pd.read_csv(f) for f in list_of_files))
-df_final=df.drop(['real-len','other'],1)
-df_final.to_csv(os.path.join(results_path,results_path.split(os.sep)[-1]+"__"+reference_name+"__seqfinder_compilation.csv"),index=False)
-print('Done! Output written to seqfinder_compilation.csv')
+out_file=os.path.join(results_path,results_path.split(os.sep)[-1]+"__"+reference_name+"__seqfinder_compilation.csv")
+combine_tables_of_results(results_path,'*CompareTo*good_snps.csv',out_file)
 
-print('Now combining all the good_snps_chr.csv files')
-list_of_files=[p for p in Path(results_path).rglob('*CompareTo*good_snps_only_chromosomal.csv')]
-df = pd.concat((pd.read_csv(f) for f in list_of_files))
-df_final=df.drop(['real-len','other'],1)
-df_final.to_csv(os.path.join(results_path,results_path.split(os.sep)[-1]+"__"+reference_name+"__seqfinder_chr_compilation.csv"),index=False)
-print('Done! Output written to seqfinder_chr_compilation.csv')
+out_file=os.path.join(results_path,results_path.split(os.sep)[-1]+"__"+reference_name+"__seqfinder_chr_compilation.csv")
+combine_tables_of_results(results_path,'*CompareTo*good_snps_only_chromosomal.csv',out_file)
 
-run_cmd(['python',os.path.join(soft_path,'compilation_for_abricate_seqfinder.py'),results_path,reference_name])
+out_file=os.path.join(results_path,results_path.split(os.sep)[-1]+"__"+reference_name+"__abricate_seqfinder_compilation.csv")
+combine_tables_of_results(results_path,'*_abricate_seqfinder.csv',out_file)
 
 ########## deleting abricate database
 run_cmd(['rm','-r',abricate_ref_folder])
 
-########## checking results
+########## checking result status
 for i in range(len(fastq_to_process)):
     sample_name=fastq_to_process[i][0].split(os.sep)[-1].split("_")[0]
     sample_folder=os.path.join(results_path,sample_name)
@@ -509,4 +541,4 @@ for i in range(len(fastq_to_process)):
     fastq_to_process[i]=fastq_to_process[i]+[seq,abri,comp]    
         
 fastq_to_process=[["R1","R2","fasta","Seqfinder","Abricate","Compilation"]]+fastq_to_process
-writeCSV(os.path.join(results_path,"run_summary.csv"),fastq_to_process)    
+writeCSV(os.path.join(results_path,"samples_precessed_summary.csv"),fastq_to_process)    
