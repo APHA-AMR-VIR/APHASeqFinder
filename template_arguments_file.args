@@ -17,7 +17,10 @@ R1_pattern='_R1_'
 #fastas_folder
 fastas_folder='/home/javiernunezgarcia/wgs_data/test'
 
-## comma separated table containing a list of R1_fastq and corresponding fasta (same line, one sasmple each line)
+## Only fill up this argument if you intent to run samples from different folders or just few samples (not all) from a folder.
+## If you want to run all the samples in a folder just leave this as sample_list_file='' 
+## comma separated table containing a list of R1_fastq and corresponding fasta (same line, one sasmple each line).
+## Check the example file "samples_list_example.csv" 
 ## This argument overwrite data_path and fastas_folder.
 #sample_list_file='/home/javiernunezgarcia/wgs_data/test/samples_list.csv'
 sample_list_file=''
