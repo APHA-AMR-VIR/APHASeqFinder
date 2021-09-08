@@ -301,12 +301,15 @@ def one_sample(file_to_process):
         pileup_stats_file=pileupStats(os.path.join(sample_folder,sample_name+".mpileup.vcf"),os.path.join(sample_folder,sample_name+".fq"),reference,3)
         run_cmd(['python',os.path.join(soft_path,'calculatePresentGenes3.py'),os.path.join(sample_folder,sample_name+'.fq'),reference,pileup_stats_file,'150','0.2','2','yes'])
         
-        compare_file=find_file('*_CompareTo_*',sample_folder)[0]
-        run_cmd(['python',os.path.join(soft_path,'good_snps_12_2019.py'),os.path.join(sample_folder,compare_file),str(percentageID),str(numofsnps),efsa_dict])
+        #compare_file=find_file('*_CompareTo_*',sample_folder)[0]
+        compare_file=os.path.join(sample_folder,sample_name+"_CompareTo_"+reference_name+".csv")
+        if os.path.isfile(compare_file):       
+            run_cmd(['python',os.path.join(soft_path,'good_snps_12_2019.py'),os.path.join(sample_folder,compare_file),str(percentageID),str(numofsnps),efsa_dict])
+        else:
+            print("Something went wrong with the mapping stage. No compare file found")
     except:
         print("Something went wrong with the mapping stage.")
         print("Therefore, "+sample_name+" no processed at all.")
-    
     
     ###### abricate
     #abricate --setupdb
@@ -314,9 +317,18 @@ def one_sample(file_to_process):
     abricate_file_name=os.path.join(sample_folder,sample_name+".abricate")
     run_cmd(['abricate','--datadir',str(Path.home()),'--db',reference_name,fasta_file,'>',abricate_file_name])
     
+    ####### combination seqfinder abricate
+    seqfinder_file_name=os.path.join(sample_folder,compare_file.replace('.csv','_good_snps.csv'))
+    pas=0
     if os.path.isfile(abricate_file_name):
-        ####### combination seqfinder abricate
-        seqfinder_file_name=os.path.join(sample_folder,compare_file.replace('.csv','_good_snps.csv'))
+        pas=pas+1
+    else:
+        print("Something went wrong with the abricate stage. File not found: "+ abricate_file_name)
+    if os.path.isfile(seqfinder_file_name):
+        pas=pas+1
+    else:
+        print("Something went wrong with the seqfinder stage. File not found: "+ seqfinder_file_name)
+    if pas==2:
         run_cmd(['python',os.path.join(soft_path,'abricate_combine_with_seqfinder_v1.py'),abricate_file_name,seqfinder_file_name])
                     
     ########## deleting unwanted files
