@@ -1,28 +1,24 @@
 #!/usr/bin/env python2
-# -*- coding: utf-8 -*-
-''' 
-Takes abricate output, filters it, takes output, compares it seqfinder output and puts into a new spreadsheet
+
+
 '''
+APHASeqfinder
+version 4.0.0
+submitted to github on 23/12/2021
+Javier Nunez, AMR Team, Bacteriology (originally from Nicholas Duggett)
+Animal and Plant Health Agency
+This script takes abricate output, filters it, takes output, compares it seqfinder output and puts into a new spreadsheet
+'''
+
 
 # Authors : Nicholas Duggett <Nick.Duggett@apha.gov.uk>
 # Created : 01/04/19
 import sys
 import pandas as pd
 import warnings
-warnings.simplefilter(action='ignore', category=UserWarning)
+#warnings.simplefilter(action='ignore', category=UserWarning)
 
-#Display entire dataframe on console
-pd.set_option('display.max_columns', 100)
-pd.set_option('display.width', 250)
-#df_abr = pd.read_csv('/home/p312523/mnt/RDVM0529/VM0529/2017/caesbl/assemblies/150.abricate', sep='\t')
-#df_abr = pd.read_csv('/home/p312523/mnt/AMRCoreEvid_VM0533/Raw_Seq_Reads_DO.NOT.EDIT/1.Mixed_August_2019/fastqs/fastqs/Seqfinder_output/fastqs/AMRDatabase_20190702_and_EnteroPLasmids_20190514/1.seqfinder_output/BL301.abricate', sep='\t')
-#print (df_abr)
-#df_sf = pd.read_csv('/home/p312523/mnt/RDVM0529/VM0529/2017/caesbl/amr/original_output_file/150_good_snps.csv')
-#df_sf = pd.read_csv('/home/p312523/mnt/AMRCoreEvid_VM0533/Raw_Seq_Reads_DO.NOT.EDIT/1.Mixed_August_2019/fastqs/fastqs/Seqfinder_output/fastqs/AMRDatabase_20190702_and_EnteroPLasmids_20190514/1.seqfinder_output/BL301_good_snps.csv')
-
-#df_abr = pd.read_csv("/home/javi/WGS_Results/Project_1/Solveig_Mo_98-2012-01-1657_S26/Solveig_Mo_98-2012-01-1657_S26.abricate", sep='\t')
-#df_sf = pd.read_csv("/home/javi/WGS_Results/Project_1/Solveig_Mo_98-2012-01-1657_S26/Solveig_Mo_98-2012-01-1657_S26_CompareTo_AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6_good_snps.csv")
-#df_abr.drop(["ACCESSION","COVERAGE","#FILE","DATABASE","COVERAGE_MAP"],axis=1,inplace=True)
+### loading seqfinder and abricate results tables
 df_abr = pd.read_csv(sys.argv[1], sep='\t')
 df_sf = pd.read_csv(sys.argv[2])
 
@@ -109,41 +105,18 @@ df_sf['plasmid_abr'] = df_sf['plasmid_abr'].map(lambda x: str(x)[2:-2])
 abricate_columns=(df_sf.loc[:,['plasmid_abr','coverage_abr','identity_abr','location_abr']])
 df_sf=df_sf.iloc[:,:-4]
 merge=df_sf,abricate_columns
+
 df_sf=pd.concat([df_sf, abricate_columns], axis=1, sort=False)
 output_filename = sys.argv[2][:-4]+'_abricate_seqfinder.csv'
 df_sf.to_csv(output_filename,index=False)
 print('Done! Saved output as {}.'.format(output_filename))
+
+
 ###To automatically solve the CTX, TEM and CMY multiple occurance issue this can be turned on
 #id_list = ['CTX-','TEM-','CMY-']
 #filter_for_TEM = df_sf.loc[df_sf['gene'].isin(id_list)]
-#print(filter_for_TEM)
 #grouped_df = filter_for_TEM.groupby(by="gene")['snps'].min()
-#print(grouped_df)
 
 
-'''
-###javi filtering #########################
-combi=df_sf.values.tolist()
-cols=df_sf.columns.tolist()
-contig_abr_p=cols.index('contig_abr')
-gene_abr_p=cols.index('gene')
-result_abr_p=cols.index('result_abr')
-
-abr_contigs_plasmids=[x[result_abr_p].split("_")[1][:4] for x in combi if x[contig_abr_p]!=""]
-
-new_sf=[]
-for row in combi:
-    if row[contig_abr_p]!="":
-        new_sf.append(row)
-        continue
-    if row[gene_abr_p] not in abr_contigs_plasmids:
-        new_sf.append(row)
-df_new_sf = pd.DataFrame.from_records(new_sf)
-df_new_sf.columns=cols
-###########################################
-#Determine the output filename
-output_filename = sys.argv[2].split('.')[0] + '_abricate_seqfinder.csv'
-df_new_sf.to_csv(output_filename,index=False)
-'''
 
 
