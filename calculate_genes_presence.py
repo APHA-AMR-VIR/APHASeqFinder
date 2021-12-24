@@ -1,35 +1,21 @@
-# June 2015, Central Sequencing Unit, APHA
-# Author: Javier Nunez
-# This script calculate the percentage of the genes present from a database 
-# (arg2 in fasta format) in a sample (arg1 and arg3, fq and stats file respectively). It will 
-# also provide the mean coverage for each gene and the number of good snps and their
-# corresponding annotation. 
+#!/usr/bin/env python
 
-import sys,re,csv
+'''
+APHASeqfinder
+version 4.0.0
+submitted to github on 23/12/2021
+Javier Nunez, AMR Team, Bacteriology
+Animal and Plant Health Agency
+This script resolve the absence or presence of the database genes
+'''
+
+
+import sys,re,csv,os
 from operator import itemgetter
 from itertools import groupby
 import numpy
 
-args=sys.argv
-
-if len(args)<2:
-    fqFile="/media/Second3TB/Work/WorkVLA/Data/MRSA/Results/WGS_Results/APHA/GeneList_20151014/MRSA01/MRSA01.fq"
-    fnaFile="/media/Second3TB/Work/WorkVLA/Data/MRSA/references/GeneList_20151014.fas"
-    csvFile="/media/Second3TB/Work/WorkVLA/Data/MRSA/Results/WGS_Results/APHA/GeneList_20151014/MRSA01/MRSA01_alignment_stats.csv"
-    thqual = 150
-    thSnpCovProp=0.2
-    thMinGC=2
-    gSAnnot="yes"
-else:    
-    fqFile=sys.argv[1]
-    fnaFile=sys.argv[2]
-    csvFile=sys.argv[3]
-    thqual = int(sys.argv[4])
-    thSnpCovProp = float(sys.argv[5])
-    thMinGC= int(sys.argv[6])
-    gSAnnot=sys.argv[7]
-    
-def readTable(fname,ch,dig=0):
+def read_csv(fname,ch,dig=0):
     infile=open(fname,"r")
     data = csv.reader(infile, delimiter=ch)
     if dig!=0:
@@ -45,30 +31,14 @@ def strToint(s):
     if s.isdigit():
         return(int(s))
     return(s)
+
+def write_csv(fname,matrix):
+    with open(fname, "w") as fileOut:
+        writer = csv.writer(fileOut)
+        writer.writerows(matrix)
+        print("file "+fname+" saved.")
     
-def readfqFileSeveralContigsOld(fname):
-    fileIn = open(fname, 'r')
-    lines= fileIn.readlines()
-    lines=[x.strip() for x in lines]
-    idsPos=[]
-    plusPos=[]
-    cont=0
-    for line in lines:
-        if line[0]=="@":
-            idsPos.append(cont)
-        if line=="+\n":
-            plusPos.append(cont)
-        cont=cont+1
-    ids=[]
-    seqs=[]
-    for idPos,pluPos in zip(idsPos,plusPos):
-        ids.append(lines[idPos][1:])
-        seq=lines[idPos+1:pluPos]
-        seq="".join([x for x in seq])
-        seqs.append(seq)
-    return(ids,seqs)
-    
-def readfqFileSeveralSequences(fname):
+def read_fq(fname):
     fileIn = open(fname, 'r')
     lines= fileIn.readlines()
     lines=[x.strip() for x in lines]
@@ -82,7 +52,7 @@ def readfqFileSeveralSequences(fname):
         ini = plus+(plus-ini)
     return(ids,seqs)
 
-def readfnaFileSeveralSequences(fname):
+def read_fasta(fname):
     fileIn = open(fname, 'r')
     lines= fileIn.readlines()
     lines=[x.strip() for x in lines]
@@ -109,11 +79,6 @@ def findDeletionPos(seq,ch):
         intervals= intervals + [[interval[0],interval[-1]]]
     return(intervals)
 
-def writeCSV(fname,matrix):
-    with open(fname, "w") as fileOut:
-        writer = csv.writer(fileOut)
-        writer.writerows(matrix)
-        print("file "+fname+" saved.")
 
 def checkSnps(qual,gcovRF,gcovRR,gcovAF,gcovAR):
     if qual>=thqual and gcovRF<=thSnpCovProp*gcovAF and gcovRR<=thSnpCovProp*gcovAR and (gcovAF>=thMinGC or gcovAR>=thMinGC):
@@ -194,14 +159,83 @@ def gsAnnot(x,seqref):
         annot="non"    
     return(x+[refCodon,geneCodon,annot])
 
+def pileup_vcf(vcf_file_name,fq_file_name,ref_name):
+    print("Procesing vcf file: "+vcf_file_name)
+    ref = "".join(read_fasta(ref_name)[1])
+    reflen = len(ref)
+    print("reflen "+str(reflen))
+    
+    fqlen=len("".join(read_fq(fq_file_name)[1]))
+    print("fqlen "+str(fqlen))
+    
+    fileIn = open(vcf_file_name, 'r')
+    vcflen=0
+    for line in fileIn:
+        if line[0]!="#" and "INDEL" not in line:
+            vcflen=vcflen+1
+    fileIn.close()    
+    
+    header =["refName","pos","ref","alt_vcf","cov","qual","gcovRF","gcovRR","gcovAF","gcovAR"]
+    stats =[header]+vcflen*[["NA",0,"NA","NA",0,0,0,0,0,0]]    
+    
+    fileIn = open(vcf_file_name, 'r')
+    cont=1
+    for line in fileIn:
+        if line[0]!="#" and "INDEL" not in line:
+            if cont%100000==0:
+                print(str(cont)+" of "+str(vcflen)+" positions done") 
+            line=line.split()
+            pos=int(line[1])
+            ref_vcf=line[3]
+            if line[4]==".":
+                alt_vcf=line[3]
+            else:
+                alt_vcf=line[4]
+            qual=float(line[5])
+            det=line[7].split(";")
+            cov=int([s for s in det if "DP=" in s][0].split("DP=")[1])
+            if "DP4=" in line[7]:
+                gcov=[s for s in det if "DP4=" in s][0].split("DP4=")[1].split(",")
+                gcov=[int(x) for x in gcov]
+            else:
+                gcov=[0,0,0,0]
+            #else:
+            #    gcov=[0,0,0,0]
+            stats[cont] = [line[0],pos,ref_vcf,alt_vcf,cov,qual]+gcov
+            cont=cont+1
+    return(stats)
+
 ################################################################################################
+#run_cmd(['python',os.path.join(soft_path,'calculatePresentGenes3.py'),sample_folder,ref_copy,mlst_fasta,'150','0.2','2','yes'])
+args=sys.argv
 
-ids,seqs=readfqFileSeveralSequences(fqFile)
+if len(args)<2:
+    sample_folder="/home/javi/APHASeqFinder_new_version/try_data/with_mlst/101-288"
+    ref_fasta="/home/javi/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.fasta"
+    mlst_fasta="/home/javi/APHASeqFinder_new_version/references/mlst/ECO-MLST-MG1655-alleles.fna"
+    thqual = 150
+    thSnpCovProp=0.2
+    thMinGC=2
+else:    
+    sample_folder=sys.argv[1]
+    ref_fasta=sys.argv[2]
+    mlst_fasta=sys.argv[3]
+    thqual = int(sys.argv[4])
+    thSnpCovProp = float(sys.argv[5])
+    thMinGC= int(sys.argv[6])
 
-refids,refseqs = readfnaFileSeveralSequences(fnaFile)
 
-cvs_table=readTable(csvFile,",",1)
+vcf_file_name=os.path.join(sample_folder,sample_folder.split(os.sep)[-1]+'.mpileup.vcf')
+fq_file_name=os.path.join(sample_folder,sample_folder.split(os.sep)[-1]+'.fq')
+ids,seqs=read_fq(fq_file_name)
 
+refids,refseqs=read_fasta(ref_fasta)
+
+mlst_ids,mlst_seqs=read_fasta(mlst_fasta)
+
+
+
+cvs_table=pileup_vcf(vcf_file_name,fq_file_name,ref_fasta)
 prefName=cvs_table[0].index("refName")
 ppos=cvs_table[0].index("pos")
 pref=cvs_table[0].index("ref")
@@ -225,23 +259,22 @@ for idref,seqref in zip(refids,refseqs):
         
         cov=[x for x in geneSeq if x!="n"]
         
-        Ns=[x for x in geneSeq if x=="n"]
-        lenNs=len(Ns)+(lenRef-len(geneSeq))
+        len_Ns_not_extremes=len([x for x in geneSeq if x=="n"])
+        lenNs=len_Ns_not_extremes+(lenRef-len(geneSeq))
         other=[x for x in geneSeq if (not isACGT(x) and x!="n")]
         
-        mapp=[x for x in cvs_table if x[prefName]==idref]
-        covVector = [x[pcov] for x in mapp]
-        covAver=round(numpy.mean(covVector),2)
-        snps=[x for x in mapp if x[pref]!=x[palt] and x[palt].upper() in ["A","C","G","T"]]
-        if gSAnnot.upper()=="YES":
-            goodsnps = [x for x in snps if checkSnps(x[pqual],x[pgcovRF],x[pgcovRR],x[pgcovAF],x[pgcovAR])]
-            allgoodsnps=allgoodsnps+goodsnps
-            goodsnpsAnnot=[gsAnnot(x,seqref) for x in goodsnps]
-            gsnpssummary=";".join([str(x[ppos])+"-"+x[pref]+"-"+x[palt]+"-"+str(x[-3:]) for x in goodsnpsAnnot])
-            syn=gsnpssummary.count("syn")
-            non=gsnpssummary.count("non")
+        mapp_gene=[x for x in cvs_table if x[prefName]==idref]
+        covAver=round(numpy.mean([x[pcov] for x in mapp_gene if x[pcov]>0]),2)
+        snps=[x for x in mapp_gene if x[pref]!=x[palt] and x[palt].upper() in ["A","C","G","T"]]
+        goodsnps = [x for x in snps if checkSnps(x[pqual],x[pgcovRF],x[pgcovRR],x[pgcovAF],x[pgcovAR])]
+        allgoodsnps=allgoodsnps+goodsnps
+        goodsnpsAnnot=[gsAnnot(x,seqref) for x in goodsnps]
+        gsnpssummary=";".join([str(x[ppos])+"-"+x[pref]+"-"+x[palt]+"-"+str(x[-3:]) for x in goodsnpsAnnot])
+        syn=gsnpssummary.count("syn")
+        non=gsnpssummary.count("non")
         
-        if len(Ns)>0:
+        ###### deletions inside the gene 
+        if len_Ns_not_extremes>0:
             intervals=findDeletionPos(geneSeq,"N")
             for interval in intervals:
                 if interval[0]<20:
@@ -255,25 +288,37 @@ for idref,seqref in zip(refids,refseqs):
         other=""
         snps=""
         covAver=0
-        if gSAnnot.upper()=="YES":
-            goodsnps=""
-            gsnpssummary=""
-            syn=0
-            non=0
-    if gSAnnot.upper()=="YES":
-        table.append([idref,lenRef,len(cov),covAver,lenNs,round(100*float(len(cov))/lenRef,2),len(snps),len(other),len(goodsnps),syn,non,gsnpssummary])
-    else:
-        table.append([idref,lenRef,len(cov),covAver,lenNs,round(100*float(len(cov))/lenRef,2),len(snps),len(other)])
-table.sort(key=lambda x: x[0]) #-x[4])
-if gSAnnot.upper()=="YES":
-    table=[["id","real-len","mapped-len","meanCov","Gaps","% mapped-gaps/real","snps","other","goodSnps","#syn","#non","annot"]]+table
-else:
-    table=[["id","real-len","mapped-len","meanCov","Gaps","% mapped-gaps/real","snps","other"]]+table
+        goodsnps=""
+        gsnpssummary=""
+        syn=0
+        non=0
+    table.append([idref,lenRef,len(cov),covAver,lenNs,round(100*float(len(cov))/lenRef,2),len(snps),len(other),len(goodsnps),syn,non,gsnpssummary])
 
-out_file=fqFile[:-3]+"_CompareTo_"+fnaFile.split("/")[-1].split(".")[0]+".csv"
-writeCSV(out_file,table)
-writeCSV(fqFile[:-3]+"_DeletedSequences.csv",tabledel)
-writeCSV(fqFile[:-3]+"_goodsnps.csv",allgoodsnps)
+
+#### mlst normalization
+mlst_tab=[x[3] for x in table if x[0] in mlst_ids]
+print("Normalising by the mlst median coverage")
+median_cov_ref_mlst=numpy.median(mlst_tab)
+   
+for i in range(len(table)):
+    norm_value=round(table[i][3]/float(median_cov_ref_mlst),2)
+    table[i]=table[i][:4]+[norm_value]+table[i][4:]
+
+mlst_tab=[x for x in table if x[0] in mlst_ids]
+table=[x for x in table if x[0] not in mlst_ids]
+########################
+    
+table.sort(key=lambda x: x[0]) #-x[4])
+table=[["id","ref_len","mapped_len","mean_depth","norm_depth","non_calls","perc_mapped","snps","other","good_snps","syn","non","annotation"]]+table
+out_file=fq_file_name[:-3]+"_CompareTo_"+ref_fasta.split(os.sep)[-1].split(".")[0]+".csv"
+write_csv(out_file,table)
+
+mlst_tab=[["id","ref_len","mapped_len","mean_depth","norm_depth","non_calls","perc_mapped","snps","other","good_snps","syn","non","annotation"]]+mlst_tab
+out_file_mlst=fq_file_name[:-3]+"_mlst_only.csv"
+write_csv(out_file_mlst,mlst_tab)
+
+write_csv(fq_file_name[:-3]+"_DeletedSequences.csv",tabledel)
+write_csv(fq_file_name[:-3]+"_goodsnps.csv",allgoodsnps)
 
 
 

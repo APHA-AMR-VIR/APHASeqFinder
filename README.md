@@ -21,6 +21,12 @@ soft_path="/home/javi/APHASeqFinder"
 #database path and name. You can use any fasta file you wish. We this pipeline we provide several databases which you can find at /soft_path/references
 reference="/home/javi/APHASeqFinder/references/AMR/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.fna"
 
+#database type; only two possilbe values "AMR" or "other"
+database_type="AMR"
+
+## MLST fasta for depth normalization
+mlst_fasta="/home/javi/APHASeqFinder_new_version/references/mlst/ECO-MLST-MG1655-alleles.fna"
+
 #path to the fastq files. 
 data_path="/home/javi/WGS_Data/Project_1/fastq"
 
@@ -52,4 +58,4 @@ You must save the new arguments with a different file name in any folder you wan
 To run the pipeline: ./seqfinder.py /my/path/to/my_arguments_file_for_my_new_run.args
 
 For each sample, a folder with the same name as the sample will be created. The main results are summarised in a CSV file called "sample_name_CompareTo_database_name.csv".
-Summary tables (CSV) for all the samples analysed can be found in folder results_path. To keep track of how you run seqfinder, a copy of the arguments file will be place in the results path.
+Summary tables (CSV) for all the samples analysed can be found in folder results_path. To keep track of how you run seqfinder, a copy of the arguments file will be place in the results path. Aso a seqfinder_summary.csv table is generated to let you know if the samples (and what samples) have been succesfully run.

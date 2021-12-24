@@ -1,11 +1,18 @@
 #path to the seqFinder
-soft_path="/home/javiernunezgarcia/APHASeqFinder"
+soft_path="/home/javiernunezgarcia/mnt/fsx-023/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.0"
  
 #database path and name. You can use any fasta file you wish. We this pipeline we provide several databases which you can find at /soft_path/references
-reference="/home/javiernunezgarcia/APHASeqFinder/references/AMR/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.fna"
+reference="/home/javiernunezgarcia/mnt/fsx-023/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.0/references/AMR/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.fna"
+
+#database type; only two possilbe values "AMR" or "other"
+database_type="AMR"
+
+## MLST fasta for depth normalization
+mlst_fasta="/home/javiernunezgarcia/mnt/fsx-023/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.0/references/mlst/ECO-MLST-MG1655-alleles.fna"
+
 
 #EFSA antimicrobial panel dictionary. Thi spipeline includes several versions at /soft_path/EFSA_panel
-efsa_dict="/home/javiernunezgarcia/APHASeqFinder/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
+efsa_dict="/home/javiernunezgarcia/mnt/fsx-023/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.0/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
 
 
 #path to the fastq files. Notice the name's format that the pipeline would be expecting (see above). 
@@ -17,17 +24,13 @@ R1_pattern='_R1_'
 #fastas_folder
 fastas_folder='/home/javiernunezgarcia/wgs_data/test'
 
-## Only fill up this argument if you intent to run samples from different folders or just few samples (not all) from a folder.
-## If you want to run all the samples in a folder just leave this as sample_list_file='' 
-## comma separated table containing a list of R1_fastq and corresponding fasta (same line, one sasmple each line).
-## Check the example file "samples_list_example.csv" 
+## comma separated table containing a list of R1_fastq and corresponding fasta (same line, one sasmple each line)
 ## This argument overwrite data_path and fastas_folder.
 #sample_list_file='/home/javiernunezgarcia/wgs_data/test/samples_list.csv'
 sample_list_file=''
 
 #path to the directory where the results will be placed
-results_path='/home/javiernunezgarcia/wgs_data/test/seqfinder_one_wrong'
+results_path='/home/javiernunezgarcia/wgs_data/test/with_mlst_amr'
 
 #ncores
 ncores=2
-
