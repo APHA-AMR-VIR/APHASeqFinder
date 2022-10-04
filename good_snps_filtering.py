@@ -2,7 +2,7 @@
 
 '''
 APHASeqfinder
-version 4.0.0
+version 4.0.2
 submitted to github on 23/12/2021
 Javier Nunez, AMR Team, Bacteriology (originally from Nicholas Duggett)
 Animal and Plant Health Agency
@@ -84,20 +84,34 @@ if len(sys.argv)>1:
     numsnps=float(sys.argv[3])
     efsa_dict=sys.argv[4]
     database_type=sys.argv[5]
+    vir_dict=sys.argv[6]
+    reference_name=sys.argv[7]
+    dis_dict=sys.argv[8]
 else:  # just for developing code
-    file_name = '/home/javi/APHASeqFinder_new_version/try_data/with_mlst_no_amr/101-288/101-288_CompareTo_AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.csv'
+    file_name = '/home/nickduggett/seqfinder_testing/amr_test/4850/4850_CompareTo_AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.csv'
     per_ID=70
     numsnps=100
-    vefsa_dict='/home/javi/APHASeqFinder_new_version/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv'
-    database_type="AM"
-
+    efsa_dict='/home/nickduggett/APHASeqFinder_4.0.1/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv'
+    database_type="AMR"
+    vir_dict='/home/nickduggett/APHASeqFinder_4.0.1/references/virulence/vir_dict_2022_06_17.csv'
+    reference_name="AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6"
+    dis_dict='/home/nickduggett/APHASeqFinder_4.0.2/references/disinfectant/disinfectant_dictionary_2022_06_23.csv'
 
 # Read input csv file to dataframe
 try:
-    data_raw=pd.read_csv(file_name)   
+    data_raw=pd.read_csv(file_name)
+    data_raw['reference'] = reference_name
 except (IOError, IndexError):
     print("Check "+file_name)
     sys.exit()
+    
+if database_type=="AMR":
+    data_raw["EFSA_dict"]=efsa_dict
+elif database_type=="VIR":
+    data_raw["Vir_dict"]=vir_dict
+elif database_type=="DIS":
+    data_raw["Dis_dict"]=dis_dict
+else:data_raw=data_raw
 
 if database_type=="AMR":
     # This line makes floR circumvent the filtering rules below if floR maps to more than 99%
@@ -173,22 +187,88 @@ if database_type=="AMR":
 else:
     filtered_gyrA_parC_ampP=data_gene_filtered
 
+if database_type=="AMR":
+    ###Using gene and antimicrobial EFSA dictions to make another column with the AMR conferred by the gene
+    test_dict_df = pd.read_csv(efsa_dict)
+    df_as_dict = test_dict_df.set_index('id').T.to_dict('list')
+    filtered_gyrA_parC_ampP['antimicrobial']= filtered_gyrA_parC_ampP['id'].map(df_as_dict)
+    # Set output columns
+    output_columns = list(data_raw)
+    output_columns.insert(1,'gene')
+    output_columns.insert(2,'class')
+    output_columns.insert(0,'strain')
+    output_columns.insert(3,'antimicrobial')   
+    filtered_gyrA_parC_ampP['antimicrobial'] = filtered_gyrA_parC_ampP['antimicrobial'].map(lambda x: str(x)[2:-2])
+    #Replace 'a' (a carry over from NaN) with blanks
+    filtered_gyrA_parC_ampP=filtered_gyrA_parC_ampP.replace({'a':''})
+elif database_type=="VIR":
+    ###Using gene and Virulence dictionary to make another column with the Virulence function conferred by the gene
+    vir_dict_df = pd.read_csv(vir_dict)
+    ###Select just the columns "id" and "Virulence function" and set to new dataframe "vir_dict_gene_function"
+    vir_dict_gene_function = vir_dict_df[['id','Virulence_function']]
+    ###Change this dataframe to a dictionary list that can be called later
+    vir_dict_gene_function = vir_dict_gene_function.set_index('id').T.to_dict('list')
+    ###Select just the columns "id" and "Associated_pathotypes" and set to new dataframe "vir_dict_pathotypes"
+    vir_dict_pathotypes = vir_dict_df[['id','Associated_pathotypes']]
+    ###Change this datafram to a dictionary that can be called later
+    vir_dict_pathotypes = vir_dict_pathotypes.set_index('id').T.to_dict('list')
+    ###Make two new columns in our Seqfinder output dataframe called "Virulence_function" and "Associated_pathotypes"
+    ###using the dictionaries we created to search for 'id' (the genes in our isolate)
+    ###and match them with the associated keys in our dictionaries
+    filtered_gyrA_parC_ampP['Virulence_function']= filtered_gyrA_parC_ampP['id'].map(vir_dict_gene_function)
+    filtered_gyrA_parC_ampP['Associated_pathotypes']= filtered_gyrA_parC_ampP['id'].map(vir_dict_pathotypes)
+    #Clean up the columns to only include the text and no brackets
+    filtered_gyrA_parC_ampP['Virulence_function'] = filtered_gyrA_parC_ampP['Virulence_function'].map(lambda x: str(x)[2:-2])
+    filtered_gyrA_parC_ampP['Associated_pathotypes'] = filtered_gyrA_parC_ampP['Associated_pathotypes'].map(lambda x: str(x)[2:-2])
+    #Replace 'a' (a carry over from NaN) with blanks
+    filtered_gyrA_parC_ampP=filtered_gyrA_parC_ampP.replace({'a':''}) 
+    # Set output columns
+    output_columns = list(data_raw)
+    output_columns.insert(1,'gene')
+    output_columns.insert(2,'Virulence_function')
+    output_columns.insert(0,'strain')
+    output_columns.insert(3,'Associated_pathotypes')
+elif database_type=="DIS":
+    ###Using gene and Virulence dictionary to make another column with the Virulence function conferred by the gene
+    dis_dict_df = pd.read_csv(dis_dict)
+    ###Select just the columns "id" and "Class" and set to new dataframe "dis_dict_gene_class"
+    dis_dict_gene_class = dis_dict_df[['id','Class']]
+    ###Change this dataframe to a dictionary list that can be called later
+    dis_dict_gene_class = dis_dict_gene_class.set_index('id').T.to_dict('list')
+    ###Select just the columns "id" and "Phenotype" and set to new dataframe "dis_dict_phenotype"
+    dis_dict_phenotype = dis_dict_df[['id','Phenotype']]
+    ###Change this dataframe to a dictionary that can be called later
+    dis_dict_phenotype = dis_dict_phenotype.set_index('id').T.to_dict('list')
+    ###Select just the columns "id" and "Function" and set to a new dataframe called "dis_dict_gene_function"
+    dis_dict_function = dis_dict_df[['id','Function']]
+    ###Change this dataframe to a dictionary that can be called later
+    dis_dict_function = dis_dict_function.set_index('id').T.to_dict('list')
+    ###Make three new columns in our Seqfinder output dataframe called "Class","Phenotype and "Function"
+    ###using the dictionaries we created to search for 'id' (the genes in our isolate)
+    ###and match them with the associated keys in our dictionaries
+    filtered_gyrA_parC_ampP['Class']= filtered_gyrA_parC_ampP['id'].map(dis_dict_gene_class)
+    filtered_gyrA_parC_ampP['Phenotype']= filtered_gyrA_parC_ampP['id'].map(dis_dict_phenotype)
+    filtered_gyrA_parC_ampP['Function']= filtered_gyrA_parC_ampP['id'].map(dis_dict_function)
+    #Clean up the columns to only include the text and no brackets
+    filtered_gyrA_parC_ampP['Class'] = filtered_gyrA_parC_ampP['Class'].map(lambda x: str(x)[2:-2])
+    filtered_gyrA_parC_ampP['Phenotype'] = filtered_gyrA_parC_ampP['Phenotype'].map(lambda x: str(x)[2:-2])
+    filtered_gyrA_parC_ampP['Function'] = filtered_gyrA_parC_ampP['Function'].map(lambda x: str(x)[2:-2])
+    #Replace 'a' (a carry over from NaN) with blanks
+    #filtered_gyrA_parC_ampP=filtered_gyrA_parC_ampP.replace({'a':''}) 
+    # Set output columns
+    output_columns = list(data_raw)
+    output_columns.insert(1,'gene')
+    #output_columns.insert(2,'Class')
+    output_columns.insert(0,'strain')
+    output_columns.insert(3,'Phenotype')
+    output_columns.insert(4,'Function')
 
-###Using gene and antimicrobial EFSA dictions to make another column with the AMR conferred by the gene
-test_dict_df = pd.read_csv(efsa_dict)
-df_as_dict = test_dict_df.set_index('id').T.to_dict('list')
-filtered_gyrA_parC_ampP['antimicrobial']= filtered_gyrA_parC_ampP['id'].map(df_as_dict)
-
-# Set output columns
-output_columns = list(data_raw)
-output_columns.insert(1,'gene')
-output_columns.insert(2,'class')
-output_columns.insert(0,'strain')
-output_columns.insert(3,'antimicrobial')
-
+else:
+    output_columns = list(data_raw)
+    output_columns.insert(1,'gene')
+    output_columns.insert(0,'strain')
 # Assign a list of column headers to be output in the final csv. This list can be edited here to
 output_df = filtered_gyrA_parC_ampP[output_columns].round(2)
-
 
 # filtering rows by the per_ID when database_type=="nonAMR"
 if database_type!="AMR":

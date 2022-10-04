@@ -1,0 +1,13 @@
+***SeqFinder 4.0.1 16/06/2022***
+Specification of virulence database --> "VIR" is now an option that can be provided in the arguments file that is provided to SeqFinder.
+Update of virulence database --> 1531 duplicated genes removed and genes from DTU virulence database integrated
+Virulence dictionary created --> Gene function (where known) is provided as an additional column in the output. Another column with pathotypes that the gene is also identified in is also provided (where known)
+Extra columns removed --> Additonal columns "antimicrobial" and "class" are only provided in the output if the user specifies the "AMR" database
+***SeqFinder 4.0.2 23/06/2022***
+Specification of disinfectant database --> "DIS" is now an option that can be provided in the arguments file that is provided to SeqFinder.
+Creation of disinfectant database (16 genes) using information from DTU
+Disinfectant dictionary created --> Class, Phenotype and function are provided as an additional columns in the output.
+The reference database and dictionary used in the creation of the results are also added as additional columns
+***SeqFinder 4.0.2 (minor update) 07/09/2022***
+New folder structure for the results --> Results are now placed inside a folder with the same name as the database provided to SeqFinder to check against. Within this folder, another folder with the date SeqFinder was run is also created.
+Checks python modules are installed --> Seqfinder will check that the relevant python modules are installed before continuing. Otherwise will direct user how to install the modules.

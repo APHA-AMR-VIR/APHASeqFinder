@@ -2,7 +2,7 @@
 
 '''
 APHASeqfinder
-version 4.0.0
+version 4.0.2
 submitted to github on 23/12/2021
 Javier Nunez, AMR Team, Bacteriology
 Animal and Plant Health Agency
@@ -13,9 +13,22 @@ import sys,os,fnmatch,csv,os.path
 from multiprocessing import Pool
 from pathlib import Path
 from os import listdir
-import numpy as np
 from datetime import datetime
 
+try:
+    import numpy as np
+    print("Python module 'numpy' is installed, continuing\n")
+except ModuleNotFoundError:
+    print("Python module 'numpy' is not installed.\nPlease install numpy before running this pipeline")
+    print("\nTo install numpy: sudo pip3 install numpy or conda install -c anaconda numpy")
+    exit()
+try:
+    import pandas
+    print("Python module 'pandas' is installed, continuing\n")
+except ModuleNotFoundError:
+    print("Python module 'pandas' is not installed.\nPlease install pandas before running this pipeline")
+    print("\nTo install pandas: sudo pip3 install pandas or conda install -c anaconda pandas")
+    exit()
 
 ###################################
 # functions used in this script
@@ -159,18 +172,18 @@ def filter_contigs(fin,fout,min_size=300):
     return(contig_checker(fout))
 
 def combine_tables_of_results(mother_path,pattern,out_file):
-    print('Now combining files in '+mother_path+' that contais '+pattern)
-    list_of_files=[str(p) for p in Path(results_path).rglob(pattern)]
+    print('Now combining files in '+mother_path+' that contains '+pattern)
+    list_of_files=[str(p) for p in Path(output_path).rglob(pattern)]
     out_table=read_csv(list_of_files[0])
     for fil in list_of_files[1:]:
         out_table=out_table+[x for x in read_csv(fil)[1:]]
     write_csv(out_file,out_table)
 
 
-def delete_files(results_path,strin):
+def delete_files(output_path,strin):
     print("********************************")
-    print('Deleting files ending in '+strin+' in '+results_path)
-    files_to_delete=[str(path) for path in Path(results_path).rglob('*'+strin)]
+    print('Deleting files ending in '+strin+' in '+output_path)
+    files_to_delete=[str(path) for path in Path(output_path).rglob('*'+strin)]
     for fil in files_to_delete:
         print('Deleting file: '+fil)
         run_cmd(['rm',fil])
@@ -184,7 +197,7 @@ def one_sample(file_to_process):
         fasta_file=file_to_process[2]
         sample_name=r1_file.split(os.sep)[-1].split("_")[0]
         print("Processing sample: "+sample_name)
-        sample_folder=os.path.join(results_path,sample_name)
+        sample_folder=os.path.join(output_path,sample_name)
         if not os.path.exists(sample_folder):
             os.system('mkdir -p '+sample_folder)
         
@@ -215,7 +228,7 @@ def one_sample(file_to_process):
         
         
         compare_file=find_file('*_CompareTo_*',sample_folder)[0]
-        run_cmd(['python',os.path.join(soft_path,'good_snps_filtering.py'),os.path.join(sample_folder,compare_file),str(percentageID),str(numofsnps),efsa_dict,database_type])
+        run_cmd(['python',os.path.join(soft_path,'good_snps_filtering.py'),os.path.join(sample_folder,compare_file),str(percentageID),str(numofsnps),efsa_dict,database_type,vir_dict,reference_name,dis_dict])
         
         
             #seqfinder_file_name=os.path.join(sample_folder,compare_file)
@@ -230,10 +243,10 @@ def one_sample(file_to_process):
     #reference_name=reference.split(os.sep)[-1].replace(".fna","")
     abricate_file_name=os.path.join(sample_folder,sample_name+".abricate")
     run_cmd(['abricate','--datadir',str(Path.home()),'--db',reference_name,fasta_file,'>',abricate_file_name])
-    
-    if os.path.isfile(abricate_file_name):
+    seqfinder_file_name=find_file('*_good_snps.csv',sample_folder)[0]
+    seqfinder_file_name=os.path.join(sample_folder,seqfinder_file_name)
+    if os.path.isfile(abricate_file_name) and os.path.isfile(seqfinder_file_name):
         ####### combination seqfinder abricate
-        seqfinder_file_name=os.path.join(sample_folder,compare_file.replace('.csv','_good_snps.csv'))
         run_cmd(['python',os.path.join(soft_path,'abricate_combine_with_seqfinder.py'),abricate_file_name,seqfinder_file_name])
 
               
@@ -258,8 +271,8 @@ start_time=str(datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
 ###################################
 
 ########### Global variables
-version='4.0.0'
-date='23/12/2021'
+version='4.0.2'
+date='08/09/2022'
 
 ## good snps thresholds
 th_qual=150
@@ -277,11 +290,17 @@ data_path=""
 R1_pattern=""
 results_path=""
 efsa_dict=""
+vir_dict=""
+dis_dict=""
 fastas_folder=""
 ncores=1
 sample_list_file=""
 mlst_fasta=""
-
+###########Additional variables for folder naming
+today= datetime.now()
+date_of_run=today.strftime('%Y%m%d')
+reference_name=reference.split(os.sep)[-1].split(".")[0]
+output_path=os.path.join(results_path,reference_name,date_of_run)
 
 
 ### checking the arguments file
@@ -319,9 +338,10 @@ sample_list
 '''
  
 ####### results directory
-if not os.path.exists(results_path):
-    run_cmd(['mkdir','-p',results_path])
-run_cmd(['cp ',arguments_file,os.path.join(results_path,arguments_file.split(os.sep)[-1])])
+#######HASHED OUT 07092022 DUE TO FOLDER CREATION ERROR
+#if not os.path.exists(output_path):
+#    run_cmd(['mkdir','-p',output_path])
+#run_cmd(['cp ',arguments_file,os.path.join(output_path,arguments_file.split(os.sep)[-1])])
 
 
 ########## checking that fastas folder exists
@@ -333,7 +353,10 @@ if not os.path.exists(fastas_folder):
 
 fastq_to_process=[]
 R2_pattern=R1_pattern.replace("R1","R2")
-
+today= datetime.now()
+date_of_run=today.strftime('%Y%m%d')
+reference_name=reference.split(os.sep)[-1].split(".")[0]
+output_path=os.path.join(results_path,reference_name,date_of_run)
 print("***** Checking samples to be run")
 if sample_list_file=="":
     if not os.path.exists(data_path) or not os.path.exists(fastas_folder):
@@ -397,8 +420,10 @@ else:
             
             summary.append(sample+[R1_ok,R2_ok,fasta_ok])
             
-write_csv(os.path.join(results_path,"initial_file_testing.csv"),summary)    
-print("Check file "+os.path.join(results_path,"summary.csv")) 
+run_cmd(['mkdir -p',output_path])
+write_csv(os.path.join(output_path,"initial_file_testing.csv"),summary)
+print('********\nOutput will be stored at:'+output_path+'\n********')    
+print("Check file "+os.path.join(output_path,"summary.csv")) 
 print("***** Processing "+str(len(fastq_to_process))+" samples.")
 
 value=input('happy to go ahead (y/n)?\n')
@@ -433,15 +458,16 @@ result=pool.map(one_sample,fastq_to_process)
 #result.wait()
 
 #### combine results
-out_file=os.path.join(results_path,results_path.split(os.sep)[-1]+"__"+reference_name+"__seqfinder_compilation.csv")
-combine_tables_of_results(results_path,'*CompareTo*good_snps.csv',out_file)
+out_file_prefix=output_path.split(os.sep)[-2]+"_"+output_path.split(os.sep)[-1]
+out_file=os.path.join(output_path,out_file_prefix+"__seqfinder_compilation.csv")
+combine_tables_of_results(output_path,'*CompareTo*good_snps.csv',out_file)
 
 if database_type=="AMR":
-    out_file=os.path.join(results_path,results_path.split(os.sep)[-1]+"__"+reference_name+"__seqfinder_chr_compilation.csv")
-    combine_tables_of_results(results_path,'*CompareTo*good_snps_only_chromosomal.csv',out_file)
+    out_file=os.path.join(output_path,out_file_prefix+"__seqfinder_chr_compilation.csv")
+    combine_tables_of_results(output_path,'*CompareTo*good_snps_only_chromosomal.csv',out_file)
 
-out_file=os.path.join(results_path,results_path.split(os.sep)[-1]+"__"+reference_name+"__abricate_seqfinder_compilation.csv")
-combine_tables_of_results(results_path,'*_abricate_seqfinder.csv',out_file)
+out_file=os.path.join(output_path,out_file_prefix+"__abricate_seqfinder_compilation.csv")
+combine_tables_of_results(output_path,'*_abricate_seqfinder.csv',out_file)
 
 ########## deleting abricate database
 run_cmd(['rm','-r',abricate_ref_folder])
@@ -449,7 +475,7 @@ run_cmd(['rm','-r',abricate_ref_folder])
 ########## checking result status
 for i in range(len(fastq_to_process)):
     sample_name=fastq_to_process[i][0].split(os.sep)[-1].split("_")[0]
-    sample_folder=os.path.join(results_path,sample_name)
+    sample_folder=os.path.join(output_path,sample_name)
     
     abri_file=os.path.join(sample_folder,sample_name+".abricate")
     if os.path.isfile(abri_file):
@@ -487,4 +513,4 @@ intro.append(["Start_time",start_time,"","","",""])
 intro.append(["End_time",str(datetime.now().strftime("%d/%m/%Y %H:%M:%S")),"","","",""])
 intro.append(["","","","","",""])
 intro.append(["R1","R2","fasta","Seqfinder","Abricate","Compilation"])
-write_csv(os.path.join(results_path,"seqfinder_summary.csv"),intro+fastq_to_process)    
+write_csv(os.path.join(output_path,"seqfinder_summary.csv"),intro+fastq_to_process)    
