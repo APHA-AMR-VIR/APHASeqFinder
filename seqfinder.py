@@ -3,7 +3,7 @@
 '''
 APHASeqfinder
 version 4.0.2
-submitted to github on 23/12/2021
+submitted to github on 04/10/2022
 Javier Nunez, AMR Team, Bacteriology
 Animal and Plant Health Agency
 '''
