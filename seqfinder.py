@@ -348,7 +348,27 @@ sample_list
 if not os.path.exists(fastas_folder):
     print("fastas_folder doesn't exist "+fastas_folder)
     sys.exit()
-
+    
+########## checking that paths provided in the template argument exist 
+if not os.path.exists(soft_path):
+    print('\nIncorrect path to SeqFinder provided in the arguments file, make sure this is correct above.')
+    sys.exit()
+if not os.path.isfile(reference):
+    print('\nReference file cannot be located, make sure you have provided the correct path above.')
+    sys.exit()
+if not os.path.isfile(mlst_fasta):
+    print('\nMLST file cannot be located, make sure you have provided the correct path above.')
+    sys.exit()
+if not os.path.isfile(efsa_dict):
+    print('\nEFSA dictionary cannot be located, make sure you have provided the correct path above.')
+    sys.exit()
+if not os.path.isfile(vir_dict):
+    print('\nVirulence dictionary cannot be located, make sure you have provided the correct path above.')
+    sys.exit()
+if not os.path.isfile(dis_dict):
+    print('\nDisinfectant dictionary cannot be located, make sure you have provided the correct path above.')
+    sys.exit()
+    
 ########## checking that R2 and assembly files exist
 
 fastq_to_process=[]
@@ -513,4 +533,4 @@ intro.append(["Start_time",start_time,"","","",""])
 intro.append(["End_time",str(datetime.now().strftime("%d/%m/%Y %H:%M:%S")),"","","",""])
 intro.append(["","","","","",""])
 intro.append(["R1","R2","fasta","Seqfinder","Abricate","Compilation"])
-write_csv(os.path.join(output_path,"seqfinder_summary.csv"),intro+fastq_to_process)    
+write_csv(os.path.join(output_path,"seqfinder_summary.csv"),intro+fastq_to_process) 
