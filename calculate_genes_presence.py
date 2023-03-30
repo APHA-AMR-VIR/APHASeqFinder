@@ -2,7 +2,7 @@
 
 '''
 APHASeqfinder
-version 4.0.0
+version 4.0.3
 submitted to github on 23/12/2021
 Javier Nunez, AMR Team, Bacteriology
 Animal and Plant Health Agency
@@ -301,7 +301,14 @@ print("Normalising by the mlst median coverage")
 median_cov_ref_mlst=numpy.median(mlst_tab)
    
 for i in range(len(table)):
-    norm_value=round(table[i][3]/float(median_cov_ref_mlst),2)
+    try:
+        norm_value=round(table[i][3]/float(median_cov_ref_mlst),2)
+    except ZeroDivisionError:
+        mlst_error = "\nThere are no MLST genes in your MLST file that map to the sample.\nPlease provide a suitable MLST file for your samples and re-run SeqFinder.\n\nExiting"
+        print(mlst_error)
+        with open(sample_folder+'/mlst_error.txt', 'w') as f:
+            print(mlst_error,file=f)
+        exit()
     table[i]=table[i][:4]+[norm_value]+table[i][4:]
 
 mlst_tab=[x for x in table if x[0] in mlst_ids]
