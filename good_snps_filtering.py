@@ -2,7 +2,7 @@
 
 '''
 APHASeqfinder
-version 4.0.2
+version 4.0.3
 submitted to github on 23/12/2021
 Javier Nunez, AMR Team, Bacteriology (originally from Nicholas Duggett)
 Animal and Plant Health Agency
@@ -88,12 +88,12 @@ if len(sys.argv)>1:
     reference_name=sys.argv[7]
     dis_dict=sys.argv[8]
 else:  # just for developing code
-    file_name = '/home/nickduggett/seqfinder_testing/amr_test/4850/4850_CompareTo_AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.csv'
+    file_name = '/home/nickduggett/seqfinder_testing/bibersteinia/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6/20230317/H0247/H0247_CompareTo_AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.csv'
     per_ID=70
     numsnps=100
-    efsa_dict='/home/nickduggett/APHASeqFinder_4.0.1/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv'
+    efsa_dict='/home/nickduggett/APHASeqFinder_4.0.2/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv'
     database_type="AMR"
-    vir_dict='/home/nickduggett/APHASeqFinder_4.0.1/references/virulence/vir_dict_2022_06_17.csv'
+    vir_dict='/home/nickduggett/APHASeqFinder_4.0.2/references/virulence/vir_dict_2022_06_17.csv'
     reference_name="AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6"
     dis_dict='/home/nickduggett/APHASeqFinder_4.0.2/references/disinfectant/disinfectant_dictionary_2022_06_23.csv'
 
@@ -158,7 +158,19 @@ if database_type=="AMR":
     drop_non_syn_0 = ['gyr','par','pmr','P3','P4','P5','sox','folP','bas','pts','Pc_P','Pa_P','omp','nfs','pho','etk','acr','amp','uhp','glp','mdf','mur']
     
     # Remove entries with 0 non-synonymous SNPs for each gene in drop_non_syn_0
-    data_output = drop_non_syn(data_gene_filtered, drop_non_syn_0).copy()
+    try:
+        data_output = drop_non_syn(data_gene_filtered, drop_non_syn_0).copy()
+    except AttributeError:
+        print("\n\nNo genes in your sample passed the filter set\n\n Exiting\n\n")
+        columns = ['strain', 'id', 'gene', 'antimicrobial', 'class', 'ref_len', 'mapped_len', 'mean_depth', 'norm_depth', 'non_calls', 'perc_mapped', 'snps', 'other', 'good_snps', 'syn', 'non', 'annotation', 'reference', 'EFSA_dict', 'result_abr', 'contig_abr', 'plasmid_abr', 'coverage_abr', 'identity_abr', 'location_abr']
+        failed_isolate_df = pd.DataFrame(columns=dict.fromkeys(columns, []))
+        failed_isolate_df.loc[0,'strain']=file_name.split(os.sep)[-2]
+        failed_isolate_df = failed_isolate_df.fillna('No genes passed filter')
+        #output_filename = "H0247_CompareTo_AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.csv".replace('.csv','_good_snps_abricate_seqfinder.csv')
+        #output_filename = sys.argv[1].replace('.csv','_good_snps_abricate_seqfinder.csv')
+        output_filename = sys.argv[1].replace('.csv','_good_snps.csv')
+        failed_isolate_df.to_csv(output_filename, index=False)
+        exit()
     logging.info('Searched for #non == 0 in {}. '.format(drop_non_syn_0) + 'Report will display {} entries.'.format(data_output.shape[0]))
     ###Filter tet34 unless it hits at more than 90% mapped-gaps/real
     tet34_filter = data_output[(data_output['id'] == 'tetra-g1901_tet34') & (data_output['perc_mapped'] >= 90)]

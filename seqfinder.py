@@ -2,18 +2,22 @@
 
 '''
 APHASeqfinder
-version 4.0.2
+version 4.0.3
 submitted to github on 04/10/2022
+from pathlib import Path
+from os import listdir
+from datetime import datetime
 Javier Nunez, AMR Team, Bacteriology
 Animal and Plant Health Agency
 '''
 
 ### packages
-import sys,os,fnmatch,csv,os.path
+import sys,os,fnmatch,csv,os.path,subprocess
 from multiprocessing import Pool
+from datetime import datetime
 from pathlib import Path
 from os import listdir
-from datetime import datetime
+import pandas as pd
 
 try:
     import numpy as np
@@ -65,13 +69,16 @@ def run_cmd(lis,ver=1):
 def trimming(sample_name,sample_folder,r1_file,r2_file):
     r1_file_trimmed_paired=os.path.join(sample_folder,r1_file.split(os.sep)[-1].replace(".fastq.gz","_trimmed_paired.fastq.gz"))
     r2_file_trimmed_paired=os.path.join(sample_folder,r2_file.split(os.sep)[-1].replace(".fastq.gz","_trimmed_paired.fastq.gz"))
+    unpaired_trimmed=os.path.join(sample_folder,r1_file.split(os.sep)[-1].replace(".fastq.gz","_unpaired.fastq.gz"))
     #fastq_trimmed=os.path.join(sample_folder,sample_name+'.trimmed.fastq.gz')
-    run_cmd(['java -jar',os.path.join(soft_path,'third_party_software','trimmomatic-0.30.jar'),'SE -phred33',r1_file,r1_file_trimmed_paired,'SLIDINGWINDOW:10:20 MINLEN:80'])
-    run_cmd(['java -jar',os.path.join(soft_path,'third_party_software','trimmomatic-0.30.jar'),'SE -phred33',r2_file,r2_file_trimmed_paired,'SLIDINGWINDOW:10:20 MINLEN:80'])
+    #run_cmd(['java -jar',os.path.join(soft_path,'third_party_software','trimmomatic-0.30.jar'),'SE -phred33',r1_file,r1_file_trimmed_paired,'SLIDINGWINDOW:10:20 MINLEN:80'])
+    #run_cmd(['java -jar',os.path.join(soft_path,'third_party_software','trimmomatic-0.30.jar'),'SE -phred33',r2_file,r2_file_trimmed_paired,'SLIDINGWINDOW:10:20 MINLEN:80'])
+    run_cmd([os.path.join(soft_path,'third_party_software','fastp'),' -i '+r1_file+' -I '+r2_file+' -o '+r1_file_trimmed_paired+' -O '+r2_file_trimmed_paired+' --unpaired1 '+unpaired_trimmed+' --unpaired2 '+unpaired_trimmed+' -l 80 -r --cut_right_window_size 10 -w 1 -j /dev/null -h /dev/null'])
     fastq_trimmed=os.path.join(sample_folder,sample_name+'.trimmed.fastq.gz')
-    run_cmd(['cat',r1_file_trimmed_paired,r2_file_trimmed_paired,'>',fastq_trimmed])
+    run_cmd(['cat',r1_file_trimmed_paired,r2_file_trimmed_paired,unpaired_trimmed,'>',fastq_trimmed])
     run_cmd(['rm',r1_file_trimmed_paired])
     run_cmd(['rm',r2_file_trimmed_paired])
+    run_cmd(['rm',unpaired_trimmed])
     return(fastq_trimmed)    
 
 
@@ -170,7 +177,7 @@ def filter_contigs(fin,fout,min_size=300):
     fileOut.writelines(lines)
     fileOut.close()
     return(contig_checker(fout))
-
+'''
 def combine_tables_of_results(mother_path,pattern,out_file):
     print('Now combining files in '+mother_path+' that contains '+pattern)
     list_of_files=[str(p) for p in Path(output_path).rglob(pattern)]
@@ -178,7 +185,18 @@ def combine_tables_of_results(mother_path,pattern,out_file):
     for fil in list_of_files[1:]:
         out_table=out_table+[x for x in read_csv(fil)[1:]]
     write_csv(out_file,out_table)
-
+'''
+def combine_tables_of_results(mother_path, pattern, out_file):
+    print('Now combining files in ' + mother_path + ' that contains ' + pattern)
+    try:
+        list_of_files = [str(p) for p in Path(output_path).rglob(pattern)]
+        out_table = read_csv(list_of_files[0])
+        for fil in list_of_files[1:]:
+            out_table = out_table + [x for x in read_csv(fil)[1:]]
+        write_csv(out_file, out_table)
+    except IndexError as z:
+        print(f"An index error occurred, likely because there are no files to combine: {z}")
+        exit()
 
 def delete_files(output_path,strin):
     print("********************************")
@@ -235,21 +253,50 @@ def one_sample(file_to_process):
             
     except:
         print("Something went wrong with the mapping stage.")
-        print("Therefore, "+sample_name+" no processed at all.")
+        print("Therefore, "+sample_name+" wasn't processed at all.")
+        subprocess.run(["find", sample_folder, "!", "-name", "mlst_error.txt", "-type", "f", "-exec", "rm", "{}", "+"])
+        #Making output for files that filed the MLST mapping stage
+        mlst_error=os.path.join(sample_folder,"mlst_error.txt")
+        if os.path.isfile(mlst_error):
+            columns = ['strain', 'id', 'gene', 'antimicrobial', 'class', 'ref_len', 'mapped_len', 'mean_depth', 'norm_depth', 'non_calls', 'perc_mapped', 'snps', 'other', 'good_snps', 'syn', 'non', 'annotation', 'reference', 'EFSA_dict', 'result_abr', 'contig_abr', 'plasmid_abr', 'coverage_abr', 'identity_abr', 'location_abr']
+            failed_isolate_df = pd.DataFrame(columns=dict.fromkeys(columns, []))
+            failed_isolate_df.loc[0,'strain']=sample_name
+            failed_isolate_df = failed_isolate_df.fillna('No MLST genes map to sample')
+            output_filename = sample_name+"_CompareTo_"+reference_name+".csv"
+            output_filename_good_snps=output_filename.replace(".csv","_good_snps.csv")
+            output_filename_abricate_seqfinder=output_filename.replace('.csv','_good_snps_abricate_seqfinder.csv')
+            output_file = os.path.join(sample_folder,output_filename)
+            output_file_good_snps = os.path.join(sample_folder,output_filename_good_snps)
+            output_file_abricate_seqfinder = os.path.join(sample_folder,output_filename_abricate_seqfinder)
+            failed_isolate_df.to_csv(output_file, index=False)
+            failed_isolate_df.to_csv(output_file_good_snps, index=False)
+            failed_isolate_df.to_csv(output_file_abricate_seqfinder, index=False)
+        raise ValueError("Exiting")
     
     
     ###### abricate
     #abricate --setupdb
     #reference_name=reference.split(os.sep)[-1].replace(".fna","")
     abricate_file_name=os.path.join(sample_folder,sample_name+".abricate")
-    run_cmd(['abricate','--datadir',str(Path.home()),'--db',reference_name,fasta_file,'>',abricate_file_name])
     seqfinder_file_name=find_file('*_good_snps.csv',sample_folder)[0]
     seqfinder_file_name=os.path.join(sample_folder,seqfinder_file_name)
-    if os.path.isfile(abricate_file_name) and os.path.isfile(seqfinder_file_name):
-        ####### combination seqfinder abricate
-        run_cmd(['python',os.path.join(soft_path,'abricate_combine_with_seqfinder.py'),abricate_file_name,seqfinder_file_name])
+    with open(seqfinder_file_name,"r") as f:
+        contents = f.read()
+        if "No genes passed filter" in contents:
+            subprocess.run(["find", sample_folder, "!", "-name", "*CompareTo*", "-type", "f", "-exec", "rm", "{}", "+"])
+            failed_seqfinder_file_name=seqfinder_file_name.replace('_good_snps.csv','_good_snps_abricate_seqfinder.csv')
+            with open(failed_seqfinder_file_name, "w") as f:
+                f.write(contents)
+            raise Exception('Exiting function, no genes passed filter')
+            #exit()
+        else:
+            run_cmd(['abricate','--datadir',str(Path.home()),'--db',reference_name,fasta_file,'>',abricate_file_name])
+    #seqfinder_file_name=find_file('*_good_snps.csv',sample_folder)[0]
+    #seqfinder_file_name=os.path.join(sample_folder,seqfinder_file_name)
+            if os.path.isfile(abricate_file_name) and os.path.isfile(seqfinder_file_name):
+                ####### combination seqfinder abricate
+                run_cmd(['python',os.path.join(soft_path,'abricate_combine_with_seqfinder.py'),abricate_file_name,seqfinder_file_name])
 
-              
     ########## deleting unwanted files
     delete_files(sample_folder,'.fastq.gz')
     delete_files(sample_folder,'.sam')
@@ -271,8 +318,8 @@ start_time=str(datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
 ###################################
 
 ########### Global variables
-version='4.0.2'
-date='08/09/2022'
+version='4.0.3'
+date='23/03/2023'
 
 ## good snps thresholds
 th_qual=150
@@ -474,7 +521,13 @@ run_cmd(['makeblastdb','-in',os.path.join(abricate_ref_folder,"sequences"),'-dbt
 
 ############### parallel processing of the samples
 pool=Pool(ncores)
-result=pool.map(one_sample,fastq_to_process)
+try:
+    result=pool.map(one_sample,fastq_to_process)
+except (ValueError, Exception) as e:
+    print(e)
+    pool.terminate()
+    pool.join()
+#result=pool.map(one_sample,fastq_to_process)
 #result.wait()
 
 #### combine results
