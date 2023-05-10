@@ -18,6 +18,6 @@ No more early finishes --> SeqFinder will continue to work through the samples a
 ***SeqFinder 4.0.3 (minor update) 28/04/2023***
 Updated the good_snps_filtering.py script --> Detect mutations in position 247 for gyrA, originally it only looked for mutations in position 248 (S83A mutation).
 ***SeqFinder 4.0.4 10/05/2023***
-Replacement of disinfectant database --> Disinfectant database has been combined with a metal and biocide database (BMR)
+Replacement of disinfectant database --> Disinfectant database has been combined with a metal and biocide database (BAM)
 Biocide and metal dictionary --> Metal/biocide function, Genomic location, Gene origin and Class information inserted into the output to provide more context to the gene hits
 

@@ -9,10 +9,10 @@ soft_path="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/A
 #reference="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.4/references/virulence/VirulenceFactors_2022_05_26.fna"
 reference="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.4/references/Biocide_Metal/Biocide_Metals_Resistance_Genes_2023-05-09.fas"
 
-###database type; only four possible values "AMR" (Antimicrobial resistance), "VIR" (Virulence), "BMR" (Biocide and metal resistance) or "other". Delete "#" to select that database type
+###database type; only four possible values "AMR" (Antimicrobial resistance), "VIR" (Virulence), "BAM" (Biocide and metal resistance) or "other". Delete "#" to select that database type
 #database_type="AMR"
 #database_type="VIR"
-database_type="BMR"
+database_type="BAM"
 #database_type="other"
 
 ### MLST fasta for depth normalization
