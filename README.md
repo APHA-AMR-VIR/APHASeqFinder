@@ -18,13 +18,13 @@ Edit file "template_arguments_file.args" and modify the global variables as appr
 ### This is the template file that you need to alter. You must provide the direct paths you want to use. A quick way to do this would be to do a find a replace of "nickduggett" with your own name. This can be done in the command-line with sed (sed 's/nickduggett/yournamegoeshere/g' template_arguments_file.args > template_arguments_file_yourname.args)
 
 #path to the seqFinder
-soft_path="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.2"
+soft_path="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.4"
  
 #database path and name. You can use any fasta file you wish. We this pipeline we provide several databases which you can find at /soft_path/references. Delete "#" to select that the reference database you want
 
-reference="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.2/references/AMR/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.fna"
-#reference="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.2/references/virulence/VirulenceFactors_2022_05_26.fna"
-#reference="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.2/references/disinfectant/disinfectant_2022_06_23.fna"
+reference="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.4/references/AMR/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.fna"
+#reference="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.4/references/virulence/VirulenceFactors_2022_05_26.fna"
+#reference="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.4/references/disinfectant/disinfectant_2022_06_23.fna"
 
 #database type; only four possible values "AMR", "VIR", "DIS" or "other". Delete "#" to select that database type
 database_type="AMR"
@@ -33,17 +33,17 @@ database_type="AMR"
 #database_type="other"
 
 ## MLST fasta for depth normalization
-mlst_fasta="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.2/references/mlst/ECO-MLST-MG1655-alleles.fna"
+mlst_fasta="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.4/references/mlst/ECO-MLST-MG1655-alleles.fna"
 
 
 #EFSA antimicrobial panel dictionary. This pipeline includes several versions at /soft_path/EFSA_panel
-efsa_dict="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.2/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
+efsa_dict="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.4/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
 
 #Virulence dictionary containing information about gene function and associated pathotypes where available
-vir_dict="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.2/references/virulence/vir_dict_2022_06_17.csv"
+vir_dict="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.4/references/virulence/vir_dict_2022_06_17.csv"
 
 #Disinfectant dictionary containing information about gene class, phenotype and function where available
-dis_dict="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.2/references/disinfectant/disinfectant_dictionary_2022_06_23.csv"
+dis_dict="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.4/references/disinfectant/disinfectant_dictionary_2022_06_23.csv"
 
 #path to the fastq files. Notice the name's format that the pipeline would be expecting (see above). 
 data_path='/home/nickduggett/mnt/fsx-044/RDVM0529/VM0529/2016_2018_2020_paper/poppunk/2020_turkey/enterobase_download/matches'

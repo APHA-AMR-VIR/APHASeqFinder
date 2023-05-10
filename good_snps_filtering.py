@@ -2,7 +2,7 @@
 
 '''
 APHASeqfinder
-version 4.0.3
+version 4.0.4
 submitted to github on 23/12/2021
 Javier Nunez, AMR Team, Bacteriology (originally from Nicholas Duggett)
 Animal and Plant Health Agency
@@ -86,7 +86,7 @@ if len(sys.argv)>1:
     database_type=sys.argv[5]
     vir_dict=sys.argv[6]
     reference_name=sys.argv[7]
-    dis_dict=sys.argv[8]
+    bio_metal_dict=sys.argv[8]
 else:  # just for developing code
     file_name = '/home/nickduggett/seqfinder_testing/bibersteinia/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6/20230317/H0247/H0247_CompareTo_AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.csv'
     per_ID=70
@@ -95,7 +95,7 @@ else:  # just for developing code
     database_type="AMR"
     vir_dict='/home/nickduggett/APHASeqFinder_4.0.2/references/virulence/vir_dict_2022_06_17.csv'
     reference_name="AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6"
-    dis_dict='/home/nickduggett/APHASeqFinder_4.0.2/references/disinfectant/disinfectant_dictionary_2022_06_23.csv'
+    bio_metal_dict='/home/nickduggett/APHASeqFinder_4.0.2/references/bio_metalinfectant/bio_metalinfectant_dictionary_2022_06_23.csv'
 
 # Read input csv file to dataframe
 try:
@@ -109,8 +109,8 @@ if database_type=="AMR":
     data_raw["EFSA_dict"]=efsa_dict
 elif database_type=="VIR":
     data_raw["Vir_dict"]=vir_dict
-elif database_type=="DIS":
-    data_raw["Dis_dict"]=dis_dict
+elif database_type=="BMR":
+    data_raw["Bio_metal_dict"]=bio_metal_dict
 else:data_raw=data_raw
 
 if database_type=="AMR":
@@ -187,7 +187,7 @@ if database_type=="AMR":
     filter_list = ['gyrA', 'parC']
     df_gyrA_and_parC = (data_output[data_output.gene.isin(filter_list)])
     ###Filter the gyrA and parC dataframe to show only those that contain snps in the positions listed below and assign this to a new dataframe
-    gyrA_parC_snps = ['248-C-T', '259-G-A-','239-G-T-']
+    gyrA_parC_snps = ['247-T-G', '248-C-T', '259-G-A-','239-G-T-']
     gyrA_parC_cip = df_gyrA_and_parC['annotation'].str.contains('|'.join(gyrA_parC_snps))
     df_gyrA_parC_cip = df_gyrA_and_parC[gyrA_parC_cip]
     ###Filter multiple ant3, keeping just the longest version if both are present
@@ -240,40 +240,47 @@ elif database_type=="VIR":
     output_columns.insert(2,'Virulence_function')
     output_columns.insert(0,'strain')
     output_columns.insert(3,'Associated_pathotypes')
-elif database_type=="DIS":
-    ###Using gene and Virulence dictionary to make another column with the Virulence function conferred by the gene
-    dis_dict_df = pd.read_csv(dis_dict)
-    ###Select just the columns "id" and "Class" and set to new dataframe "dis_dict_gene_class"
-    dis_dict_gene_class = dis_dict_df[['id','Class']]
+elif database_type=="BMR":
+    ###Using gene and biocide and metal dictionary to make another column with the function conferred by the gene
+    bio_metal_dict_df = pd.read_csv(bio_metal_dict)
+    ###Select just the columns "id" and "Class" and set to new dataframe "bio_metal_dict_gene_class"
+    bio_metal_dict_gene_class = bio_metal_dict_df[['id','Class']]
     ###Change this dataframe to a dictionary list that can be called later
-    dis_dict_gene_class = dis_dict_gene_class.set_index('id').T.to_dict('list')
-    ###Select just the columns "id" and "Phenotype" and set to new dataframe "dis_dict_phenotype"
-    dis_dict_phenotype = dis_dict_df[['id','Phenotype']]
+    bio_metal_dict_gene_class = bio_metal_dict_gene_class.set_index('id').T.to_dict('list')
+    ###Select just the columns "id" and "Metal_biocide_function" and set to new dataframe "bio_metal_dict_metal_biocide_function"
+    bio_metal_dict_metal_biocide_function = bio_metal_dict_df[['id','Metal_biocide_function']]
     ###Change this dataframe to a dictionary that can be called later
-    dis_dict_phenotype = dis_dict_phenotype.set_index('id').T.to_dict('list')
-    ###Select just the columns "id" and "Function" and set to a new dataframe called "dis_dict_gene_function"
-    dis_dict_function = dis_dict_df[['id','Function']]
+    bio_metal_dict_metal_biocide_function = bio_metal_dict_metal_biocide_function.set_index('id').T.to_dict('list')
+    ###Select just the columns "id" and "Genomic_location" and set to a new dataframe called "bio_metal_dict_genomic_location"
+    bio_metal_dict_genomic_location = bio_metal_dict_df[['id','Genomic_location']]
     ###Change this dataframe to a dictionary that can be called later
-    dis_dict_function = dis_dict_function.set_index('id').T.to_dict('list')
-    ###Make three new columns in our Seqfinder output dataframe called "Class","Phenotype and "Function"
+    bio_metal_dict_genomic_location = bio_metal_dict_genomic_location.set_index('id').T.to_dict('list')
+    ###Select just the columns "id" and "Genomic_location" and set to a new dataframe called "bio_metal_dict_gene_origin"
+    bio_metal_dict_gene_origin = bio_metal_dict_df[['id','Gene_origin']]
+    ###Change this dataframe to a dictionary that can be called later
+    bio_metal_dict_gene_origin = bio_metal_dict_gene_origin.set_index('id').T.to_dict('list')
+    ###Make four new columns in our Seqfinder output dataframe called "Class","Metal_biocide_function","Genomic_location" and "Gene_origin"
     ###using the dictionaries we created to search for 'id' (the genes in our isolate)
     ###and match them with the associated keys in our dictionaries
-    filtered_gyrA_parC_ampP['Class']= filtered_gyrA_parC_ampP['id'].map(dis_dict_gene_class)
-    filtered_gyrA_parC_ampP['Phenotype']= filtered_gyrA_parC_ampP['id'].map(dis_dict_phenotype)
-    filtered_gyrA_parC_ampP['Function']= filtered_gyrA_parC_ampP['id'].map(dis_dict_function)
+    filtered_gyrA_parC_ampP['Class']= filtered_gyrA_parC_ampP['id'].map(bio_metal_dict_gene_class)
+    filtered_gyrA_parC_ampP['Metal_biocide_function']= filtered_gyrA_parC_ampP['id'].map(bio_metal_dict_metal_biocide_function)
+    filtered_gyrA_parC_ampP['Genomic_location']= filtered_gyrA_parC_ampP['id'].map(bio_metal_dict_genomic_location)
+    filtered_gyrA_parC_ampP['Gene_origin']= filtered_gyrA_parC_ampP['id'].map(bio_metal_dict_gene_origin)
     #Clean up the columns to only include the text and no brackets
     filtered_gyrA_parC_ampP['Class'] = filtered_gyrA_parC_ampP['Class'].map(lambda x: str(x)[2:-2])
-    filtered_gyrA_parC_ampP['Phenotype'] = filtered_gyrA_parC_ampP['Phenotype'].map(lambda x: str(x)[2:-2])
-    filtered_gyrA_parC_ampP['Function'] = filtered_gyrA_parC_ampP['Function'].map(lambda x: str(x)[2:-2])
+    filtered_gyrA_parC_ampP['Metal_biocide_function'] = filtered_gyrA_parC_ampP['Metal_biocide_function'].map(lambda x: str(x)[2:-2])
+    filtered_gyrA_parC_ampP['Genomic_location'] = filtered_gyrA_parC_ampP['Genomic_location'].map(lambda x: str(x)[2:-2])
+    filtered_gyrA_parC_ampP['Gene_origin'] = filtered_gyrA_parC_ampP['Gene_origin'].map(lambda x: str(x)[2:-2])
     #Replace 'a' (a carry over from NaN) with blanks
     #filtered_gyrA_parC_ampP=filtered_gyrA_parC_ampP.replace({'a':''}) 
     # Set output columns
     output_columns = list(data_raw)
     output_columns.insert(1,'gene')
-    #output_columns.insert(2,'Class')
+    output_columns.insert(2,'Class')
     output_columns.insert(0,'strain')
-    output_columns.insert(3,'Phenotype')
-    output_columns.insert(4,'Function')
+    output_columns.insert(3,'Metal_biocide_function')
+    output_columns.insert(4,'Genomic_location')
+    output_columns.insert(5,'Gene_origin')
 
 else:
     output_columns = list(data_raw)
