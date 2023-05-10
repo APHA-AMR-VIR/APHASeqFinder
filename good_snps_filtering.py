@@ -109,7 +109,7 @@ if database_type=="AMR":
     data_raw["EFSA_dict"]=efsa_dict
 elif database_type=="VIR":
     data_raw["Vir_dict"]=vir_dict
-elif database_type=="BMR":
+elif database_type=="BAM":
     data_raw["Bio_metal_dict"]=bio_metal_dict
 else:data_raw=data_raw
 
@@ -240,7 +240,7 @@ elif database_type=="VIR":
     output_columns.insert(2,'Virulence_function')
     output_columns.insert(0,'strain')
     output_columns.insert(3,'Associated_pathotypes')
-elif database_type=="BMR":
+elif database_type=="BAM":
     ###Using gene and biocide and metal dictionary to make another column with the function conferred by the gene
     bio_metal_dict_df = pd.read_csv(bio_metal_dict)
     ###Select just the columns "id" and "Class" and set to new dataframe "bio_metal_dict_gene_class"
