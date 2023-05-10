@@ -15,6 +15,8 @@ How to run SeqFinder:
 
 Edit file "template_arguments_file.args" and modify the global variables as appropiate. Following is an example, please read:
 
+```
+
 ### This is the template file that you need to alter. You must provide the direct paths you want to use. A quick way to do this would be to do a find a replace of "nickduggett" with your own name. This can be done in the command-line with sed (sed 's/nickduggett/yournamegoeshere/g' template_arguments_file.args > template_arguments_file_yourname.args)
 
 #path to the seqFinder
@@ -34,7 +36,6 @@ database_type="AMR"
 
 ## MLST fasta for depth normalization
 mlst_fasta="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.4/references/mlst/ECO-MLST-MG1655-alleles.fna"
-
 
 #EFSA antimicrobial panel dictionary. This pipeline includes several versions at /soft_path/EFSA_panel
 efsa_dict="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.4/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv"
@@ -64,6 +65,8 @@ results_path='/home/nickduggett/mnt/fsx-044/RDVM0529/VM0529/2016_2018_2020_paper
 
 #ncores
 ncores=4
+
+```
 
 #
 #
