@@ -2,7 +2,7 @@
 
 '''
 APHASeqfinder
-version 4.0.3
+version 4.0.4
 submitted to github on 04/10/2022
 from pathlib import Path
 from os import listdir
@@ -246,7 +246,7 @@ def one_sample(file_to_process):
         
         
         compare_file=find_file('*_CompareTo_*',sample_folder)[0]
-        run_cmd(['python',os.path.join(soft_path,'good_snps_filtering.py'),os.path.join(sample_folder,compare_file),str(percentageID),str(numofsnps),efsa_dict,database_type,vir_dict,reference_name,dis_dict])
+        run_cmd(['python',os.path.join(soft_path,'good_snps_filtering.py'),os.path.join(sample_folder,compare_file),str(percentageID),str(numofsnps),efsa_dict,database_type,vir_dict,reference_name,bio_metal_dict])
         
         
             #seqfinder_file_name=os.path.join(sample_folder,compare_file)
@@ -318,8 +318,8 @@ start_time=str(datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
 ###################################
 
 ########### Global variables
-version='4.0.3'
-date='23/03/2023'
+version='4.0.4'
+date='10/05/2023'
 
 ## good snps thresholds
 th_qual=150
@@ -338,7 +338,7 @@ R1_pattern=""
 results_path=""
 efsa_dict=""
 vir_dict=""
-dis_dict=""
+bio_metal_dict=""
 fastas_folder=""
 ncores=1
 sample_list_file=""
@@ -412,8 +412,8 @@ if not os.path.isfile(efsa_dict):
 if not os.path.isfile(vir_dict):
     print('\nVirulence dictionary cannot be located, make sure you have provided the correct path above.')
     sys.exit()
-if not os.path.isfile(dis_dict):
-    print('\nDisinfectant dictionary cannot be located, make sure you have provided the correct path above.')
+if not os.path.isfile(bio_metal_dict):
+    print('\nBiocide and metal resistance dictionary cannot be located, make sure you have provided the correct path above.')
     sys.exit()
     
 ########## checking that R2 and assembly files exist
