@@ -1,8 +1,7 @@
 ### This is the template file for APHASeqFinder version 4.0.5 that you need to alter. You must provide the direct paths you want to use. A quick way to do this would be to do a find a replace of "nickduggett" with your own name. This can be done in the command-line with sed (sed 's/nickduggett/yournamegoeshere/g' template_arguments_file.args > template_arguments_file_yourname.args)
 
 ###path to the seqFinder
-#soft_path="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.5/"
-soft_path="/home/nickduggett/APHASeqFinder_4.0.5/"
+soft_path="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.5/"
 
 ###database path and name. You can use any fasta file you wish. We this pipeline we provide several databases which you can find at /soft_path/references. Delete "#" to select that the reference database you want
 reference="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.5/references/AMR/AMRDatabase_20230526_and_EnteroPLasmids_20230526_short-tetA6.fna"
