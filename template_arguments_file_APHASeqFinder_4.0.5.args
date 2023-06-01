@@ -1,0 +1,57 @@
+### This is the template file for APHASeqFinder version 4.0.5 that you need to alter. You must provide the direct paths you want to use. A quick way to do this would be to do a find a replace of "nickduggett" with your own name. This can be done in the command-line with sed (sed 's/nickduggett/yournamegoeshere/g' template_arguments_file.args > template_arguments_file_yourname.args)
+
+###path to the seqFinder
+#soft_path="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.5/"
+soft_path="/home/nickduggett/APHASeqFinder_4.0.5/"
+
+###database path and name. You can use any fasta file you wish. We this pipeline we provide several databases which you can find at /soft_path/references. Delete "#" to select that the reference database you want
+reference="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.5/references/AMR/AMRDatabase_20230526_and_EnteroPLasmids_20230526_short-tetA6.fna"
+#reference="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.5/references/virulence/VirulenceFactors_2022_05_26.fna"
+#reference="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.5/references/Biocide_Metal/Biocide_Metals_Resistance_Genes_2023-05-09.fas"
+
+###database type; only four possible values "AMR" (Antimicrobial resistance), "VIR" (Virulence), "BAM" (Biocide and metal resistance) or "other". Delete "#" to select that database type
+database_type="AMR"
+#database_type="VIR"
+#database_type="BAM"
+#database_type="other"
+
+### MLST fasta for depth normalization
+mlst_fasta="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.5/references/mlst/ECO-MLST-MG1655-alleles.fna"
+#mlst_fasta="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.5/references/mlst/Campylobacter_jejuni_MLST.fna"
+#mlst_fasta="/home/nickduggett/mnt/fsx-046/WILBR/2.cross-sectional/unicycler/pseudomonas_spp/seqfinder/Pseudomonas_putida_MLST.fna"
+
+###path to the fastq.gz files. Notice the name's format that the pipeline would be expecting (see above). 
+data_path='/home/nickduggett/mnt/fsx-045/VM0529/VM0529/2022/meat_isolates/seqfinder_Ecoli/fastq/unicycler_test/'
+
+###fastq R1 pattern
+R1_pattern='_R1_'
+
+###fastas_folder
+fastas_folder='/home/nickduggett/mnt/fsx-045/VM0529/VM0529/2022/meat_isolates/seqfinder_Ecoli/fastq/unicycler_test/'
+
+### comma separated table containing a list of R1_fastq and corresponding fasta (same line, one sasmple each line)
+## This argument overwrite data_path and fastas_folder.
+#sample_list_file='/home/nickduggett/wgs_data/test/samples_list.csv'
+sample_list_file=''
+
+###path to the directory where the results will be placed
+results_path='/home/nickduggett/mnt/fsx-045/VM0529/VM0529/2022/meat_isolates/seqfinder_Ecoli/fastq/unicycler_test/'
+
+###ncores
+ncores=4
+
+
+
+
+
+
+###Here are the dictionaries that provide the named functions (if available) to your gene hits. Do NOT edit these.
+
+###Do not edit the line below ### EFSA antimicrobial panel dictionary. This pipeline includes several versions at /soft_path/EFSA_panel
+efsa_dict="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.5/EFSA_panel/EFSA_antimcriobial_panel_dictionary_20230526.csv"
+
+###Do not edit the line below ### Virulence dictionary containing information about gene function and associated pathotypes where available
+vir_dict="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.5/references/virulence/vir_dict_2022_06_17.csv"
+
+###Do not edit the line below ### Disinfectant dictionary containing information about gene class, phenotype and function where available
+bio_metal_dict="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.5/references/Biocide_Metal/Biocide_Metals_Resistance_dictionary_2023_05_10.csv"

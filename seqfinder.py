@@ -2,7 +2,7 @@
 
 '''
 APHASeqfinder
-version 4.0.4
+version 4.0.5
 submitted to github on 04/10/2022
 from pathlib import Path
 from os import listdir
@@ -18,6 +18,7 @@ from datetime import datetime
 from pathlib import Path
 from os import listdir
 import pandas as pd
+import subprocess
 
 try:
     import numpy as np
@@ -247,7 +248,7 @@ def one_sample(file_to_process):
         
         compare_file=find_file('*_CompareTo_*',sample_folder)[0]
         run_cmd(['python',os.path.join(soft_path,'good_snps_filtering.py'),os.path.join(sample_folder,compare_file),str(percentageID),str(numofsnps),efsa_dict,database_type,vir_dict,reference_name,bio_metal_dict])
-        
+        default_output_file=os.path.join(sample_folder,compare_file)
         
             #seqfinder_file_name=os.path.join(sample_folder,compare_file)
             
@@ -280,6 +281,7 @@ def one_sample(file_to_process):
     abricate_file_name=os.path.join(sample_folder,sample_name+".abricate")
     seqfinder_file_name=find_file('*_good_snps.csv',sample_folder)[0]
     seqfinder_file_name=os.path.join(sample_folder,seqfinder_file_name)
+    default_output_file=os.path.join(sample_folder,compare_file)
     with open(seqfinder_file_name,"r") as f:
         contents = f.read()
         if "No genes passed filter" in contents:
@@ -291,11 +293,20 @@ def one_sample(file_to_process):
             #exit()
         else:
             run_cmd(['abricate','--datadir',str(Path.home()),'--db',reference_name,fasta_file,'>',abricate_file_name])
+            abricate_version_command = subprocess.check_output(['abricate', '--version'])
+            abricate_version = abricate_version_command.decode('utf-8')
+            abricate_version = abricate_version.split(" ")[1]
+            abricate_version=abricate_version.replace('\n', '')
+            
+            with open(fasta_file) as f:
+                first_line = f.readline().strip()
+                first_line = first_line.replace('>','')
+                                
     #seqfinder_file_name=find_file('*_good_snps.csv',sample_folder)[0]
     #seqfinder_file_name=os.path.join(sample_folder,seqfinder_file_name)
             if os.path.isfile(abricate_file_name) and os.path.isfile(seqfinder_file_name):
                 ####### combination seqfinder abricate
-                run_cmd(['python',os.path.join(soft_path,'abricate_combine_with_seqfinder.py'),abricate_file_name,seqfinder_file_name])
+                run_cmd(['python',os.path.join(soft_path,'abricate_combine_with_seqfinder.py'),abricate_file_name,seqfinder_file_name,default_output_file,efsa_dict,first_line,abricate_version])
 
     ########## deleting unwanted files
     delete_files(sample_folder,'.fastq.gz')
@@ -318,7 +329,7 @@ start_time=str(datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
 ###################################
 
 ########### Global variables
-version='4.0.4'
+version='4.0.5'
 date='10/05/2023'
 
 ## good snps thresholds
