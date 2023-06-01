@@ -20,4 +20,9 @@ Updated the good_snps_filtering.py script --> Detect mutations in position 247 f
 ***SeqFinder 4.0.4 10/05/2023***
 Replacement of disinfectant database --> Disinfectant database has been combined with a metal and biocide database (BAM)
 Biocide and metal dictionary --> Metal/biocide function, Genomic location, Gene origin and Class information inserted into the output to provide more context to the gene hits
-
+***SeqFinder 4.0.5 24/05/2023**
+Automatic filtering by abricate --> For a subset of gene families ("TEM", "SHV", "CTX", "OXA", "CMY","tet","aadA") the script will check to see if a hit has been found in abricate and subsequently filter the seqfinder output to only contain the concordant result. If there is no result in abricate the seqfinder result will be left as is.
+Deletion of additional genes --> For some genes (CMY-2, SHV-12) additional hits were also reported by SeqFinder such as BIL-1, LAT-1, LEN-6. Now these hits will only be reported if those genes have a perfect match of 100% mapped and 0 SNPs if CMY-2 or SHV-12 is present in the same isolate.
+Multiple hits within same gene family --> Where abricate identifies multiple hits within the same family but of these hits has been discarded by good_snps_filtering.py, it will now insert that second hit into the output and populate it with information from the original seqfinder output.
+AMR database updated --> Duplicate genes have been removed. >550 new genes have been added. Some gene nomenclature has been updated to reflect that in the literature and other databases. Duplicate plasmid sequences also removed.
+Versioning --> Versions of SeqFinder, abricate, unicycler and spades are now provided in output as new columns for quality purposes. The unicycler and spades versions will only be included if the corresponding AMR_unicycler.py script was used to assemble your isolates.

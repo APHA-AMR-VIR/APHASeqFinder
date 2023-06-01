@@ -2,7 +2,7 @@
 
 '''
 APHASeqfinder
-version 4.0.4
+version 4.0.5
 submitted to github on 23/12/2021
 Javier Nunez, AMR Team, Bacteriology (originally from Nicholas Duggett)
 Animal and Plant Health Agency
@@ -88,14 +88,14 @@ if len(sys.argv)>1:
     reference_name=sys.argv[7]
     bio_metal_dict=sys.argv[8]
 else:  # just for developing code
-    file_name = '/home/nickduggett/seqfinder_testing/bibersteinia/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6/20230317/H0247/H0247_CompareTo_AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.csv'
+    file_name = '/home/nickduggett/mnt/fsx-045/VM0529/VM0529/2020_EU_Survey/2020_Nov/Analysis/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6/filtered_results/original_output/LREC4929_CompareTo_AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.csv'
     per_ID=70
     numsnps=100
-    efsa_dict='/home/nickduggett/APHASeqFinder_4.0.2/EFSA_panel/EFSA_antimcriobial_panel_dictionary_191219.csv'
+    efsa_dict='/home/nickduggett/APHASeqFinder_4.0.5/EFSA_panel/EFSA_antimcriobial_panel_dictionary_20210826.csv'
     database_type="AMR"
-    vir_dict='/home/nickduggett/APHASeqFinder_4.0.2/references/virulence/vir_dict_2022_06_17.csv'
+    vir_dict='/home/nickduggett/APHASeqFinder_4.0.5/references/virulence/vir_dict_2022_06_17.csv'
     reference_name="AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6"
-    bio_metal_dict='/home/nickduggett/APHASeqFinder_4.0.2/references/bio_metalinfectant/bio_metalinfectant_dictionary_2022_06_23.csv'
+    bio_metal_dict='/home/nickduggett/APHASeqFinder_4.0.5/references/bio_metalinfectant/bio_metalinfectant_dictionary_2022_06_23.csv'
 
 # Read input csv file to dataframe
 try:
@@ -196,6 +196,35 @@ if database_type=="AMR":
     ###Delete the original ampP, gyrA, parC, tet34 and ant3 rows from the original dataframe and merge ampP, gyrA or parC that passed the filters in ampP_snps_stringent or gyrA_parC_snps
     merge = drop_ampP_gyrA_parC,tet34_filter,df_gyrA_parC_cip,df_ampP_filter_snps,ant3_filter_long
     filtered_gyrA_parC_ampP = pd.concat(merge)
+    #Rules to get rid of false positives that occur with some genes
+    if 'betaL-g0285_CMY-2' in filtered_gyrA_parC_ampP['id'].values:
+        mask = filtered_gyrA_parC_ampP['id'].str.contains('BIL-1|LAT-1|CFE-1')
+        filtered_gyrA_parC_ampP.loc[mask & (filtered_gyrA_parC_ampP['non'] == '0'), 'non'] = '0'
+        filtered_gyrA_parC_ampP = filtered_gyrA_parC_ampP[~(mask & (filtered_gyrA_parC_ampP['non'] != '0'))]
+    else:
+        filtered_gyrA_parC_ampP = filtered_gyrA_parC_ampP[~filtered_gyrA_parC_ampP['id'].str.contains('BIL-1|LAT-1|CFE-1')]
+    if 'betaL-g1157_SHV-12' in filtered_gyrA_parC_ampP['id'].values:
+        mask = filtered_gyrA_parC_ampP['id'].str.contains('LEN-6|OHIO-1|OKP-A-11|OKP-A-12')
+        filtered_gyrA_parC_ampP.loc[mask & (filtered_gyrA_parC_ampP['non'] == '0'), 'non'] = '0'
+        filtered_gyrA_parC_ampP = filtered_gyrA_parC_ampP[~(mask & (filtered_gyrA_parC_ampP['non'] != '0'))]
+    else:
+        filtered_gyrA_parC_ampP = filtered_gyrA_parC_ampP[~filtered_gyrA_parC_ampP['id'].str.contains('LEN-6|OHIO-1|OKP-A-11|OKP-A-12')]
+    # Check if both "chlor-g1576_cml" and "chlor-g1578_cmlA1" are present in the "id" column
+    if all(elem in filtered_gyrA_parC_ampP["id"].values for elem in ["chlor-g1576_cml", "chlor-g1578_cmlA1"]):
+        # Filter the dataframe for rows containing either "chlor-g1576_cml" or "chlor-g1578_cmlA1"
+        mask = filtered_gyrA_parC_ampP["id"].isin(["chlor-g1576_cml", "chlor-g1578_cmlA1"])
+        filtered_df = filtered_gyrA_parC_ampP[mask]
+        # Find the row with the highest "perc_mapped" value
+        max_perc_mapped = filtered_df["perc_mapped"].max()
+        # Check if both "chlor-g1576_cml" and "chlor-g1578_cmlA1" have the same highest "perc_mapped" value
+        if (filtered_df["perc_mapped"] == max_perc_mapped).sum() > 1:
+            # Remove "chlor-g1576_cml" and keep "chlor-g1578_cmlA1"
+            filtered_gyrA_parC_ampP = filtered_gyrA_parC_ampP[~((filtered_gyrA_parC_ampP["id"] == "chlor-g1576_cml") & (filtered_gyrA_parC_ampP["perc_mapped"] == max_perc_mapped))]
+        else:
+            filtered_gyrA_parC_ampP = filtered_gyrA_parC_ampP
+    else:
+        filtered_gyrA_parC_ampP = filtered_gyrA_parC_ampP
+
 else:
     filtered_gyrA_parC_ampP=data_gene_filtered
 
@@ -293,6 +322,7 @@ output_df = filtered_gyrA_parC_ampP[output_columns].round(2)
 if database_type!="AMR":
     output_df=output_df.loc[output_df['perc_mapped'] > per_ID]
 
+#print(output_df)
 
 # Write dataframe to CSV with suffix '_good_snps.csv'
 output_filename = sys.argv[1].replace('.csv','_good_snps.csv')
@@ -300,4 +330,3 @@ output_df.to_csv(output_filename, index=False)
 if database_type=="AMR":
     output_filename_chromosomal =  sys.argv[1].replace('.csv','_good_snps_only_chromosomal.csv')
     data_output_chromosomal.to_csv(output_filename_chromosomal, index=False)
-
