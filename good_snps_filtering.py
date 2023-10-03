@@ -2,7 +2,7 @@
 
 '''
 APHASeqfinder
-version 4.0.5
+version 4.0.6
 submitted to github on 23/12/2021
 Javier Nunez, AMR Team, Bacteriology (originally from Nicholas Duggett)
 Animal and Plant Health Agency
@@ -33,7 +33,8 @@ def filter_by_gene(dataframe):
     # as the first 4 characters after the first underscore in the 'id' column of each entry
     dataframe['gene'] = [gene_code(gene) for gene in dataframe['id']]
     # Add a column to the dataframe with the name of the strain the genes are from
-    dataframe['strain']=file_name.split(os.sep)[-2]
+    strain=file_name.split(os.sep)[-2]
+    dataframe['strain']=strain
     idlist = dataframe['id']
     amr_class=list()
     for i in idlist:
@@ -76,6 +77,10 @@ def drop_non_syn(dataframe, non_syn_filter):
         return dataframe
 
 
+### Error catching for genes not passing filter
+class GenesFilterError(Exception):
+    pass
+
 ######### Starting
 ######### reading arguments 
 if len(sys.argv)>1:
@@ -88,22 +93,31 @@ if len(sys.argv)>1:
     reference_name=sys.argv[7]
     bio_metal_dict=sys.argv[8]
 else:  # just for developing code
-    file_name = '/home/nickduggett/mnt/fsx-045/VM0529/VM0529/2020_EU_Survey/2020_Nov/Analysis/AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6/filtered_results/original_output/LREC4929_CompareTo_AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.csv'
+    file_name = '/home/nickduggett/robert/AMRDatabase_20230526_and_EnteroPLasmids_20230526_short-tetA6/20230928/IS21-21215/IS21-21215_CompareTo_AMRDatabase_20230526_and_EnteroPLasmids_20230526_short-tetA6.csv'
     per_ID=70
     numsnps=100
-    efsa_dict='/home/nickduggett/APHASeqFinder_4.0.5/EFSA_panel/EFSA_antimcriobial_panel_dictionary_20210826.csv'
+    efsa_dict='/home/nickduggett/APHASeqFinder_4.0.6/EFSA_panel/EFSA_antimcriobial_panel_dictionary_20210826.csv'
     database_type="AMR"
-    vir_dict='/home/nickduggett/APHASeqFinder_4.0.5/references/virulence/vir_dict_2022_06_17.csv'
+    vir_dict='/home/nickduggett/APHASeqFinder_4.0.6/references/virulence/vir_dict_2022_06_17.csv'
     reference_name="AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6"
-    bio_metal_dict='/home/nickduggett/APHASeqFinder_4.0.5/references/bio_metalinfectant/bio_metalinfectant_dictionary_2022_06_23.csv'
+    bio_metal_dict='/home/nickduggett/APHASeqFinder_4.0.6/references/bio_metalinfectant/bio_metalinfectant_dictionary_2022_06_23.csv'
 
 # Read input csv file to dataframe
 try:
     data_raw=pd.read_csv(file_name)
     data_raw['reference'] = reference_name
+except pd.errors.EmptyDataError:
+    print("Warning: Empty CSV file "+file_name)
+    file_name_failure=file_name+"failed"
+    file_name_failure = file_name + "_failed.csv"  # Modify the extension or format as needed
+    with open(file_name_failure, "w") as failure_file:
+        failure_file.write("Empty CSV file: " + file_name)
+    sys.exit() ####Might have to modify this
 except (IOError, IndexError):
     print("Check "+file_name)
-    sys.exit()
+    with open(file_name_failure, "w") as failure_file:
+        failure_file.write("IOError or IndexError: " + file_name)
+    sys.exit() ####Might have to modify this
     
 if database_type=="AMR":
     data_raw["EFSA_dict"]=efsa_dict
@@ -115,7 +129,7 @@ else:data_raw=data_raw
 
 if database_type=="AMR":
     # This line makes floR circumvent the filtering rules below if floR maps to more than 99%
-    floR_rule = data_raw[(data_raw['perc_mapped'] >= 99) & (data_raw['id'] == 'chlor-g1585_floR')]
+    floR_rule = data_raw[(data_raw['perc_mapped'] >= 98) & (data_raw['id'] == 'chlor-g1585_floR')]
     gyrA_rule = data_raw[(data_raw['perc_mapped'] >= 98) & (data_raw['good_snps'] <= 100) & (data_raw['id'] == 'quino-g1763_gyrA_ecol_Chr')]
     #logging.info('Analysing results from "{}" '.format(sys.argv[1]))
     
@@ -129,16 +143,21 @@ if database_type=="AMR":
     merge_floR = drop_floR,floR_rule,gyrA_rule
     data_low_snps = pd.concat(merge_floR)
 else:
-    data_low_snps=data_raw.copy()
+    data_low_snps = data_raw[(data_raw['perc_mapped'] >= per_ID) & (data_raw['good_snps'] <= numsnps)].copy()
+    try:
+        if len(data_low_snps) <2 or data_low_snps.empty:
+            raise GenesFilterError("No genes passed the filter set as "+str(per_ID)+"% mapped and "+str(numsnps)+" snps")
+    except GenesFilterError as e:
+        print("\n\nError: " + str(e) + "\n\nExiting\n\n")
+        columns = ['warnings','strain', 'id', 'gene', 'antimicrobial', 'class', 'ref_len', 'mapped_len', 'mean_depth', 'norm_depth', 'non_calls', 'perc_mapped', 'snps', 'other', 'good_snps', 'syn', 'non', 'annotation', 'reference', 'EFSA_dict', 'result_abr', 'contig_abr', 'plasmid_abr', 'coverage_abr', 'identity_abr', 'location_abr']
+        failed_isolate_df = pd.DataFrame(columns=dict.fromkeys(columns, []))
+        failed_isolate_df.loc[0, 'strain'] = file_name.split(os.sep)[-2]
+        failed_isolate_df = failed_isolate_df.fillna('No genes passed filter')
+        output_filename = sys.argv[1].replace('.csv', '_good_snps.csv')
+        failed_isolate_df.to_csv(output_filename, index=False)
+        exit()
 
-###################################
-#list_of_genes=['betaL-g0197_ampC_Chr','macro-g1725_mdfA_Chr','quino-g1763_gyrA_ecol_Chr','quino-g1809_parC_ecol_Chr','nitro-g1757_nfsA_Chr','fosfo-g1604_glpT_Chr','fosfo-g1606_ptsI_Chr','fosfo-g1607_uhpA_Chr','colis-g2212_phoP_EC_MG1655_Chr','colis-g2215_acrR_EC_MG1655_Chr']
-#normalisation_genes = data_low_snps[data_low_snps.id.isin(list_of_genes)]
-#number_of_genes = normalisation_genes.shape[0]
-#sum_of_normalisation_genes = normalisation_genes['meanCov'].sum()
-#mean_of_normalisation_genes = (sum_of_normalisation_genes / number_of_genes)
-#data_low_snps["normCov"]=data_low_snps['meanCov'] / mean_of_normalisation_genes
-###################################
+
 
 
 # Select dataframe row entries with the lowest number of SNPs for each 'gene' category
@@ -161,13 +180,12 @@ if database_type=="AMR":
     try:
         data_output = drop_non_syn(data_gene_filtered, drop_non_syn_0).copy()
     except AttributeError:
-        print("\n\nNo genes in your sample passed the filter set\n\n Exiting\n\n")
-        columns = ['strain', 'id', 'gene', 'antimicrobial', 'class', 'ref_len', 'mapped_len', 'mean_depth', 'norm_depth', 'non_calls', 'perc_mapped', 'snps', 'other', 'good_snps', 'syn', 'non', 'annotation', 'reference', 'EFSA_dict', 'result_abr', 'contig_abr', 'plasmid_abr', 'coverage_abr', 'identity_abr', 'location_abr']
+        strain=file_name.split(os.sep)[-2]
+        print("\n\nNo genes in your isolate ("+strain+") passed the filter set as "+str(per_ID)+"% mapped and "+str(numsnps)+" snps\n\n Exiting\n\n")
+        columns = ['warnings','strain', 'id', 'gene', 'antimicrobial', 'class', 'ref_len', 'mapped_len', 'mean_depth', 'norm_depth', 'non_calls', 'perc_mapped', 'snps', 'other', 'good_snps', 'syn', 'non', 'annotation', 'reference', 'EFSA_dict', 'result_abr', 'contig_abr', 'plasmid_abr', 'coverage_abr', 'identity_abr', 'location_abr']
         failed_isolate_df = pd.DataFrame(columns=dict.fromkeys(columns, []))
         failed_isolate_df.loc[0,'strain']=file_name.split(os.sep)[-2]
         failed_isolate_df = failed_isolate_df.fillna('No genes passed filter')
-        #output_filename = "H0247_CompareTo_AMRDatabase_20200729_and_EnteroPLasmids_20190514_short-tetA6.csv".replace('.csv','_good_snps_abricate_seqfinder.csv')
-        #output_filename = sys.argv[1].replace('.csv','_good_snps_abricate_seqfinder.csv')
         output_filename = sys.argv[1].replace('.csv','_good_snps.csv')
         failed_isolate_df.to_csv(output_filename, index=False)
         exit()
@@ -204,11 +222,11 @@ if database_type=="AMR":
     else:
         filtered_gyrA_parC_ampP = filtered_gyrA_parC_ampP[~filtered_gyrA_parC_ampP['id'].str.contains('BIL-1|LAT-1|CFE-1')]
     if 'betaL-g1157_SHV-12' in filtered_gyrA_parC_ampP['id'].values:
-        mask = filtered_gyrA_parC_ampP['id'].str.contains('LEN-6|OHIO-1|OKP-A-11|OKP-A-12')
+        mask = filtered_gyrA_parC_ampP['id'].str.contains('LEN-6|OHIO-1|OKP-A-11|OKP-A-12|OKP-A-13|OKP-A-15/OKP-B-15')
         filtered_gyrA_parC_ampP.loc[mask & (filtered_gyrA_parC_ampP['non'] == '0'), 'non'] = '0'
         filtered_gyrA_parC_ampP = filtered_gyrA_parC_ampP[~(mask & (filtered_gyrA_parC_ampP['non'] != '0'))]
     else:
-        filtered_gyrA_parC_ampP = filtered_gyrA_parC_ampP[~filtered_gyrA_parC_ampP['id'].str.contains('LEN-6|OHIO-1|OKP-A-11|OKP-A-12')]
+        filtered_gyrA_parC_ampP = filtered_gyrA_parC_ampP[~filtered_gyrA_parC_ampP['id'].str.contains('LEN-6|OHIO-1|OKP-A-11|OKP-A-12|OKP-A-13|OKP-A-15/OKP-B-15')]
     # Check if both "chlor-g1576_cml" and "chlor-g1578_cmlA1" are present in the "id" column
     if all(elem in filtered_gyrA_parC_ampP["id"].values for elem in ["chlor-g1576_cml", "chlor-g1578_cmlA1"]):
         # Filter the dataframe for rows containing either "chlor-g1576_cml" or "chlor-g1578_cmlA1"
@@ -321,8 +339,24 @@ output_df = filtered_gyrA_parC_ampP[output_columns].round(2)
 # filtering rows by the per_ID when database_type=="nonAMR"
 if database_type!="AMR":
     output_df=output_df.loc[output_df['perc_mapped'] > per_ID]
-
+    
+    
+###This part catches samples that have chromosomal genes above the threshold but do not have a known phenotype    
+try:
+    if output_df.empty:
+        raise GenesFilterError("No genes passed the filter set as "+str(per_ID)+"% mapped and "+str(numsnps)+" snps")
+except GenesFilterError as e:
+    print("\n\nError: " + str(e) + "\n\nExiting\n\n")
+    columns = ['warnings','strain', 'id', 'gene', 'antimicrobial', 'class', 'ref_len', 'mapped_len', 'mean_depth', 'norm_depth', 'non_calls', 'perc_mapped', 'snps', 'other', 'good_snps', 'syn', 'non', 'annotation', 'reference', 'EFSA_dict', 'result_abr', 'contig_abr', 'plasmid_abr', 'coverage_abr', 'identity_abr', 'location_abr']
+    failed_isolate_df = pd.DataFrame(columns=dict.fromkeys(columns, []))
+    failed_isolate_df.loc[0, 'strain'] = file_name.split(os.sep)[-2]
+    failed_isolate_df = failed_isolate_df.fillna('No genes passed filter')
+    output_filename = sys.argv[1].replace('.csv', '_good_snps.csv')
+    failed_isolate_df.to_csv(output_filename, index=False)
+    exit()
+    
 #print(output_df)
+
 
 # Write dataframe to CSV with suffix '_good_snps.csv'
 output_filename = sys.argv[1].replace('.csv','_good_snps.csv')
