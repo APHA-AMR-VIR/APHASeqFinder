@@ -26,3 +26,19 @@ Deletion of additional genes --> For some genes (CMY-2, SHV-12) additional hits 
 Multiple hits within same gene family --> Where abricate identifies multiple hits within the same family but of these hits has been discarded by good_snps_filtering.py, it will now insert that second hit into the output and populate it with information from the original seqfinder output.
 AMR database updated --> Duplicate genes have been removed. >550 new genes have been added. Some gene nomenclature has been updated to reflect that in the literature and other databases. Duplicate plasmid sequences also removed.
 Versioning --> Versions of SeqFinder, abricate, unicycler and spades are now provided in output as new columns for quality purposes. The unicycler and spades versions will only be included if the corresponding AMR_unicycler.py script was used to assemble your isolates.
+Versioning --> Seqfinder version now provided in output as new column for quality purposes
+***SeqFinder 4.0.5 (minor update) 14/06/2023***
+Inclusion of chromosomal genes in abricate --> Details from abricate about gyrA, parC and ampC will be included in the final output if present
+Versioning mk II --> The MLST file the user normalised their samples against is included in the final output
+***SeqFinder 4.0.6 03/10/2023***
+Processing of isolates --> The way the pipeline processes isolates provided to it has been altered. This is to avoid undesirable behaviour caused by fully sensitive isolates that used to result in the skipping of isolates.
+File checking --> If the user provides multiple files with the same name the pipeline will ask you which of these files you wish to keep and will ignore the duplicate(s).
+Reference checking --> Further reference file checking for empty lines or headers that do not start with an alphanumeric character to avoid undesirable behaviour.
+Joining of partial abricate hits --> If gene hits are split across multiple contigs in abricate the pipeline will now join these hits together if the total range of the combined fragments exceed 90% of the gene length. 
+Abricate filtering threshold reduced --> The filtering threshold for hits from abricate to be compared with those from SeqFinder has been reduced from 90% to 80%.
+Plasmid mismatches --> If there is a mismatch between the plasmid genes called by SeqFinder and abricate (for example SeqFinder calls PlasR-p0097_IncX1 and abricate calls PlasR-p0096_IncX1) that information is now added. This is ONLY for plasmids, NOT AMR genes.
+User warnings --> Warnings given to the user in the first column if any of the following are found: Percentage mapped in SeqFinder <95%, Normalised depth is under 0.4, Gene has been split across multiple contigs, mismatch between SeqFinder and abricate gene calls, Abricate result is blank, Abricate % coverage <90, Abricate % identity <90
+Additional filtering for non-AMR databases --> Filtering the non-AMR databases by the same percentage mapped and number of snps threshold as used for the AMR database now turned this on
+Column ordering --> Minor changes to column ordering and removing unrelated columns from non-AMR databases
+pubmlst schemes --> SeqFinder compatible MLST schemes for every scheme found in pubmlst can now be found here: APHASeqFinder_4.0.6/references/mlst/pubmlst_schemes
+
