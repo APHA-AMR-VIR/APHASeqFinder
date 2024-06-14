@@ -109,7 +109,7 @@ try:
 except pd.errors.EmptyDataError:
     print("Warning: Empty CSV file "+file_name)
     file_name_failure=file_name+"failed"
-    file_name_failure = file_name + "_failed.csv"  # Modify the extension or format as needed
+    file_name_failure = file_name + "_failed.csv"
     with open(file_name_failure, "w") as failure_file:
         failure_file.write("Empty CSV file: " + file_name)
     sys.exit() ####Might have to modify this
@@ -333,7 +333,7 @@ else:
     output_columns = list(data_raw)
     output_columns.insert(1,'gene')
     output_columns.insert(0,'strain')
-# Assign a list of column headers to be output in the final csv. This list can be edited here to
+# Assign a list of column headers to be output in the final csv.
 output_df = filtered_gyrA_parC_ampP[output_columns].round(2)
 
 # filtering rows by the per_ID when database_type=="nonAMR"
