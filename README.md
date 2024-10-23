@@ -14,7 +14,7 @@ Dependencies:
 How to run SeqFinder:
 
 Edit file "template_arguments_file.args" and modify the global variables as appropiate. Following is an example, please read:
-
+```
 ### This is the template file that you need to alter. You must provide the direct paths you want to use. A quick way to do this would be to do a find a replace of "nickduggett" with your own name. This can be done in the command-line with sed (sed 's/nickduggett/yournamegoeshere/g' template_arguments_file.args > template_arguments_file_yourname.args)
 
 #path to the seqFinder
@@ -68,7 +68,7 @@ ncores=4
 #
 #
 #
-
+```
 You must save the new arguments with a different file name in any folder you want. For example: "/my/path/to/my_arguments_file_for_my_new_run.args"
 
 To run the pipeline: ./seqfinder.py /my/path/to/my_arguments_file_for_my_new_run.args
