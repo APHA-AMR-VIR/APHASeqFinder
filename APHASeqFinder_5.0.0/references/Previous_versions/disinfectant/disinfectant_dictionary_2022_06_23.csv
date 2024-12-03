@@ -1,0 +1,17 @@
+id,Class,Phenotype,Function
+dis0001_formA,Aldehydes,Formaldehyde,Enzymatic degradation
+dis0002_qacA,Quaternary Ammonium Compounds,"Benzylkonium Chloride, Ethidium Bromide,  Chlorhexidine, Cetylpyridinium Chloride",Efflux pump
+dis0003_qacB,Quaternary Ammonium Compounds,"Benzylkonium Chloride, Ethidium Bromide, Chlorhexidine, Cetylpyridinium Chloride",Efflux pump
+dis0004_qacC,Quaternary Ammonium Compounds,"Benzylkonium Chloride, Ethidium Bromide,  Chlorhexidine, Cetylpyridinium Chloride",Efflux pump
+dis0005_qacD,Quaternary Ammonium Compounds,"Benzylkonium Chloride, Ethidium Bromide,  Chlorhexidine, Cetylpyridinium Chloride",Efflux pump
+dis0006_qacE,Quaternary Ammonium Compounds,"Benzylkonium Chloride, Ethidium Bromide,  Chlorhexidine, Cetylpyridinium Chloride",Efflux pump
+dis0007_qacF,Quaternary Ammonium Compounds,"Benzylkonium Chloride, Ethidium Bromide, Chlorhexidine, Cetylpyridinium Chloride",Efflux pump
+dis0008_qacG,Quaternary Ammonium Compounds,"Benzylkonium Chloride, Ethidium Bromide,  Chlorhexidine, Cetylpyridinium Chloride",Efflux pump
+dis0009_qacH,Quaternary Ammonium Compounds,"Benzylkonium Chloride, Ethidium Bromide,  Chlorhexidine, Cetylpyridinium Chloride",Efflux pump
+dis0010_qacA4,Quaternary Ammonium Compounds,"Benzylkonium Chloride, Ethidium Bromide,  Chlorhexidine, Cetylpyridinium Chloride",Efflux pump
+dis0011_qacJ,Quaternary Ammonium Compounds,"Benzylkonium Chloride, Ethidium Bromide,  Chlorhexidine, Cetylpyridinium Chloride",Efflux pump
+dis0012_qacZ,Quaternary Ammonium Compounds,"Benzylkonium Chloride, Ethidium Bromide,  Chlorhexidine, Cetylpyridinium Chloride",Efflux pump
+dis0013_sitABCD,Peroxides,Hydrogen peroxide,Transport
+dis0014_OqxA,Quaternary Ammonium Compounds,"Benzylkonium Chloride, Cetylpyridinium Chloride",Efflux pump
+dis0015_OqxB,Quaternary Ammonium Compounds,"Benzylkonium Chloride, Cetylpyridinium Chloride","Efflux pump Must be in an operon with oqxA,phenotype differs based on genomic location of the operon PMID 25801572,also nitrofurantoin resistance PMID 26552976"
+dis0016_ClpL,Heat,Temperature,ATP-dependant protease
