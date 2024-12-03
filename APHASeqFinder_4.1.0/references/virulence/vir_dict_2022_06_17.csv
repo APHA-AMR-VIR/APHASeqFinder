@@ -1,0 +1,2629 @@
+id,Virulence_function,Associated_pathotypes
+Vir0001_eae_1,Adhesion: Intimin,EPEC|EHEC
+Vir0002_hlyB_1,Toxin: Alpha-Hemolysin,AIEC
+Vir0003_ybtS_1,Siderophore: Yersiniabactin,ExPEC
+Vir0004_irp2_1,Siderophore: Yersiniabactin,ExPEC
+Vir0005_aec18_1,Secretion system: Type VI: Hypothetical Protein,StxEAEC
+Vir0006_espB_1,Hypothetical Protein,EHEC
+Vir0007_tccP2_1,NA,EHEC
+Vir0008_eaeH_1,Adhesion,UPEC
+Vir0009_chuT_1,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0010_fimF_1,Adhesion: Type I Fimbriae,ExPEC
+Vir0011_ecpC_1,Adhesion: E.coli common pilus,ETEC
+Vir0012_ecpC_2,Adhesion: E.coli common pilus,NMEC
+Vir0013_papI_1,Adhesion: P Fimbriae,ExPEC
+Vir0014_sfaG_1,Adhesion: S Fimbriae,ExPEC
+Vir0015_aaiA_1,Secretion system: Type VI,EAEC
+Vir0016_fyuA_1,Siderophore: Yersiniabactin,ExPEC
+Vir0018_stx2B_1,Toxin: Shiga,EHEC
+Vir0019_cdtC_1,Toxin: Cytolethal Distending Toxin,EPEC|ExPEC|NTEC
+Vir0020_espX7_1,NA,EHEC
+Vir0021_escS_1,Secretion system: Type III,EHEC
+Vir0022_EC042_1,Secretion system: Type VI,EAEC
+Vir0023_sitA_1,Iron: Transport,ExPEC
+Vir0024_aec27_1,Secretion system: Type VI,EHEC
+Vir0025_aida_1,Protease,DAEC
+Vir0026_CDCO1_1,Hypothetical Protein,EHEC
+Vir0027_ecpE_1,Adhesion: E.coli common pilus,EHEC
+Vir0028_iucA_1,Siderophore: Aerobactin,UPEC|APEC
+Vir0029_fimD_1,Adhesion: Type I Fimbriae,ExPEC
+Vir0030_aaiL_1,Hypothetical Protein,EAEC
+Vir0031_espY3_1,Hypothetical Protein,EHEC
+Vir0032_nleG7_1,Secretion system: Type III,EHEC
+Vir0033_aec27_2,Secretion system: Type VI,EPEC
+Vir0034_ECNA1_1,Hypothetical Protein,UPEC
+Vir0035_fimG_1,Adhesion: Type I Fimbriae,ExPEC
+Vir0036_aec8_1,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir0037_tir_1,Adhesion: Intimin,EPEC
+Vir0038_NRG85_1,NA,AIEC
+Vir0039_fimH_1,Adhesion: Type I Fimbriae,ExPEC
+Vir0040_ibeB_1,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir0042_hlyC_1,Toxin: Alpha-Hemolysin,UPEC
+Vir0043_aec23_1,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir0044_espO1_1,Secretion system: Type III,EHEC
+Vir0045_sepL_1,NA,EHEC
+Vir0046_aec15_1,Secretion system: Type VI: Hypothetical Protein,StxEAEC
+Vir0047_iucC_1,Siderophore: Aerobactin,UPEC|APEC
+Vir0048_espL2_1,NA,EHEC
+Vir0049_aaiN_1,Hypothetical Protein,StxEAEC
+Vir0050_paa_1,Adhesion,EPEC
+Vir0051_senB_1,Toxin: Enterotoxin,UPEC
+Vir0052_vgrG_1,Hypothetical Protein,EAEC
+Vir0053_chuS_1,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0054_ibeC_1,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir0055_vat_1,Vacuolating autotransporter toxin: plasmid,ExPEC
+Vir0056_sitC_1,Iron: Transport,ExPEC
+Vir0057_chuT_2,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0058_irp1_1,Siderophore: Yersiniabactin,ExPEC
+Vir0059_chuY_1,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0060_agg3C_1,NA,StxEAEC
+Vir0061_aafC_1,Adhesion: Fimbriae,EAEC
+Vir0062_escC_1,Secretion system: Type III,EHEC
+Vir0063_mpc_1,NA,EHEC
+Vir0064_iroN_1,Siderophore: Salmochelin,ExPEC
+Vir0065_aec25_1,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir0066_cesD2_1,NA,EHEC
+Vir0067_ybtU_1,Siderophore: Yersiniabactin,ExPEC
+Vir0068_eaeH_2,Adhesion,NMEC
+Vir0069_nleA_1,Secretion system: Type III,EPEC
+Vir0070_nleB1_1,Secretion system: Type III,EHEC
+Vir0072_ecpB_1,Adhesion: E.coli common pilus,EHEC
+Vir0073_ecpE_2,Adhesion: E.coli common pilus,EPEC
+Vir0074_cfaA_1,Adhesion: CFA/I Fimbriae,UPEC
+Vir0075_ybtT_1,Siderophore: Yersiniabactin,ExPEC
+Vir0076_espY4_1,Hypothetical Protein,EPEC
+Vir0077_aec23_2,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir0078_espA_1,Hypothetical Protein,EHEC
+Vir0079_espX6_1,Secretion system: Type III,EHEC
+Vir0080_espX1_1,Secretion system: Type III,EHEC
+Vir0081_upaG_1,Adhesion,UPEC
+Vir0082_escJ_1,Secretion system: Type III,EHEC
+Vir0083_ECNA1_2,Hypothetical Protein,UPEC
+Vir0084_i02_3_1,Hypothetical Protein,UPEC
+Vir0085_aec15_2,Secretion system: Type VI,EHEC
+Vir0086_irp2_2,Siderophore: Yersiniabactin,ExPEC
+Vir0087_sepQ_1,Secretion system: Type III,EPEC
+Vir0088_chuY_2,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0090_fimE_1,Adhesion: Type I Fimbriae,ExPEC
+Vir0091_EC042_2,Secretion system: Type VI,EAEC
+Vir0092_fimH_2,Adhesion: Type I Fimbriae,ExPEC
+Vir0093_stx2A_1,Toxin: Shiga,EHEC
+Vir0094_ecpD_1,Adhesion: E.coli common pilus,EHEC
+Vir0095_tir_2,Adhesion: Intimin,EHEC
+Vir0096_espR3_1,Hypothetical Protein,EHEC
+Vir0097_fimF_2,Adhesion: Type I Fimbriae,ExPEC
+Vir0098_iroB_1,Siderophore: Salmochelin,ExPEC
+Vir0099_ybtP_1,Siderophore: Yersiniabactin,ExPEC
+Vir0100_aec26_1,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir0101_aec11_1,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir0102_APECO_1,Hypothetical Protein,APEC
+Vir0103_aec29_1,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir0104_iucB_1,Siderophore: Aerobactin,UPEC|APEC
+Vir0105_espL2_2,Toxin: Enterotoxin,EHEC
+Vir0106_cah_1,Autotransporter: calcium-binding and heat-extractable autotransporter protein,EHEC|ETEC|NMEC|UPEC|AIEC|EPEC|StxEAEC
+Vir0107_aec32_1,Secretion system: Type VI: Hypothetical Protein,EPEC
+Vir0108_mpc_2,NA,EPEC
+Vir0109_papI_2,Adhesion: P Fimbriae,ExPEC
+Vir0110_ibeC_2,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir0111_ECS88_1,Secretion system: SCI-I T6SS,NMEC
+Vir0112_fimA_1,Adhesion: Type I Fimbriae,ExPEC
+Vir0114_ECs45_1,Hypothetical Protein,EHEC
+Vir0115_air-e_1,Invasion,EAEC|NMEC|UPEC
+Vir0116_ybtS_2,Siderophore: Yersiniabactin,ExPEC
+Vir0117_icmF_1,Hypothetical Protein,StxEAEC
+Vir0118_ybtP_2,Siderophore: Yersiniabactin,ExPEC
+Vir0119_ler_1,Hypothetical Protein,EHEC
+Vir0120_hlyD_1,Toxin: Alpha-Hemolysin,UPEC
+Vir0121_ECS88_7,Secretion system: SCI-I T6SS,NMEC
+Vir0122_chuU_1,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0123_hlyE_1,Toxin: Hemolysin/cytolysin A,ExPEC
+Vir0124_upaG_2,Invasion,UPEC
+Vir0125_irp2_3,Siderophore: Yersiniabactin,ExPEC
+Vir0126_nleB1_2,Secretion system: Type III,EHEC
+Vir0127_papB_1,Adhesion: P Fimbriae,ExPEC
+Vir0128_aatP_1,NA,StxEAEC
+Vir0129_aatA_1,NA,EAEC
+Vir0130_fimC_1,Adhesion: Type I Fimbriae,ExPEC|APEC
+Vir0131_espM2_1,Secretion system: Type III,EHEC
+Vir0132_aec25_2,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir0133_nleA_2,Secretion system: Type III,EHEC
+Vir0134_fimG_2,Adhesion: Type I Fimbriae,ExPEC
+Vir0136_escV_1,Hypothetical Protein,EHEC
+Vir0137_ecpC_3,Adhesion: E.coli common pilus,UPEC
+Vir0138_papE_1,Adhesion: P Fimbriae,ExPEC
+Vir0139_aatP_2,NA,ETEC
+Vir0140_papC_1,Adhesion: P Fimbriae,ExPEC
+Vir0141_eaeH_3,Adhesion,AIEC
+Vir0142_chuT_3,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0143_escV_2,NA,EHEC
+Vir0144_NRG85_2,Hypothetical Protein,AIEC
+Vir0145_aaiM_1,Hypothetical Protein,StxEAEC
+Vir0147_papI_3,Adhesion: P Fimbriae,ExPEC
+Vir0148_fimC_2,Adhesion: Type I Fimbriae,ExPEC|APEC
+Vir0149_aec8_2,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir0150_aec27_3,Secretion system: Type VI,EHEC
+Vir0151_ECO55_9,Hypothetical Protein,EPEC
+Vir0152_aec8_3,Secretion system: Type VI: Hypothetical Protein,EAEC
+Vir0153_nleB1_3,Secretion system: Type III,EHEC
+Vir0154_fimH_3,Adhesion: Type I Fimbriae,ExPEC
+Vir0155_sitA_2,Iron: Transport,ExPEC
+Vir0156_ehaA_1,Autotransporter: adhesion/biofilm formation,EHEC
+Vir0157_aec22_1,Secretion system: Type VI: Hypothetical Protein,EPEC
+Vir0158_ibeB_2,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir0159_glrA_1,Hypothetical Protein,EPEC
+Vir0160_ecpR_1,Adhesion: E.coli common pilus,ETEC
+Vir0161_ECS88_11,Secretion system: SCI-I T6SS,NMEC
+Vir0162_espD_1,NA,EPEC
+Vir0163_aec29_2,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir0164_sepZ_1,NA,EHEC
+Vir0165_LF82_1,Secretion system: SCI-I T6SS,AIEC
+Vir0166_ybtT_2,Siderophore: Yersiniabactin,ExPEC
+Vir0167_ecpC_4,Adhesion: E.coli common pilus,UPEC
+Vir0168_nleF_1,Hypothetical Protein,EPEC
+Vir0169_ibeC_3,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir0170_ybtX_1,Siderophore: Yersiniabactin,ExPEC
+Vir0171_hlyC_2,Toxin: Alpha-Hemolysin,UPEC
+Vir0172_nleG2_1,Hypothetical Protein,EHEC
+Vir0173_ybtS_3,Siderophore: Yersiniabactin,ExPEC
+Vir0174_aec26_2,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir0176_ehaB_1,Autotransporter: adhesion/biofilm formation,EPEC
+Vir0177_papE_2,Adhesion: P Fimbriae,ExPEC
+Vir0178_ECO55_5,Secretion system: Type III,EPEC
+Vir0180_ecpE_3,Adhesion: E.coli common pilus,EHEC
+Vir0181_ibeC_4,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir0182_escV_3,NA,EPEC
+Vir0183_ecpR_2,Adhesion: E.coli common pilus,UPEC
+Vir0184_aec17_1,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir0185_aec23_3,Secretion system: Type VI: Hypothetical Protein,APEC
+Vir0186_ybtQ_1,Siderophore: Yersiniabactin,ExPEC
+Vir0187_sitB_1,Iron: Transport,ExPEC
+Vir0188_espL4_1,Secretion system: Type III (ShET2/EspL2 family effector toxin,EPEC|EHEC
+Vir0190_nleC_1,Secretion system: Type III,EHEC
+Vir0191_ehaB_2,Autotransporter: adhesion/biofilm formation,StxEAEC
+Vir0192_aec29_3,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir0193_aaiF_1,Hypothetical Protein,StxEAEC
+Vir0194_escR_1,Secretion system: Type III,EHEC
+Vir0195_ybtA_1,Siderophore: Yersiniabactin,ExPEC
+Vir0196_ecpC_5,Adhesion: E.coli common pilus,UPEC
+Vir0197_toxB_1,Toxin,EHEC
+Vir0198_aec25_3,Secretion system: Type VI: Hypothetical Protein,NMEC
+Vir0199_aec14_1,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir0200_aec31_1,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir0201_ehaB_3,Autotransporter: adhesion/biofilm formation,EHEC
+Vir0202_aec18_2,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir0203_papJ_1,Adhesion: P Fimbriae,ExPEC
+Vir0204_sitB_2,Iron: Transport,ExPEC
+Vir0205_ecpB_2,Adhesion: E.coli common pilus,EHEC
+Vir0206_nleG5_1,Hypothetical Protein,EHEC
+Vir0207_ecpC_6,Adhesion: E.coli common pilus,UPEC
+Vir0208_aec24_1,Secretion system: Type VI,NMEC
+Vir0209_ecpE_4,Adhesion: E.coli common pilus,EHEC
+Vir0210_ECS88_15,Secretion system: SCI-I T6SS,NMEC
+Vir0211_aec7_1,Secretion system: Type VI: Hypothetical Protein,NMEC
+Vir0212_aec28_1,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir0213_fimF_3,Adhesion: Type I Fimbriae,ExPEC
+Vir0214_sfaS_1,Adhesion: S Fimbriae,ExPEC
+Vir0216_papX_1,Adhesion: P Fimbriae,ExPEC
+Vir0217_papC_2,Adhesion: P Fimbriae,ExPEC
+Vir0218_nleH1_1,Secretion system: Type III,EPEC
+Vir0219_ybtA_2,Siderophore: Yersiniabactin,ExPEC
+Vir0220_ybtE_1,Siderophore: Yersiniabactin,ExPEC
+Vir0221_chuY_3,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0222_nleB2_1,NA,EPEC
+Vir0223_chuS_2,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0224_ecpC_7,Adhesion: E.coli common pilus,EHEC
+Vir0226_chuY_4,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0227_agg3A_1,Hypothetical Protein,StxEAEC
+Vir0228_papX_2,Adhesion: P Fimbriae,ExPEC
+Vir0229_agn43_1,Autotransporter,UPEC
+Vir0230_sepL_2,NA,EPEC
+Vir0231_iucD_1,Siderophore: Aerobactin,UPEC|APEC
+Vir0233_upaG_3,Adhesion,UPEC
+Vir0234_clpV_1,Hypothetical Protein,StxEAEC
+Vir0235_nleG2_2,Hypothetical Protein,EHEC
+Vir0236_ECO10_1,Secretion system: Type III,EHEC
+Vir0237_fimD_2,Adhesion: Type I Fimbriae,ExPEC
+Vir0239_c3393_1,Hypothetical Protein,UPEC
+Vir0240_escJ_2,NA,EHEC
+Vir0241_nleG7_2,Secretion system: Type III,EHEC
+Vir0242_cfaC_1,Adhesion: CFA/I Fimbriae,ETEC
+Vir0243_fyuA_2,Siderophore: Yersiniabactin,ExPEC
+Vir0244_ecpB_3,Adhesion: E.coli common pilus,EPEC
+Vir0245_eae_2,Adhesion: Intimin,"EPEC,EHEC"
+Vir0246_fimA_2,Adhesion: Type I Fimbriae,ExPEC
+Vir0247_irp2_4,Siderophore: Yersiniabactin,ExPEC
+Vir0248_escT_1,Secretion system: Type III,EHEC
+Vir0249_O3O_2_1,Hypothetical Protein,StxEAEC
+Vir0250_cfaD_1,Adhesion: CFA/I Fimbriae,APEC
+Vir0252_UM146_1,Hypothetical Protein,AIEC
+Vir0253_chuT_4,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0254_papF_1,Adhesion: P Fimbriae,ExPEC
+Vir0255_paa_2,NA,EPEC
+Vir0256_nleG_1,Hypothetical Protein,EHEC
+Vir0257_hlyC_3,Toxin: Alpha-Hemolysin,EHEC
+Vir0258_ehaB_4,Autotransporter: adhesion/biofilm formation,EHEC
+Vir0259_nleH1_2,Hypothetical Protein,EHEC
+Vir0260_agn43_2,Autotransporter,EAEC
+Vir0261_chuT_5,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0262_ybtE_2,Siderophore: Yersiniabactin,ExPEC
+Vir0263_eaeH_4,NA,ETEC
+Vir0264_ybtU_2,Siderophore: Yersiniabactin,ExPEC
+Vir0266_fimI_1,Adhesion: Type I Fimbriae,EPEC
+Vir0268_ybtU_3,Siderophore: Yersiniabactin,ExPEC
+Vir0269_aec31_2,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir0270_APECO_4,NA,APEC
+Vir0271_aec31_3,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir0272_sitD_1,Iron: Transport,ExPEC
+Vir0273_hlyE_2,Toxin: Hemolysin/cytolysin A,ExPEC
+Vir0274_cfaB_1,Adhesion: CFA/I Fimbriae,StxEAEC
+Vir0275_chuT_6,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0276_chuY_5,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0277_agg3D_1,NA,StxEAEC
+Vir0278_ibeC_5,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir0279_escT_2,Secretion system: Type III,EHEC
+Vir0280_aec23_4,Secretion system: Type VI,StxEAEC
+Vir0281_sepL_3,NA,EHEC
+Vir0282_aec24_2,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir0283_cesD_1,NA,EHEC
+Vir0284_EC042_3,Hypothetical Protein,EAEC
+Vir0285_fimH_4,Adhesion: Type I Fimbriae,ExPEC
+Vir0286_ybtP_3,Siderophore: Yersiniabactin,ExPEC
+Vir0287_escS_2,NA,EHEC
+Vir0288_sepQ_2,NA,EHEC
+Vir0289_aaiE_1,Hypothetical Protein,StxEAEC
+Vir0290_fimA_3,Adhesion: Type I Fimbriae,ExPEC
+Vir0291_nleG8_1,Secretion system: Type III,EHEC
+Vir0292_espL1_1,Secretion system: Type III,EPEC|EHEC
+Vir0293_chuA_1,Iron: E.coli hemin uptake,EHEC
+Vir0294_espF_1,NA,EHEC
+Vir0296_espX4_1,Hypothetical Protein,EHEC|EPEC
+Vir0297_fimE_2,Adhesion: Type I Fimbriae,ExPEC
+Vir0299_irp2_5,Siderophore: Yersiniabactin,ExPEC
+Vir0300_ECH74_1,Hypothetical Protein,EHEC
+Vir0301_aec28_2,Secretion system: Type VI: Hypothetical Protein,StxEAEC
+Vir0302_i02_3_2,Hypothetical Protein,UPEC
+Vir0303_vat_2,Vacuolating autotransporter toxin: plasmid,ExPEC
+Vir0304_fimC_3,Adhesion: Type I Fimbriae,ExPEC|APEC
+Vir0305_fimD_3,Adhesion: Type I Fimbriae,ExPEC
+Vir0306_fimF_4,Adhesion: Type I Fimbriae,ExPEC
+Vir0307_cesF_1,Hypothetical Protein,EHEC
+Vir0308_fimF_5,Adhesion: Type I Fimbriae,ExPEC
+Vir0309_sitB_3,Iron: Transport,ExPEC
+Vir0310_iucC_2,Siderophore: Aerobactin,UPEC|APEC
+Vir0311_ecpE_5,Adhesion: E.coli common pilus,K12
+Vir0312_fimH_5,Adhesion: Type I Fimbriae,ExPEC
+Vir0313_ecpB_4,Adhesion: E.coli common pilus,ETEC
+Vir0315_espD_2,NA,EHEC
+Vir0316_espB_2,NA,EHEC
+Vir0317_aec31_4,Secretion system: Type VI,ETEC
+Vir0318_focD_1,Adhesion: Fimbriae,UPEC
+Vir0319_sitD_2,Iron: Transport,ExPEC
+Vir0320_aec15_3,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir0321_fyuA_3,Siderophore: Yersiniabactin,ExPEC
+Vir0322_espM2_2,NA,EPEC
+Vir0323_agg3B_1,Invasion,StxEAEC
+Vir0324_espL1_2,Hypothetical Protein,EPEC|EHEC
+Vir0325_cah_2,Adhesion,EHEC|ETEC|NMEC|UPEC|AIEC|EPEC|StxEAEC
+Vir0327_aec26_3,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir0328_ibeB_3,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir0330_pet_1,Toxin,StxEAEC
+Vir0331_aec30_1,Secretion system: Type VI,EAEC
+Vir0332_aaiJ_1,Hypothetical Protein,StxEAEC
+Vir0333_espY4_2,Hypothetical Protein,EHEC
+Vir0334_ybtA_3,Siderophore: Yersiniabactin,ExPEC
+Vir0335_fimD_4,Adhesion: Type I Fimbriae,ExPEC
+Vir0337_papD_1,Adhesion: P Fimbriae,ExPEC
+Vir0338_iroN_2,Siderophore: Salmochelin,ExPEC
+Vir0339_ireA_1,Iron,ExPEC
+Vir0340_iroE_1,Siderophore: Salmochelin,ExPEC
+Vir0341_iutA_1,Siderophore: Aerobactin,ExPEC
+Vir0342_cfaD_2,Adhesion: CFA/I Fimbriae,UPEC
+Vir0343_hlyD_2,Toxin: Alpha-Hemolysin,UPEC
+Vir0345_aec27_4,Secretion system: Type VI,EHEC
+Vir0346_aaiI_1,Secretion system: Type VI,EAEC
+Vir0347_espX2_1,Hypothetical Protein,EHEC
+Vir0349_ECP_2_1,Secretion system: SCI-I T6SS,UPEC
+Vir0350_sfaE_1,Adhesion: S Fimbriae,ExPEC
+Vir0351_eaeH_5,Adhesion,EAEC
+Vir0355_fimG_3,Adhesion: Type I Fimbriae,ExPEC
+Vir0356_espK_1,Secretion system: Type III,EHEC
+Vir0357_aec15_4,Secretion system: Type VI,AIEC
+Vir0358_espJ_1,Secretion system: Type III,EHEC
+Vir0359_ecpR_3,Adhesion: E.coli common pilus,APEC
+Vir0360_escD_1,Secretion system: Type III,EHEC
+Vir0361_aec32_2,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir0362_map_1,Secretion system: Type III,EHEC
+Vir0363_fimA_4,Adhesion: Type I Fimbriae,ExPEC
+Vir0364_ECO55_8,Secretion system: Type VI,EPEC
+Vir0365_espN_1,Secretion system: Type III,EHEC
+Vir0366_espX6_2,Hypothetical Protein,EHEC
+Vir0367_fimC_4,Adhesion: Type I Fimbriae,ExPEC|APEC
+Vir0368_ECO10_2,Hypothetical Protein,EHEC
+Vir0369_tia_1,Adhesion/Invasion,APEC
+Vir0370_cfaA_2,Adhesion: CFA/I Fimbriae,StxEAEC
+Vir0371_ybtT_3,Siderophore: Yersiniabactin,ExPEC
+Vir0372_ecpB_5,Adhesion: E.coli common pilus,EAEC
+Vir0373_escU_1,NA,EHEC
+Vir0374_fimI_2,Adhesion: Type I Fimbriae,EHEC
+Vir0375_NRG85_3,Hypothetical Protein,AIEC
+Vir0376_aec22_2,Secretion system: Type VI: Hypothetical Protein,StxEAEC
+Vir0377_cesT_1,NA,EPEC
+Vir0378_stx2A_2,Toxin: Shiga,EHEC
+Vir0379_fimI_3,Adhesion: Type I Fimbriae,EAEC
+Vir0380_ECS88_2,Secretion system: SCI-I T6SS,NMEC
+Vir0384_chuY_6,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0385_espO1_2,Secretion system: Type III,EHEC
+Vir0386_chuX_1,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0387_hlyC_4,Toxin: Alpha-Hemolysin,AIEC
+Vir0388_nleG6_1,Secretion system: Type III,EHEC
+Vir0390_EC559_1,Hypothetical Protein,EAEC
+Vir0391_fimI_4,Adhesion: Type I Fimbriae,UPEC
+Vir0392_papF_2,Adhesion: P Fimbriae,ExPEC
+Vir0393_espFu_1,NA,EHEC
+Vir0394_usp_1,Toxin: Colicin-like Usp,UPEC
+Vir0395_ecpB_6,Adhesion: E.coli common pilus,UPEC
+Vir0396_NRG85_4,Hemolysin,AIEC
+Vir0397_aec27_5,Secretion system: Type VI,StxEAEC
+Vir0398_aec14_2,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir0399_escD_2,NA,EPEC
+Vir0400_espB_3,NA,EPEC
+Vir0401_chuX_2,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0402_ecpR_4,Adhesion: E.coli common pilus,EHEC
+Vir0403_EC559_2,Hypothetical Protein,EAEC
+Vir0404_espX7_2,Hypothetical Protein,EHEC
+Vir0405_aec18_3,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir0407_chuA_2,Iron: E.coli hemin uptake,EHEC
+Vir0408_irp2_6,Siderophore: Yersiniabactin,ExPEC
+Vir0409_fyuA_4,Siderophore: Yersiniabactin,ExPEC
+Vir0410_stx2A_3,Toxin: Shiga,EHEC
+Vir0411_ecpC_8,Adhesion: E.coli common pilus,StxEAEC
+Vir0412_ecpE_6,Adhesion: E.coli common pilus,NMEC
+Vir0413_hlyA_1,Toxin: Alpha-Hemolysin,ExPEC
+Vir0414_ECO10_3,NA,EHEC
+Vir0416_aec28_3,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir0417_focA_1,Adhesion: Fimbriae,UPEC
+Vir0418_aec31_5,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir0420_aec18_4,Secretion system: Type VI,EAEC
+Vir0421_O3O_2_2,Helicase,StxEAEC
+Vir0422_ybtP_4,Siderophore: Yersiniabactin,ExPEC
+Vir0423_ecpD_2,Adhesion: E.coli common pilus,StxEAEC
+Vir0424_LF82_2,Secretion system: SCI-I T6SS,AIEC
+Vir0425_escC_2,Secretion system: Type III,EPEC
+Vir0426_aec32_3,Secretion system: Type VI: Hypothetical Protein,StxEAEC
+Vir0429_EC042_4,Secretion system: Type VI,EAEC
+Vir0430_ibeC_6,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir0431_ECs45_2,Hypothetical Protein,EHEC
+Vir0432_EC042_5,Secretion system: Type VI,EAEC
+Vir0433_sfaF_1,Adhesion: S Fimbriae,ExPEC
+Vir0435_aec26_4,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir0436_ECO10_4,Hypothetical Protein,EHEC
+Vir0437_fimF_6,Adhesion: Type I Fimbriae,ExPEC
+Vir0440_espR1_1,Hypothetical Protein,EHEC
+Vir0441_eaeH_6,Adhesion,AIEC
+Vir0442_ECS88_3,Secretion system: SCI-I T6SS,NMEC
+Vir0444_upaG_4,Hypothetical Protein,EHEC
+Vir0445_focG_1,Adhesion: Fimbriae,ExPEC
+Vir0446_escU_2,NA,EPEC
+Vir0447_fimE_3,Adhesion: Type I Fimbriae,ExPEC
+Vir0448_aec17_2,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir0449_map_2,NA,EPEC
+Vir0450_papE_3,Adhesion: P Fimbriae,ExPEC
+Vir0451_iroC_1,Siderophore: Salmochelin,ExPEC
+Vir0452_espL2_3,NA,EPEC
+Vir0453_glrR_1,Hypothetical Protein,EHEC
+Vir0454_papI_4,Adhesion: P Fimbriae,ExPEC
+Vir0455_aec17_3,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir0456_ecpR_5,Adhesion: E.coli common pilus,StxEAEC
+Vir0457_map_3,Hypothetical Protein,EHEC
+Vir0458_aaiC_1,Hypothetical Protein,StxEAEC
+Vir0459_ECNA1_3,Hypothetical Protein,UPEC
+Vir0460_upaG_5,Adhesion,EHEC
+Vir0461_nleG5_2,Hypothetical Protein,EPEC
+Vir0462_aec16_1,Secretion system: Type VI: Hypothetical Protein,NMEC
+Vir0465_escF_1,NA,EHEC
+Vir0466_nleH1_3,Secretion system: Type III,EHEC
+Vir0467_aap_1,NA,EAEC
+Vir0469_hlyE_3,Toxin: Hemolysin/cytolysin A,ExPEC
+Vir0471_nleA_3,NA,EHEC
+Vir0475_chuA_3,Iron: E.coli hemin uptake,EHEC
+Vir0476_vat_3,Vacuolating autotransporter toxin,ExPEC
+Vir0477_espX5_1,Hypothetical Protein,EHEC
+Vir0479_fimI_5,Adhesion: Type I Fimbriae,UPEC
+Vir0480_APECO_2,Hypothetical Protein,APEC
+Vir0481_ibeC_7,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir0482_espL2_4,Secretion system: Type III,EPEC
+Vir0484_aec30_2,Secretion system: Type VI,EHEC
+Vir0485_ECOK1_1,NA,NMEC
+Vir0487_irp2_7,Siderophore: Yersiniabactin,ExPEC
+Vir0488_fimA_5,Adhesion: Type I Fimbriae,ExPEC
+Vir0489_icmF_2,Hypothetical Protein,EAEC
+Vir0491_sepD_1,Hypothetical Protein,EPEC
+Vir0492_ecpA_1,Adhesion: E.coli common pilus,ETEC
+Vir0493_eaeH_7,Adhesion,EAEC
+Vir0494_aec28_4,Secretion system: Type VI,EHEC
+Vir0495_nleC_2,Secretion system: Type III,EHEC
+Vir0497_iucA_2,Siderophore: Aerobactin,UPEC|APEC
+Vir0498_focC_1,NA,UPEC
+Vir0499_tccP2_2,Secretion system: Type III,EHEC
+Vir0501_espO1_3,Hypothetical Protein,EHEC
+Vir0502_chuU_2,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0503_ecpB_7,Adhesion: E.coli common pilus,AIEC
+Vir0505_Z0260_1,Hypothetical Protein,EHEC
+Vir0506_aec24_3,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir0507_sfaA_1,Adhesion: S Fimbriae,ExPEC
+Vir0508_aaiK_1,Hypothetical Protein,StxEAEC
+Vir0509_iroD_1,Siderophore: Salmochelin,ExPEC
+Vir0511_espW_1,Hypothetical Protein,EHEC
+Vir0513_G2583_1,NA,EPEC
+Vir0514_cah_3,Adhesion,EHEC|ETEC|NMEC|UPEC|AIEC|EPEC|StxEAEC
+Vir0515_ybtQ_2,Siderophore: Yersiniabactin,ExPEC
+Vir0516_glrR_2,NA,EHEC
+Vir0517_aec30_3,Secretion system: Type VI: Toxin,EHEC
+Vir0518_fimD_5,Adhesion: Type I Fimbriae,ExPEC
+Vir0521_ybtP_5,Siderophore: Yersiniabactin,ExPEC
+Vir0522_escI_1,Secretion system: Type III,EHEC
+Vir0523_ECO11_1,Secretion system: Type III,EHEC
+Vir0524_iroC_2,Siderophore: Salmochelin,ExPEC
+Vir0525_ybtT_4,Siderophore: Yersiniabactin,ExPEC
+Vir0526_aec30_4,Secretion system: Type VI: Hypothetical Protein,NMEC
+Vir0528_ecpB_8,Adhesion: E.coli common pilus,NMEC
+Vir0530_ECABU_1,Hypothetical Protein,UPEC
+Vir0531_iucC_3,Siderophore: Aerobactin,UPEC|APEC
+Vir0533_ybtT_5,Siderophore: Yersiniabactin,ExPEC
+Vir0534_fimB_1,Adhesion: Type I Fimbriae,EPEC
+Vir0535_ibeC_8,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir0537_faeE_1,Adhesion: Fimbriae,ETEC
+Vir0538_sitB_4,Iron: Transport,ExPEC
+Vir0541_cesD_2,Secretion system: Type III,EHEC
+Vir0542_ybtT_6,Siderophore: Yersiniabactin,ExPEC
+Vir0543_espX1_2,Hypothetical Protein,EPEC
+Vir0544_espY2_1,Hypothetical Protein,EHEC
+Vir0545_ecpC_9,Adhesion: E.coli common pilus,UPEC
+Vir0546_chuT_7,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0547_cah_4,Autotransporter: calcium-binding and heat-extractable autotransporter protein,EHEC|ETEC|NMEC|UPEC|AIEC|EPEC|StxEAEC
+Vir0548_sepD_2,NA,EHEC
+Vir0549_iucA_3,Siderophore: Aerobactin,UPEC|APEC
+Vir0550_iroE_2,Siderophore: Salmochelin,ExPEC
+Vir0551_irp1_2,Siderophore: Yersiniabactin,ExPEC
+Vir0552_sfaF_2,Adhesion: S Fimbriae,ExPEC
+Vir0553_chuT_8,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0554_aaiB_1,Hypothetical Protein,StxEAEC
+Vir0555_fimC_5,Adhesion: Type I Fimbriae,ExPEC|APEC
+Vir0557_aatP_3,NA,ETEC
+Vir0558_tir_3,Adhesion: Intimin,EPEC
+Vir0559_fimI_6,Adhesion: Type I Fimbriae,UPEC
+Vir0560_aec15_5,Secretion system: Type VI,UPEC
+Vir0561_ybtP_6,Siderophore: Yersiniabactin,ExPEC
+Vir0562_aec26_5,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir0563_aec16_2,Secretion system: Type VI: Hypothetical Protein,EPEC
+Vir0565_papC_3,Adhesion: P Fimbriae,ExPEC
+Vir0567_espX1_3,Secretion system: Type III,EPEC
+Vir0568_aec19_1,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir0569_aec23_5,Secretion system: Type VI: Hypothetical Protein,EAEC
+Vir0570_aec31_6,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir0571_nleG6_2,Secretion system: Type III,EHEC
+Vir0572_aatB_1,NA,EAEC
+Vir0573_aec27_6,Secretion system: Type VI,NMEC
+Vir0574_fimA_6,Adhesion: Type I Fimbriae,ExPEC
+Vir0576_ECS88_4,Secretion system: ACE T6SS,NMEC
+Vir0580_papH_1,Adhesion: P Fimbriae,ExPEC
+Vir0581_usp_2,Toxin: Colicin-like Usp,UPEC
+Vir0582_aec27_7,Secretion system: Type VI,EHEC
+Vir0585_espM2_3,Secretion system: Type III,EHEC
+Vir0586_fimH_6,Adhesion: Type I Fimbriae,ExPEC
+Vir0587_ECO26_1,Secretion system: Type III,EHEC
+Vir0588_aec30_5,Secretion system: Type VI: Hypothetical Protein,EPEC
+Vir0589_ECO55_1,Hypothetical Protein,EPEC
+Vir0590_fimA_7,Adhesion: Type I Fimbriae,ExPEC
+Vir0592_ybtS_4,Siderophore: Yersiniabactin,ExPEC
+Vir0593_aec29_4,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir0594_ibeC_9,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir0595_espL1_3,NA,EPEC|EHEC
+Vir0597_ybtQ_3,Siderophore: Yersiniabactin,ExPEC
+Vir0598_papK_1,Adhesion: P Fimbriae,ExPEC
+Vir0599_espB_4,NA,EHEC
+Vir0600_fimF_7,Adhesion: Type I Fimbriae,ExPEC
+Vir0605_espJ_2,Secretion system: Type III,EHEC
+Vir0606_aec26_6,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir0607_aaiJ_2,Hypothetical Protein,EAEC
+Vir0609_escT_3,Secretion system: Type III,EHEC
+Vir0610_cah_5,Autotransporter: calcium-binding and heat-extractable autotransporter protein,EHEC|ETEC|NMEC|UPEC|AIEC|EPEC|StxEAEC
+Vir0611_papB_2,Adhesion: P Fimbriae,ExPEC
+Vir0612_ECO55_2,Hypothetical Protein,EPEC
+Vir0613_sfaB_1,Adhesion: S Fimbriae,ExPEC
+Vir0614_aaiF_2,Secretion system: Type VI,EAEC
+Vir0616_aec25_4,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir0617_espY4_3,Hypothetical Protein,EHEC
+Vir0618_ecpA_2,Adhesion: E.coli common pilus,UPEC
+Vir0619_escJ_3,NA,EPEC
+Vir0620_ecpC_10,Adhesion: E.coli common pilus,ETEC
+Vir0621_iroC_3,Siderophore: Salmochelin,ExPEC
+Vir0622_ecpR_6,Adhesion: E.coli common pilus,K12
+Vir0623_aec32_4,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir0624_escN_1,NA,EHEC
+Vir0625_papD_2,Adhesion: P Fimbriae,ExPEC
+Vir0626_espF_2,Secretion system: Type III,EHEC
+Vir0627_espY1_1,Hypothetical Protein,EHEC
+Vir0628_ECP_0_1,Hypothetical Protein,UPEC
+Vir0630_sepQ_3,Secretion system: Type III,EHEC
+Vir0631_ECNA1_4,Hypothetical Protein,UPEC
+Vir0632_cfaC_2,Adhesion: CFA/I Fimbriae,EHEC
+Vir0633_espJ_3,Hypothetical Protein,EHEC
+Vir0635_fimF_8,Adhesion: Type I Fimbriae,ExPEC
+Vir0636_ecpE_7,Adhesion: E.coli common pilus,AIEC
+Vir0637_ECO55_6,Hypothetical Protein,EPEC
+Vir0638_nleG5_3,Hypothetical Protein,EHEC
+Vir0639_nleA_4,Secretion system: Type III,EHEC
+Vir0642_ECO10_5,Hypothetical Protein,EHEC
+Vir0643_nleD_1,NA,EHEC
+Vir0645_EC042_6,Secretion system: Type VI,EAEC
+Vir0647_espO1_4,Secretion system: Type III,EHEC
+Vir0648_ECs45_3,Hypothetical Protein,EHEC
+Vir0650_nleH1_4,Secretion system: Type III,EHEC
+Vir0651_hlyB_2,Toxin: Alpha-Hemolysin,EHEC
+Vir0652_espO1_5,Secretion system: Type III,EHEC
+Vir0653_espX1_4,Hypothetical Protein,EHEC
+Vir0654_ecpD_3,Adhesion: E.coli common pilus,UPEC
+Vir0655_EcE24_1,Hypothetical Protein,ETEC
+Vir0656_hlyA_2,Toxin: Alpha-Hemolysin,ExPEC
+Vir0657_aec28_5,Secretion system: Type VI: Hypothetical Protein,NMEC
+Vir0658_aec17_4,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir0659_upaG_6,Adhesion,NMEC
+Vir0660_espX4_2,Hypothetical Protein,EHEC|EPEC
+Vir0661_iroN_3,Siderophore: Salmochelin,ExPEC
+Vir0662_aec22_3,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir0663_aaiN_2,Secretion system: Type VI,EAEC
+Vir0664_ECS88_6,Secretion system: SCI-I T6SS,NMEC
+Vir0665_papH_2,Adhesion: P Fimbriae,ExPEC
+Vir0666_upaG_7,Invasion,ETEC
+Vir0667_hlyD_3,Toxin: Alpha-Hemolysin,UPEC
+Vir0669_fimE_4,Adhesion: Type I Fimbriae,ExPEC
+Vir0670_chuA_4,Iron: E.coli hemin uptake,EHEC
+Vir0675_fimC_6,Adhesion: Type I Fimbriae,ExPEC|APEC
+Vir0676_ECABU_2,Hypothetical Protein,UPEC
+Vir0677_fimH_7,Adhesion: Type I Fimbriae,ExPEC
+Vir0678_ybtX_2,Siderophore: Yersiniabactin,ExPEC
+Vir0679_espM1_1,NA,EHEC
+Vir0680_fimG_4,Adhesion: Type I Fimbriae,ExPEC
+Vir0681_espW_2,NA,EPEC
+Vir0682_sat_1,Toxin,UPEC
+Vir0683_papE_4,Adhesion: P Fimbriae,ExPEC
+Vir0684_set1A_1,Toxin: Enterotoxin,EAEC
+Vir0685_aec7_2,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir0687_cfaA_3,Adhesion: CFA/I Fimbriae,EHEC
+Vir0688_fimA_8,Adhesion: Type I Fimbriae,ExPEC
+Vir0690_EcE24_2,Secretion system: Type IV/VI,ETEC
+Vir0691_ECO10_6,Secretion system: Type III,EHEC
+Vir0692_map_4,Secretion system: Type III,EHEC
+Vir0694_ECO10_7,Secretion system: Type III,EHEC
+Vir0696_nleE_1,Secretion system: Type III,EHEC
+Vir0697_ybtE_3,Siderophore: Yersiniabactin,ExPEC
+Vir0698_iroE_3,Siderophore: Salmochelin,ExPEC
+Vir0699_chuU_3,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0700_nleG5_4,Secretion system: Type III,EHEC
+Vir0701_nleD_2,Hypothetical Protein,EPEC
+Vir0703_fimE_5,Adhesion: Type I Fimbriae,ExPEC
+Vir0704_sitD_3,Iron: Transport,ExPEC
+Vir0705_papH_3,Adhesion: P Fimbriae,ExPEC
+Vir0706_ECP_2_2,Secretion system: SCI-I T6SS,UPEC
+Vir0707_iroC_4,Siderophore: Salmochelin,ExPEC
+Vir0709_hlyA_3,Toxin: Alpha-Hemolysin,ExPEC
+Vir0710_ehaB_5,Autotransporter: adhesion/biofilm formation,APEC
+Vir0711_aec28_6,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir0713_NRG85_5,Hypothetical Protein,AIEC
+Vir0714_tia_2,Adhesion/Invasion,UPEC
+Vir0717_tia_3,Adhesion/Invasion,EAEC
+Vir0718_chuU_4,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0719_ibeB_4,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir0720_EC559_3,Hypothetical Protein,EAEC
+Vir0721_nleC_3,Secretion system: Type III,EPEC
+Vir0722_ecpR_7,Adhesion: E.coli common pilus,NMEC
+Vir0723_iucD_2,Siderophore: Aerobactin,UPEC|APEC
+Vir0726_O3M_0_1,Hypothetical Protein,StxEAEC
+Vir0727_fimE_6,Adhesion: Type I Fimbriae,ExPEC
+Vir0728_aec24_4,Secretion system: Type VI,EPEC
+Vir0729_i02_3_3,Hypothetical Protein,UPEC
+Vir0730_G2583_2,Hypothetical Protein,EPEC
+Vir0731_usp_3,Toxin: Colicin-like Usp,NMEC
+Vir0732_papE_5,Adhesion: P Fimbriae,ExPEC
+Vir0733_upaG_8,Adhesion,StxEAEC
+Vir0735_iucA_4,Siderophore: Aerobactin,UPEC|APEC
+Vir0738_aec19_2,Secretion system: Type VI: Hypothetical Protein,StxEAEC
+Vir0739_aec19_3,Secretion system: Type VI: Hypothetical Protein,APEC
+Vir0742_tia_4,Adhesion/Invasion,UPEC
+Vir0743_cah_6,Adhesion,EHEC|ETEC|NMEC|UPEC|AIEC|EPEC|StxEAEC
+Vir0744_APECO_3,Hypothetical Protein,APEC
+Vir0747_fimC_7,Adhesion: Type I Fimbriae,ExPEC|APEC
+Vir0749_papE_6,Adhesion: P Fimbriae,ExPEC
+Vir0751_ybtQ_4,Siderophore: Yersiniabactin,ExPEC
+Vir0752_iucA_5,Siderophore: Aerobactin,UPEC|APEC
+Vir0755_ECP_2_3,Secretion system: SCI-I T6SS,UPEC
+Vir0756_nleG2_3,Hypothetical Protein,EHEC
+Vir0757_E2348_1,Secretion system: Type III,EPEC
+Vir0758_ecpD_4,Adhesion: E.coli common pilus,AIEC
+Vir0759_papF_3,Adhesion: P Fimbriae,ExPEC
+Vir0760_espP_1,Protease,EHEC
+Vir0761_ecpE_8,Adhesion: E.coli common pilus,EHEC
+Vir0763_ECO10_8,Hypothetical Protein,EHEC
+Vir0764_nleG5_5,Secretion system: Type III,EHEC
+Vir0766_papE_7,Adhesion: P Fimbriae,ExPEC
+Vir0767_ibeB_5,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir0769_chuW_1,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0771_chuU_5,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0772_fimD_6,Adhesion: Type I Fimbriae,ExPEC
+Vir0773_ecpE_9,Adhesion: E.coli common pilus,ETEC
+Vir0774_cesD2_2,NA,EHEC
+Vir0776_chuT_9,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0777_focA_2,Adhesion: Fimbriae,UPEC
+Vir0778_ecpR_8,Adhesion: E.coli common pilus,EHEC
+Vir0779_fimH_8,Adhesion: Type I Fimbriae,ExPEC
+Vir0780_papC_4,Adhesion: P Fimbriae,ExPEC
+Vir0781_chuX_3,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0782_aec22_4,Secretion system: Type VI,EAEC
+Vir0784_ecpA_3,Adhesion: E.coli common pilus,APEC
+Vir0786_eaeH_8,Adhesion,EHEC
+Vir0787_c3389_1,Hypothetical Protein,UPEC
+Vir0789_fimH_9,Adhesion: Type I Fimbriae,ExPEC
+Vir0791_fimA_9,Adhesion: Type I Fimbriae,ExPEC
+Vir0792_fimA_10,Adhesion: Type I Fimbriae,ExPEC
+Vir0793_espL2_5,Secretion system: Type III,EPEC
+Vir0794_EC042_7,Secretion system: Type VI,EAEC
+Vir0795_aec19_4,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir0796_papE_8,Adhesion: P Fimbriae,ExPEC
+Vir0797_etpA_1,Adhesion,ETEC
+Vir0798_papC_5,Adhesion: P Fimbriae,ExPEC
+Vir0799_ecpE_10,Adhesion: E.coli common pilus,EPEC
+Vir0800_nleB2_2,NA,EHEC
+Vir0801_hlyD_4,Toxin: Alpha-Hemolysin,EHEC
+Vir0803_ler_2,NA,EPEC
+Vir0804_ybtX_3,Siderophore: Yersiniabactin,ExPEC
+Vir0805_espL1_4,Secretion system: Type III (ShET2/EspL2 family effector toxin,EPEC|EHEC
+Vir0806_ECS88_5,Secretion system: SCI-I T6SS,NMEC
+Vir0808_iroN_4,Siderophore: Salmochelin,ExPEC
+Vir0812_ybtU_4,Siderophore: Yersiniabactin,ExPEC
+Vir0813_cesD2_3,Hypothetical Protein,EPEC
+Vir0816_iutA_2,Siderophore: Aerobactin,ExPEC
+Vir0817_LF82_3,Secretion system: SCI-I T6SS,AIEC
+Vir0820_sat_2,Protease,UPEC
+Vir0825_ehaB_6,Autotransporter: adhesion/biofilm formation,AIEC
+Vir0826_cfaB_2,Adhesion: CFA/I Fimbriae,EHEC
+Vir0827_chuS_3,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir0830_irp2_8,Siderophore: Yersiniabactin,ExPEC
+Vir0833_cfaB_3,Adhesion: CFA/I Fimbriae,APEC
+Vir0838_chuA_5,Iron: E.coli hemin uptake,EHEC
+Vir0840_fimB_2,Adhesion: Type I Fimbriae,UPEC
+Vir0842_ecpB_9,Adhesion: E.coli common pilus,UPEC
+Vir0843_eaeH_9,Hypothetical Protein,EPEC
+Vir0845_ECABU_3,Hypothetical Protein,UPEC
+Vir0846_ybtU_5,Siderophore: Yersiniabactin,ExPEC
+Vir0847_aec29_5,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir0849_EC559_4,Hypothetical Protein,EAEC
+Vir0850_fimB_3,Adhesion: Type I Fimbriae,UPEC
+Vir0851_iroC_5,Siderophore: Salmochelin,ExPEC
+Vir0853_ECNA1_5,Hypothetical Protein,UPEC
+Vir0854_faeC_1,Secretion system: Type VI: Adhesion: Fimbriae,ETEC
+Vir0855_ybtQ_5,Siderophore: Yersiniabactin,ExPEC
+Vir0856_ecpE_11,Adhesion: E.coli common pilus,NMEC
+Vir0857_upaG_9,NA,NMEC
+Vir0859_fimI_7,Adhesion: Type I Fimbriae,EHEC
+Vir0860_sat_3,Toxin,UPEC
+Vir0861_map_5,NA,EHEC
+Vir0862_aec32_5,Secretion system: Type VI,EHEC
+Vir0863_EcE24_3,Hypothetical Protein,ETEC
+Vir0864_ibeB_6,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir0865_ecpR_9,Adhesion: E.coli common pilus,EPEC
+Vir0866_tsh_1,Autotransporter: Protease,APEC
+Vir0867_nleE_2,Secretion system: Type III,EPEC
+Vir0868_ybtQ_6,Siderophore: Yersiniabactin,ExPEC
+Vir0871_ybtT_7,Siderophore: Yersiniabactin,ExPEC
+Vir0873_ECO10_9,Hypothetical Protein,EHEC
+Vir0875_aatC_1,NA,StxEAEC
+Vir0878_escC_3,Secretion system: Type III,EHEC
+Vir0879_espY2_2,Secretion system: Type III,EHEC
+Vir0880_aaiC_2,Secretion system: Type VI,EAEC
+Vir0885_espK_2,Hypothetical Protein,EHEC
+Vir0887_EC042_8,Secretion system: Type VI,EAEC
+Vir0888_ybtX_4,Siderophore: Yersiniabactin,ExPEC
+Vir0891_ecpD_5,Adhesion: E.coli common pilus,UPEC
+Vir0892_sfaA_2,Adhesion: S Fimbriae,ExPEC
+Vir0893_sitC_2,Iron: Transport,ExPEC
+Vir0896_papH_4,Adhesion: P Fimbriae,ExPEC
+Vir0897_aggR_1,NA,StxEAEC
+Vir0898_escN_2,Secretion system: Type III,EHEC
+Vir0899_ECNA1_6,Hypothetical Protein,UPEC
+Vir0900_aec27_8,Secretion system: Type VI,EPEC
+Vir0902_ibeB_7,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir0903_fimG_5,Adhesion: Type I Fimbriae,ExPEC
+Vir0904_ibeC_10,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir0905_aec25_5,Secretion system: Type VI: Hypothetical Protein,EPEC
+Vir0906_irp2_9,Siderophore: Yersiniabactin,ExPEC
+Vir0907_fimF_9,Adhesion: Type I Fimbriae,ExPEC
+Vir0910_ibeB_8,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir0911_iroN_5,Siderophore: Salmochelin,ExPEC
+Vir0912_espM2_4,NA,EPEC
+Vir0915_aatC_2,NA,ETEC
+Vir0917_tia_5,Adhesion/Invasion,EAEC
+Vir0919_fimE_7,Adhesion: Type I Fimbriae,ExPEC
+Vir0920_nleF_2,Secretion system: Type III,EHEC
+Vir0923_aaiE_2,Hypothetical Protein,EAEC
+Vir0924_ybtS_5,Siderophore: Yersiniabactin,ExPEC
+Vir0926_aafD_1,NA,EAEC
+Vir0928_rorf8_1,NA,EHEC
+Vir0931_iucA_6,Siderophore: Aerobactin,UPEC|APEC
+Vir0932_cdiB_1,Autotransporter: Contact-Dependent Growth Inhibition,UPEC|AIEC
+Vir0933_cfaC_3,Adhesion: CFA/I Fimbriae,EAEC
+Vir0935_cdiB_2,Autotransporter: Contact-Dependent Growth Inhibition,UPEC|AIEC
+Vir0937_EC559_5,Hypothetical Protein,EAEC
+Vir0938_espH_1,Secretion system: Type III,EHEC
+Vir0939_ECO11_2,Hypothetical Protein,EHEC
+Vir0941_fimB_4,Adhesion: Type I Fimbriae,EHEC
+Vir0942_cfaC_4,Adhesion: CFA/I Fimbriae,APEC
+Vir0943_espK_3,Secretion system: Type III,EHEC
+Vir0945_ibeB_9,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir0946_ybtQ_7,Siderophore: Yersiniabactin,ExPEC
+Vir0947_espG_1,Hypothetical Protein,EPEC
+Vir0948_espL4_2,Secretion system: Type III,EPEC|EHEC
+Vir0949_fimI_8,Adhesion: Type I Fimbriae,EHEC
+Vir0951_ecpE_12,Adhesion: E.coli common pilus,UPEC
+Vir0952_E2348_2,Hypothetical Protein,EPEC
+Vir0953_aec25_6,Secretion system: Type VI: Hypothetical Protein,StxEAEC
+Vir0954_eae_3,Adhesion: Intimin,"EPEC,EHEC"
+Vir0956_cfaD_3,Adhesion: CFA/I Fimbriae,EHEC
+Vir0957_sitB_5,Iron: Transport,ExPEC
+Vir0958_ehaA_2,Autotransporter: adhesion/biofilm formation,StxEAEC
+Vir0960_espR1_2,Secretion system: Type III,EPEC
+Vir0961_LF82_4,Secretion system: SCI-I T6SS,AIEC
+Vir0962_EC042_9,Secretion system: Type VI,EAEC
+Vir0964_ybtX_5,Siderophore: Yersiniabactin,ExPEC
+Vir0966_aec7_3,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir0968_ibeA_1,Invasion,NMEC|SEPEC|APEC
+Vir0969_iucD_3,Siderophore: Aerobactin,UPEC|APEC
+Vir0972_ecpR_10,Adhesion: E.coli common pilus,UPEC
+Vir0973_rorf8_2,Secretion system: Type III,EPEC
+Vir0976_irp2_10,Siderophore: Yersiniabactin,ExPEC
+Vir0977_aec31_7,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir0978_espF_3,NA,EPEC
+Vir0979_ECs45_4,Hypothetical Protein,EHEC
+Vir0980_hlyD_5,Toxin: Alpha-Hemolysin,UPEC
+Vir0981_aec30_6,Secretion system: Type VI: Hypothetical Protein,APEC
+Vir0985_hlyA_4,Toxin: Alpha-Hemolysin,ExPEC
+Vir0987_ECOK1_2,NA,NMEC
+Vir0989_hlyA_5,Toxin: Alpha-Hemolysin,ExPEC
+Vir0991_ECO10_10,NA,EHEC
+Vir0993_ecpA_4,Adhesion: E.coli common pilus,EHEC
+Vir0994_ibeC_11,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir0996_espW_3,Secretion system: Type III,EHEC
+Vir0998_agg3C_2,NA,EAEC
+Vir0999_aec18_5,Secretion system: Type VI: Hypothetical Protein,NMEC
+Vir1000_vat_4,Vacuolating autotransporter toxin,ExPEC
+Vir1001_aatC_3,NA,EAEC
+Vir1002_glrA_2,NA,EPEC
+Vir1003_papG_1,Adhesion: P Fimbriae,ExPEC
+Vir1004_aatB_2,Hypothetical Protein,ETEC
+Vir1005_papA_1,Adhesion: P Fimbriae,ExPEC
+Vir1006_fimG_6,Adhesion: Type I Fimbriae,ExPEC
+Vir1007_EcE24_4,Secretion system: Type VI,ETEC
+Vir1008_sepZ_2,Secretion system: Type III,EHEC
+Vir1011_iroD_2,Siderophore: Salmochelin,ExPEC
+Vir1012_fimE_8,Adhesion: Type I Fimbriae,ExPEC
+Vir1014_chuT_10,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1017_stx1B_1,Toxin: Shiga,EHEC
+Vir1018_fimB_5,Adhesion: Type I Fimbriae,EHEC
+Vir1019_fimF_10,Adhesion: Type I Fimbriae,ExPEC
+Vir1020_upaG_10,Adhesion,EHEC
+Vir1022_aec19_5,Secretion system: Type VI: Hypothetical Protein,EPEC
+Vir1023_sitC_3,Iron: Transport,ExPEC
+Vir1024_ECO55_3,NA,EPEC
+Vir1025_aaiK_2,Secretion system: Type VI,EAEC
+Vir1026_aec23_6,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir1027_espB_5,NA,EHEC
+Vir1028_aec27_9,Secretion system: Type VI,ETEC
+Vir1030_chuX_4,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1031_iutA_3,Siderophore: Aerobactin,ExPEC
+Vir1033_ecpR_11,Adhesion: E.coli common pilus,EHEC
+Vir1034_chuS_4,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1035_fimG_7,Adhesion: Type I Fimbriae,ExPEC
+Vir1036_fyuA_5,Siderophore: Yersiniabactin,ExPEC
+Vir1038_espX6_3,Hypothetical Protein,EHEC
+Vir1042_papG_2,Adhesion: P Fimbriae,ExPEC
+Vir1043_sepZ_3,Secretion system: Type III,EHEC
+Vir1044_aec17_5,Secretion system: Type VI: Hypothetical Protein,EPEC
+Vir1047_espG_2,Secretion system: Type III,EHEC
+Vir1048_ibeB_10,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir1049_aec24_5,Secretion system: Type VI,StxEAEC
+Vir1055_ecpE_13,Adhesion: E.coli common pilus,APEC
+Vir1056_cesF_2,NA,EHEC
+Vir1059_ecpE_14,Adhesion: E.coli common pilus,AIEC
+Vir1061_ecpE_15,Adhesion: E.coli common pilus,UPEC
+Vir1062_ibeC_12,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir1063_aec23_7,Secretion system: Type VI: Hypothetical Protein,NMEC
+Vir1065_aec29_6,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir1066_ehaB_7,Autotransporter: adhesion/biofilm formation,EAEC
+Vir1069_ybtS_6,Siderophore: Yersiniabactin,ExPEC
+Vir1071_eltA_1,Toxin: Enterotoxin,ETEC
+Vir1072_ecpA_5,Adhesion: E.coli common pilus,UPEC
+Vir1073_ECS88_13,Secretion system: SCI-I T6SS,NMEC
+Vir1075_ECS88_9,Secretion system: SCI-I T6SS,NMEC
+Vir1076_papC_6,Adhesion: P Fimbriae,ExPEC
+Vir1079_iroN_6,Siderophore: Salmochelin,ExPEC
+Vir1081_iucB_2,Siderophore: Aerobactin,UPEC|APEC
+Vir1082_EC559_6,Hypothetical Protein,EAEC
+Vir1083_ecpR_12,Adhesion: E.coli common pilus,ETEC
+Vir1084_papA_2,Adhesion: P Fimbriae,ExPEC
+Vir1085_ECABU_4,Hypothetical Protein,UPEC
+Vir1086_aec29_7,Secretion system: Type VI,ETEC
+Vir1087_aec30_7,Secretion system: Type VI,StxEAEC
+Vir1088_sitB_6,Iron: Transport,ExPEC
+Vir1090_O3M_0_2,Hypothetical Protein,StxEAEC
+Vir1091_upaG_11,Invasion,AIEC
+Vir1092_cdiA_1,Autotransporter: Contact-Dependent Growth Inhibition,UPEC|AIEC
+Vir1093_aec23_8,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir1095_eae_4,Adhesion: Intimin,"EPEC,EHEC"
+Vir1097_ireA_2,Iron,ExPEC
+Vir1099_nleB2_3,Secretion system: Type III,EHEC
+Vir1100_fimH_10,Adhesion: Type I Fimbriae,ExPEC
+Vir1101_espG_3,Secretion system: Type III,EHEC
+Vir1102_ibeC_13,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir1104_c3398_1,Hypothetical Protein,UPEC
+Vir1106_papH_5,Adhesion: P Fimbriae,ExPEC
+Vir1107_papX_3,Adhesion: P Fimbriae,ExPEC
+Vir1108_ECOK1_3,Hypothetical Protein,NMEC
+Vir1109_aec19_6,Secretion system: Type VI: Hypothetical Protein,NMEC
+Vir1111_aec25_7,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir1114_cfaD_4,Adhesion: CFA/I Fimbriae,StxEAEC
+Vir1115_ecpR_13,Adhesion: E.coli common pilus,EPEC
+Vir1116_aec31_8,Secretion system: Type VI: Hypothetical Protein,NMEC
+Vir1119_papK_2,Adhesion: P Fimbriae,ExPEC
+Vir1122_UTI89_1,Hypothetical Protein,UPEC
+Vir1125_lifA_1,NA,EPEC
+Vir1127_toxB_2,NA,EHEC
+Vir1128_ecpA_6,Adhesion: E.coli common pilus,UPEC
+Vir1129_nleG6_3,Hypothetical Protein,EPEC
+Vir1130_ecpC_11,Adhesion: E.coli common pilus,EPEC
+Vir1131_chuA_6,Iron: E.coli hemin uptake,EHEC
+Vir1132_cdtB_1,Toxin: Cytolethal Distending Toxin,ExPEC
+Vir1133_irp1_3,Siderophore: Yersiniabactin,ExPEC
+Vir1135_ehaB_8,Autotransporter: adhesion/biofilm formation,UPEC
+Vir1136_fimF_11,Adhesion: Type I Fimbriae,ExPEC
+Vir1138_nleA_5,NA,EHEC
+Vir1141_fyuA_6,Siderophore: Yersiniabactin,ExPEC
+Vir1147_aec22_5,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir1151_nleA_6,Secretion system: Type III,EHEC
+Vir1152_c3386_1,Hypothetical Protein,UPEC
+Vir1153_aec27_10,Secretion system: Type VI,AIEC
+Vir1156_nleG6_4,Hypothetical Protein,EHEC
+Vir1157_espR4_1,Secretion system: Type III,EPEC
+Vir1158_chuW_2,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1160_ehaA_3,Autotransporter: adhesion/biofilm formation,EHEC
+Vir1162_fimI_9,Adhesion: Type I Fimbriae,EPEC
+Vir1163_aec31_9,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir1164_ECO26_2,Secretion system: Type III,EHEC
+Vir1165_ler_3,Hypothetical Protein,EHEC
+Vir1168_sat_4,NA,EAEC
+Vir1169_fimC_8,Adhesion: Type I Fimbriae,ExPEC|APEC
+Vir1170_espL2_6,Secretion system: Type III,EHEC
+Vir1171_fimH_11,Adhesion: Type I Fimbriae,ExPEC
+Vir1172_ecpR_14,Adhesion: E.coli common pilus,EHEC
+Vir1173_espH_2,Secretion system: Type III,EHEC
+Vir1174_hlyE_4,Toxin: Hemolysin/cytolysin A,ExPEC
+Vir1175_iucA_7,Siderophore: Aerobactin,UPEC|APEC
+Vir1177_hlyA_6,Toxin: Alpha-Hemolysin,ExPEC
+Vir1178_iucA_8,Siderophore: Aerobactin,UPEC|APEC
+Vir1182_upaG_12,Hypothetical Protein,UPEC
+Vir1183_aec24_6,Secretion system: Type VI,UPEC
+Vir1184_fimH_12,Adhesion: Type I Fimbriae,ExPEC
+Vir1187_tia_6,Adhesion/Invasion,ETEC
+Vir1190_espX7_3,Secretion system: Type III,EHEC
+Vir1191_usp_4,Toxin: Colicin-like Usp,UPEC
+Vir1192_EC559_7,NA,EAEC
+Vir1193_ECP_2_4,Secretion system: SCI-I T6SS,UPEC
+Vir1197_aaiH_1,Hypothetical Protein,StxEAEC
+Vir1198_EC042_10,Hypothetical Protein,EAEC
+Vir1201_iucD_4,Siderophore: Aerobactin,UPEC|APEC
+Vir1202_sfaS_2,Adhesion: S Fimbriae,ExPEC
+Vir1204_fimB_6,Adhesion: Type I Fimbriae,UPEC
+Vir1206_tir_4,Hypothetical Protein,EHEC
+Vir1207_fimC_9,Adhesion: Type I Fimbriae,ExPEC|APEC
+Vir1209_ecpE_16,Adhesion: E.coli common pilus,EAEC
+Vir1211_iroC_6,Siderophore: Salmochelin,ExPEC
+Vir1213_ECO55_10,Hypothetical Protein,EPEC
+Vir1214_ECP_2_5,Secretion system: SCI-I T6SS,UPEC
+Vir1215_sfaG_2,Adhesion: S Fimbriae,ExPEC
+Vir1216_ehaB_9,Autotransporter: adhesion/biofilm formation,EAEC
+Vir1217_upaH_1,Adhesion,UPEC
+Vir1219_aec26_7,Secretion system: Type VI,EAEC
+Vir1220_ibeA_2,Invasion,NMEC|SEPEC|APEC
+Vir1221_hlyC_5,Toxin: Alpha-Hemolysin,UPEC
+Vir1223_fyuA_7,Siderophore: Yersiniabactin,ExPEC
+Vir1224_ehaB_10,Autotransporter: adhesion/biofilm formation,ETEC
+Vir1225_ybtE_4,Siderophore: Yersiniabactin,ExPEC
+Vir1226_LF82_5,Secretion system: SCI-I T6SS,AIEC
+Vir1227_ybtP_7,Siderophore: Yersiniabactin,ExPEC
+Vir1228_fimC_10,Adhesion: Type I Fimbriae,ExPEC|APEC
+Vir1229_ybtU_6,Siderophore: Yersiniabactin,ExPEC
+Vir1232_aec18_6,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir1233_espF_4,Secretion system: Type III,EHEC
+Vir1237_nleG8_2,NA,EPEC
+Vir1239_ireA_3,Iron,ExPEC
+Vir1240_NRG85_6,Hypothetical Protein,AIEC
+Vir1241_aec17_6,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir1242_EC559_8,Hypothetical Protein,EAEC
+Vir1243_cah_7,Adhesion,EHEC|ETEC|NMEC|UPEC|AIEC|EPEC|StxEAEC
+Vir1247_ybtX_6,Siderophore: Yersiniabactin,ExPEC
+Vir1251_ibeC_14,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir1252_cdiB_3,Autotransporter: Contact-Dependent Growth Inhibition,UPEC|AIEC
+Vir1253_aec15_6,Secretion system: Type VI,EHEC
+Vir1255_EC559_9,Hypothetical Protein,EAEC
+Vir1256_eltB_1,Toxin: Enterotoxin,ETEC
+Vir1257_papK_3,Adhesion: P Fimbriae,ExPEC
+Vir1258_stx1A_1,Toxin: Shiga,EHEC
+Vir1260_papJ_2,Adhesion: P Fimbriae,ExPEC
+Vir1261_ECS88_8,Secretion system: SCI-I T6SS,NMEC
+Vir1262_aec30_8,Secretion system: Type VI: Toxin,EPEC
+Vir1263_i02_3_4,Hypothetical Protein,UPEC
+Vir1265_NRG85_7,Hypothetical Protein,AIEC
+Vir1267_ehaA_4,Autotransporter: adhesion/biofilm formation,EHEC
+Vir1271_espF_5,NA,EPEC
+Vir1272_chuW_3,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1273_ybtU_7,Siderophore: Yersiniabactin,ExPEC
+Vir1274_espR4_2,Hypothetical Protein,EPEC
+Vir1276_LF82_6,Secretion system: SCI-I T6SS,AIEC
+Vir1279_fimI_10,Adhesion: Type I Fimbriae,EHEC
+Vir1282_espX7_4,Secretion system: Type III,EHEC
+Vir1283_ecpE_17,Adhesion: E.coli common pilus,EPEC
+Vir1284_agg3D_2,NA,StxEAEC
+Vir1285_espR4_3,Hypothetical Protein,EHEC
+Vir1286_chuA_7,Iron: E.coli hemin uptake,EHEC
+Vir1290_ybtQ_8,Siderophore: Yersiniabactin,ExPEC
+Vir1291_iutA_4,Siderophore: Aerobactin,ExPEC
+Vir1292_aec28_7,Secretion system: Type VI,EAEC
+Vir1295_papX_4,Adhesion: P Fimbriae,ExPEC
+Vir1296_espY5_1,Hypothetical Protein,EHEC
+Vir1299_ibeB_11,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir1300_aec24_7,Secretion system: Type VI,ETEC
+Vir1301_EC559_10,Hypothetical Protein,EAEC
+Vir1302_cfaC_5,Adhesion: CFA/I Fimbriae,UPEC
+Vir1303_cfaB_4,Adhesion: CFA/I Fimbriae,UPEC
+Vir1304_ybtU_8,Siderophore: Yersiniabactin,ExPEC
+Vir1305_escR_2,Secretion system: Type III,EHEC
+Vir1306_ecpA_7,Adhesion: E.coli common pilus,AIEC
+Vir1307_ECO10_11,Hypothetical Protein,EHEC
+Vir1309_chuU_6,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1310_iroN_7,Siderophore: Salmochelin,ExPEC
+Vir1313_irp1_4,Siderophore: Yersiniabactin,ExPEC
+Vir1315_papJ_3,Adhesion: P Fimbriae,ExPEC
+Vir1316_agn43_3,Autotransporter,UPEC
+Vir1318_sitC_4,Iron: Transport,ExPEC
+Vir1319_stx2A_4,Toxin: Shiga,EHEC
+Vir1321_cesT_2,NA,EHEC
+Vir1323_fimD_7,Adhesion: Type I Fimbriae,ExPEC
+Vir1324_ECNA1_7,Hypothetical Protein,UPEC
+Vir1326_sitA_3,Iron: Transport,ExPEC
+Vir1327_papJ_4,Adhesion: P Fimbriae,ExPEC
+Vir1330_irp2_11,Siderophore: Yersiniabactin,ExPEC
+Vir1334_chuW_4,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1335_fimD_8,Adhesion: Type I Fimbriae,ExPEC
+Vir1336_ecpD_6,Adhesion: E.coli common pilus,ETEC
+Vir1337_chuA_8,Iron: E.coli hemin uptake,EHEC
+Vir1338_papB_3,Adhesion: P Fimbriae,ExPEC
+Vir1340_ehaB_11,Autotransporter: adhesion/biofilm formation,ETEC
+Vir1342_ybtE_5,Siderophore: Yersiniabactin,ExPEC
+Vir1345_cdtB_2,Toxin: Cytolethal Distending Toxin,ExPEC
+Vir1346_chuW_5,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1347_EC042_11,Secretion system: Type VI,EAEC
+Vir1348_sitB_7,Iron: Transport,ExPEC
+Vir1350_ECOK1_4,Secretion system: Type VI,NMEC
+Vir1351_espX2_2,Hypothetical Protein,EPEC
+Vir1352_iucB_3,Siderophore: Aerobactin,UPEC|APEC
+Vir1354_aaiM_2,Hypothetical Protein,EAEC
+Vir1357_eaeH_10,Adhesion,ETEC
+Vir1358_paa_3,NA,EPEC
+Vir1360_agn43_4,Autotransporter,EHEC
+Vir1362_fimG_8,Adhesion: Type I Fimbriae,ExPEC
+Vir1364_aec29_8,Secretion system: Type VI: Hypothetical Protein,StxEAEC
+Vir1365_ecpE_18,Adhesion: E.coli common pilus,EAEC
+Vir1367_nleF_3,Secretion system: Type III,EHEC
+Vir1368_espA_2,NA,EHEC
+Vir1370_escN_3,NA,EHEC
+Vir1371_ybtU_9,Siderophore: Yersiniabactin,ExPEC
+Vir1375_papA_3,Adhesion: P Fimbriae,ExPEC
+Vir1378_aec32_6,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir1379_aec28_8,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir1381_aec16_3,Secretion system: Type VI,EAEC
+Vir1383_irp2_12,Siderophore: Yersiniabactin,ExPEC
+Vir1384_espR3_2,Hypothetical Protein,EPEC
+Vir1385_ECO26_3,Hypothetical Protein,EHEC
+Vir1386_aafB_1,Adhesion: Fimbriae,EAEC
+Vir1387_sepD_3,Secretion system: Type III,EHEC
+Vir1388_escV_4,NA,EHEC
+Vir1390_agn43_5,Autotransporter,UPEC
+Vir1391_escF_2,Secretion system: Type III,EHEC
+Vir1392_ybtT_8,Siderophore: Yersiniabactin,ExPEC
+Vir1394_nleE_3,Secretion system: Type III,EPEC
+Vir1397_ecpC_12,Adhesion: E.coli common pilus,EHEC
+Vir1398_fimH_13,Adhesion: Type I Fimbriae,ExPEC
+Vir1399_ybtS_7,Siderophore: Yersiniabactin,ExPEC
+Vir1400_hlyA_7,Toxin: Alpha-Hemolysin,ExPEC
+Vir1401_ECO55_4,Hypothetical Protein,EPEC
+Vir1402_faeH_1,Adhesion: Fimbriae,ETEC
+Vir1404_fimH_14,Adhesion: Type I Fimbriae,ExPEC
+Vir1405_ecpC_13,Adhesion: E.coli common pilus,AIEC
+Vir1407_fyuA_8,Siderophore: Yersiniabactin,ExPEC
+Vir1408_fimI_11,Adhesion: Type I Fimbriae,NMEC
+Vir1410_espH_3,NA,EPEC
+Vir1411_chuX_5,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1412_cfaC_6,Adhesion: CFA/I Fimbriae,ETEC
+Vir1414_EC042_12,Secretion system: Type VI,EAEC
+Vir1418_aec30_9,Secretion system: Type VI,AIEC
+Vir1422_cdiB_4,Autotransporter: Contact-Dependent Growth Inhibition,UPEC|AIEC
+Vir1423_ECABU_5,NA,UPEC
+Vir1425_ECP_0_2,Hypothetical Protein,UPEC
+Vir1428_aec32_7,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir1430_ecpR_15,Adhesion: E.coli common pilus,EAEC
+Vir1433_ecpB_10,Adhesion: E.coli common pilus,NMEC
+Vir1434_ecpC_14,Adhesion: E.coli common pilus,EHEC
+Vir1435_upaH_2,Adhesion,UPEC
+Vir1441_upaG_13,Adhesion,EAEC
+Vir1442_nleG8_3,Secretion system: Type III,EHEC
+Vir1445_papB_4,Adhesion: P Fimbriae,ExPEC
+Vir1447_aec24_8,Secretion system: Type VI,EHEC
+Vir1448_chuU_7,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1452_aatA_2,NA,StxEAEC
+Vir1457_espA_3,NA,EPEC
+Vir1458_chuU_8,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1459_focF_1,Adhesion: Fimbriae,UPEC
+Vir1461_hlyA_8,Toxin: Alpha-Hemolysin,ExPEC
+Vir1462_eltA_2,Toxin: Enterotoxin,ETEC
+Vir1463_papD_3,Adhesion: P Fimbriae,ExPEC
+Vir1464_ecpR_16,Adhesion: E.coli common pilus,AIEC
+Vir1465_fimG_9,Adhesion: Type I Fimbriae,ExPEC
+Vir1466_c3392_1,NA,UPEC
+Vir1468_aec22_6,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir1469_aaiL_2,Hypothetical Protein,StxEAEC
+Vir1470_iucA_9,Siderophore: Aerobactin,UPEC|APEC
+Vir1472_fimI_12,Adhesion: Type I Fimbriae,EHEC
+Vir1473_chuA_9,Iron: E.coli hemin uptake,EHEC
+Vir1475_fimE_9,Adhesion: Type I Fimbriae,ExPEC
+Vir1476_ybtA_4,Siderophore: Yersiniabactin,ExPEC
+Vir1477_escU_3,Secretion system: Type III,EHEC
+Vir1480_ECO10_12,Secretion system: Type III,EHEC
+Vir1481_escT_4,NA,EPEC
+Vir1482_aec23_9,Secretion system: Type VI,EPEC
+Vir1483_eaeH_11,Adhesion,UPEC
+Vir1486_aatC_4,NA,EAEC
+Vir1488_aec30_10,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir1490_papK_4,Adhesion: P Fimbriae,ExPEC
+Vir1492_aec32_8,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir1493_nleH1_5,Secretion system: Type III,EPEC
+Vir1494_fyuA_9,Siderophore: Yersiniabactin,ExPEC
+Vir1495_fimA_11,Adhesion: Type I Fimbriae,ExPEC
+Vir1496_sitB_8,Iron: Transport,ExPEC
+Vir1497_nleG6_5,Hypothetical Protein,EHEC
+Vir1501_papK_5,Adhesion: P Fimbriae,ExPEC
+Vir1503_fimB_7,Adhesion: Type I Fimbriae,EHEC
+Vir1504_espN_2,Secretion system: Type III,EHEC
+Vir1505_upaG_14,Adhesion,EHEC
+Vir1506_ecpA_8,Adhesion: E.coli common pilus,UPEC
+Vir1507_aec18_7,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir1508_aec22_7,Secretion system: Type VI: Hypothetical Protein,APEC
+Vir1512_stx2B_2,Toxin: Shiga,EHEC
+Vir1516_fimF_12,Adhesion: Type I Fimbriae,ExPEC
+Vir1517_iroC_7,Siderophore: Salmochelin,ExPEC
+Vir1518_fimA_12,Adhesion: Type I Fimbriae,ExPEC
+Vir1519_ecpB_11,Adhesion: E.coli common pilus,UPEC
+Vir1520_hlyD_6,Toxin: Alpha-Hemolysin,EHEC
+Vir1524_ECP_2_6,Secretion system: SCI-I T6SS,UPEC
+Vir1525_nleG6_6,Hypothetical Protein,EHEC
+Vir1527_clpV_2,Secretion system: Type VI,EAEC
+Vir1528_escV_5,NA,EPEC
+Vir1529_ibeC_15,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir1530_cah_8,Autotransporter: calcium-binding and heat-extractable autotransporter protein,EHEC|ETEC|NMEC|UPEC|AIEC|EPEC|StxEAEC
+Vir1531_aec15_7,Secretion system: Type VI,EHEC
+Vir1532_aatP_4,NA,EAEC
+Vir1534_fimC_11,Adhesion: Type I Fimbriae,ExPEC|APEC
+Vir1535_fimD_9,Adhesion: Type I Fimbriae,ExPEC
+Vir1538_papG_3,Adhesion: P Fimbriae,ExPEC
+Vir1539_sfaG_3,Adhesion: S Fimbriae,ExPEC
+Vir1542_papH_6,Adhesion: P Fimbriae,ExPEC
+Vir1544_ybtT_9,Siderophore: Yersiniabactin,ExPEC
+Vir1548_ecpD_7,Adhesion: E.coli common pilus,EHEC
+Vir1549_aatP_5,NA,EAEC
+Vir1552_ibeC_16,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir1554_iucC_4,Siderophore: Aerobactin,UPEC|APEC
+Vir1555_EcE24_5,Hypothetical Protein,ETEC
+Vir1556_ecpD_8,Adhesion: E.coli common pilus,UPEC
+Vir1557_papK_6,Adhesion: P Fimbriae,ExPEC
+Vir1566_cfaB_5,Adhesion: CFA/I Fimbriae,ETEC
+Vir1567_papB_5,Adhesion: P Fimbriae,ExPEC
+Vir1571_cah_9,Autotransporter: calcium-binding and heat-extractable autotransporter protein,EHEC|ETEC|NMEC|UPEC|AIEC|EPEC|StxEAEC
+Vir1572_cnf1_1,Toxin: cytotoxic necrotizing factor,ExPEC|NTEC
+Vir1577_hlyA_9,Toxin: Alpha-Hemolysin,ExPEC
+Vir1578_chuA_10,Iron: E.coli hemin uptake,EHEC
+Vir1579_papG_4,Adhesion: P Fimbriae,ExPEC
+Vir1582_espB_6,NA,EPEC
+Vir1584_nleC_4,Hypothetical Protein,EHEC
+Vir1585_EC559_11,Hypothetical Protein,EAEC
+Vir1586_LF82_7,Secretion system: SCI-I T6SS,AIEC
+Vir1588_espX7_5,Secretion system: Type III,EHEC
+Vir1589_sepL_4,NA,EHEC
+Vir1590_nleG2_4,NA,EHEC
+Vir1591_cesF_3,Secretion system: Type III,EHEC
+Vir1592_fimE_10,Adhesion: Type I Fimbriae,ExPEC
+Vir1594_fimB_8,Adhesion: Type I Fimbriae,AIEC
+Vir1604_cah_10,Adhesion,EHEC|ETEC|NMEC|UPEC|AIEC|EPEC|StxEAEC
+Vir1605_ybtP_8,Siderophore: Yersiniabactin,ExPEC
+Vir1609_UM146_2,Hypothetical Protein,AIEC
+Vir1610_chuX_6,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1611_aaiD_1,Hypothetical Protein,StxEAEC
+Vir1612_fimF_13,Adhesion: Type I Fimbriae,ExPEC
+Vir1614_hlyE_5,Toxin: Hemolysin/cytolysin A,ExPEC
+Vir1615_nleG2_5,Secretion system: Type III,EHEC
+Vir1616_chuS_5,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1618_espD_3,NA,EHEC
+Vir1619_papG_5,Adhesion: P Fimbriae,ExPEC
+Vir1620_agn43_6,Autotransporter,UPEC
+Vir1622_vat_5,Vacuolating autotransporter toxin,ExPEC
+Vir1623_papK_7,Adhesion: P Fimbriae,ExPEC
+Vir1630_chuW_6,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1631_ecpA_9,Adhesion: E.coli common pilus,EHEC
+Vir1633_papX_5,Adhesion: P Fimbriae,ExPEC
+Vir1637_fimG_10,Adhesion: Type I Fimbriae,ExPEC
+Vir1638_ecpC_15,Adhesion: E.coli common pilus,ETEC
+Vir1639_espB_7,NA,EHEC
+Vir1640_espD_4,NA,EHEC
+Vir1643_papI_5,Adhesion: P Fimbriae,ExPEC
+Vir1645_papA_4,Adhesion: P Fimbriae,ExPEC
+Vir1650_aec27_11,Secretion system: Type VI,EHEC
+Vir1651_APECO_5,Hypothetical Protein,APEC
+Vir1652_chuU_9,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1653_fyuA_10,Siderophore: Yersiniabactin,ExPEC
+Vir1656_fimC_12,Adhesion: Type I Fimbriae,ExPEC|APEC
+Vir1660_iroC_8,Siderophore: Salmochelin,ExPEC
+Vir1661_papJ_5,Adhesion: P Fimbriae,ExPEC
+Vir1662_hlyE_6,Toxin: Hemolysin/cytolysin A,ExPEC
+Vir1668_cah_11,Autotransporter: calcium-binding and heat-extractable autotransporter protein,EHEC|ETEC|NMEC|UPEC|AIEC|EPEC|StxEAEC
+Vir1671_hlyE_7,Toxin: Hemolysin/cytolysin A,ExPEC
+Vir1673_agg3B_2,Invasion,StxEAEC
+Vir1674_ECP_2_7,Secretion system: SCI-I T6SS,UPEC
+Vir1675_sfaD_1,Adhesion: S Fimbriae,ExPEC
+Vir1677_ybtE_6,Siderophore: Yersiniabactin,ExPEC
+Vir1679_aec29_9,Secretion system: Type VI: Hypothetical Protein,EAEC
+Vir1680_fimF_14,Adhesion: Type I Fimbriae,ExPEC
+Vir1683_espR4_4,Secretion system: Type III,EHEC
+Vir1684_nleG6_7,Secretion system: Type III,EPEC
+Vir1685_aec15_8,Secretion system: Type VI,EHEC
+Vir1686_usp_5,Toxin: Colicin-like Usp,AIEC
+Vir1688_ECNA1_8,Hypothetical Protein,UPEC
+Vir1690_i02_3_5,Hypothetical Protein,UPEC
+Vir1691_iucD_5,Siderophore: Aerobactin,UPEC|APEC
+Vir1692_ECO10_13,Hypothetical Protein,EHEC
+Vir1693_papG_6,Adhesion: P Fimbriae,ExPEC
+Vir1695_ybtU_10,Siderophore: Yersiniabactin,ExPEC
+Vir1696_pic_1,Protease,StxEAEC
+Vir1697_fimA_13,Adhesion: Type I Fimbriae,ExPEC
+Vir1700_eae_5,Adhesion: Intimin,"EPEC,EHEC"
+Vir1701_aec25_8,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir1703_irp1_5,Siderophore: Yersiniabactin,ExPEC
+Vir1704_chuA_11,Iron: E.coli hemin uptake,EHEC
+Vir1705_fimA_14,Adhesion: Type I Fimbriae,ExPEC
+Vir1706_APECO_6,Hypothetical Protein,APEC
+Vir1708_aec18_8,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir1711_nleG2_6,Hypothetical Protein,EPEC
+Vir1713_EC559_12,Hypothetical Protein,EAEC
+Vir1714_fimA_15,Adhesion: Type I Fimbriae,ExPEC
+Vir1716_escV_6,Secretion system: Type III,EHEC
+Vir1718_faeE_2,Adhesion: Fimbriae,ETEC
+Vir1720_ECH74_2,Hypothetical Protein,EHEC
+Vir1723_aec15_9,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir1724_espR1_3,Secretion system: Type III,EHEC
+Vir1726_papI_6,Adhesion: P Fimbriae,ExPEC
+Vir1727_focI_1,Adhesion: Fimbriae,UPEC
+Vir1728_EC559_13,Hypothetical Protein,EAEC
+Vir1733_ybtE_7,Siderophore: Yersiniabactin,ExPEC
+Vir1735_nleA_7,NA,EPEC
+Vir1736_hlyC_6,Toxin: Alpha-Hemolysin,EHEC
+Vir1737_ECO10_14,Hypothetical Protein,EHEC
+Vir1738_lifA_2,Toxin,EHEC
+Vir1743_aec31_10,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir1746_ehaB_12,Autotransporter: adhesion/biofilm formation,EHEC
+Vir1747_ehaB_13,Autotransporter: adhesion/biofilm formation,NMEC
+Vir1749_aec31_11,Secretion system: Type VI,EAEC
+Vir1754_cdiA_2,Autotransporter: Contact-Dependent Growth Inhibition,UPEC|AIEC
+Vir1755_EC042_13,Secretion system: Type VI,EAEC
+Vir1757_sitA_4,Iron: Transport,ExPEC
+Vir1758_aec27_12,Secretion system: Type VI,ETEC
+Vir1759_ECO10_15,Hypothetical Protein,EHEC
+Vir1761_fimD_10,Adhesion: Type I Fimbriae,ExPEC
+Vir1763_E2348_3,Hypothetical Protein,EPEC
+Vir1765_hlyD_7,Toxin: Alpha-Hemolysin,ETEC
+Vir1766_ECS88_10,Secretion system: SCI-I T6SS,NMEC
+Vir1768_eaeH_12,Adhesion,EHEC
+Vir1769_focF_2,Adhesion: Fimbriae,UPEC
+Vir1770_E2348_4,Hypothetical Protein,EPEC
+Vir1771_fimH_15,Adhesion: Type I Fimbriae,ExPEC
+Vir1773_papI_7,Adhesion: P Fimbriae,ExPEC
+Vir1774_papF_4,Adhesion: P Fimbriae,ExPEC
+Vir1775_iroD_3,Siderophore: Salmochelin,ExPEC
+Vir1776_nleG_2,Hypothetical Protein,EPEC
+Vir1779_aatA_3,NA,ETEC
+Vir1783_fimI_13,Adhesion: Type I Fimbriae,AIEC
+Vir1795_espA_4,NA,EHEC
+Vir1796_espV_1,Hypothetical Protein,EHEC
+Vir1797_chuS_6,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1804_espG2_1,Secretion system: Type III,EPEC
+Vir1805_irp2_13,Siderophore: Yersiniabactin,ExPEC
+Vir1809_ybtA_5,Siderophore: Yersiniabactin,ExPEC
+Vir1811_espY4_4,Hypothetical Protein,EPEC
+Vir1813_nleG6_8,Hypothetical Protein,EHEC
+Vir1814_ecpC_16,Adhesion: E.coli common pilus,UPEC
+Vir1816_ehaA_5,Autotransporter: adhesion/biofilm formation,EAEC
+Vir1817_sepQ_4,NA,EPEC
+Vir1818_aec29_10,Secretion system: Type VI,EHEC
+Vir1821_aec30_11,Secretion system: Type VI,EHEC
+Vir1825_fimD_11,Adhesion: Type I Fimbriae,ExPEC
+Vir1826_hlyE_8,Toxin: Hemolysin/cytolysin A,ExPEC
+Vir1830_sfaB_2,Adhesion: S Fimbriae,ExPEC
+Vir1834_hlyE_9,Toxin: Hemolysin/cytolysin A,ExPEC
+Vir1835_chuA_12,Iron: E.coli hemin uptake,EHEC
+Vir1837_ybtX_7,Siderophore: Yersiniabactin,ExPEC
+Vir1838_glrA_3,NA,EHEC
+Vir1840_eaeH_13,Adhesion,APEC
+Vir1843_sepD_4,NA,EPEC
+Vir1845_ECO11_3,Secretion system: Type III,EHEC
+Vir1846_iroB_2,Siderophore: Salmochelin,ExPEC
+Vir1847_ybtU_11,Siderophore: Yersiniabactin,ExPEC
+Vir1849_aec15_10,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir1853_hlyD_8,Toxin: Alpha-Hemolysin,UPEC
+Vir1854_espC_1,Toxin: Enterotoxin,UPEC
+Vir1856_fimG_11,Adhesion: Type I Fimbriae,ExPEC
+Vir1858_espX5_2,Hypothetical Protein,EPEC
+Vir1859_ECNA1_9,Hypothetical Protein,UPEC
+Vir1860_cfaD_5,Adhesion: CFA/I Fimbriae,EHEC
+Vir1862_sitC_5,Iron: Transport,ExPEC
+Vir1865_glrA_4,NA,EHEC
+Vir1867_fimB_9,Adhesion: Type I Fimbriae,NMEC
+Vir1869_espI_1,Protease,EHEC
+Vir1870_chuA_13,Iron: E.coli hemin uptake,EHEC
+Vir1871_EcE24_6,NA,ETEC
+Vir1876_sfaE_2,Adhesion: S Fimbriae,ExPEC
+Vir1877_chuA_14,Iron: E.coli hemin uptake,EHEC
+Vir1881_chuU_10,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1882_fimI_14,Adhesion: Type I Fimbriae,UPEC
+Vir1884_ybtQ_9,Siderophore: Yersiniabactin,ExPEC
+Vir1886_aggR_2,NA,EAEC
+Vir1888_aec23_10,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir1890_ECUMN_1,Hypothetical Protein,UPEC
+Vir1893_nleG_3,Secretion system: Type III,EHEC
+Vir1895_fimE_11,Adhesion: Type I Fimbriae,ExPEC
+Vir1899_iutA_5,Siderophore: Aerobactin,ExPEC
+Vir1900_chuW_7,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1901_espM2_5,Secretion system: Type III,EHEC
+Vir1902_papC_7,Adhesion: P Fimbriae,ExPEC
+Vir1903_ECOK1_5,Hypothetical Protein,NMEC
+Vir1905_iutA_6,Siderophore: Aerobactin,ExPEC
+Vir1906_fimF_15,Adhesion: Type I Fimbriae,ExPEC
+Vir1908_nleG_4,Hypothetical Protein,EPEC
+Vir1909_papI_8,Adhesion: P Fimbriae,ExPEC
+Vir1911_ecpB_12,Adhesion: E.coli common pilus,ETEC
+Vir1913_tir_5,Adhesion: Intimin,EHEC
+Vir1914_fimI_15,Adhesion: Type I Fimbriae,APEC
+Vir1916_hlyE_10,Toxin: Hemolysin/cytolysin A,ExPEC
+Vir1918_EcE24_7,Hypothetical Protein,ETEC
+Vir1920_cdtA_1,Toxin: Cytolethal Distending Toxin,EPEC|ExPEC|NTEC
+Vir1921_sitA_5,Iron: Transport,ExPEC
+Vir1924_ybtS_8,Siderophore: Yersiniabactin,ExPEC
+Vir1925_espFu_2,NA,EPEC
+Vir1927_aaiI_2,Hypothetical Protein,StxEAEC
+Vir1928_pic_2,Protease,ETEC
+Vir1929_aec27_13,Secretion system: Type VI,UPEC
+Vir1930_fimD_12,Adhesion: Type I Fimbriae,ExPEC
+Vir1933_papA_5,Adhesion: P Fimbriae,ExPEC
+Vir1935_hlyC_7,Toxin: Alpha-Hemolysin,ETEC
+Vir1938_espG_4,Secretion system: Type III,EHEC
+Vir1939_ybtQ_10,Siderophore: Yersiniabactin,ExPEC
+Vir1941_ECO55_7,Hypothetical Protein,EPEC
+Vir1942_ecpD_9,Adhesion: E.coli common pilus,ETEC
+Vir1943_iroD_4,Siderophore: Salmochelin,ExPEC
+Vir1944_aec31_12,Secretion system: Type VI,NMEC
+Vir1946_hlyD_9,Toxin: Alpha-Hemolysin,EHEC
+Vir1948_papC_8,Adhesion: P Fimbriae,ExPEC
+Vir1958_agg3A_2,NA,EAEC
+Vir1959_cah_12,Autotransporter: calcium-binding and heat-extractable autotransporter protein,EHEC|ETEC|NMEC|UPEC|AIEC|EPEC|StxEAEC
+Vir1962_nleG_5,NA,EHEC
+Vir1963_nleG2_7,Secretion system: Type III,EHEC
+Vir1964_fimF_16,Adhesion: Type I Fimbriae,ExPEC
+Vir1966_aec22_8,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir1968_c3400_1,Secretion system: SCI-I T6SS,UPEC
+Vir1971_papF_5,Adhesion: P Fimbriae,ExPEC
+Vir1973_APECO_7,NA,APEC
+Vir1975_fimI_16,Adhesion: Type I Fimbriae,ETEC
+Vir1976_espK_4,Secretion system: Type III,EHEC
+Vir1977_ecpC_17,Adhesion: E.coli common pilus,EAEC
+Vir1980_aec29_11,Secretion system: Type VI: Hypothetical Protein,NMEC
+Vir1983_papD_4,Adhesion: P Fimbriae,ExPEC
+Vir1985_upaG_15,Adhesion,APEC
+Vir1989_hlyB_3,Toxin: Alpha-Hemolysin,UPEC
+Vir1991_chuS_7,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1993_EC559_14,Hypothetical Protein,EAEC
+Vir1995_chuW_8,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1996_chuU_11,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir1998_ECABU_6,Hypothetical Protein,UPEC
+Vir1999_fimG_12,Adhesion: Type I Fimbriae,ExPEC
+Vir2001_nleG_6,Hypothetical Protein,EHEC
+Vir2002_chuA_15,Iron: E.coli hemin uptake,EHEC
+Vir2003_agn43_7,Autotransporter,StxEAEC
+Vir2004_nleG8_4,Secretion system: Type III,EHEC
+Vir2015_sepQ_5,Secretion system: Type III,EHEC
+Vir2016_fimD_13,Adhesion: Type I Fimbriae,ExPEC
+Vir2017_aec19_7,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir2018_escR_3,Secretion system: Type III,EHEC
+Vir2020_nleB1_4,Secretion system: Type III,EHEC
+Vir2022_chuY_7,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2025_fimB_10,Adhesion: Type I Fimbriae,EHEC
+Vir2029_iroD_5,Siderophore: Salmochelin,ExPEC
+Vir2033_aec29_12,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir2036_ecpB_13,Adhesion: E.coli common pilus,UPEC
+Vir2037_espN_3,Hypothetical Protein,EHEC
+Vir2041_fimI_17,Adhesion: Type I Fimbriae,NMEC
+Vir2043_EC559_15,Hypothetical Protein,EAEC
+Vir2045_ECO26_4,Secretion system: Type III,EHEC
+Vir2052_vat_6,Vacuolating autotransporter toxin,ExPEC
+Vir2053_i02_3_6,Hypothetical Protein,UPEC
+Vir2056_chuU_12,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2065_EC042_14,Secretion system: Type VI,EAEC
+Vir2066_papG_7,Adhesion: P Fimbriae,ExPEC
+Vir2068_ibeC_17,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir2069_aec17_7,Secretion system: Type VI: Hypothetical Protein,NMEC
+Vir2073_espM2_6,NA,EHEC
+Vir2074_fimA_16,Adhesion: Type I Fimbriae,ExPEC
+Vir2078_ECP_2_8,Secretion system: SCI-I T6SS,UPEC
+Vir2079_sfaH_1,Adhesion: S Fimbriae,ExPEC
+Vir2080_faeJ_1,Adhesion: Fimbriae,ETEC
+Vir2081_papG_8,Adhesion: P Fimbriae,ExPEC
+Vir2082_toxB_3,Toxin,EHEC
+Vir2083_papC_9,Adhesion: P Fimbriae,ExPEC
+Vir2084_cfaA_4,Adhesion: CFA/I Fimbriae,ETEC
+Vir2085_glrR_3,NA,EHEC
+Vir2086_E2348_5,Secretion system: Type III,EPEC
+Vir2087_papF_6,Adhesion: P Fimbriae,ExPEC
+Vir2088_aec15_11,Secretion system: Type VI,ETEC
+Vir2089_aec15_12,Secretion system: Type VI: Hypothetical Protein,EPEC
+Vir2091_irp2_14,Siderophore: Yersiniabactin,ExPEC
+Vir2094_fimC_13,Adhesion: Type I Fimbriae,ExPEC|APEC
+Vir2095_aec16_4,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir2096_escF_3,Secretion system: Type III,EHEC
+Vir2098_fimH_16,Adhesion: Type I Fimbriae,ExPEC
+Vir2102_papF_7,Adhesion: P Fimbriae,ExPEC
+Vir2103_set1B_1,Toxin: Enterotoxin,EAEC
+Vir2106_aec23_11,Secretion system: Type VI,EAEC
+Vir2107_espY1_2,Secretion system: Type III,EHEC
+Vir2108_ecpB_14,Adhesion: E.coli common pilus,APEC
+Vir2111_c3388_1,Hypothetical Protein,UPEC
+Vir2112_chuS_8,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2115_fimE_12,Adhesion: Type I Fimbriae,ExPEC
+Vir2117_nleG7_3,Secretion system: Type III,EHEC
+Vir2118_CDCO1_2,Hypothetical Protein,EHEC
+Vir2120_nleH1_6,Secretion system: Type III,EHEC
+Vir2121_papD_5,Adhesion: P Fimbriae,ExPEC
+Vir2122_aaiK_3,Hypothetical Protein,EAEC
+Vir2124_papC_10,Adhesion: P Fimbriae,ExPEC
+Vir2125_E2348_6,Secretion system: Type III,EPEC
+Vir2128_eaeH_14,Adhesion,UPEC
+Vir2132_ibeC_18,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir2134_irp1_6,Siderophore: Yersiniabactin,ExPEC
+Vir2136_chuY_8,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2137_focH_1,Adhesion: Fimbriae,UPEC
+Vir2139_espFu_3,NA,EPEC
+Vir2140_LF82_8,Secretion system: SCI-I T6SS,AIEC
+Vir2141_ecpA_10,Adhesion: E.coli common pilus,NMEC
+Vir2142_iucC_5,Siderophore: Aerobactin,UPEC|APEC
+Vir2144_aaiF_3,Hypothetical Protein,EAEC
+Vir2147_fimB_11,Adhesion: Type I Fimbriae,ETEC
+Vir2148_nleG_7,Secretion system: Type III,EHEC
+Vir2150_cfaC_7,Adhesion: CFA/I Fimbriae,EHEC
+Vir2152_chuW_9,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2155_iucC_6,Siderophore: Aerobactin,UPEC|APEC
+Vir2157_sfaH_2,Adhesion: S Fimbriae,ExPEC
+Vir2159_papI_9,Adhesion: P Fimbriae,ExPEC
+Vir2162_chuS_9,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2167_aec23_12,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir2169_ECO11_4,Secretion system: Type III,EHEC
+Vir2170_aec22_9,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir2173_ybtX_8,Siderophore: Yersiniabactin,ExPEC
+Vir2175_E2348_7,Secretion system: Type III,EPEC
+Vir2177_ybtX_9,Siderophore: Yersiniabactin,ExPEC
+Vir2178_vat_7,Vacuolating autotransporter toxin,ExPEC
+Vir2183_espX1_5,Secretion system: Type III,EHEC
+Vir2185_ehaA_6,Autotransporter: adhesion/biofilm formation,EHEC
+Vir2186_ecpA_11,Adhesion: E.coli common pilus,EPEC
+Vir2191_irp1_7,Siderophore: Yersiniabactin,ExPEC
+Vir2193_ybtU_12,Siderophore: Yersiniabactin,ExPEC
+Vir2195_aec30_12,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir2196_ECO10_16,Hypothetical Protein,EHEC
+Vir2198_fimG_13,Adhesion: Type I Fimbriae,ExPEC
+Vir2200_fanc_1,K99 subunit,EHEC/ETEC/ExPEC
+Vir2201_cnf1_2,Toxin: cytotoxic necrotizing factor,ExPEC|NTEC
+Vir2202_sepD_5,NA,EHEC
+Vir2202_fim41a_1,F41 subunit gene,ExPEC|NTEC
+Vir2203_sfaF_3,Adhesion: S Fimbriae,ExPEC
+Vir2204_fim41a_2,F41 subunit gene,EHEC/ETEC/ExPEC
+Vir2205_aec32_9,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir2206_stx2e-A_2,Toxin: Shiga type 2 subunit A,EHEC/STEC/ExPEC
+Vir2207_hlyE_11,Toxin: Hemolysin/cytolysin A,ExPEC
+Vir2211_EC042_15,Secretion system: Type VI,EAEC
+Vir2216_sitD_4,Iron: Transport,ExPEC
+Vir2218_fimB_12,Adhesion: Type I Fimbriae,EHEC
+Vir2219_papA_6,Adhesion: P Fimbriae,ExPEC
+Vir2220_ibeC_19,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir2221_ECNA1_10,Hypothetical Protein,UPEC
+Vir2224_agg3D_3,NA,EAEC
+Vir2227_aec26_8,Secretion system: Type VI,EPEC
+Vir2228_sfaC_1,Adhesion: S Fimbriae,ExPEC
+Vir2229_fimD_14,Adhesion: Type I Fimbriae,ExPEC
+Vir2230_aec22_10,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir2233_EcE24_8,Secretion system: Type VI,ETEC
+Vir2238_cfaD_6,Adhesion: CFA/I Fimbriae,ETEC
+Vir2240_fimD_15,Adhesion: Type I Fimbriae,ExPEC
+Vir2241_fyuA_11,Siderophore: Yersiniabactin,ExPEC
+Vir2244_aatB_3,NA,StxEAEC
+Vir2245_espFu_4,NA,EHEC
+Vir2246_chuW_10,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2253_eaeH_15,Adhesion,ETEC
+Vir2259_espL2_7,Secretion system: Type III,EHEC
+Vir2262_cfaA_5,Adhesion: CFA/I Fimbriae,UPEC
+Vir2263_fimF_17,Adhesion: Type I Fimbriae,ExPEC
+Vir2266_ybtX_10,Siderophore: Yersiniabactin,ExPEC
+Vir2268_espY3_2,Hypothetical Protein,EPEC
+Vir2269_ibeC_20,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir2270_rorf8_3,Secretion system: Type III,EHEC
+Vir2271_ECNA1_11,Hypothetical Protein,UPEC
+Vir2272_fimD_16,Adhesion: Type I Fimbriae,ExPEC
+Vir2273_vat_8,Vacuolating autotransporter toxin,ExPEC
+Vir2274_E2348_8,Hypothetical Protein,EPEC
+Vir2277_fimA_17,Adhesion: Type I Fimbriae,ExPEC
+Vir2278_sitC_6,Iron: Transport,ExPEC
+Vir2281_map_6,Secretion system: Type III,EHEC
+Vir2282_LF82_9,Secretion system: SCI-I T6SS,AIEC
+Vir2283_escD_3,Secretion system: Type III,EHEC
+Vir2285_fimI_18,Adhesion: Type I Fimbriae,UPEC
+Vir2286_ybtQ_11,Siderophore: Yersiniabactin,ExPEC
+Vir2290_fimH_17,Adhesion: Type I Fimbriae,ExPEC
+Vir2294_aatD_1,NA,StxEAEC
+Vir2296_sepZ_4,NA,EPEC
+Vir2297_papH_7,Adhesion: P Fimbriae,ExPEC
+Vir2299_ibeB_12,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir2302_chuU_13,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2304_espP_2,Protease,EHEC
+Vir2305_aec27_14,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir2309_hlyB_4,Toxin: Alpha-Hemolysin,UPEC
+Vir2312_hlyC_8,Toxin: Alpha-Hemolysin,UPEC
+Vir2313_irp1_8,Siderophore: Yersiniabactin,ExPEC
+Vir2314_espO1_6,Hypothetical Protein,EPEC
+Vir2316_vat_9,Vacuolating autotransporter toxin: plasmid,ExPEC
+Vir2318_fimH_18,Adhesion: Type I Fimbriae,ExPEC
+Vir2323_aatB_4,NA,EAEC
+Vir2324_cesD_3,NA,EPEC
+Vir2325_papF_8,Adhesion: P Fimbriae,ExPEC
+Vir2326_aatA_4,Hypothetical Protein,ETEC
+Vir2327_papH_8,Adhesion: P Fimbriae,ExPEC
+Vir2331_mpc_3,NA,EHEC
+Vir2332_aec19_8,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir2336_ecpA_12,Adhesion: E.coli common pilus,EPEC
+Vir2339_aec26_9,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir2342_espL2_8,Secretion system: Type III,EHEC
+Vir2343_EcE24_9,NA,ETEC
+Vir2346_pet_2,Toxin,EAEC
+Vir2348_sepZ_5,Secretion system: Type III,EHEC
+Vir2350_aec24_9,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir2351_espA_5,NA,EPEC
+Vir2352_aec28_9,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir2357_ecpA_13,Adhesion: E.coli common pilus,EHEC
+Vir2358_ecpD_10,Adhesion: E.coli common pilus,EPEC
+Vir2359_chuS_10,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2360_ybtE_8,Siderophore: Yersiniabactin,ExPEC
+Vir2361_nleG7_4,Hypothetical Protein,EHEC
+Vir2369_G2583_3,Hypothetical Protein,EPEC
+Vir2370_eaeH_16,Adhesion,UPEC
+Vir2372_escD_4,Secretion system: Type III,EHEC
+Vir2375_ibeB_13,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir2376_stx2A_5,Toxin: Shiga,EHEC
+Vir2377_c3385_1,Secretion system: SCI-I T6SS,UPEC
+Vir2379_vgrG_2,Hypothetical Protein,StxEAEC
+Vir2380_EC042_16,Secretion system: Type VI,EAEC
+Vir2383_ecpD_11,Adhesion: E.coli common pilus,UPEC
+Vir2388_aec30_13,Secretion system: Type VI,UPEC
+Vir2389_ehaA_7,Autotransporter: adhesion/biofilm formation,EHEC
+Vir2392_sitA_6,Iron: Transport,ExPEC
+Vir2393_ecpA_14,Adhesion: E.coli common pilus,EHEC
+Vir2396_ecpB_15,Adhesion: E.coli common pilus,UPEC
+Vir2398_hlyE_12,Toxin: Hemolysin/cytolysin A,ExPEC
+Vir2400_fimG_14,Adhesion: Type I Fimbriae,ExPEC
+Vir2402_aec17_8,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir2403_sfaH_3,Adhesion: S Fimbriae,ExPEC
+Vir2405_iucA_10,Siderophore: Aerobactin,UPEC|APEC
+Vir2408_fyuA_12,Siderophore: Yersiniabactin,ExPEC
+Vir2409_chuU_14,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2411_sitC_7,Iron: Transport,ExPEC
+Vir2414_nleG8_5,Secretion system: Type III,EHEC
+Vir2416_espN_4,Secretion system: Type III,EHEC
+Vir2419_hlyE_13,Toxin: Hemolysin/cytolysin A,ExPEC
+Vir2420_ybtA_6,Siderophore: Yersiniabactin,ExPEC
+Vir2421_ibeB_14,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir2423_ler_4,NA,EHEC
+Vir2424_fimF_18,Adhesion: Type I Fimbriae,ExPEC
+Vir2430_iroE_4,Siderophore: Salmochelin,ExPEC
+Vir2433_ECS88_12,Secretion system: ACE T6SS,NMEC
+Vir2435_fimI_19,Adhesion: Type I Fimbriae,NMEC
+Vir2440_papK_8,Adhesion: P Fimbriae,ExPEC
+Vir2442_chuW_11,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2443_papE_9,Adhesion: P Fimbriae,ExPEC
+Vir2448_nleD_3,Hypothetical Protein,EHEC
+Vir2449_stx1A_2,Toxin: Shiga,EHEC
+Vir2450_aec14_3,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir2452_ehaA_8,Autotransporter: adhesion/biofilm formation,ETEC
+Vir2453_nleG2_8,Hypothetical Protein,EPEC
+Vir2455_ybtQ_12,Siderophore: Yersiniabactin,ExPEC
+Vir2456_cdtC_2,Toxin: Cytolethal Distending Toxin,EPEC|ExPEC|NTEC
+Vir2459_fimC_14,Adhesion: Type I Fimbriae,ExPEC|APEC
+Vir2461_papF_9,Adhesion: P Fimbriae,ExPEC
+Vir2465_ECO26_5,Hypothetical Protein,EHEC
+Vir2466_escS_3,NA,EHEC
+Vir2468_tir_6,Adhesion: Intimin,EPEC
+Vir2469_aec23_13,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir2471_chuU_15,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2472_ybtQ_13,Siderophore: Yersiniabactin,ExPEC
+Vir2477_nleB1_5,Secretion system: Type III,EPEC
+Vir2478_cfaA_6,Adhesion: CFA/I Fimbriae,EHEC
+Vir2481_chuT_11,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2488_escC_4,NA,EPEC
+Vir2493_vat_10,Vacuolating autotransporter toxin: plasmid,ExPEC
+Vir2494_aec23_14,Secretion system: Type VI: Hypothetical Protein,NMEC
+Vir2495_ecpD_12,Adhesion: E.coli common pilus,EHEC
+Vir2496_fimG_15,Adhesion: Type I Fimbriae,ExPEC
+Vir2497_espY3_3,Hypothetical Protein,EPEC
+Vir2498_espN_5,Hypothetical Protein,EHEC
+Vir2504_cif_1,NA,EPEC
+Vir2506_aec30_14,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir2512_espR3_3,Hypothetical Protein,EHEC
+Vir2514_escD_5,Secretion system: Type III,EPEC
+Vir2515_aec25_9,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir2516_papI_10,Adhesion: P Fimbriae,ExPEC
+Vir2519_nleG7_5,Hypothetical Protein,EHEC
+Vir2522_ECO11_5,Secretion system: Type III,EHEC
+Vir2523_irp2_15,Siderophore: Yersiniabactin,ExPEC
+Vir2527_tia_7,Adhesion/Invasion,UPEC
+Vir2528_agn43_8,Autotransporter,UPEC
+Vir2529_ECO10_17,Hypothetical Protein,EHEC
+Vir2531_cfaD_7,Adhesion: CFA/I Fimbriae,UPEC
+Vir2532_cfaC_8,Adhesion: CFA/I Fimbriae,UPEC
+Vir2533_irp1_9,Siderophore: Yersiniabactin,ExPEC
+Vir2534_escS_4,Secretion system: Type III,EHEC
+Vir2536_aec14_4,Secretion system: Type VI: Hypothetical Protein,APEC
+Vir2537_chuU_16,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2538_espF_6,NA,EHEC
+Vir2539_ECP_2_9,Secretion system: SCI-I T6SS,UPEC
+Vir2540_sfaF_4,Adhesion: S Fimbriae,ExPEC
+Vir2541_ehaA_9,Autotransporter: adhesion/biofilm formation,EAEC
+Vir2544_aec27_15,Secretion system: Type VI,EAEC
+Vir2550_ybtT_10,Siderophore: Yersiniabactin,ExPEC
+Vir2553_fimI_20,Adhesion: Type I Fimbriae,EPEC
+Vir2555_aec15_13,Secretion system: Type VI: Hypothetical Protein,EPEC
+Vir2557_nleG_8,Secretion system: Type III,EHEC
+Vir2560_ybtE_9,Siderophore: Yersiniabactin,ExPEC
+Vir2562_fimC_15,Adhesion: Type I Fimbriae,ExPEC|APEC
+Vir2567_EC042_17,Hypothetical Protein,EAEC
+Vir2570_escR_4,NA,EHEC
+Vir2571_Z5117_1,Hypothetical Protein,EHEC
+Vir2574_espF_7,NA,EHEC
+Vir2575_cdiA_3,Autotransporter: Contact-Dependent Growth Inhibition,UPEC|AIEC
+Vir2578_EC559_16,Hypothetical Protein,EAEC
+Vir2581_papE_10,Adhesion: P Fimbriae,ExPEC
+Vir2584_ECO26_6,Secretion system: Type III,EHEC
+Vir2586_cfaC_10,NA,NA
+Vir2590_fimD_17,Adhesion: Type I Fimbriae,ExPEC
+Vir2597_chuT_12,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2598_irp1_10,Siderophore: Yersiniabactin,ExPEC
+Vir2606_aec29_13,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir2609_lifA_3,NA,EHEC
+Vir2612_ECP_2_10,Secretion system: SCI-I T6SS,UPEC
+Vir2615_aec29_14,Secretion system: Type VI,EAEC
+Vir2617_cfaC_11,NA,NA
+Vir2619_cfaC_12,NA,NA
+Vir2621_EC042_18,Secretion system: Type VI,EAEC
+Vir2622_sfaG_4,Adhesion: S Fimbriae,ExPEC
+Vir2627_fimG_16,Adhesion: Type I Fimbriae,ExPEC
+Vir2628_upaH_3,NA,UPEC
+Vir2633_fimD_18,Adhesion: Type I Fimbriae,ExPEC
+Vir2634_chuY_9,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2635_focH_2,Adhesion: Fimbriae,UPEC
+Vir2636_escT_5,Secretion system: Type III,EPEC
+Vir2637_espY1_3,Hypothetical Protein,EPEC
+Vir2640_papK_9,Adhesion: P Fimbriae,ExPEC
+Vir2641_iroB_3,Siderophore: Salmochelin,ExPEC
+Vir2642_escC_5,Secretion system: Type III,EHEC
+Vir2644_cnf1_3,Toxin: cytotoxic necrotizing factor,ExPEC|NTEC
+Vir2646_eae_6,Adhesion: Intimin,"EPEC,EHEC"
+Vir2648_tir_7,Adhesion: Intimin,EHEC
+Vir2649_ECNA1_12,Hypothetical Protein,UPEC
+Vir2650_aec19_9,Secretion system: Type VI: Hypothetical Protein,EPEC
+Vir2651_aatD_2,NA,ETEC
+Vir2656_espX1_6,Secretion system: Type III,EHEC
+Vir2657_ecpA_15,Adhesion: E.coli common pilus,EAEC
+Vir2661_aec22_11,Secretion system: Type VI: Hypothetical Protein,EAEC
+Vir2667_cdtA_2,Toxin: Cytolethal Distending Toxin,EPEC|ExPEC|NTEC
+Vir2669_upaG_16,Adhesion,EAEC
+Vir2670_vat_11,Vacuolating autotransporter toxin,ExPEC
+Vir2675_chuY_10,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2676_irp1_11,Siderophore: Yersiniabactin,ExPEC
+Vir2677_fimI_21,Adhesion: Type I Fimbriae,UPEC
+Vir2678_aaiN_3,Hypothetical Protein,EAEC
+Vir2683_fimD_19,Adhesion: Type I Fimbriae,ExPEC
+Vir2685_nleG7_6,Secretion system: Type III,EHEC
+Vir2686_espD_5,NA,EPEC
+Vir2687_chuY_11,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2690_cesF_4,NA,EHEC
+Vir2692_upaG_17,Adhesion,EPEC
+Vir2695_ybtT_11,Siderophore: Yersiniabactin,ExPEC
+Vir2699_aec25_10,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir2702_tibA_1,Adhesion,ETEC
+Vir2703_escL_1,Secretion system: Type III,EHEC
+Vir2704_ECO11_6,Hypothetical Protein,EHEC
+Vir2708_focI_2,Adhesion: Fimbriae,UPEC
+Vir2709_ybtX_11,Siderophore: Yersiniabactin,ExPEC
+Vir2711_escN_4,NA,EHEC
+Vir2716_ybtE_10,Siderophore: Yersiniabactin,ExPEC
+Vir2717_ecpA_16,Adhesion: E.coli common pilus,NMEC
+Vir2719_lifA_4,NA,EHEC
+Vir2720_iucB_4,Siderophore: Aerobactin,UPEC|APEC
+Vir2722_ybtE_11,Siderophore: Yersiniabactin,ExPEC
+Vir2724_sitC_8,Iron: Transport,ExPEC
+Vir2726_faeG_1,Adhesion: Fimbriae,ETEC
+Vir2727_espF_8,Secretion system: Type III,EHEC
+Vir2728_aec32_10,Secretion system: Type VI: Hypothetical Protein,NMEC
+Vir2729_ecpD_13,Adhesion: E.coli common pilus,AIEC
+Vir2730_escC_6,Secretion system: Type III,EHEC
+Vir2731_ybtE_12,Siderophore: Yersiniabactin,ExPEC
+Vir2734_cesF_5,NA,EPEC
+Vir2740_irp2_16,Siderophore: Yersiniabactin,ExPEC
+Vir2745_ecpA_17,Adhesion: E.coli common pilus,UPEC
+Vir2756_papA_7,Adhesion: P Fimbriae,ExPEC
+Vir2757_aec30_15,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir2760_fimI_22,Adhesion: Type I Fimbriae,UPEC
+Vir2761_fimC_16,Adhesion: Type I Fimbriae,ExPEC|APEC
+Vir2762_chuU_17,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2767_papA_8,Adhesion: P Fimbriae,ExPEC
+Vir2768_cdiB_5,Autotransporter: Contact-Dependent Growth Inhibition,UPEC|AIEC
+Vir2769_aec26_10,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir2770_ybtU_13,Siderophore: Yersiniabactin,ExPEC
+Vir2771_iucC_7,Siderophore: Aerobactin,UPEC|APEC
+Vir2773_lifA_5,NA,EHEC
+Vir2775_stx1A_3,Toxin: Shiga,EHEC
+Vir2777_ecpE_19,Adhesion: E.coli common pilus,UPEC
+Vir2778_espR1_4,Secretion system: Type III,EHEC
+Vir2780_iucB_5,Siderophore: Aerobactin,UPEC|APEC
+Vir2781_ECH74_3,NA,EHEC
+Vir2782_iucB_6,Siderophore: Aerobactin,UPEC|APEC
+Vir2786_pic_3,NA,ETEC
+Vir2790_espM1_2,Secretion system: Type III,EHEC
+Vir2791_aec23_15,Secretion system: Type VI: Hypothetical Protein,AIEC
+Vir2793_cfaA_7,Adhesion: CFA/I Fimbriae,ETEC
+Vir2795_fimA_18,Adhesion: Type I Fimbriae,ExPEC
+Vir2798_ybtP_9,Siderophore: Yersiniabactin,ExPEC
+Vir2804_aec24_10,Secretion system: Type VI,EPEC
+Vir2805_ecpR_17,Adhesion: E.coli common pilus,UPEC
+Vir2806_escC_7,NA,EPEC
+Vir2807_ecpB_16,Adhesion: E.coli common pilus,ETEC
+Vir2808_iroB_4,Siderophore: Salmochelin,ExPEC
+Vir2812_papJ_6,Adhesion: P Fimbriae,ExPEC
+Vir2816_papI_11,Adhesion: P Fimbriae,ExPEC
+Vir2817_espH_4,Secretion system: Type III,EHEC
+Vir2818_fimB_13,Adhesion: Type I Fimbriae,EPEC
+Vir2819_irp2_17,Siderophore: Yersiniabactin,ExPEC
+Vir2821_sitD_5,Iron: Transport,ExPEC
+Vir2823_papD_6,Adhesion: P Fimbriae,ExPEC
+Vir2824_G2583_4,Hypothetical Protein,EPEC
+Vir2829_ecpB_17,Adhesion: E.coli common pilus,UPEC
+Vir2831_espX2_3,Hypothetical Protein,EHEC
+Vir2837_chuW_12,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2838_aaiC_3,Hypothetical Protein,StxEAEC
+Vir2840_tccP2_3,Secretion system: Type III,EHEC
+Vir2841_papK_10,Adhesion: P Fimbriae,ExPEC
+Vir2842_ecpR_18,Adhesion: E.coli common pilus,UPEC
+Vir2844_aec27_16,Secretion system: Type VI,NMEC
+Vir2847_ECO11_7,Secretion system: Type III,EHEC
+Vir2849_icmF_3,Secretion system: Type VI,EAEC
+Vir2851_ecpD_14,Adhesion: E.coli common pilus,EHEC
+Vir2852_ibeC_21,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir2853_aatA_5,NA,EAEC
+Vir2855_chuT_13,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2859_espW_4,Secretion system: Type III,EHEC
+Vir2863_papA_9,Adhesion: P Fimbriae,ExPEC
+Vir2864_ybtQ_14,Siderophore: Yersiniabactin,ExPEC
+Vir2865_espA_6,NA,EHEC
+Vir2867_fimH_19,Adhesion: Type I Fimbriae,ExPEC
+Vir2871_cah_13,Adhesion,EHEC|ETEC|NMEC|UPEC|AIEC|EPEC|StxEAEC
+Vir2874_nleG2_9,Hypothetical Protein,EHEC
+Vir2877_aec28_10,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir2878_EcE24_10,NA,ETEC
+Vir2879_irp1_12,Siderophore: Yersiniabactin,ExPEC
+Vir2885_nleB1_6,NA,EPEC
+Vir2887_nleG6_9,Secretion system: Type III,EHEC
+Vir2888_tccP2_4,Secretion system: Type III,EHEC
+Vir2889_papH_9,Adhesion: P Fimbriae,ExPEC
+Vir2890_ecpD_15,Adhesion: E.coli common pilus,EPEC
+Vir2892_ECP_2_11,Secretion system: SCI-I T6SS,UPEC
+Vir2896_ibeB_15,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir2897_aec27_17,Secretion system: Type VI,UPEC
+Vir2898_escU_4,NA,EHEC
+Vir2899_aatD_3,Hypothetical Protein,EAEC
+Vir2900_papX_6,Adhesion: P Fimbriae,ExPEC
+Vir2903_aatD_4,NA,EAEC
+Vir2906_EC559_17,Hypothetical Protein,EAEC
+Vir2907_nleD_4,Secretion system: Type III,EPEC
+Vir2910_espA_7,NA,EHEC
+Vir2911_nleG6_10,Hypothetical Protein,EHEC
+Vir2913_ECNA1_13,Hypothetical Protein,UPEC
+Vir2915_fimA_19,Adhesion: Type I Fimbriae,ExPEC
+Vir2918_aaiD_2,Hypothetical Protein,EAEC
+Vir2923_fimE_13,Adhesion: Type I Fimbriae,ExPEC
+Vir2924_aec15_14,Secretion system: Type VI,EHEC
+Vir2927_APECO_8,Hypothetical Protein,APEC
+Vir2930_fimB_14,Adhesion: Type I Fimbriae,UPEC
+Vir2932_UM146_3,Hypothetical Protein,AIEC
+Vir2935_fimD_20,Adhesion: Type I Fimbriae,ExPEC
+Vir2938_nleG7_7,Hypothetical Protein,EPEC
+Vir2939_agn43_9,Autotransporter,UPEC
+Vir2942_ECP_2_12,Secretion system: SCI-I T6SS,UPEC
+Vir2945_papE_11,Adhesion: P Fimbriae,ExPEC
+Vir2947_air-e_2,Adhesion,EAEC|NMEC|UPEC
+Vir2951_papA_10,Adhesion: P Fimbriae,ExPEC
+Vir2956_aatA_6,Hypothetical Protein,APEC
+Vir2957_lifA_6,NA,EPEC
+Vir2959_ecpD_16,Adhesion: E.coli common pilus,ETEC
+Vir2961_espX6_4,Hypothetical Protein,EPEC
+Vir2963_chuW_13,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir2970_EC042_19,Secretion system: Type VI,EAEC
+Vir2972_fimI_23,Adhesion: Type I Fimbriae,EHEC
+Vir2977_aec31_13,Secretion system: Type VI: Hypothetical Protein,APEC
+Vir2979_fimI_24,Adhesion: Type I Fimbriae,APEC
+Vir2980_fimI_25,Adhesion: Type I Fimbriae,AIEC
+Vir2989_iroB_5,Siderophore: Salmochelin,ExPEC
+Vir2990_ybtQ_15,Siderophore: Yersiniabactin,ExPEC
+Vir2991_hlyB_5,Toxin: Alpha-Hemolysin,ETEC
+Vir2994_papA_11,Adhesion: P Fimbriae,ExPEC
+Vir2998_ybtT_12,Siderophore: Yersiniabactin,ExPEC
+Vir3000_papG_9,Adhesion: P Fimbriae,ExPEC
+Vir3001_fimD_21,Adhesion: Type I Fimbriae,ExPEC
+Vir3002_nleG8_6,NA,EPEC
+Vir3006_espR1_5,NA,EHEC
+Vir3011_i02_3_7,Hypothetical Protein,UPEC
+Vir3013_aec31_14,Secretion system: Type VI: Hypothetical Protein,EAEC
+Vir3017_irp1_13,Siderophore: Yersiniabactin,ExPEC
+Vir3020_escJ_4,Secretion system: Type III,EHEC
+Vir3023_espD_6,NA,EHEC
+Vir3033_usp_6,Toxin: Colicin-like Usp,UPEC
+Vir3034_fimE_14,Adhesion: Type I Fimbriae,ExPEC
+Vir3037_UvrD_1,Helicase,EAEC
+Vir3039_iroB_6,Siderophore: Salmochelin,ExPEC
+Vir3041_faeD_1,Adhesion: Fimbriae,ETEC
+Vir3042_ybtP_10,Siderophore: Yersiniabactin,ExPEC
+Vir3043_escN_5,NA,EPEC
+Vir3046_aec15_15,Secretion system: Type VI,EHEC
+Vir3047_cesD2_4,NA,EPEC
+Vir3048_aec31_15,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir3051_eaeH_17,Adhesion,EPEC
+Vir3052_escU_5,Secretion system: Type III,EHEC
+Vir3055_ybtP_11,Siderophore: Yersiniabactin,ExPEC
+Vir3059_ybtE_13,Siderophore: Yersiniabactin,ExPEC
+Vir3061_ECO10_18,Hypothetical Protein,EHEC
+Vir3063_UM146_4,Hypothetical Protein,AIEC
+Vir3065_escJ_5,Secretion system: Type III,EPEC
+Vir3066_escT_6,Secretion system: Type III,EHEC
+Vir3067_cesD_4,NA,EHEC
+Vir3069_ecpR_19,Adhesion: E.coli common pilus,APEC
+Vir3072_sepL_5,NA,EHEC
+Vir3073_hlyB_6,Toxin: Alpha-Hemolysin,UPEC
+Vir3075_espX6_5,Hypothetical Protein,EHEC
+Vir3076_EC042_20,Secretion system: Type VI,EAEC
+Vir3077_ybtQ_16,Siderophore: Yersiniabactin,ExPEC
+Vir3078_hlyC_9,Toxin: Alpha-Hemolysin,UPEC
+Vir3080_sfaD_2,Adhesion: S Fimbriae,ExPEC
+Vir3081_sitB_9,Iron: Transport,ExPEC
+Vir3083_ECO10_19,Hypothetical Protein,EHEC
+Vir3084_papC_11,Adhesion: P Fimbriae,ExPEC
+Vir3085_ECO26_7,Secretion system: Type III,EHEC
+Vir3086_espG_5,NA,EPEC
+Vir3087_ler_5,NA,EHEC
+Vir3089_ECS88_14,Secretion system: SCI-I T6SS,NMEC
+Vir3091_hlyB_7,Toxin: Alpha-Hemolysin,EHEC
+Vir3092_ECP_2_13,Secretion system: SCI-I T6SS,UPEC
+Vir3093_glrR_4,NA,EPEC
+Vir3094_fimG_17,Adhesion: Type I Fimbriae,ExPEC
+Vir3099_cah_14,Adhesion,EHEC|ETEC|NMEC|UPEC|AIEC|EPEC|StxEAEC
+Vir3102_aatB_5,NA,ETEC
+Vir3104_chuS_11,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir3105_hlyE_14,Toxin: Hemolysin/cytolysin A,ExPEC
+Vir3109_iutA_7,Siderophore: Aerobactin,ExPEC
+Vir3111_eaeH_18,Adhesion,EPEC
+Vir3114_aafA_1,Adhesion: Fimbriae,EAEC
+Vir3121_aec26_11,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir3123_espC_2,Protease,EPEC
+Vir3124_fimB_15,Adhesion: Type I Fimbriae,UPEC
+Vir3133_ybtP_12,Siderophore: Yersiniabactin,ExPEC
+Vir3134_mpc_4,NA,EHEC
+Vir3137_ecpD_17,Adhesion: E.coli common pilus,UPEC
+Vir3138_sitD_6,Iron: Transport,ExPEC
+Vir3140_cesT_3,NA,EHEC
+Vir3144_EcE24_11,Hypothetical Protein,ETEC
+Vir3148_iutA_8,Siderophore: Aerobactin,ExPEC
+Vir3152_sfaC_2,Adhesion: S Fimbriae,ExPEC
+Vir3154_APECO_9,Hypothetical Protein,APEC
+Vir3157_ibeB_16,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir3159_eaeH_19,Adhesion,UPEC
+Vir3160_ybtX_12,Siderophore: Yersiniabactin,ExPEC
+Vir3161_ybtS_9,Siderophore: Yersiniabactin,ExPEC
+Vir3164_aaiD_3,Secretion system: Type VI,EAEC
+Vir3168_papD_7,Adhesion: P Fimbriae,ExPEC
+Vir3169_sepQ_6,Secretion system: Type III,EHEC
+Vir3171_irp1_14,Siderophore: Yersiniabactin,ExPEC
+Vir3172_espY4_5,Hypothetical Protein,EHEC
+Vir3173_iucC_8,Siderophore: Aerobactin,UPEC|APEC
+Vir3177_ibeC_22,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir3181_ECNA1_14,NA,UPEC
+Vir3184_sitD_7,Iron: Transport,ExPEC
+Vir3187_focD_2,Adhesion: Fimbriae,UPEC
+Vir3188_irp1_15,Siderophore: Yersiniabactin,ExPEC
+Vir3189_tia_8,Adhesion/Invasion,NMEC
+Vir3190_aatD_5,Hypothetical Protein,ETEC
+Vir3192_aec23_16,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir3194_ECO10_20,Secretion system: Type III,EHEC
+Vir3197_iroC_9,Siderophore: Salmochelin,ExPEC
+Vir3198_sfaD_3,Adhesion: S Fimbriae,ExPEC
+Vir3201_fimA_20,Adhesion: Type I Fimbriae,ExPEC
+Vir3205_sat_5,Protease,NMEC
+Vir3207_ybtX_13,Siderophore: Yersiniabactin,ExPEC
+Vir3209_aec18_9,Secretion system: Type VI: Hypothetical Protein,EPEC
+Vir3216_tccP2_5,NA,EHEC
+Vir3219_agn43_10,Autotransporter,K12
+Vir3220_sat_6,Toxin,UPEC
+Vir3224_fimH_20,Adhesion: Type I Fimbriae,ExPEC
+Vir3226_papD_8,Adhesion: P Fimbriae,ExPEC
+Vir3228_aec30_16,Secretion system: Type VI,EHEC
+Vir3229_tia_9,Adhesion/Invasion,UPEC
+Vir3231_espW_5,Secretion system: Type III,EHEC
+Vir3232_papX_7,Adhesion: P Fimbriae,ExPEC
+Vir3234_ECH74_4,Hypothetical Protein,EHEC
+Vir3237_cfaC_9,Adhesion: CFA/I Fimbriae,EHEC
+Vir3238_sitA_7,Iron: Transport,ExPEC
+Vir3242_espFu_5,NA,EHEC
+Vir3249_aec15_16,Secretion system: Type VI: Hypothetical Protein,EHEC
+Vir3252_aec28_11,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir3253_lifA_7,Toxin,EHEC
+Vir3256_espG_6,NA,EHEC
+Vir3259_eltB_2,Toxin: Enterotoxin,ETEC
+Vir3261_aec30_17,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir3262_ECO11_8,Hypothetical Protein,EHEC
+Vir3264_eaeH_20,Adhesion,EHEC
+Vir3266_ecpE_20,Adhesion: E.coli common pilus,ETEC
+Vir3267_iroE_5,Siderophore: Salmochelin,ExPEC
+Vir3269_hlyB_8,Toxin: Alpha-Hemolysin,EHEC
+Vir3272_ECABU_7,Hypothetical Protein,UPEC
+Vir3273_aec28_12,Secretion system: Type VI,ETEC
+Vir3274_aec23_17,Secretion system: Type VI: Hypothetical Protein,UPEC
+Vir3275_sitA_8,Iron: Transport,ExPEC
+Vir3280_agg3B_3,NA,EAEC
+Vir3281_cesT_4,NA,EPEC
+Vir3282_ecpR_20,Adhesion: E.coli common pilus,EHEC
+Vir3283_glrR_5,NA,EHEC
+Vir3285_nleH1_7,Secretion system: Type III,EHEC
+Vir3286_fimG_18,Adhesion: Type I Fimbriae,ExPEC
+Vir3287_ECO10_21,Secretion system: Type III,EHEC
+Vir3292_sfaH_4,Adhesion: S Fimbriae,ExPEC
+Vir3293_papG_10,Adhesion: P Fimbriae,ExPEC
+Vir3298_aatD_6,NA,StxEAEC
+Vir3299_ecpD_18,Adhesion: E.coli common pilus,EAEC
+Vir3302_ECO10_22,Hypothetical Protein,EHEC
+Vir3307_faeI_1,Adhesion: Fimbriae,ETEC
+Vir3309_aaiL_3,Secretion system: Type VI,EAEC
+Vir3313_hlyA_10,Toxin: Alpha-Hemolysin,ExPEC
+Vir3315_espF_9,NA,EPEC
+Vir3317_ecpR_21,Adhesion: E.coli common pilus,UPEC
+Vir3318_eaeH_21,Adhesion,EHEC
+Vir3319_chuA_16,Iron: E.coli hemin uptake,EHEC
+Vir3320_chuT_14,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir3323_fimD_22,Adhesion: Type I Fimbriae,ExPEC
+Vir3324_sitA_9,Iron: Transport,ExPEC
+Vir3330_NRG85_8,Hypothetical Protein,AIEC
+Vir3337_espH_5,Secretion system: Type III,EHEC
+Vir3339_hlyE_15,Toxin: Hemolysin/cytolysin A,ExPEC
+Vir3340_espM2_7,Secretion system: Type III,EHEC
+Vir3343_ibeB_17,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir3344_chuX_7,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir3347_ibeB_18,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir3349_fimC_17,Adhesion: Type I Fimbriae,ExPEC|APEC
+Vir3353_iroE_6,Siderophore: Salmochelin,ExPEC
+Vir3354_fimD_23,Adhesion: Type I Fimbriae,ExPEC
+Vir3357_UTI89_2,Hypothetical Protein,UPEC
+Vir3363_pic_4,Protease,EAEC
+Vir3364_ecpB_18,Adhesion: E.coli common pilus,K12
+Vir3366_EC559_18,Hypothetical Protein,EAEC
+Vir3367_nleG2_10,Secretion system: Type III,EPEC
+Vir3369_toxB_4,Toxin,EHEC
+Vir3371_espX6_6,Secretion system: Type III,EPEC
+Vir3377_ecpE_21,Adhesion: E.coli common pilus,UPEC
+Vir3379_escS_5,NA,EPEC
+Vir3382_nleG6_11,Hypothetical Protein,EHEC
+Vir3390_air-e_3,Hypothetical Protein,EAEC|NMEC|UPEC
+Vir3392_map_7,Hypothetical Protein,EHEC
+Vir3401_ECP_2_14,Secretion system: SCI-I T6SS,UPEC
+Vir3409_glrA_5,NA,EHEC
+Vir3412_ibeC_23,Invasion: brain endothelial cells,NMEC|SEPEC|APEC
+Vir3413_ibeB_19,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir3418_fimI_26,Adhesion: Type I Fimbriae,EHEC
+Vir3419_aec17_9,Secretion system: Type VI: Hypothetical Protein,ETEC
+Vir3421_irp1_16,Siderophore: Yersiniabactin,ExPEC
+Vir3425_papG_11,Adhesion: P Fimbriae,ExPEC
+Vir3426_pic_5,Protease,EAEC
+Vir3430_ecpC_18,Adhesion: E.coli common pilus,APEC
+Vir3432_stx1A_4,Toxin: Shiga,EHEC
+Vir3435_UMNK8_1,Hypothetical Protein,ETEC
+Vir3441_sfaC_3,Adhesion: S Fimbriae,ExPEC
+Vir3442_EC559_19,Hypothetical Protein,EAEC
+Vir3443_eltA_3,Toxin: Enterotoxin,ETEC
+Vir3444_papJ_7,Adhesion: P Fimbriae,ExPEC
+Vir3448_ibeB_20,Invasion: brain endothelial cells & Copper/Silver efflux resistance,NMEC|SEPEC|APEC
+Vir3452_aggR_3,NA,EAEC
+Vir3455_papX_8,Adhesion: P Fimbriae,ExPEC
+Vir3458_irp2_18,Siderophore: Yersiniabactin,ExPEC
+Vir3460_chuX_8,Iron: E.coli hemin uptake,APEC|AIEC|UPEC|EHEC|NMEC|EPEC|EAEC
+Vir3463_LF82_10,Secretion system: SCI-I T6SS,AIEC
+Vir3465_iutA_9,Siderophore: Aerobactin,ExPEC
+Vir3466_papB_6,Adhesion: P Fimbriae,ExPEC
+Vir3468_espN_6,Secretion system: Type III,EHEC
+Vir3469_ecpD_19,Adhesion: E.coli common pilus,EPEC
+Vir3472_cfaD_8,Adhesion: CFA/I Fimbriae,EHEC
+Vir3473_ECH74_5,NA,EHEC
+Vir3479_toxB_5,Toxin,EHEC
+Vir3481_papF_10,Adhesion: P Fimbriae,ExPEC
+Vir3483_EC042_21,Secretion system: Type VI,EAEC
+Vir3484_papE_12,Adhesion: P Fimbriae,ExPEC
+Vir3488_cfaB_6,Adhesion: CFA/I Fimbriae,UPEC
+Vir3489_fimD_24,Adhesion: Type I Fimbriae,ExPEC
+Vir3491_ECO11_9,Secretion system: Type III,EHEC
+Vir3492_fimE_15,Adhesion: Type I Fimbriae,ExPEC
+Vir3503_papD_9,Adhesion: P Fimbriae,ExPEC
+Vir3506_sitB_10,Iron: Transport,ExPEC
+Vir3507_sitD_8,Iron: Transport,ExPEC
+Vir3512_f17A-1_1,Adhesion: Fimbriae,NA
+Vir3513_f17A-2_1,Adhesion: Fimbriae,NA
+Vir3514_f17A-3_1,Adhesion: Fimbriae,NA
+Vir3515_f17A-4_1,Adhesion: Fimbriae,NA
+Vir3516_f17A-5_1,Adhesion: Fimbriae,NA
+Vir3517_f17A-6_1,Adhesion: Fimbriae,NA
+Vir3518_f17A-7_1,Adhesion: Fimbriae,NA
+Vir3519_f17G-1_1,Adhesion: Fimbriae,NA
+Vir3520_f17G-2_1,Adhesion: Fimbriae,NA
+Vir3521_f17G-3_1,Adhesion: Fimbriae,NA
+Vir3522_f17G-4_1,Adhesion: Fimbriae,NA
+Vir3523_f17G-5_1,Adhesion: Fimbriae,NA
+Vir3524_f17G-6_1,Adhesion: Fimbriae,NA
+Vir3525_f17G-7_1,Adhesion: Fimbriae,NA
+Vir3526_f17G-8_1,Adhesion: Fimbriae,NA
+Vir3527_f17G-9_1,Adhesion: Fimbriae,NA
+Vir3528_fanA-1_1,NA,ETEC
+Vir3529_fasA-1_1,NA,ETEC
+Vir3530_fedA-1_1,NA,ETEC
+Vir3531_fedA-2_1,NA,ETEC
+Vir3532_fedA-3_1,NA,ETEC
+Vir3533_fedF-1_1,NA,NA
+Vir3534_fedF-2_1,NA,NA
+Vir3535_fedF-3_1,NA,NA
+Vir3536_fedF-4_1,NA,NA
+Vir3537_fedF-5_1,NA,NA
+Vir3538_fedF-6_1,NA,NA
+Vir3539_ehxA-1_1,NA,NA
+Vir3540_ehxA-2_1,NA,NA
+Vir3542_ehxA-4_1,NA,NA
+Vir3543_ehxA-5_1,NA,NA
+Vir3546_ehxA-8_1,NA,NA
+Vir3547_ehxA-9_1,NA,NA
+Vir3548_ehxA-1_2,NA,NA
+Vir3549_ehxA-1_3,NA,NA
+Vir3550_ehxA-1_4,NA,NA
+Vir3551_iss-1_1,Increased serum survival,ExPEC
+Vir3552_iss-2_1,Increased serum survival,ExPEC
+Vir3553_iss-3_1,Increased serum survival,ExPEC
+Vir3554_iss-4_1,Increased serum survival,ExPEC
+Vir3555_iss-5_1,Increased serum survival,ExPEC
+Vir3556_iss-6_1,Increased serum survival,ExPEC
+Vir3557_iss-7_1,Increased serum survival,ExPEC
+Vir3558_iss-8_1,Increased serum survival,ExPEC
+Vir3559_iss-9_1,Increased serum survival,ExPEC
+Vir3560_iss-10_1,Increased serum survival,ExPEC
+Vir3561_iss-11_1,Increased serum survival,ExPEC
+Vir3562_iss-12_1,Increased serum survival,ExPEC
+Vir3563_iss-13_1,Increased serum survival,ExPEC
+Vir3564_iss-14_1,Increased serum survival,ExPEC
+Vir3565_katP-1_1,NA,NA
+Vir3566_lngA-1_1,NA,NA
+Vir3567_lngA-2_1,NA,NA
+Vir3568_lpfA-1_1,Adhesion: Fimbriae,NA
+Vir3569_lpfA-2_1,Adhesion: Fimbriae,NA
+Vir3570_lpfA-3_1,Adhesion: Fimbriae,NA
+Vir3571_lpfA-4_1,Adhesion: Fimbriae,NA
+Vir3572_lpfA-5_1,Adhesion: Fimbriae,NA
+Vir3573_lpfA-6_1,Adhesion: Fimbriae,NA
+Vir3574_lpfA-7_1,Adhesion: Fimbriae,NA
+Vir3575_lpfA-8_1,Adhesion: Fimbriae,NA
+Vir3576_lpfA-9_1,Adhesion: Fimbriae,NA
+Vir3577_lpfA-1_2,Adhesion: Fimbriae,NA
+Vir3578_lpfA-1_3,Adhesion: Fimbriae,NA
+Vir3579_ltcA-1_1,NA,NA
+Vir3580_ltcA-2_1,NA,NA
+Vir3581_ltcA-3_1,NA,NA
+Vir3582_ltcA-4_1,NA,NA
+Vir3583_ltcA-5_1,NA,NA
+Vir3584_ltcA-6_1,NA,NA
+Vir3585_ltcA-7_1,NA,NA
+Vir3586_ltcA-8_1,NA,NA
+Vir3587_ltcA-9_1,NA,NA
+Vir3588_ltcA-1_2,NA,NA
+Vir3589_ltcA-1_3,NA,NA
+Vir3590_ltcA-1_4,NA,NA
+Vir3591_ltcA-1_5,NA,NA
+Vir3592_ltcA-1_6,NA,NA
+Vir3593_ltcA-1_7,NA,NA
+Vir3596_mchB-1_1,Toxin: Bacteriocins: Microcin,NA
+Vir3597_mchB-2_1,Toxin: Bacteriocins: Microcin,NA
+Vir3598_mchC-1_1,Toxin: Bacteriocins: Microcin,NA
+Vir3599_mchC-2_1,Toxin: Bacteriocins: Microcin,NA
+Vir3600_mchC-3_1,Toxin: Bacteriocins: Microcin,NA
+Vir3601_mchC-4_1,Toxin: Bacteriocins: Microcin,NA
+Vir3602_mchC-5_1,Toxin: Bacteriocins: Microcin,NA
+Vir3603_mchC-6_1,Toxin: Bacteriocins: Microcin,NA
+Vir3604_mchF-1_1,Toxin: Bacteriocins: Microcin,NA
+Vir3605_mchF-2_1,Toxin: Bacteriocins: Microcin,NA
+Vir3606_mchF-3_1,Toxin: Bacteriocins: Microcin,NA
+Vir3607_mchF-4_1,Toxin: Bacteriocins: Microcin,NA
+Vir3608_mchF-5_1,Toxin: Bacteriocins: Microcin,NA
+Vir3609_mchF-6_1,Toxin: Bacteriocins: Microcin,NA
+Vir3610_mchF-7_1,Toxin: Bacteriocins: Microcin,NA
+Vir3611_mchF-8_1,Toxin: Bacteriocins: Microcin,NA
+Vir3612_mchF-9_1,Toxin: Bacteriocins: Microcin,NA
+Vir3613_mchF-1_2,Toxin: Bacteriocins: Microcin,NA
+Vir3614_mchF-1_3,Toxin: Bacteriocins: Microcin,NA
+Vir3615_mchF-1_4,Toxin: Bacteriocins: Microcin,NA
+Vir3616_mchF-1_5,Toxin: Bacteriocins: Microcin,NA
+Vir3617_mchF-1_6,Toxin: Bacteriocins: Microcin,NA
+Vir3618_mchF-1_7,Toxin: Bacteriocins: Microcin,NA
+Vir3619_mcmA-1_1,Microcin: Antimicrobial peptide,NA
+Vir3620_mcmA-2_1,Microcin: Antimicrobial peptide,NA
+Vir3621_mcmA-3_1,Microcin: Antimicrobial peptide,NA
+Vir3622_mcmA-4_1,Microcin: Antimicrobial peptide,NA
+Vir3623_nfaE-1_1,NA,ExPEC
+Vir3624_nfaE-2_1,NA,ExPEC
+Vir3625_nfaE-3_1,NA,ExPEC
+Vir3626_nfaE-4_1,NA,ExPEC
+Vir3627_nfaE-5_1,NA,ExPEC
+Vir3628_perA-1_1,Adhesion,NA
+Vir3629_perA-2_1,Adhesion,NA
+Vir3630_perA-3_1,Adhesion,NA
+Vir3631_perA-4_1,Adhesion,NA
+Vir3632_perA-5_1,Adhesion,NA
+Vir3633_perA-6_1,Adhesion,NA
+Vir3634_perA-7_1,Adhesion,NA
+Vir3635_perA-8_1,Adhesion,NA
+Vir3636_perA-9_1,Adhesion,NA
+Vir3637_perA-1_2,Adhesion,NA
+Vir3638_perA-1_3,Adhesion,NA
+Vir3639_perA-1_4,Adhesion,NA
+Vir3640_perA-1_5,Adhesion,NA
+Vir3641_perA-1_6,Adhesion,NA
+Vir3642_perA-1_7,Adhesion,NA
+Vir3643_perA-1_8,Adhesion,NA
+Vir3644_perA-1_9,Adhesion,NA
+Vir3645_perA-1_10,Adhesion,NA
+Vir3646_perA-1_11,Adhesion,NA
+Vir3647_rpeA-1_1,NA,NA
+Vir3648_sigA-1_1,NA,NA
+Vir3649_sigA-2_1,NA,NA
+Vir3650_sta1-1_1,NA,NA
+Vir3651_sta1-2_1,NA,NA
+Vir3652_stb-1_1,NA,NA
+Vir3653_stb-2_1,NA,NA
+Vir3654_stb-3_1,NA,NA
+Vir3655_subA-1_1,Toxin,NA
+Vir3656_subA-2_1,Toxin,NA
+Vir3657_subA-3_1,Toxin,NA
+Vir3658_subA-4_1,Toxin,NA
+Vir3659_subA-5_1,Toxin,NA
+Vir3660_saa-1_1,NA,EHEC
+Vir3661_virF-1_1,NA,NA
+Vir3662_virF-2_1,NA,NA
+Vir3663_virF-3_1,NA,NA
+Vir3664_boa-1_1,NA,NA
+Vir3665_boa-2_1,NA,NA
+Vir3666_astA-6_1,Heat-stable enterotoxin 1,ETEC
+Vir3667_astA-7_1,Heat-stable enterotoxin 1,ETEC
+Vir3668_astA-8_1,Heat-stable enterotoxin 1,ETEC
+Vir3669_astA-9_1,Heat-stable enterotoxin 1,ETEC
+Vir3670_astA-1_1,Heat-stable enterotoxin 1,ETEC
+Vir3671_astA-1_2,Heat-stable enterotoxin 1,ETEC
+Vir3672_afaFAB_1,NA,NA
+Vir3673_bmaE_1,NA,ExPEC
+Vir3674_gaf_1,Adhesion: Fimbriae,NA
+Vir3675_nfaE_1,Adhesion: Fimbriae,ExPEC
+Vir3676_kpsMT_II_1,Capsule synthesis,ExPEC
+Vir3677_kpsMT_III_1,Capsule synthesis,ExPEC
+Vir3678_kpsMT_K1_1,Capsule synthesis,ExPEC
+Vir3680_rfc_1,NA,ExPEC
+Vir3681_cvaC_1,NA,ExPEC
+Vir3682_TraT_1,complement resistance protein,ExPEC
+Vir3683_PAI_1,UTI pathogencity island,ExPEC
+Vir3684_aggC_1,Adhesion: Fimbriae,NA
+Vir3685_aggA_1,Adhesion: Fimbriae,NA
+Vir3686_csgABGFE_1,Adhesion: Curli fimbriae,NA
+Vir3687_tcpC_1,ExPEC Virulence gene,NA
+Vir3688_shf_1,NA,NA
+Vir3689_estA_1,Putative type I secretion membrane-fusion protein,ExPEC
+Vir3690_sepA_1,NA,NA
+Vir3691_stx1a-A_1,Toxin: Shiga type 1 subunit A,EHEC/STEC/ExPEC
+Vir3693_stx1c-A_1,Toxin: Shiga type 1 subunit A,EHEC/STEC/ExPEC
+Vir3694_stx1c-B_1,Toxin: Shiga type 1 subunit B,EHEC/STEC/ExPEC
+Vir3695_stx1d-A_1,Toxin: Shiga type 1 subunit A,EHEC/STEC/ExPEC
+Vir3696_stx1d-B_1,Toxin: Shiga type 1 subunit B,EHEC/STEC/ExPEC
+Vir3697_stx1a-A_2,Toxin: Shiga type 1 subunit A,EHEC/STEC/ExPEC
+Vir3699_stx2b-A_1,Toxin: Shiga type 2 subunit A,EHEC/STEC/ExPEC
+Vir3700_stx2b-B_1,Toxin: Shiga type 2 subunit B,EHEC/STEC/ExPEC
+Vir3701_stx2c-A_1,Toxin: Shiga type 2 subunit A,EHEC/STEC/ExPEC
+Vir3702_stx2c-B_1,Toxin: Shiga type 2 subunit B,EHEC/STEC/ExPEC
+Vir3703_stx2d-A_1,Toxin: Shiga type 2 subunit A,EHEC/STEC/ExPEC
+Vir3704_stx2d-B_1,Toxin: Shiga type 2 subunit B,EHEC/STEC/ExPEC
+Vir3705_stx2e-A_1,Toxin: Shiga type 2 subunit A,EHEC/STEC/ExPEC
+Vir3706_stx2e-B_1,Toxin: Shiga type 2 subunit B,EHEC/STEC/ExPEC
+Vir3707_stx2f-A_1,Toxin: Shiga type 2 subunit A,EHEC/STEC/ExPEC
+Vir3708_stx2f-B_1,Toxin: Shiga type 2 subunit B,EHEC/STEC/ExPEC
+Vir3709_stx2g-A_1,Toxin: Shiga type 2 subunit A,EHEC/STEC/ExPEC
+Vir3710_stx2g-B_1,Toxin: Shiga type 2 subunit B,EHEC/STEC/ExPEC
+Vir3711_ipaD_1,Invasion protein Shigella flexneri,NA
+Vir3712_gad_1,Glutamate decarboxylase,NA
+Vir3713_iroN_8,Enterobactin siderophore receptor protein,NA
+Vir3714_eae_7,Intimin,NA
+Vir3715_cdtB_3,Cytolethal distending toxin B,NA
+Vir3716_espF_10,Type III secretion system,NA
+Vir3717_espB_8,Secreted protein B,NA
+Vir3718_sat_7,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir3719_eae_8,Intimin,NA
+Vir3720_iha_1,Adherence protein,NA
+Vir3721_cofA_1,Longus type IV pilus subunit,NA
+Vir3722_iha_2,Adherence protein,NA
+Vir3723_cif_2,Type III secreted effector,NA
+Vir3724_espB_9,Secreted protein B,NA
+Vir3725_pic_6,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir3726_stx2A_6,Shiga toxin 2 subunit A,NA
+Vir3727_ipaH9-8_1,Invasion plasmid antigen,NA
+Vir3728_cma_1,Colicin M,NA
+Vir3729_cnf1_4,Cytotoxic necrotizing factor,NA
+Vir3730_K88ab_1,K88/F4 protein subunit,NA
+Vir3731_sat_8,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir3732_cdtB_4,Cytolethal distending toxin B,NA
+Vir3733_espA_8,Type III secretions system,NA
+Vir3734_sat_9,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir3735_iroN_9,Enterobactin siderophore receptor protein,NA
+Vir3736_iha_3,Adherence protein,NA
+Vir3737_cif_3,Type III secreted effector,NA
+Vir3738_gad_2,Glutamate decarboxylase,NA
+Vir3739_gad_3,Glutamate decarboxylase,NA
+Vir3740_stx2A_7,Shiga toxin 2 subunit A,NA
+Vir3741_cba_1,Colicin B,NA
+Vir3742_gad_4,Glutamate decarboxylase,NA
+Vir3743_gad_5,Glutamate decarboxylase,NA
+Vir3744_iroN_10,Enterobactin siderophore receptor protein,NA
+Vir3745_ipaH9-8_2,Invasion plasmid antigen,NA
+Vir3746_cma_2,Colicin M,NA
+Vir3747_gad_6,Glutamate decarboxylase,NA
+Vir3748_cma_3,Colicin M,NA
+Vir3749_K88ab_2,K88/F4 protein subunit,NA
+Vir3750_iroN_11,Enterobactin siderophore receptor protein,NA
+Vir3751_stx2A_8,Shiga toxin 2 subunit A,NA
+Vir3752_cma_4,Colicin M,NA
+Vir3753_gad_7,Glutamate decarboxylase,NA
+Vir3754_stx2A_9,Shiga toxin 2 subunit A,NA
+Vir3755_espA_9,Type III secretions system,NA
+Vir3756_cif_4,Type III secreted effector,NA
+Vir3757_nleB_1,Non-LEE encoded effector B,NA
+Vir3758_stx2A_10,Shiga toxin 2 subunit A,NA
+Vir3759_stx1B_2,Shiga toxin 1 subunit B,NA
+Vir3760_ccI_1,Cloacin,NA
+Vir3761_ipaD_2,Invasion protein Shigella flexneri,NA
+Vir3762_stx2A_11,Shiga toxin 2 subunit A,NA
+Vir3763_ireA_4,Siderophore receptor,NA
+Vir3764_astA_1,Heat-stable enterotoxin 1,NA
+Vir3765_gad_8,Glutamate decarboxylase,NA
+Vir3766_stx2A_12,Shiga toxin 2 subunit A,NA
+Vir3767_stx2A_13,Shiga toxin 2 subunit A,NA
+Vir3768_cdtB_5,Cytolethal distending toxin B,NA
+Vir3769_ipaH9-8_3,Invasion plasmid antigen,NA
+Vir3770_gad_9,Glutamate decarboxylase,NA
+Vir3771_eae_9,Intimin,NA
+Vir3772_cdtB_6,Cytolethal distending toxin B,NA
+Vir3773_cba_2,Colicin B,NA
+Vir3774_espB_10,Secreted protein B,NA
+Vir3775_iha_4,Adherence protein,NA
+Vir3776_cma_5,Colicin M,NA
+Vir3777_sepA_2,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir3778_cma_6,Colicin M,NA
+Vir3779_stx2A_14,Shiga toxin 2 subunit A,NA
+Vir3780_sat_10,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir3781_fim41a_3,Mature Fim41a/F41 protein,NA
+Vir3782_K88ab_3,K88/F4 protein subunit,NA
+Vir3783_stx2A_15,Shiga toxin 2 subunit A,NA
+Vir3784_gad_10,Glutamate decarboxylase,NA
+Vir3785_stx1B_3,Shiga toxin 1 subunit B,NA
+Vir3786_gad_11,Glutamate decarboxylase,NA
+Vir3787_gad_12,Glutamate decarboxylase,NA
+Vir3788_cma_7,Colicin M,NA
+Vir3789_gad_13,Glutamate decarboxylase,NA
+Vir3790_cba_3,Colicin B,NA
+Vir3791_nleA_8,Non-LEE encoded effector A,NA
+Vir3792_cba_4,Colicin B,NA
+Vir3793_gad_14,Glutamate decarboxylase,NA
+Vir3794_iroN_12,Enterobactin siderophore receptor protein,NA
+Vir3795_celb_1,Endonuclease colicin E2,NA
+Vir3796_cif_5,Type III secreted effector,NA
+Vir3797_gad_15,Glutamate decarboxylase,NA
+Vir3798_cba_5,Colicin B,NA
+Vir3799_stx1B_4,Shiga toxin 1 subunit B,NA
+Vir3800_iha_5,Adherence protein,NA
+Vir3801_stx2A_16,Shiga toxin 2 subunit A,NA
+Vir3802_cma_8,Colicin M,NA
+Vir3803_iha_6,Adherence protein,NA
+Vir3804_eae_10,Intimin,NA
+Vir3805_astA_2,Heat-stable enterotoxin 1,NA
+Vir3806_gad_16,Glutamate decarboxylase,NA
+Vir3807_gad_17,Glutamate decarboxylase,NA
+Vir3808_gad_18,Glutamate decarboxylase,NA
+Vir3809_espB_11,Secreted protein B,NA
+Vir3810_gad_19,Glutamate decarboxylase,NA
+Vir3811_efa1_1,EHEC factor for adherence,NA
+Vir3812_espA_10,Type III secretions system,NA
+Vir3813_stx2A_17,Shiga toxin 2 subunit A,NA
+Vir3814_cba_6,Colicin B,NA
+Vir3815_stx2A_18,Shiga toxin 2 subunit A,NA
+Vir3816_K88ab_4,K88/F4 protein subunit,NA
+Vir3817_nleB_2,Non-LEE encoded effector B,NA
+Vir3818_iroN_13,Enterobactin siderophore receptor protein,NA
+Vir3819_gad_20,Glutamate decarboxylase,NA
+Vir3820_espA_11,Type III secretions system,NA
+Vir3821_stx1A_5,Shiga toxin 1 subunit A,NA
+Vir3822_stx1B_5,Shiga toxin 1 subunit B,NA
+Vir3823_ipaD_3,Invasion protein Shigella flexneri,NA
+Vir3824_gad_21,Glutamate decarboxylase,NA
+Vir3825_stx2A_19,Shiga toxin 2 subunit A,NA
+Vir3826_gad_22,Glutamate decarboxylase,NA
+Vir3827_cma_9,Colicin M,NA
+Vir3828_nleB_3,Non-LEE encoded effector B,NA
+Vir3829_gad_23,Glutamate decarboxylase,NA
+Vir3830_espA_12,Type III secretions system,NA
+Vir3831_espA_13,Type III secretions system,NA
+Vir3832_gad_24,Glutamate decarboxylase,NA
+Vir3833_stx2A_20,Shiga toxin 2 subunit A,NA
+Vir3834_stx2A_21,Shiga toxin 2 subunit A,NA
+Vir3835_cma_10,Colicin M,NA
+Vir3836_celb_2,Endonuclease colicin E2,NA
+Vir3837_iha_7,Adherence protein,NA
+Vir3838_gad_25,Glutamate decarboxylase,NA
+Vir3839_fim41a_4,Mature Fim41a/F41 protein,NA
+Vir3840_eae_11,Intimin,NA
+Vir3841_espA_14,Type III secretions system,NA
+Vir3842_espA_15,Type III secretions system,NA
+Vir3843_gad_26,Glutamate decarboxylase,NA
+Vir3844_stx2A_22,Shiga toxin 2 subunit A,NA
+Vir3845_stx1B_6,Shiga toxin 1 subunit B,NA
+Vir3846_ipaH9-8_4,Invasion plasmid antigen,NA
+Vir3847_nleA_9,Non-LEE encoded effector A,NA
+Vir3848_ipaD_4,Invasion protein Shigella flexneri,NA
+Vir3849_gad_27,Glutamate decarboxylase,NA
+Vir3850_eae_12,Intimin,NA
+Vir3851_gad_28,Glutamate decarboxylase,NA
+Vir3852_K88ab_5,K88/F4 protein subunit,NA
+Vir3853_eae_13,Intimin,NA
+Vir3854_gad_29,Glutamate decarboxylase,NA
+Vir3855_eae_14,Intimin,NA
+Vir3856_gad_30,Glutamate decarboxylase,NA
+Vir3857_gad_31,Glutamate decarboxylase,NA
+Vir3858_bfpA_1,Major subunit of bundle-forming pili,NA
+Vir3859_gad_32,Glutamate decarboxylase,NA
+Vir3860_stx1B_7,Shiga toxin 1 subunit B,NA
+Vir3861_espC_3,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir3862_eae_15,Intimin,NA
+Vir3863_stx2A_23,Shiga toxin 2 subunit A,NA
+Vir3864_gad_33,Glutamate decarboxylase,NA
+Vir3865_gad_34,Glutamate decarboxylase,NA
+Vir3866_stx2A_24,Shiga toxin 2 subunit A,NA
+Vir3867_gad_35,Glutamate decarboxylase,NA
+Vir3868_efa1_2,EHEC factor for adherence,NA
+Vir3869_cba_7,Colicin B,NA
+Vir3870_stx1A_6,Shiga toxin 1 subunit A,NA
+Vir3871_espA_16,Type III secretions system,NA
+Vir3872_stx2A_25,Shiga toxin 2 subunit A,NA
+Vir3873_eae_16,Intimin,NA
+Vir3874_gad_36,Glutamate decarboxylase,NA
+Vir3875_gad_37,Glutamate decarboxylase,NA
+Vir3876_espC_4,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir3877_eae_17,Intimin,NA
+Vir3878_nleA_10,Non-LEE encoded effector A,NA
+Vir3879_espP_3,Putative exoprotein precursor,NA
+Vir3880_nleC_5,Non-LEE encoded effector C,NA
+Vir3881_ipaD_5,Invasion protein Shigella flexneri,NA
+Vir3882_eae_18,Intimin,NA
+Vir3883_stx2A_26,Shiga toxin 2 subunit A,NA
+Vir3884_gad_38,Glutamate decarboxylase,NA
+Vir3885_eae_19,Intimin,NA
+Vir3886_gad_39,Glutamate decarboxylase,NA
+Vir3887_astA_3,Heat-stable enterotoxin 1,NA
+Vir3888_epeA_1,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir3889_stx2A_27,Shiga toxin 2 subunit A,NA
+Vir3890_espI_2,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir3891_stx2A_28,Shiga toxin 2 subunit A,NA
+Vir3892_ccI_2,Cloacin,NA
+Vir3893_stx1A_7,Shiga toxin 1 subunit A,NA
+Vir3894_stx1A_8,Shiga toxin 1 subunit A,NA
+Vir3895_sigA_1,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir3896_stx1A_9,Shiga toxin 1 subunit A,NA
+Vir3897_eae_20,Intimin,NA
+Vir3898_ipaH9-8_5,Invasion plasmid antigen,NA
+Vir3899_eae_21,Intimin,NA
+Vir3900_stx2A_29,Shiga toxin 2 subunit A,NA
+Vir3901_iha_8,Adherence protein,NA
+Vir3902_nleA_11,Non-LEE encoded effector A,NA
+Vir3903_stx2A_30,Shiga toxin 2 subunit A,NA
+Vir3904_stx1A_10,Shiga toxin 1 subunit A,NA
+Vir3905_eae_22,Intimin,NA
+Vir3906_efa1_3,EHEC factor for adherence,NA
+Vir3907_cdtB_7,Cytolethal distending toxin B,NA
+Vir3908_stx2A_31,Shiga toxin 2 subunit A,NA
+Vir3909_eae_23,Intimin,NA
+Vir3910_stx2A_32,Shiga toxin 2 subunit A,NA
+Vir3911_gad_40,Glutamate decarboxylase,NA
+Vir3912_iha_9,Adherence protein,NA
+Vir3913_gad_41,Glutamate decarboxylase,NA
+Vir3914_stx2A_33,Shiga toxin 2 subunit A,NA
+Vir3915_eae_24,Intimin,NA
+Vir3916_cba_8,Colicin B,NA
+Vir3917_cma_11,Colicin M,NA
+Vir3918_stx2A_34,Shiga toxin 2 subunit A,NA
+Vir3919_cma_12,Colicin M,NA
+Vir3920_stx2A_35,Shiga toxin 2 subunit A,NA
+Vir3921_eae_25,Intimin,NA
+Vir3922_espB_12,Secreted protein B,NA
+Vir3923_stx1A_11,Shiga toxin 1 subunit A,NA
+Vir3924_stx2A_36,Shiga toxin 2 subunit A,NA
+Vir3925_stx2A_37,Shiga toxin 2 subunit A,NA
+Vir3926_stx2A_38,Shiga toxin 2 subunit A,NA
+Vir3927_bfpA_2,Major subunit of bundle-forming pili,NA
+Vir3928_eae_26,Intimin,NA
+Vir3929_sepA_3,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir3930_stx2A_39,Shiga toxin 2 subunit A,NA
+Vir3931_eae_27,Intimin,NA
+Vir3932_stx2A_40,Shiga toxin 2 subunit A,NA
+Vir3933_cba_9,Colicin B,NA
+Vir3934_stx2A_41,Shiga toxin 2 subunit A,NA
+Vir3935_ipaH9-8_6,Invasion plasmid antigen,NA
+Vir3936_stx2A_42,Shiga toxin 2 subunit A,NA
+Vir3937_celb_3,Endonuclease colicin E2,NA
+Vir3938_nleA_12,Non-LEE encoded effector A,NA
+Vir3939_iha_10,Adherence protein,NA
+Vir3940_iha_11,Adherence protein,NA
+Vir3941_eae_28,Intimin,NA
+Vir3942_stx2A_43,Shiga toxin 2 subunit A,NA
+Vir3943_espF_11,Type III secretion system,NA
+Vir3944_stx1B_8,Shiga toxin 1 subunit B,NA
+Vir3945_iha_12,Adherence protein,NA
+Vir3946_iha_13,Adherence protein,NA
+Vir3947_nleB_4,Non-LEE encoded effector B,NA
+Vir3948_stx1A_12,Shiga toxin 1 subunit A,NA
+Vir3949_iroN_14,Enterobactin siderophore receptor protein,NA
+Vir3950_cma_13,Colicin M,NA
+Vir3951_gad_42,Glutamate decarboxylase,NA
+Vir3952_eae_29,Intimin,NA
+Vir3953_stx2A_44,Shiga toxin 2 subunit A,NA
+Vir3954_cba_10,Colicin B,NA
+Vir3955_espP_4,Putative exoprotein precursor,NA
+Vir3956_stx2A_45,Shiga toxin 2 subunit A,NA
+Vir3957_stx2A_46,Shiga toxin 2 subunit A,NA
+Vir3958_cnf1_5,Cytotoxic necrotizing factor,NA
+Vir3959_espA_17,Type III secretions system,NA
+Vir3960_cba_11,Colicin B,NA
+Vir3961_cdtB_8,Cytolethal distending toxin B,NA
+Vir3962_gad_43,Glutamate decarboxylase,NA
+Vir3963_iha_14,Adherence protein,NA
+Vir3964_espB_13,Secreted protein B,NA
+Vir3965_gad_44,Glutamate decarboxylase,NA
+Vir3966_stx2A_47,Shiga toxin 2 subunit A,NA
+Vir3967_stx2A_48,Shiga toxin 2 subunit A,NA
+Vir3968_stx2A_49,Shiga toxin 2 subunit A,NA
+Vir3969_cma_14,Colicin M,NA
+Vir3970_cdtB_9,Cytolethal distending toxin B,NA
+Vir3971_stx2A_50,Shiga toxin 2 subunit A,NA
+Vir3972_stx2A_51,Shiga toxin 2 subunit A,NA
+Vir3973_efa1_4,EHEC factor for adherence,NA
+Vir3974_stx2A_52,Shiga toxin 2 subunit A,NA
+Vir3975_etpD_1,Type II secretion protein,NA
+Vir3976_celb_4,Endonuclease colicin E2,NA
+Vir3977_espA_18,Type III secretions system,NA
+Vir3978_astA_4,Heat-stable enterotoxin 1,NA
+Vir3979_espB_14,Secreted protein B,NA
+Vir3980_celb_5,Endonuclease colicin E2,NA
+Vir3981_gad_45,Glutamate decarboxylase,NA
+Vir3982_gad_46,Glutamate decarboxylase,NA
+Vir3983_stx2A_53,Shiga toxin 2 subunit A,NA
+Vir3984_stx2A_54,Shiga toxin 2 subunit A,NA
+Vir3985_espB_15,Secreted protein B,NA
+Vir3986_stx2A_55,Shiga toxin 2 subunit A,NA
+Vir3987_stx2A_56,Shiga toxin 2 subunit A,NA
+Vir3988_ccI_3,Cloacin,NA
+Vir3989_espA_19,Type III secretions system,NA
+Vir3990_eae_30,Intimin,NA
+Vir3991_ipaD_6,Invasion protein Shigella flexneri,NA
+Vir3992_celb_6,Endonuclease colicin E2,NA
+Vir3993_espF_12,Type III secretion system,NA
+Vir3994_senB_2,Plasmid-encoded enterotoxin,NA
+Vir3995_ipaH9-8_7,Invasion plasmid antigen,NA
+Vir3996_gad_47,Glutamate decarboxylase,NA
+Vir3997_eae_31,Intimin,NA
+Vir3998_eae_32,Intimin,NA
+Vir3999_eae_33,Intimin,NA
+Vir4000_eae_34,Intimin,NA
+Vir4001_nleA_13,Non-LEE encoded effector A,NA
+Vir4002_stx2A_57,Shiga toxin 2 subunit A,NA
+Vir4003_stx2A_58,Shiga toxin 2 subunit A,NA
+Vir4004_nleB_5,Non-LEE encoded effector B,NA
+Vir4005_cba_12,Colicin B,NA
+Vir4006_ccI_4,Cloacin,NA
+Vir4007_eae_35,Intimin,NA
+Vir4008_gad_48,Glutamate decarboxylase,NA
+Vir4009_gad_49,Glutamate decarboxylase,NA
+Vir4010_nleC_6,Non-LEE encoded effector C,NA
+Vir4011_stx1A_13,Shiga toxin 1 subunit A,NA
+Vir4012_celb_7,Endonuclease colicin E2,NA
+Vir4013_gad_50,Glutamate decarboxylase,NA
+Vir4014_ipaH9-8_8,Invasion plasmid antigen,NA
+Vir4015_stx2A_59,Shiga toxin 2 subunit A,NA
+Vir4016_eatA_1,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir4017_gad_51,Glutamate decarboxylase,NA
+Vir4018_etpD_2,Type II secretion protein,NA
+Vir4019_efa1_5,EHEC factor for adherence,NA
+Vir4020_nleB_6,Non-LEE encoded effector B,NA
+Vir4021_eae_36,Intimin,NA
+Vir4022_iroN_15,Enterobactin siderophore receptor protein,NA
+Vir4023_cma_15,Colicin M,NA
+Vir4024_celb_8,Endonuclease colicin E2,NA
+Vir4025_cnf1_6,Cytotoxic necrotizing factor,NA
+Vir4026_iha_15,Adherence protein,NA
+Vir4027_stx2A_60,Shiga toxin 2 subunit A,NA
+Vir4028_cdtB_10,Cytolethal distending toxin B,NA
+Vir4029_gad_52,Glutamate decarboxylase,NA
+Vir4030_stx2A_61,Shiga toxin 2 subunit A,NA
+Vir4031_cma_16,Colicin M,NA
+Vir4032_iha_16,Adherence protein,NA
+Vir4033_celb_9,Endonuclease colicin E2,NA
+Vir4034_nleA_14,Non-LEE encoded effector A,NA
+Vir4035_stx1B_9,Shiga toxin 1 subunit B,NA
+Vir4036_gad_53,Glutamate decarboxylase,NA
+Vir4037_gad_54,Glutamate decarboxylase,NA
+Vir4038_eae_37,Intimin,NA
+Vir4039_eae_38,Intimin,NA
+Vir4040_sepA_4,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir4041_stx1B_10,Shiga toxin 1 subunit B,NA
+Vir4042_stx1A_14,Shiga toxin 1 subunit A,NA
+Vir4043_espA_20,Type III secretions system,NA
+Vir4044_stx2A_62,Shiga toxin 2 subunit A,NA
+Vir4045_stx2A_63,Shiga toxin 2 subunit A,NA
+Vir4046_K88ab_6,K88/F4 protein subunit,NA
+Vir4047_stx2A_64,Shiga toxin 2 subunit A,NA
+Vir4048_gad_55,Glutamate decarboxylase,NA
+Vir4049_stx1A_15,Shiga toxin 1 subunit A,NA
+Vir4050_stx2A_65,Shiga toxin 2 subunit A,NA
+Vir4051_stx2A_66,Shiga toxin 2 subunit A,NA
+Vir4052_stx2A_67,Shiga toxin 2 subunit A,NA
+Vir4053_eae_39,Intimin,NA
+Vir4054_astA_5,Heat-stable enterotoxin 1,NA
+Vir4055_espA_21,Type III secretions system,NA
+Vir4056_gad_56,Glutamate decarboxylase,NA
+Vir4057_stx2A_68,Shiga toxin 2 subunit A,NA
+Vir4058_stx2A_69,Shiga toxin 2 subunit A,NA
+Vir4059_cba_13,Colicin B,NA
+Vir4060_stx1B_11,Shiga toxin 1 subunit B,NA
+Vir4061_stx2A_70,Shiga toxin 2 subunit A,NA
+Vir4062_stx2A_71,Shiga toxin 2 subunit A,NA
+Vir4063_espA_22,Type III secretions system,NA
+Vir4064_gad_57,Glutamate decarboxylase,NA
+Vir4065_stx2A_72,Shiga toxin 2 subunit A,NA
+Vir4066_hlyE_16,Avian E.coli haemolysin,NA
+Vir4067_espB_16,Secreted protein B,NA
+Vir4068_iha_17,Adherence protein,NA
+Vir4069_nleA_15,Non-LEE encoded effector A,NA
+Vir4070_cma_17,Colicin M,NA
+Vir4071_celb_10,Endonuclease colicin E2,NA
+Vir4072_gad_58,Glutamate decarboxylase,NA
+Vir4073_espF_13,Type III secretion system,NA
+Vir4074_espF_14,Type III secretion system,NA
+Vir4075_gad_59,Glutamate decarboxylase,NA
+Vir4076_bfpA_3,Major subunit of bundle-forming pili,NA
+Vir4077_stx1A_16,Shiga toxin 1 subunit A,NA
+Vir4078_espB_17,Secreted protein B,NA
+Vir4079_nleB_7,Non-LEE encoded effector B,NA
+Vir4080_cba_14,Colicin B,NA
+Vir4081_efa1_6,EHEC factor for adherence,NA
+Vir4082_stx1B_12,Shiga toxin 1 subunit B,NA
+Vir4083_cdtB_11,Cytolethal distending toxin B,NA
+Vir4084_eae_40,Intimin,NA
+Vir4085_cnf1_7,Cytotoxic necrotizing factor,NA
+Vir4086_espA_23,Type III secretions system,NA
+Vir4087_sepA_5,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir4088_cma_18,Colicin M,NA
+Vir4089_ipaD_7,Invasion protein Shigella flexneri,NA
+Vir4090_gad_60,Glutamate decarboxylase,NA
+Vir4091_eae_41,Intimin,NA
+Vir4092_K88ab_7,K88/F4 protein subunit,NA
+Vir4093_espF_15,Type III secretion system,NA
+Vir4094_etpD_3,Type II secretion protein,NA
+Vir4095_rpeA_1,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir4096_bfpA_4,Major subunit of bundle-forming pili,NA
+Vir4097_gad_61,Glutamate decarboxylase,NA
+Vir4098_bfpA_5,Major subunit of bundle-forming pili,NA
+Vir4099_eae_42,Intimin,NA
+Vir4100_K88ab_8,K88/F4 protein subunit,NA
+Vir4101_iha_18,Adherence protein,NA
+Vir4102_ipaD_8,Invasion protein Shigella flexneri,NA
+Vir4103_nleA_16,Non-LEE encoded effector A,NA
+Vir4104_gad_62,Glutamate decarboxylase,NA
+Vir4105_cdtB_12,Cytolethal distending toxin B,NA
+Vir4106_cdtB_13,Cytolethal distending toxin B,NA
+Vir4107_eae_43,Intimin,NA
+Vir4108_gad_63,Glutamate decarboxylase,NA
+Vir4109_gad_64,Glutamate decarboxylase,NA
+Vir4110_K88ab_9,K88/F4 protein subunit,NA
+Vir4111_gad_65,Glutamate decarboxylase,NA
+Vir4112_cdtB_14,Cytolethal distending toxin B,NA
+Vir4113_cba_15,Colicin B,NA
+Vir4114_stx2A_73,Shiga toxin 2 subunit A,NA
+Vir4115_espF_16,Type III secretion system,NA
+Vir4116_stx1A_17,Shiga toxin 1 subunit A,NA
+Vir4117_nleC_7,Non-LEE encoded effector C,NA
+Vir4118_cma_19,Colicin M,NA
+Vir4119_stx2A_74,Shiga toxin 2 subunit A,NA
+Vir4120_cdtB_15,Cytolethal distending toxin B,NA
+Vir4121_stx2A_75,Shiga toxin 2 subunit A,NA
+Vir4122_senB_3,Plasmid-encoded enterotoxin,NA
+Vir4123_senB_4,Plasmid-encoded enterotoxin,NA
+Vir4124_iha_19,Adherence protein,NA
+Vir4125_gad_66,Glutamate decarboxylase,NA
+Vir4126_stx2A_76,Shiga toxin 2 subunit A,NA
+Vir4127_pic_7,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir4128_espA_24,Type III secretions system,NA
+Vir4129_stx2A_77,Shiga toxin 2 subunit A,NA
+Vir4130_gad_67,Glutamate decarboxylase,NA
+Vir4131_nleA_17,Non-LEE encoded effector A,NA
+Vir4132_espP_5,Putative exoprotein precursor,NA
+Vir4133_gad_68,Glutamate decarboxylase,NA
+Vir4134_stx2A_78,Shiga toxin 2 subunit A,NA
+Vir4135_eae_44,Intimin,NA
+Vir4136_iroN_16,Enterobactin siderophore receptor protein,NA
+Vir4137_eae_45,Intimin,NA
+Vir4138_stx2A_79,Shiga toxin 2 subunit A,NA
+Vir4139_eae_46,Intimin,NA
+Vir4140_nleA_18,Non-LEE encoded effector A,NA
+Vir4141_sepA_6,serine protease autotransporters of Enterobacteriaceae (SPATE),NA
+Vir4142_cdtB_16,Cytolethal distending toxin B,NA
+Vir4143_eae_47,Intimin,NA
+Vir4144_gad_69,Glutamate decarboxylase,NA
+Vir4145_stx1A_18,Shiga toxin 1 subunit A,NA
+Vir4146_stx2A_80,Shiga toxin 2 subunit A,NA
+Vir4147_ehxA_1,Enterohaemolysin,NA
+Vir4148_astA_6,Heat-stable enterotoxin 1,NA
+Vir4149_eae_48,Intimin,NA
+Vir4150_ipaD_9,Invasion protein Shigella flexneri,NA
+Vir4151_gad_70,Glutamate decarboxylase,NA
+Vir4152_K88ab_10,K88/F4 protein subunit,NA

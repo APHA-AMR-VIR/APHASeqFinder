@@ -1,0 +1,124 @@
+Script started on 2023-11-28 14:01:11+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="211" LINES="50"]
+WARNING: overwriting environment variables set in the machine
+overwriting variable {'PERL5LIB'}
+^C(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0/third_party_software[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0/third_party_software[00m$ cd ..
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ cd ..[1Pexit[2Plsfsdfsdfsdf[6Phtopgdu -a[4Plscd ..[3Plssce health[1Prm *core*ls[Krm *scaffold*[2Presult*ls[Krm -r *snippyls[Krm -r *snippyls[Krm *result*scaffold*ls[Krm *core*sce healthls[Kcd ..[3Plsgdu -a[2Phtopfsdfsdfsdfls[Kexitcd ..[Kpython seqfinder.py ~/template_arguments_file_APHASeqFinder_4.0.6.args [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[0m[01;34mEFSA_panel[0m  [01;32mabricate_combine_with_seqfinder.py[0m  [01;32mchangelog.txt[0m           [01;34mreferences[0m    [01;32mtemplate_arguments_file_APHASeqFinder_4.0.6.args[0m
+[01;32mREADME.md[0m   [01;32mcalculate_genes_presence.py[0m         [01;32mgood_snps_filtering.py[0m  [01;32mseqfinder.py[0m  [01;34mthird_party_software[0m
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ gedit[K[K[K[K[Kw[Kpwd
+/home/nickduggett/APHASeqFinder_4.1.0
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ gedit template_arguments_file_APHASeqFinder_4.0.6.args 
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ python seqfinder.py template_arguments_file_APHASeqFinder_4.[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krm template_arguments_file_APHASeqFinder_4.0.6.args 
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ python seqfinder.py template_arguments_file_APHASeqFinder_4.1.0.args 
+  File "seqfinder.py", line 400
+    os.system("exit")      
+                          ^
+IndentationError: unindent does not match any outer indentation level
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ python seqfinder.py template_arguments_file_APHASeqFinder_4.1.0.args 
+Python module 'numpy' is installed, continuing
+
+Python module 'pandas' is installed, continuing
+
+Script started, file is screen.log
+WARNING: overwriting environment variables set in the machine
+overwriting variable {'PERL5LIB'}
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ exit
+exit
+Script done, file is screen.log
+Reading arguments from file: template_arguments_file_APHASeqFinder_4.1.0.args
+Loading argument: soft_path="/home/nickduggett/APHASeqFinder_4.1.0"
+Loading argument: reference="/home/nickduggett/APHASeqFinder_4.1.0/references/AMR/AMRDatabase_20230526_and_EnteroPLasmids_20230526_short-tetA6.fna"
+Loading argument: database_type="AMR"
+Loading argument: mlst_fasta="/home/nickduggett/APHASeqFinder_4.1.0/references/mlst/ECO-MLST-MG1655-alleles.fna"
+Loading argument: data_path='/home/nickduggett/seqfinder_testing'
+Loading argument: R1_pattern='_R1_'
+Loading argument: fastas_folder='/home/nickduggett/seqfinder_testing'
+Loading argument: sample_list_file=''
+Loading argument: results_path='/home/nickduggett/seqfinder_testing'
+Loading argument: ncores=4
+Loading argument: efsa_dict="/home/nickduggett/mnt/fsx-057/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.6/EFSA_panel/EFSA_antimcriobial_panel_dictionary_20230526.csv"
+Loading argument: vir_dict="/home/nickduggett/mnt/fsx-057/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.6/references/virulence/vir_dict_2022_06_17.csv"
+Loading argument: bio_metal_dict="/home/nickduggett/mnt/fsx-057/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.6/references/Biocide_Metal/Biocide_Metals_Resistance_dictionary_2023_05_10.csv"
+
+EFSA dictionary cannot be located, make sure you have provided the correct path above.
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ ls
+[0m[01;34mEFSA_panel[0m  [01;32mabricate_combine_with_seqfinder.py[0m  [01;32mchangelog.txt[0m           [01;34mreferences[0m  [01;32mseqfinder.py[0m                                      [01;34mthird_party_software[0m
+[01;32mREADME.md[0m   [01;32mcalculate_genes_presence.py[0m         [01;32mgood_snps_filtering.py[0m  screen.log  template_arguments_file_APHASeqFinder_4.1.0.args
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ less screen.log 
+[?1049h[22;0;0t[?1h=Script started on 2023-11-28 14:05:34+00:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="211" LINES="50"]
+WARNING: overwriting environment variables set in the machine
+overwriting variable {'PERL5LIB'}
+(py36) [7mESC[27m]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[7m^GESC[27m[01;32mnickduggett@ranch-404[7mESC[27m[00m:[7mESC[27m[01;34m~/APHASeqFinder_4.1.0[7mESC[27m[00m$ exit
+exit
+
+Script done on 2023-11-28 14:05:48+00:00 [COMMAND_EXIT_CODE="0"]
+[7mscreen.log (END)[27m[K[K[?1l>[?1049l[23;0;0t(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ rm screen.log 
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ rm screen.log [2@less[C[C[C[C[C[C[C[C[C[C[C[Cs[Kpython seqfinder.py template_arguments_file_APHASeqFinder_4.1.0.args 
+Python module 'numpy' is installed, continuing
+
+Python module 'pandas' is installed, continuing
+
+Script started, file is terminal_session.txt
+Script started, file is screen.log
+WARNING: overwriting environment variables set in the machine
+overwriting variable {'PERL5LIB'}
+WARNING: overwriting environment variables set in the machine
+overwriting variable {'PERL5LIB'}
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ (py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ xtei: command not found
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ ei
+
+Command 'xtei' not found, did you mean:
+
+  command 'xtel' from deb xtel (3.3.0-22build1)
+  command 'xte' from deb xautomation (1.09-2)
+
+Try: apt install <deb name>
+
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ la
+[0m[01;34mEFSA_panel[0m  [01;32mabricate_combine_with_seqfinder.py[0m  [01;32mchangelog.txt[0m           [01;34mreferences[0m  [01;32mseqfinder.py[0m                                      terminal_session.txt
+[01;32mREADME.md[0m   [01;32mcalculate_genes_presence.py[0m         [01;32mgood_snps_filtering.py[0m  screen.log  template_arguments_file_APHASeqFinder_4.1.0.args  [01;34mthird_party_software[0m
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ clearxtcerclear: command not found
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ cer[0m[01;34mEFSA_panel[0m  [01;32mabricate_combine_with_seqfinder.py[0m  [01;32mchangelog.txt[0m           [01;34mreferences[0m  [01;32mseqfinder.py[0m                                      terminal_session.txt
+[01;32mREADME.md[0m   [01;32mcalculate_genes_presence.py[0m         [01;32mgood_snps_filtering.py[0m  screen.log  template_arguments_file_APHASeqFinder_4.1.0.args  [01;34mthird_party_software[0m
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ ei
+clearcerei: command not found
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ x
+x: command not found
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ exi[Kxteittii: command not found
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ ^C
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ ^C
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ ^C
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ ^C
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ ^C
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ ^C
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ ^C
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ ^C
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ xc[K[Kexit
+exit
+Script done, file is terminal_session.txt
+ls
+
+Command 'els' not found, but there are 16 similar ones.
+
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ ex  exit
+exit
+Script done, file is screen.log
+Reading arguments from file: template_arguments_file_APHASeqFinder_4.1.0.args
+Loading argument: soft_path="/home/nickduggett/APHASeqFinder_4.1.0"
+Loading argument: reference="/home/nickduggett/APHASeqFinder_4.1.0/references/AMR/AMRDatabase_20230526_and_EnteroPLasmids_20230526_short-tetA6.fna"
+Loading argument: database_type="AMR"
+Loading argument: mlst_fasta="/home/nickduggett/APHASeqFinder_4.1.0/references/mlst/ECO-MLST-MG1655-alleles.fna"
+Loading argument: data_path='/home/nickduggett/seqfinder_testing'
+Loading argument: R1_pattern='_R1_'
+Loading argument: fastas_folder='/home/nickduggett/seqfinder_testing'
+Loading argument: sample_list_file=''
+Loading argument: results_path='/home/nickduggett/seqfinder_testing'
+Loading argument: ncores=4
+Loading argument: efsa_dict="/home/nickduggett/mnt/fsx-057/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.6/EFSA_panel/EFSA_antimcriobial_panel_dictionary_20230526.csv"
+Loading argument: vir_dict="/home/nickduggett/mnt/fsx-057/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.6/references/virulence/vir_dict_2022_06_17.csv"
+Loading argument: bio_metal_dict="/home/nickduggett/mnt/fsx-057/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_4.0.6/references/Biocide_Metal/Biocide_Metals_Resistance_dictionary_2023_05_10.csv"
+
+EFSA dictionary cannot be located, make sure you have provided the correct path above.
+(py36) ]0;nickduggett@ranch-404: ~/APHASeqFinder_4.1.0[01;32mnickduggett@ranch-404[00m:[01;34m~/APHASeqFinder_4.1.0[00m$ exit
+
+Script done on 2023-11-28 14:12:19+00:00 [COMMAND_EXIT_CODE="0"]
