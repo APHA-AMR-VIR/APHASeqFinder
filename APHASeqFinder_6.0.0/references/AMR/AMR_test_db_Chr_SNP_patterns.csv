@@ -1,0 +1,61 @@
+gene,snp,mut,notes
+quino-g1763_gyrA_ecol_Chr,"ntC170G,ntT247G,ntC248A,ntC248T,ntG259A,ntG259T,ntA260G","S83A,S83L,S83V,S83W,D87N,D87Y,D87G,D87A,D87H,D87V",From Resfinder
+quino-g1809_parC_ecol_Chr,"ntG239T,ntC257T,ntA238C,ntG250T","S80I,S80R,S80W,S80L",From Resfinder
+betaL-g1999_ampPpromoter_Chr,"ntC110T,ntT120A,ntT120G,ntT120C","P37L,C40*","['110-C-T-','120-'] uncertain of 120 base"
+betaL-g0197_ampC_Chr,,,unknown
+betaL-g0760_ompK35_Chr,,,unknown
+betaL-g0761_ompK36_Chr,,,unknown
+betaL-g1111_P3_Chr,,,unknown
+betaL-g1112_P4_Chr,,,unknown
+betaL-g1113_P5_Chr,,,unknown
+betaL-g1114_Pa_Pb_Chr,,,unknown
+betaL-g1115_Pc_Pd_Chr,,,unknown
+betaL-g2093_ompC_Chr,,,unknown
+betaL-g2094_ompF_Chr,,,unknown
+chlor-g1574_catB7_Chr,,,unknown
+chlor-g1575_catB9_Chr,,,unknown
+fosfo-g1604_glpT_Chr,,,unknown
+fosfo-g1605_murA_Chr,,,unknown
+fosfo-g1606_ptsI_Chr,,,unknown
+fosfo-g1607_uhpA_Chr,,,unknown
+fosfo-g1608_uhpB_Chr,,,unknown
+fosfo-g1609_uhpC_Chr,,,unknown
+fosfo-g1610_uhpT_Chr,,,unknown
+macro-g1725_mdfA_Chr,,,unknown
+nitro-g1757_nfsA_Chr,"ntC439T,ntC571T,ntG592T,ntG635A,","Q147*,Q191*,E198*,W212*",unknown
+nitro-g1758_nfsB_Chr,,,unknown
+quino-g1764_gyrA_kpne_Chr,,,unknown
+quino-g1765_gyrB_ecol_Chr,,,unknown
+quino-g1766_gyrB_kpne_Chr,,,unknown
+quino-g1810_parC_kpne_Chr,,,unknown
+quino-g1811_parE_ecol_Chr,,,unknown
+quino-g1812_parE_kpne_Chr,,,unknown
+sulph-g1889_folP_Chr,,,unknown
+colis-g2203_acrR_EC_MG1655_Chr,,,unknown
+colis-g2204_acrR_SE_LT2_Chr,,,unknown
+colis-g2205_cpsS_PAO1_Chr,,,unknown
+colis-g2206_etk_EC_MG1655_Chr,,,unknown
+colis-g2207_parR_PAO1_Chr,,,unknown
+colis-g2208_parS_PAO1_Chr,,,unknown
+colis-g2209_phoP_EC_MG1655_Chr,,,unknown
+colis-g2210_phop_PAO1_Chr,,,unknown
+colis-g2211_phoP_SE_CT18_Chr,,,unknown
+colis-g2212_phoP_SE_LT2_Chr,,,unknown
+colis-g2213_phoQ_EC_MG1655_Chr,,,unknown
+colis-g2214_phoQ_PAO1_Chr,,,unknown
+colis-g2215_phoQ_SE_LT2_Chr,,,unknown
+colis-g2216_pmrA_PAO1_Chr,,,unknown
+colis-g2217_pmrA_SE_CT18_Chr,,,unknown
+colis-g2218_pmrA-basR_EC_MG1655_Chr,,,unknown
+colis-g2219_pmrB_PAO1_Chr,,,unknown
+colis-g2220_pmrB_SE_CT18_Chr,,,unknown
+colis-g2221_pmrA-basS_EC_MG1655_Chr,,,unknown
+colis-g2222_soxR_EC_MG1655_Chr,,,unknown
+colis-g2223_soxR_SE_LT2_Chr,,,unknown
+colis-g2335_eptA_Chr,,,unknown
+quino-g2381_gyrB_salm_Chr,,,unknown
+quino-g2384_gyrA_campy_Chr,,"A70T,T86I,T86A,T86K,T86V,D90A,D90N,D90T",From Resfinder
+quino-g2380_gyrA_salm_Chr,"ntC170G,ntT247G,ntC248A,ntC248T,ntG259A,ntG259T,ntA260G","S83I,S83F,S83Y,D87G,D87N,D87Y",From Resfinder
+quino-g2382_parC_salm_Chr,"ntG239T,ntC257T,ntA238C,ntG250T","S80I,S80R,E84K",From Resfinder
+nitro-g3110_nfsB_Salm_Chr,"ntG214T,ntT227A,ntC409T","E72*,L76Q,Q137*",hopefully split snps in right place
+nitro-g3109_nfsA_Salm_Chr,"ntC240A,ntT284A,ntC538T","C80*,L95Q,Q180*",hopefully split snps in right place

@@ -1,0 +1,86 @@
+### This is the template file for APHASeqFinder version 6.0.0 that you need to alter. 
+#You must provide the direct paths you want to use. A quick way to do this would be to perform a find a replace of "nickduggett" with your own name. 
+#This can be done in the command-line with sed (sed 's/nickduggett/yournamegoeshere/g' template_arguments_file.args > /home/nickduggett/template_arguments_file_yourname.args) or with any reputable text editor.
+
+##to run
+#python '/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_6.0.0/seqfinder.py' 'your arguments_file.args' 
+
+
+###path to the Seqfinder. You should need to edit this line.
+soft_path="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_6.0.0"
+ 
+###database path and name. You can use any fasta file you wish. With this pipeline we provide several databases which you can find at /soft_path/references. Delete "#" to select that the reference database you want
+reference="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_6.0.0/references/AMR/AMR_with_plasmids_20250709.fna"
+#reference="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_6.0.0/references/virulence/VirulenceFactors_2024_12_04.fna"
+#reference="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_6.0.0/references/Biocide_Metal/Biocide_Metals_Resistance_2025-06-19.fasta"
+
+###Path to the mash file for your reference. This is NOT required with the AMR, VIR or BAM databases as these are prebuilt.
+#reference_msh=""
+
+###database type; only four possible values "AMR" (Antimicrobial resistance), "VIR" (Virulence), "BAM" (Biocide and metal resistance) or "other". Delete "#" to select that database type
+database_type="AMR"
+#database_type="VIR"
+#database_type="BAM"
+#database_type="other"
+
+### If you want to specify a scheme rather than have one automatically picked for you change this line to call the mlst_picker file with your path to the scheme.
+#mlst_picker='/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_6.0.0/mlst_picker_example_nick.csv'
+mlst_picker=''
+
+
+###path to the fastq.gz files. Notice the name's format that the pipeline would be expecting (see above). 
+data_path='/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/test_panel'
+
+
+###fastq R1 pattern
+R1_pattern='_R1'
+
+###fastas_folder
+fastas_folder='/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/test_panel'
+
+### comma separated table containing a list of R1_fastq and corresponding fasta (same line, one sample each line)
+## This argument overwrite data_path and fastas_folder.
+sample_list_file='/home/nickduggett/mnt/fsx-045/VM0533/VM0533J_SalAMR/furazolidone/furazolidone_list_short.csv'
+#sample_list_file=''
+
+###path to the directory where the results will be placed
+results_path='/home/nickduggett/mnt/fsx-045/VM0533/VM0533J_SalAMR/furazolidone/test'
+
+##Number of samples run in parallel
+## (ncores_per_sample x ncores) should not exceed the number of cores in the instance  
+ncores=4
+
+##Number of cores you want to use per sample. This only applies to the fastp and smalt steps and can be useful if you are only running 1 or 2 samples. Otherwise it is quicker to run more samples in parallel with only 1 core.
+ncores_per_sample=1
+
+
+
+
+###Here are the dictionaries that provide the named functions (if available) to your gene hits. Do NOT edit these apart from modifying the filepath to your name.
+
+###Do not edit the line below ### EFSA antimicrobial panel dictionary. This pipeline includes several versions at /soft_path/EFSA_panel
+efsa_dict="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_6.0.0/EFSA_panel/EFSA_antimcriobial_panel_dictionary_2025-07-09.csv"
+
+###Do not edit the line below ### Virulence dictionary containing information about gene function and associated pathotypes where available
+vir_dict="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_6.0.0/references/virulence/vir_dict_2024_12_04.csv"
+
+###Do not edit the line below ### Disinfectant dictionary containing information about gene class, phenotype and function where available
+bio_metal_dict="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_6.0.0/references/Biocide_Metal/Biocide_Metals_Resistance_Dict_2025-06-19.csv"
+
+AMR_reference_msh="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_6.0.0/references/AMR/AMR_with_plasmids_20250709_k16.msh"
+
+Virulence_reference_msh="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_6.0.0/references/virulence/VirulenceFactors_2024_12_04_k16.msh"
+
+Biocide_Metal_reference_msh="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_6.0.0/references/Biocide_Metal/Biocide_Metals_Resistance_2025-06-19_k16.msh"
+
+###Do not edit the line below ### MLST scheme dictionary for depth normalisation.
+mlst_scheme_dictionary = '/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_6.0.0/references/mlst/pubmlst_schemes/scheme_map_dictionary.csv'
+
+###Do not edit the line below ### platon db for calling plasmid hits
+platon_db_path="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/Databases/platon_db"
+
+##path to SNP patterns
+snp_pattern_dict="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_6.0.0/references/AMR/AMR_test_db_Chr_SNP_patterns.csv"
+
+###AMR gene name dictionary
+gene_dict="/home/nickduggett/mnt/fsx-044/Bactipipes/BactiPipes_SCE3/AMR_github/APHASeqFinder_6.0.0/references/AMR/gene_name_dictionary.csv"

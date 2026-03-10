@@ -1,0 +1,1278 @@
+id,gene,gene_function,sub_class,class,source_genus
+Bacet-g0001_iclR,iclR,Acetate_resistance_protein,Acetate resistance,Biocides,Escherichia
+Bacet-g0002_lpdT,lpdT,Acetate_resistance_protein,Acetate resistance,Biocides,Escherichia
+Bacid-g0003_ariR,ariR,biofilm/acid-resistance_regulator_AriR,Acid resistance,Biocides,Escherichia
+Bacid-g0004_asr,asr,Acid_resistance_protein,Acid resistance,Biocides,Escherichia
+Bacid-g0005_eefA,eefA,Acid_resistance_protein,Acid resistance,Biocides,Klebsiella
+Bacid-g0006_eefX,eefX,Acid_resistance_protein,Acid resistance,Biocides,Klebsiella
+Bacid-g0007_evgA,evgA,Acid_resistance_regulator,Acid resistance,Biocides,Escherichia
+Bacid-g0008_gadA,gadA,Acid_resistance_protein,Acid resistance,Biocides,Escherichia
+Bacid-g0009_gadB,gadB,Acid_resistance_protein,Acid resistance,Biocides,Escherichia
+Bacid-g0010_gadC,gadC,Acid_resistance_protein,Acid resistance,Biocides,Escherichia
+Bacid-g0011_gadE,gadE,Acid_resistance_regulator,Acid resistance,Biocides,Shigella
+Bacid-g0012_hdeA,hdeA,Acid_resistance_protein,Acid resistance,Biocides,Escherichia
+Bacid-g0013_hdeB,hdeB,Acid_resistance_protein,Acid resistance,Biocides,Escherichia
+Bacid-g0014_hefA,hefA,Acid_resistance_protein,Acid resistance,Biocides,Helicobacter
+Bacid-g0015_hefC,hefC,Acid_resistance_protein,Acid resistance,Biocides,Helicobacter
+Bacid-g0016_ydeP,ydeP,Acid_resistance_protein,Acid resistance,Biocides,Escherichia
+Balde-g0017_frmA,frmA,S-(hydroxymethyl)glutathione_dehydrogenase,Aldehyde resistance,Biocides,Enterobacter
+Balde-g0018_frmA,frmA,S-(hydroxymethyl)glutathione_dehydrogenase,Aldehyde resistance,Biocides,Escherichia
+Bethi-g0019_emhA,emhA,efflux_RND_transporter_periplasmic_adaptor_subunit_EmhA,"Ethidium Bromide, Crystal Violet, Sodium Dodecyl Sulfate (SDS) resistance",Biocides,Pseudomonas
+Bfatt-g0020_farB,farB,fatty_acid_resistance_MFS_efflux_transporter_permease_subunit_FarB,Fatty acid resistance,Biocides,Neisseria
+Bfatt-g0021_farB,farB,fatty_acid_resistance_MFS_efflux_transporter_permease_subunit_FarB,Fatty acid resistance,Biocides,Neisseria
+Bfluo-g0022_crcB,crcB,fluoride_efflux_transporter_CrcB,Fluoride resistance,Biocides,Klebsiella
+Bfusi-g0023_fusB,fusB,fusidic_acid_resistance_EF-G-binding_protein_FusB,Fusidic acid resistance,Biocides,Staphylococcus
+Bfusi-g0024_fusC,fusC,fusidic_acid_resistance_EF-G-binding_protein_FusC,Fusidic acid resistance,Biocides,Staphylococcus
+Bfusi-g0025_fusF,fusF,fusidic_acid_resistance_EF-G-binding_protein_FusF,Fusidic acid resistance,Biocides,Staphylococcus
+Bfusi-g0026_fusH,fusH,fusidic_acid_esterase_FusH,Fusidic acid resistance,Biocides,Streptomyces
+Bmult-g0027_abuO,abuO,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Acinetobacter
+Bmult-g0028_bltR,bltR,Multi-biocide_resistance_regulator,Multi-biocide resistance,Biocides,Bacillus
+Bmult-g0029_bltR,bltR,Multi-biocide_resistance_regulator,Multi-biocide resistance,Biocides,Bacillus
+Bmult-g0030_ebrA,ebrA,Multi-biocide_SMR_efflux_pump,Multi-biocide resistance,Biocides,Bacillus
+Bmult-g0031_ebrB,ebrB,Multi-biocide_SMR_efflux_pump,Multi-biocide resistance,Biocides,Bacillus
+Bmult-g0032_emhR,emhR,Multi-biocide_RND_efflux_regulator,Multi-biocide resistance,Biocides,Pseudomonas
+Bmult-g0033_emmdR,emmdR,Multi-biocide_MATE_efflux_pump,Multi-biocide resistance,Biocides,Enterobacter
+Bmult-g0034_hasF,hasF,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Serratia
+Bmult-g0035_hsmR,hsmR,Multi-biocide_resistance_protein,Multi-biocide resistance,Biocides,Halobacterium
+Bmult-g0036_kexD,kexD,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Klebsiella
+Bmult-g0037_lde,lde,Multi-biocide_MFS_efflux_pump,Multi-biocide resistance,Biocides,Listeria
+Bmult-g0038_mdeA,mdeA,Multi-biocide_resistance_protein,Multi-biocide resistance,Biocides,Pseudomonas
+Bmult-g0039_mexV,mexV,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Pseudomonas
+Bmult-g0040_mexW,mexW,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Pseudomonas
+Bmult-g0041_oprJ,oprJ,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Pseudomonas
+Bmult-g0042_oprJ,oprJ,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Pseudomonas
+Bmult-g0043_oprM,oprM,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Pseudomonas
+Bmult-g0044_oxyRKP,oxyRKP,Multi-biocide_resistance_regulator,Multi-biocide resistance,Biocides,Klebsiella
+Bmult-g0045_pcm,pcm,Multi-biocide_resistance_regulator,Multi-biocide resistance,Biocides,Stenotrophomonas
+Bmult-g0046_pdrM,pdrM,Multi-biocide_MATE_efflux_pump,Multi-biocide resistance,Biocides,Streptococcus
+Bmult-g0047_rpoS,rpoS,Multi-biocide_resistance_regulator,Multi-biocide resistance,Biocides,Shigella
+Bmult-g0048_smrA,smrA,Multi-biocide_ABC_efflux_pump_partial,Multi-biocide resistance,Biocides,Stenotrophomonas
+Bmult-g0049_smvA,smvA,Multi-biocide_MFS_efflux_pump,Multi-biocide resistance,Biocides,Salmonella
+Bmult-g0050_soxRB,soxRB,Multi-biocide_resistance_regulator,Multi-biocide resistance,Biocides,Escherichia
+Bmult-g0051_soxRB,soxRB,Multi-biocide_resistance_regulator,Multi-biocide resistance,Biocides,Escherichia
+Bmult-g0052_ssmE,ssmE,Multi-biocide_SMR_efflux_pump,Multi-biocide resistance,Biocides,Serratia
+Bmult-g0053_sugE,sugE,Multi-biocide_SMR_efflux_pump,Multi-biocide resistance,Biocides,Escherichia
+Bmult-g0054_tolC,tolC,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Escherichia
+Bmult-g0055_tolCSM,tolCSM,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Stenotrophomonas
+Bmult-g0056_ttgF,ttgF,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Pseudomonas
+Bmult-g0057_ttgF,ttgF,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Pseudomonas
+Bmult-g0058_ttgW,ttgW,Multi-biocide_RND_efflux_regulator,Multi-biocide resistance,Biocides,Pseudomonas
+Bmult-g0059_vcaM,vcaM,Multi-biocide_ABC_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0060_vcrM,vcrM,Multi-biocide_MATE_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0061_vmeA,vmeA,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0062_vmeA,vmeA,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0063_vmeA,vmeA,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0064_vmeA,vmeA,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0065_vmeA,vmeA,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0066_vmeA,vmeA,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0067_vmeA,vmeA,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0068_vmeA,vmeA,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0069_vmeA,vmeA,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0070_vmeA,vmeA,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0071_vmeA,vmeA,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0072_vmeA,vmeA,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0073_vmeA,vmeA,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0074_vmeA,vmeA,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0075_vmeB,vmeB,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0076_vmeB,vmeB,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0077_vmeC,vmeC,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0078_vmeD,vmeD,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0079_vmeE,vmeE,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0080_vmeF,vmeF,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0081_vmeG,vmeG,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0082_vmeH,vmeH,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0083_vmeI,vmeI,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0084_vmeJ,vmeJ,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0085_vmeK,vmeK,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0086_vmeP,vmeP,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0087_vmeQ,vmeQ,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0088_vmeT,vmeT,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0089_vmeU,vmeU,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0090_vmeV,vmeV,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0091_vmeY,vmeY,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0092_vmeZ,vmeZ,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0093_vmrA,vmrA,Multi-biocide_MATE_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0094_vpoC,vpoC,Multi-biocide_RND_efflux_pump,Multi-biocide resistance,Biocides,Vibrio
+Bmult-g0095_ydeO,ydeO,Multi-biocide_resistance_regulator,Multi-biocide resistance,Biocides,Escherichia
+Bmult-g096_yjcG,yjcG,Multi-biocide_resistance_protein,Multi-biocide resistance,Biocides,Escherichia
+Bnaph-g097_arsHN,arsHN,Naphthoquinone_resistance_protein,Naphthoquinone,Biocides,Synechocystis
+Bpara-g098_yddG,yddG,Paraquat_efflux_pump,Paraquat resistance,Biocides,Salmonella
+Bpero-g099_ibpA,ibpA,Peroxide_resistance_stress_protein,Peroxide resistance,Biocides,Escherichia
+Bpero-g0100_ibpB,ibpB,Peroxide_resistance_stress_protein,Peroxide resistance,Biocides,Shigella
+Bpero-g0101_katP,katP,catalase/peroxidase_KatP,Peroxide resistance,Biocides,Escherichia
+Bpero-g0102_perR,perR,peroxide_resistance_regulator,Peroxide resistance,Biocides,Staphylococcus
+Bpero-g0103_sodA,sodA,peroxide_resistance_protein,Peroxide resistance,Biocides,Escherichia
+Bpero-g0104_sodA,sodA,peroxide_resistance_protein,Peroxide resistance,Biocides,Pseudomonas
+Bpero-g0105_sodA,sodA,peroxide_resistance_protein,Peroxide resistance,Biocides,Escherichia
+Bpero-g0106_sodB,sodB,peroxide_resistance_protein,Peroxide resistance,Biocides,Pseudomonas
+Bpero-g0107_sodB,sodB,peroxide_resistance_protein,Peroxide resistance,Biocides,Escherichia
+Bpero-g0108_sodB,sodB,peroxide_resistance_protein,Peroxide resistance,Biocides,Pseudomonas
+Bpero-g0109_ydeI,ydeI,peroxide_resistance_protein,Peroxide resistance,Biocides,Escherichia
+Bphen-g0110_fabG,fabG,Triclosan-resistant_mutation,Phenolic compound resistance,Biocides,Shigella
+Bphen-g0111_fabI,fabI,Phenolic_resistance_protein,Phenolic compound resistance,Biocides,Staphylococcus
+Bphen-g0112_fabI,fabI,Phenolic_resistance_protein,Phenolic compound resistance,Biocides,Escherichia
+Bphen-g0113_fabK,fabK,Phenolic_resistance_protein,Phenolic compound resistance,Biocides,Streptococcus
+Bphen-g0114_fabL,fabL,Phenolic_resistance_protein,Phenolic compound resistance,Biocides,Bacillus
+Bphen-g0115_fabV,fabV,Phenolic_resistance_protein,Phenolic compound resistance,Biocides,Vibrio
+Bphen-g0116_fabV,fabV,Phenolic_resistance_protein,Phenolic compound resistance,Biocides,Vibrio
+Bphen-g0117_triA,triA,Phenolic_RND_efflux_pump,Phenolic compound resistance,Biocides,Pseudomonas
+Bphen-g0118_triAP,triAP,Phenolic_RND_efflux_pump,Phenolic compound resistance,Biocides,Yersinia
+Bphen-g0119_triB,triB,Phenolic_RND_efflux_pump,Phenolic compound resistance,Biocides,Pseudomonas
+Bphen-g0120_triBP,triBP,Phenolic_RND_efflux_pump,Phenolic compound resistance,Biocides,Yersinia
+Bphen-g0121_triC,triC,Phenolic_RND_efflux_pump,Phenolic compound resistance,Biocides,Pseudomonas
+Bphen-g0122_triCP,triCP,Phenolic_RND_efflux_pump,Phenolic compound resistance,Biocides,Yersinia
+Bpoly-g0123_bltD,bltD,Spermine/spermidine_acetyltransferase,Polyamine resistance,Biocides,Bacillus
+Bpoly-g0124_bltD,bltD,Spermine/spermidine_acetyltransferase,Polyamine resistance,Biocides,Bacillus
+Bpoly-g0125_emhB,emhB,efflux_RND_transporter_permease_subunit_EmhB,Polycyclic aromatic hydrocarbon resistance,Biocides,Pseudomonas
+Bpoly-g0126_emhC,emhC,efflux_RND_transporter_outer_membrane_subunit_EmhC,Polycyclic aromatic hydrocarbon resistance,Biocides,Pseudomonas
+Bpoly-g0127_srpB,srpB,solvent_efflux_RND_transporter_permease_subunit_SrpB,Polycyclic aromatic hydrocarbon resistance,Biocides,Pseudomonas
+Bpoly-g0128_ttgD,ttgD,toluene_efflux_RND_transporter_periplasmic_adaptor_subunit_TtgD,Polycyclic aromatic hydrocarbon resistance,Biocides,Pseudomonas
+Bquat-g0129_qacA,qacA,quaternary_ammonium_compound_efflux_MFS_transporter_QacA,Quaternary Ammonium Compounds (QACs) resistance,Biocides,Staphylococcus
+Bquat-g0130_qacB,qacB,quaternary_ammonium_compound_efflux_MFS_transporter_QacB,Quaternary Ammonium Compounds (QACs) resistance,Biocides,Staphylococcus
+Bquat-g0131_qacB,qacB,quaternary_ammonium_compound_efflux_MFS_transporter_QacB,Quaternary Ammonium Compounds (QACs) resistance,Biocides,Staphylococcus
+Bquat-g0132_qacC,qacC,quaternary_ammonium_compound_efflux_SMR_transporter_QacC,Quaternary Ammonium Compounds (QACs) resistance,Biocides,Staphylococcus
+Bquat-g0133_qacEdelta1,qacEdelta1,quaternary_ammonium_compound_efflux_SMR_transporter_QacE_delta_1,Quaternary Ammonium Compounds (QACs) resistance,Biocides,Escherichia
+Bquat-g0134_qacF,qacF,quaternary_ammonium_compound_efflux_SMR_transporter_QacF,Quaternary Ammonium Compounds (QACs) resistance,Biocides,Pseudomonas
+Bquat-g0135_qacG,qacG,quaternary_ammonium_compound_efflux_SMR_transporter_QacG,Quaternary Ammonium Compounds (QACs) resistance,Biocides,Staphylococcus
+Bquat-g0136_qacH,qacH,quaternary_ammonium_compound_efflux_SMR_transporter_QacH,Quaternary Ammonium Compounds (QACs) resistance,Biocides,Staphylococcus
+Bquat-g0137_qacJ,qacJ,quaternary_ammonium_compound_efflux_SMR_transporter_QacJ,Quaternary Ammonium Compounds (QACs) resistance,Biocides,Staphylococcus
+Bquat-g0138_qacL,qacL,quaternary_ammonium_compound_efflux_SMR_transporter_QacL,Quaternary Ammonium Compounds (QACs) resistance,Biocides,unknown
+Bquat-g0139_qacZ,qacZ,quaternary_ammonium_compound_efflux_SMR_transporter_QacH,Quaternary Ammonium Compounds (QACs) resistance,Biocides,Enterococcus
+Bquat-g0140_smr_efflux_bcrB,smr_efflux_bcrB,quaternary_ammonium_compound_efflux_SMR_transporter_BcrB,Quaternary Ammonium Compounds (QACs) resistance,Biocides,Listeria
+Bquat-g0141_emeA,emeA,QAC_efflux_pump,Quaternary Ammonium Compounds (QACs) resistance,Biocides,Enterococcus
+Bquat-g0142_galE,galE,QAC-resistant_protein_UDP_glucose_4_epimerase,Quaternary Ammonium Compounds (QACs) resistance,Biocides,unknown
+Btolu-g0143_ttgA,ttgA,toluene_efflux_RND_transporter_periplasmic_adaptor_subunit_TtgA,Toluene resistance,Biocides,Pseudomonas
+Btrib-g0144_tbtR,tbtR,tribuytltin_resistance_regulator_TbtR,Tribuyltin resistance,Biocides,Stutzerimonas
+Malum-g0145_alu1P,alu1P,Aluminum_resistance_protein_partial,Aluminum resistance,Metals,Rhizobium
+Malum-g0146_g2aLT,g2aLT,Aluminum_ATPase_,Aluminum resistance,Metals,Anoxybacillus
+Marse-g0147_acr3,acr3,arsenite_efflux_transporter_Acr3,Arsenic resistance,Metals,Campylobacter
+Marse-g0148_acr3,acr3,arsenite_efflux_transporter_Acr3,Arsenic resistance,Metals,Synechocystis
+Marse-g0149_acr3,acr3,arsenite_efflux_transporter_Acr3,Arsenic resistance,Metals,Bacillus
+Marse-g0150_aioA,aioA,Arsenite_oxidase,Arsenic resistance,Metals,Herminiimonas
+Marse-g0151_aioA,aioA,Arsenite_oxidase,Arsenic resistance,Metals,Herminiimonas
+Marse-g0152_aioB,aioB,Arsenite_oxidase,Arsenic resistance,Metals,Herminiimonas
+Marse-g0153_aioE,aioE,Arsenite_oxidase,Arsenic resistance,Metals,Agrobacterium
+Marse-g0154_aioR,aioR,Arsenite_oxidase_regulator,Arsenic resistance,Metals,Agrobacterium
+Marse-g0155_aioS,aioS,Arsenite_oxidase_regulator,Arsenic resistance,Metals,Agrobacterium
+Marse-g0156_aioX,aioX,Arsenite_oxidase_regulator,Arsenic resistance,Metals,Agrobacterium
+Marse-g0157_arrA,arrA,Arsenic_resistance_protein,Arsenic resistance,Metals,Shewanella
+Marse-g0158_arrA,arrA,Arsenic_resistance_protein,Arsenic resistance,Metals,Shewanella
+Marse-g0159_arrB,arrB,Arsenic_resistance_protein,Arsenic resistance,Metals,Shewanella
+Marse-g0160_arsA,arsA,arsenite_efflux_transporter_ATPase_subunit_ArsA,Arsenic resistance,Metals,Salmonella
+Marse-g0161_arsA,arsA,arsenite_efflux_transporter_ATPase_subunit_ArsA,Arsenic resistance,Metals,Escherichia
+Marse-g0162_arsA,arsA,arsenite_efflux_transporter_ATPase_subunit_ArsA,Arsenic resistance,Metals,Listeria
+Marse-g0163_arsA,arsA,arsenite_efflux_transporter_ATPase_subunit_ArsA,Arsenic resistance,Metals,Klebsiella
+Marse-g0164_arsA,arsA,arsenite_efflux_transporter_ATPase_subunit_ArsA,Arsenic resistance,Metals,Enterococcus
+Marse-g0165_arsA,arsA,arsenite_efflux_transporter_ATPase_subunit_ArsA,Arsenic resistance,Metals,Listeria
+Marse-g0166_arsB,arsB,Arsenic_resistance_protein,Arsenic resistance,Metals,Bacillus
+Marse-g0167_arsB,arsB,Arsenic_resistance_protein,Arsenic resistance,Metals,Escherichia
+Marse-g0168_arsB_Lm,arsB_Lm,arsenite_efflux_transporter_membrane_subunit_ArsB,Arsenic resistance,Metals,Listeria
+Marse-g0169_arsB_Lm,arsB_Lm,arsenite_efflux_transporter_membrane_subunit_ArsB,Arsenic resistance,Metals,Listeria
+Marse-g0170_arsB_Lm,arsB_Lm,arsenite_efflux_transporter_membrane_subunit_ArsB,Arsenic resistance,Metals,Listeria
+Marse-g0171_arsB_Lm,arsB_Lm,arsenite_efflux_transporter_membrane_subunit_ArsB,Arsenic resistance,Metals,Listeria
+Marse-g0172_arsB_pI258,arsB_pI258,arsenite_efflux_transporter_membrane_subunit_ArsB,Arsenic resistance,Metals,Staphylococcus
+Marse-g0173_arsB_pI258,arsB_pI258,arsenite_efflux_transporter_membrane_subunit_ArsB,Arsenic resistance,Metals,Staphylococcus
+Marse-g0174_arsB_pKW301,arsB_pKW301,arsenite_efflux_transporter_membrane_subunit_ArsB,Arsenic resistance,Metals,Klebsiella
+Marse-g0175_arsB_pYV,arsB_pYV,arsenite_efflux_transporter_membrane_subunit_ArsB,Arsenic resistance,Metals,Yersinia
+Marse-g0176_arsB_R773,arsB_R773,arsenite_efflux_transporter_membrane_subunit_ArsB,Arsenic resistance,Metals,Escherichia
+Marse-g0177_arsC,arsC,Arsenic_resistance_protein,Arsenic resistance,Metals,Staphylococcus
+Marse-g0178_arsC,arsC,Arsenic_resistance_protein,Arsenic resistance,Metals,Staphylococcus
+Marse-g0179_arsC,arsC,Arsenic_resistance_protein,Arsenic resistance,Metals,Staphylococcus
+Marse-g0180_arsC,arsC,Arsenic_resistance_protein,Arsenic resistance,Metals,Escherichia
+Marse-g0181_arsC_gluta,arsC_gluta,glutaredoxin-dependent_arsenate_reductase,Arsenic resistance,Metals,Salmonella
+Marse-g0182_arsC_gluta,arsC_gluta,glutaredoxin-dependent_arsenate_reductase,Arsenic resistance,Metals,Escherichia
+Marse-g0183_arsC_gluta,arsC_gluta,glutaredoxin-dependent_arsenate_reductase,Arsenic resistance,Metals,Yersinia
+Marse-g0184_arsC_gluta,arsC_gluta,glutaredoxin-dependent_arsenate_reductase,Arsenic resistance,Metals,Klebsiella
+Marse-g0185_arsC_thio,arsC_thio,thioredoxin-dependent_arsenate_reductase,Arsenic resistance,Metals,Staphylococcus
+Marse-g0186_arsC_thio,arsC_thio,thioredoxin-dependent_arsenate_reductase,Arsenic resistance,Metals,Staphylococcus
+Marse-g0187_arsC_thio,arsC_thio,thioredoxin-dependent_arsenate_reductase,Arsenic resistance,Metals,Synechocystis
+Marse-g0188_arsC_thio,arsC_thio,thioredoxin-dependent_arsenate_reductase,Arsenic resistance,Metals,Bacillus
+Marse-g0189_arsD,arsD,arsenite_efflux_transporter_metallochaperone_ArsD,Arsenic resistance,Metals,Salmonella
+Marse-g0190_arsD,arsD,arsenite_efflux_transporter_metallochaperone_ArsD,Arsenic resistance,Metals,Escherichia
+Marse-g0191_arsD,arsD,arsenite_efflux_transporter_metallochaperone_ArsD,Arsenic resistance,Metals,Listeria
+Marse-g0192_arsD,arsD,arsenite_efflux_transporter_metallochaperone_ArsD,Arsenic resistance,Metals,Listeria
+Marse-g0193_arsD,arsD,arsenite_efflux_transporter_metallochaperone_ArsD,Arsenic resistance,Metals,Listeria
+Marse-g0194_arsD,arsD,arsenite_efflux_transporter_metallochaperone_ArsD_partial,Arsenic resistance,Metals,Escherichia
+Marse-g0195_arsD_like,arsD_like,arsenite_efflux_transporter_metallochaperone_ArsD-related_protein,Arsenic resistance,Metals,Listeria
+Marse-g0196_arsH,arsH,arsenic_resistance_NADPH-dependent_reductase_ArsH,Arsenic resistance,Metals,Yersinia
+Marse-g0197_arsM,arsM,Arsenic_resistance_protein,Arsenic resistance,Metals,Rhodopseudomonas
+Marse-g0198_arsP,arsP,organoarsenical_efflux_permease_ArsP,Arsenic resistance,Metals,Campylobacter
+Marse-g0199_arsR_R46,arsR_R46,As(III)-sensing_metalloregulatory_transcriptional_repressor_ArsR,Arsenic resistance,Metals,Escherichia
+Marse-g0200_arsR_Tn7102,arsR_Tn7102,As(III)-sensing_metalloregulatory_transcriptional_repressor_ArsR,Arsenic resistance,Metals,Listeria
+Marse-g0201_arsT,arsT,Arsenic_resistance_protein,Arsenic resistance,Metals,Microbacterium
+Marse-g0202_pstA,pstA,Arsenic_resistance_protein,Arsenic resistance,Metals,Escherichia
+Marse-g0203_pstB,pstB,Arsenic_resistance_protein,Arsenic resistance,Metals,Escherichia
+Marse-g0204_pstC,pstC,Arsenic_resistance_protein,Arsenic resistance,Metals,Escherichia
+Marse-g0205_pstS,pstS,Arsenic_resistance_protein,Arsenic resistance,Metals,Escherichia
+Marse-g0206_pstS,pstS,Arsenic_resistance_protein,Arsenic resistance,Metals,Escherichia
+Mcadm-g0207_mreA,mreA,metal-sensing_transcriptional_repressor_MreA,Cadmium and nickel resistance,Metals,Pseudomonas
+Mcadm-g0208_cadA_Lm,cadA_Lm,cadmium-translocating_P-type_ATPase_CadA,Cadmium resistance,Metals,Enterococcus
+Mcadm-g0209_cadA_Lm,cadA_Lm,cadmium-translocating_P-type_ATPase_CadA,Cadmium resistance,Metals,Listeria
+Mcadm-g0210_cadC_Lm,cadC_Lm,Cd(II)-sensing_metalloregulatory_transcriptional_repressor_CadC,Cadmium resistance,Metals,Enterococcus
+Mcadm-g0211_cadC_Lm,cadC_Lm,Cd(II)-sensing_metalloregulatory_transcriptional_repressor_CadC,Cadmium resistance,Metals,Listeria
+Mcadm-g0212_cadC_Lm,cadC_Lm,Cd(II)-sensing_metalloregulatory_transcriptional_repressor_CadC,Cadmium resistance,Metals,Listeria
+Mcadm-g0213_cadC_Sa,cadC_Sa,Cd(II)/Pb(II)/Zn(II)-sensing_metalloregulatory_transcriptional_repressor_CadC,Cadmium resistance,Metals,Staphylococcus
+Mcadm-g0214_cadD,cadD,cadmium_resistance_transporter_CadD,Cadmium resistance,Metals,Staphylococcus
+Mcadm-g0215_cadR,cadR,cadmium_resistance_transcriptional_regulator_CadR,Cadmium resistance,Metals,Pseudomonas
+Mcadm-g0216_nccH,nccH,nickel/cobalt/cadmium_resistance_ECF_sigma_factor_NccH,Cadmium resistance,Metals,Cupriavidus
+Mchro-g0217_chrA,chrA,chromate_resistance_efflux_protein_ChrA,Chromate resistance,Metals,Pseudomonas
+Mchro-g0218_chrR_I,chrR_I,class_I_chromate_reductase_ChrR,Chromate resistance,Metals,Pseudomonas
+Mchro-g0219_ceuE,ceuE,Chromate_ABC_efflux_pump,Chromium resistance,Metals,Helicobacter
+Mchro-g0220_chrA,chrA,Chromium_resistance_protein,Chromium resistance,Metals,Brucella
+Mchro-g0221_chrA,chrA,Chromium_resistance_protein,Chromium resistance,Metals,Cupriavidus
+Mchro-g0222_chrA,chrA,Chromium_resistance_protein,Chromium resistance,Metals,Cupriavidus
+Mchro-g0223_chrB1,chrB1,Chromium_resistance_protein,Chromium resistance,Metals,Cupriavidus
+Mchro-g0224_chrB1,chrB1,Chromium_resistance_protein,Chromium resistance,Metals,Cupriavidus
+Mchro-g0225_chrC,chrC,Chromium_resistance_protein,Chromium resistance,Metals,Cupriavidus
+Mchro-g0226_chrE,chrE,Chromium_resistance_protein,Chromium resistance,Metals,Cupriavidus
+Mchro-g0227_chrF,chrF,Chromium_resistance_regulator,Chromium resistance,Metals,Cupriavidus
+Mchro-g0228_chrI,chrI,Chromium_resistance_regulator,Chromium resistance,Metals,Cupriavidus
+Mchro-g0229_chrR,chrR,Chromium_resistance_protein,Chromium resistance,Metals,Pseudomonas
+Mchro-g0230_nfsA,nfsA,Chromium_resistance_protein,Chromium resistance,Metals,Escherichia
+Mchro-g0231_recG,recG,Chromium_resistance_protein_partial,Chromium resistance,Metals,Pseudomonas
+Mchro-g0232_srpCC,srpCC,Chromium_resistance_protein,Chromium resistance,Metals,Synechococcus
+Mcoba-g0233_corT,corT,Cobalt_transporting_ATPase,Cobalt resistance,Metals,Synechocystis
+Mcoba-g0234_nhlF,nhlF,Cobalt_transporting_ATPase,Cobalt resistance,Metals,Rhodococcus
+Mcopp-g0235_actPC,actPC,Copper_resistance_protein,Copper resistance,Metals,Rhizobium
+Mcopp-g0236_bhsA,bhsA,Copper_resistance_regulator,Copper resistance,Metals,Shigella
+Mcopp-g0237_binD_CopB,binD_CopB,copper-binding_protein_CopB,Copper resistance,Metals,Pseudomonas
+Mcopp-g0238_binD_CopB,binD_CopB,copper-binding_protein_CopB,Copper resistance,Metals,Xanthomonas
+Mcopp-g0239_binD_CopB,binD_CopB,copper-binding_protein_CopB,Copper resistance,Metals,Xanthomonas
+Mcopp-g0240_cinA,cinA,Copper_resistance_protein,Copper resistance,Metals,Pseudomonas
+Mcopp-g0241_comR,comR,Copper_resistance_regulator,Copper resistance,Metals,Escherichia
+Mcopp-g0242_copA,copA,Copper_resistance_protein,Copper resistance,Metals,Xanthomonas
+Mcopp-g0243_copA,copA,Copper_resistance_protein,Copper resistance,Metals,Escherichia
+Mcopp-g0244_copA,copA,Copper_resistance_protein,Copper resistance,Metals,Aeromonas
+Mcopp-g0245_copA,copA,Copper_resistance_protein,Copper resistance,Metals,Xanthomonas
+Mcopp-g0246_copA,copA,Copper_resistance_protein,Copper resistance,Metals,Achromobacter
+Mcopp-g0247_copA,copA,Copper_resistance_protein,Copper resistance,Metals,Enterococcus
+Mcopp-g0248_copA,copA,Copper_resistance_protein,Copper resistance,Metals,Helicobacter
+Mcopp-g0249_copA,copA,Copper_resistance_protein,Copper resistance,Metals,Bacillus
+Mcopp-g0250_copB,copB,Copper_resistance_protein,Copper resistance,Metals,Aeromonas
+Mcopp-g0251_copB,copB,Copper_resistance_protein,Copper resistance,Metals,Pseudomonas
+Mcopp-g0252_copB,copB,Copper_resistance_protein,Copper resistance,Metals,Achromobacter
+Mcopp-g0253_copB,copB,Copper_resistance_protein,Copper resistance,Metals,Archaeoglobus
+Mcopp-g0254_copB_Ehir,copB_Ehir,copper/silver-translocating_P-type_ATPase_CopB,Copper resistance,Metals,Enterococcus
+Mcopp-g0255_copC,copC,Copper_resistance_protein,Copper resistance,Metals,Aeromonas
+Mcopp-g0256_copC,copC,Copper_resistance_protein,Copper resistance,Metals,Xanthomonas
+Mcopp-g0257_copC,copC,Copper_resistance_protein,Copper resistance,Metals,Pseudomonas
+Mcopp-g0258_copC,copC,Copper_resistance_protein,Copper resistance,Metals,Pseudomonas
+Mcopp-g0259_copC,copC,Copper_resistance_protein,Copper resistance,Metals,Pseudomonas
+Mcopp-g0260_copC,copC,Copper_resistance_protein,Copper resistance,Metals,Stenotrophomonas
+Mcopp-g0261_copC_Psyr,copC_Psyr,copper_homeostasis_periplasmic_binding_protein_CopC,Copper resistance,Metals,Pseudomonas
+Mcopp-g0262_copD,copD,Copper_resistance_protein,Copper resistance,Metals,Stenotrophomonas
+Mcopp-g0263_copD,copD,Copper_resistance_protein,Copper resistance,Metals,Pseudomonas
+Mcopp-g0264_copD,copD,Copper_resistance_protein,Copper resistance,Metals,Pseudomonas
+Mcopp-g0265_copD,copD,Copper_resistance_protein,Copper resistance,Metals,Pseudomonas
+Mcopp-g0266_copD,copD,Copper_resistance_protein,Copper resistance,Metals,Pseudomonas
+Mcopp-g0267_copF,copF,Copper_resistance_protein,Copper resistance,Metals,Xanthomonas
+Mcopp-g0268_copG,copG,Copper_resistance_protein,Copper resistance,Metals,Achromobacter
+Mcopp-g0269_copG,copG,Copper_resistance_protein,Copper resistance,Metals,Stenotrophomonas
+Mcopp-g0270_copJ,copJ,Copper_resistance_protein,Copper resistance,Metals,Cupriavidus
+Mcopp-g0271_copK,copK,Copper_resistance_protein,Copper resistance,Metals,Cupriavidus
+Mcopp-g0272_copL,copL,Copper_resistance_protein,Copper resistance,Metals,Stenotrophomonas
+Mcopp-g0273_copL,copL,Copper_resistance_protein,Copper resistance,Metals,Xanthomonas
+Mcopp-g0274_copL,copL,Copper_resistance_protein,Copper resistance,Metals,Stenotrophomonas
+Mcopp-g0275_copM,copM,Copper_resistance_protein,Copper resistance,Metals,Xanthomonas
+Mcopp-g0276_copM,copM,Copper_resistance_protein,Copper resistance,Metals,Synechocystis
+Mcopp-g0277_copP,copP,copper-binding_metallochaperone_CopP,Copper resistance,Metals,Helicobacter
+Mcopp-g0278_copP,copP,copper-binding_metallochaperone_CopP,Copper resistance,Metals,Helicobacter
+Mcopp-g0279_copR,copR,Copper_resistance_regulator,Copper resistance,Metals,Xanthomonas
+Mcopp-g0280_copR,copR,Copper_resistance_regulator,Copper resistance,Metals,Saccharolobus
+Mcopp-g0281_copR,copR,Copper_resistance_regulator,Copper resistance,Metals,Achromobacter
+Mcopp-g0282_copR,copR,Copper_resistance_regulator,Copper resistance,Metals,Xanthomonas
+Mcopp-g0283_copR,copR,heavy_metal_response_regulator_transcription_factor_CopR,Copper resistance,Metals,Pseudomonas
+Mcopp-g0284_copR,copR,heavy_metal_response_regulator_transcription_factor_CopR,Copper resistance,Metals,Pseudomonas
+Mcopp-g0285_copS,copS,copper_resistance_membrane_spanning_protein_CopS,Copper resistance,Metals,Pseudomonas
+Mcopp-g0286_copS,copS,copper_resistance_membrane_spanning_protein_CopS,Copper resistance,Metals,Pseudomonas
+Mcopp-g0287_copS,copS,Copper_resistance_regulator,Copper resistance,Metals,Xanthomonas
+Mcopp-g0288_copS,copS,Copper_resistance_regulator,Copper resistance,Metals,Achromobacter
+Mcopp-g0289_copV,copV,Copper_resistance_protein,Copper resistance,Metals,Cupriavidus
+Mcopp-g0290_copY,copY,Copper_resistance_regulator,Copper resistance,Metals,Enterococcus
+Mcopp-g0291_copZ,copZ,Copper_resistance_regulator,Copper resistance,Metals,Staphylococcus
+Mcopp-g0292_copZ,copZ,Copper_resistance_regulator,Copper resistance,Metals,Bacillus
+Mcopp-g0293_copZ,copZ,Copper_resistance_regulator,Copper resistance,Metals,Enterococcus
+Mcopp-g0294_corR,corR,Copper_resistance_regulator,Copper resistance,Metals,Myxococcus
+Mcopp-g0295_corS,corS,Copper_resistance_regulator,Copper resistance,Metals,Myxococcus
+Mcopp-g0296_crdA,crdA,Copper_resistance_protein,Copper resistance,Metals,Helicobacter
+Mcopp-g0297_crdB,crdB,Copper_resistance_protein,Copper resistance,Metals,Helicobacter
+Mcopp-g0298_crdR,crdR,Copper_resistance_regulator,Copper resistance,Metals,Helicobacter
+Mcopp-g0299_crdR,crdR,Copper_resistance_regulator,Copper resistance,Metals,Helicobacter
+Mcopp-g0300_crdS,crdS,Copper_resistance_regulator,Copper resistance,Metals,Helicobacter
+Mcopp-g0301_csoR,csoR,Copper_resistance_regulator,Copper resistance,Metals,Bacillus
+Mcopp-g0302_ctpG,ctpG,Copper_resistance_protein,Copper resistance,Metals,Nycobacterium
+Mcopp-g0303_ctpV,ctpV,Copper_resistance_protein,Copper resistance,Metals,Nycobacterium
+Mcopp-g0304_ctpV,ctpV,Copper_resistance_protein,Copper resistance,Metals,Nycobacterium
+Mcopp-g0305_cueA,cueA,copper_resistance_metal-translocating_P1-type_ATPase_CueA,Copper resistance,Metals,Pseudomonas
+Mcopp-g0306_cueO,cueO,Copper_resistance_protein,Copper resistance,Metals,Escherichia
+Mcopp-g0307_cueP,cueP,Copper_resistance_protein,Copper resistance,Metals,Salmonella
+Mcopp-g0308_cueR,cueR,Copper_resistance_regulator,Copper resistance,Metals,Bacillus
+Mcopp-g0309_cueR,cueR,Copper_resistance_regulator,Copper resistance,Metals,Shigella
+Mcopp-g0310_cutA,cutA,Copper_resistance_protein,Copper resistance,Metals,Escherichia
+Mcopp-g0311_cutC,cutC,Copper_resistance_protein,Copper resistance,Metals,Escherichia
+Mcopp-g0312_cutE,cutE,Copper_resistance_protein,Copper resistance,Metals,Escherichia
+Mcopp-g0313_cutF,cutF,Copper_resistance_protein,Copper resistance,Metals,Escherichia
+Mcopp-g0314_cutO,cutO,Copper_resistance_protein,Copper resistance,Metals,Rhodobacter
+Mcopp-g0315_cutR,cutR,Copper_resistance_protein,Copper resistance,Metals,Rhodobacter
+Mcopp-g0316_dnaK,dnaK,Copper_resistance_protein,Copper resistance,Metals,Nycobacterium
+Mcopp-g0317_dnaK,dnaK,Copper_resistance_protein,Copper resistance,Metals,Nycobacterium
+Mcopp-g0318_golT,golT,gold/copper-translocating_P-type_ATPase_GolT,Copper resistance,Metals,Salmonella
+Mcopp-g0319_hpcopA,hpcopA,Copper_resistance_protein,Copper resistance,Metals,Helicobacter
+Mcopp-g0320_hpcopP,hpcopP,Copper_resistance_protein,Copper resistance,Metals,Helicobacter
+Mcopp-g0321_hpcopP,hpcopP,Copper_resistance_protein,Copper resistance,Metals,Helicobacter
+Mcopp-g0322_hpcopP,hpcopP,Copper_resistance_protein,Copper resistance,Metals,Helicobacter
+Mcopp-g0323_hpcopP,hpcopP,Copper_resistance_protein,Copper resistance,Metals,Helicobacter
+Mcopp-g0324_mco,mco,multi-copper_oxidase_Mco,Copper resistance,Metals,Staphylococcus
+Mcopp-g0325_mctB,mctB,Copper_resistance_protein,Copper resistance,Metals,Nycobacterium
+Mcopp-g0326_mctB,mctB,Copper_resistance_protein,Copper resistance,Metals,Nycobacterium
+Mcopp-g0327_mmcO,mmcO,Copper_resistance_protein,Copper resistance,Metals,Nycobacterium
+Mcopp-g0328_pcoA,pcoA,multicopper_oxidase_PcoA,Copper resistance,Metals,Salmonella
+Mcopp-g0329_pcoB,pcoB,Copper_resistance_protein,Copper resistance,Metals,Xanthomonas
+Mcopp-g0331_pcoC,pcoC,copper_resistance_system_metallochaperone_PcoC,Copper resistance,Metals,Xanthomonas
+Mcopp-g0332_pcoC,pcoC,copper_resistance_system_metallochaperone_PcoC,Copper resistance,Metals,Escherichia
+Mcopp-g0333_pcoD,pcoD,Copper_resistance_inner_membrane_protein_PcoD,Copper resistance,Metals,Citrobacter
+Mcopp-g0334_pcoD,pcoD,Copper_resistance_inner_membrane_protein_PcoD,Copper resistance,Metals,Xanthomonas
+Mcopp-g0335_pcoE,pcoE,Copper_resistance_system_metallochaperone_PcoE,Copper resistance,Metals,Salmonella
+Mcopp-g0336_pcoF,pcoF,Copper_resistance_protein_pcoF,Copper resistance,Metals,Salmonella
+Mcopp-g0337_pcoG,pcoG,Copper_resistance_protein_pcoG,Copper resistance,Metals,Salmonella
+Mcopp-g0338_pcoR,pcoR,copper_response_regulator_transcription_factor_PcoR,Copper resistance,Metals,Escherichia
+Mcopp-g0339_pcoS,pcoS,copper_resistance_membrane_spanning_protein_PcoS,Copper resistance,Metals,Escherichia
+Mcopp-g0340_ricR,ricR,Copper_resistance_regulator,Copper resistance,Metals,Nycobacterium
+Mcopp-g0341_tcrA,tcrA,Copper_resistance_protein,Copper resistance,Metals,Enterococcus
+Mcopp-g0342_tcrB,tcrB,copper-translocating_P-type_ATPase_TcrB,Copper resistance,Metals,Enterococcus
+Mcopp-g0343_tcrY,tcrY,Copper_resistance_protein,Copper resistance,Metals,Enterococcus
+Mcopp-g0344_tcrZ,tcrZ,Copper_resistance_protein,Copper resistance,Metals,Enterococcus
+Mcopp-g0345_ycnJ,ycnJ,Copper_resistance_protein,Copper resistance,Metals,Bacillus
+Mcopp-g0346_ycnJ,ycnJ,Copper_resistance_protein,Copper resistance,Metals,Bacillus
+Mcopp-g0347_ycnK,ycnK,Copper_resistance_regulator,Copper resistance,Metals,Bacillus
+Mcopp-g0348_yfmO,yfmO,Copper_resistance_protein,Copper resistance,Metals,Bacillus
+Mcopp-g0349_yfmP,yfmP,Copper_resistance_regulator,Copper resistance,Metals,Bacillus
+Mgold-g0350_golS,golS,Au(I)_sensor_transcriptional_regulator_GolS,Gold resistance,Metals,Salmonella
+Miron-g0351_acn,acn,Iron_resistance_protein,Iron resistance,Metals,Nycobacterium
+Miron-g0352_bfrA,bfrA,Iron_resistance_protein,Iron resistance,Metals,Nycobacterium
+Miron-g0353_furA,furA,Iron_resistance_regulator,Iron resistance,Metals,Nycobacterium
+Miron-g0354_furA,furA,Iron_resistance_regulator,Iron resistance,Metals,Nycobacterium
+Mlead-g0355_pbrA,pbrA,Lead_P-type_ATPase_transporter,Lead resistance,Metals,Cupriavidus
+Mlead-g0356_pbrB,pbrB,Lead_P-type_ATPase_transporter,Lead resistance,Metals,Cupriavidus
+Mlead-g0357_pbrD,pbrD,Lead_P-type_ATPase_transporter,Lead resistance,Metals,Cupriavidus
+Mlead-g0358_pbrR,pbrR,Lead_P-type_ATPase_regulator,Lead resistance,Metals,Herbaspirillum
+Mlead-g0359_pbrT,pbrT,Lead_P-type_ATPase_transporter,Lead resistance,Metals,Achromobacter
+Mmerc-g0360_merA,merA,Mercury_resistance_protein,Mercury resistance,Metals,Pseudomonas
+Mmerc-g0361_merA,merA,mercury(II)_reductase,Mercury resistance,Metals,Bacillus
+Mmerc-g0362_merA,merA,mercury(II)_reductase,Mercury resistance,Metals,Acidithiobacillus
+Mmerc-g0363_merA,merA,mercury(II)_reductase,Mercury resistance,Metals,Pseudomonas
+Mmerc-g0364_merA,merA,mercury(II)_reductase,Mercury resistance,Metals,Stutzerimonas
+Mmerc-g0365_merA,merA,mercury(II)_reductase,Mercury resistance,Metals,Tenacibaculum
+Mmerc-g0366_merA,merA,mercury(II)_reductase,Mercury resistance,Metals,Staphylococcus
+Mmerc-g0367_merA,merA,mercury(II)_reductase,Mercury resistance,Metals,Escherichia
+Mmerc-g0368_merB,merB,Mercury_resistance_protein,Mercury resistance,Metals,Pseudomonas
+Mmerc-g0369_merB,merB,Mercury_resistance_protein_partial,Mercury resistance,Metals,Bacillus
+Mmerc-g0370_merB,merB,Mercury_resistance_protein,Mercury resistance,Metals,Bacillus
+Mmerc-g0371_merB,merB,Mercury_resistance_protein,Mercury resistance,Metals,Bacillus
+Mmerc-g0372_merB,merB,Mercury_resistance_protein,Mercury resistance,Metals,Bacillus
+Mmerc-g0373_merB,merB,Mercury_resistance_protein,Mercury resistance,Metals,Bacillus
+Mmerc-g0374_merB,merB,organomercurial_lyase_MerB,Mercury resistance,Metals,Staphylococcus
+Mmerc-g0375_merB,merB,organomercurial_lyase_MerB,Mercury resistance,Metals,Escherichia
+Mmerc-g0376_merB,merB,organomercurial_lyase_MerB,Mercury resistance,Metals,Pseudomonas
+Mmerc-g0377_merB,merB,organomercurial_lyase_MerB,Mercury resistance,Metals,Ralstonia
+Mmerc-g0378_merB1,merB1,organomercurial_lyase_MerB1,Mercury resistance,Metals,Bacillus
+Mmerc-g0379_merB1,merB1,organomercurial_lyase_MerB1,Mercury resistance,Metals,Bacillus
+Mmerc-g0380_merC,merC,organomercurial_transporter_MerC,Mercury resistance,Metals,Acidithiobacillus
+Mmerc-g0381_merC,merC,organomercurial_transporter_MerC,Mercury resistance,Metals,Stutzerimonas
+Mmerc-g0382_merC,merC,organomercurial_transporter_MerC,Mercury resistance,Metals,Escherichia
+Mmerc-g0383_merD,merD,mercury_resistance_co-regulator_MerD,Mercury resistance,Metals,Escherichia
+Mmerc-g0384_merD,merD,mercury_resistance_co-regulator_MerD,Mercury resistance,Metals,Stutzerimonas
+Mmerc-g0385_merD,merD,mercury_resistance_co-regulator_MerD,Mercury resistance,Metals,Pseudomonas
+Mmerc-g0386_merD,merD,mercury_resistance_co-regulator_MerD,Mercury resistance,Metals,Pseudomonas
+Mmerc-g0387_merD,merD,mercury_resistance_co-regulator_MerD,Mercury resistance,Metals,Pseudomonas
+Mmerc-g0388_merD,merD,Mercury_resistance_regulator,Mercury resistance,Metals,Stutzerimonas
+Mmerc-g0389_merE,merE,broad-spectrum_mercury_transporter_MerE,Mercury resistance,Metals,Escherichia
+Mmerc-g0390_merF,merF,Mercury_resistance_protein,Mercury resistance,Metals,Pseudomonas
+Mmerc-g0391_merF,merF,mercury_resistance_system_transport_protein_MerF,Mercury resistance,Metals,Pseudomonas
+Mmerc-g0392_merG,merG,phenylmercury_resistance_protein_MerG,Mercury resistance,Metals,Pseudomonas
+Mmerc-g0393_merH,merH,Mercury_resistance_protein,Mercury resistance,Metals,Nycobacterium
+Mmerc-g0394_merP,merP,Mercury_resistance_protein,Mercury resistance,Metals,Flavobacterium
+Mmerc-g0395_merP,merP,Mercury_resistance_protein,Mercury resistance,Metals,Bacillus
+Mmerc-g0396_merP_Gneg,merP_Gneg,mercury_resistance_system_periplasmic_binding_protein_MerP,Mercury resistance,Metals,Escherichia
+Mmerc-g0397_merR,merR,Mercury_resistance_regulator,Mercury resistance,Metals,Staphylococcus
+Mmerc-g0398_merR,merR,Mercury_resistance_regulator,Mercury resistance,Metals,Tenacibaculum
+Mmerc-g0399_merR,merR,Mercury_resistance_regulator,Mercury resistance,Metals,Escherichia
+Mmerc-g0400_merR_Bc1,merR_Bc1,mercury_resistance_transcriptional_regulator_MerR1,Mercury resistance,Metals,Bacillus
+Mmerc-g0401_merR_Bc2,merR_Bc2,mercury_resistance_transcriptional_regulator_MerR2,Mercury resistance,Metals,Bacillus
+Mmerc-g0402_merR_Ps,merR_Ps,mercury_resistance_transcriptional_regulator_MerR,Mercury resistance,Metals,Acidithiobacillus
+Mmerc-g0403_merR_Ps,merR_Ps,mercury_resistance_transcriptional_regulator_MerR,Mercury resistance,Metals,Pseudomonas
+Mmerc-g0404_merR_Ps,merR_Ps,mercury_resistance_transcriptional_regulator_MerR,Mercury resistance,Metals,Pseudomonas
+Mmerc-g0405_merR_Ps,merR_Ps,mercury_resistance_transcriptional_regulator_MerR,Mercury resistance,Metals,Escherichia
+Mmerc-g0406_merR_Ps,merR_Ps,mercury_resistance_transcriptional_regulator_MerR,Mercury resistance,Metals,Pseudomonas
+Mmerc-g0407_merR_Ps,merR_Ps,mercury_resistance_transcriptional_regulator_MerR,Mercury resistance,Metals,Pseudomonas
+Mmerc-g0408_merT,merT,mercuric_transport_protein_MerT,Mercury resistance,Metals,Escherichia
+Mmerc-g0409_merT,merT,mercuric_transport_protein_MerT,Mercury resistance,Metals,Pseudomonas
+Mmerc-g0410_merT,merT,mercuric_transport_protein_MerT,Mercury resistance,Metals,Acidithiobacillus
+Mmerc-g0411_merT,merT,mercuric_transport_protein_MerT,Mercury resistance,Metals,Escherichia
+Mmerc-g0412_merT,merT,mercuric_transport_protein_MerT,Mercury resistance,Metals,Ralstonia
+Mmerc-g0413_merT,merT,Mercury_resistance_protein,Mercury resistance,Metals,Tenacibaculum
+Mmerc-g0414_merT,merT,Mercury_resistance_protein,Mercury resistance,Metals,Pseudomonas
+Mmerc-g0415_merT_pI258,merT_pI258,mercuric_transport_protein_MerT,Mercury resistance,Metals,Staphylococcus
+Mmerc-g0416_merT_RC607,merT_RC607,mercuric_transport_protein_MerT,Mercury resistance,Metals,Bacillus
+Mmeta-g0417_fieF,fieF,CDF_family_cation-efflux_transporter_FieF,Metal resistance,Metals,Klebsiella
+Mmeta-g0418_fieF,fieF,CDF_family_cation-efflux_transporter_FieF,Metal resistance,Metals,Escherichia
+Mmeta-g0419_mrdH,mrdH,Ni(II)/Co(II)_efflux_transporter_permease_subunit_MrdH,Metal resistance,Metals,Pseudomonas
+Mmeta-g0420_nccX,nccX,periplasmic_metal_sensor_NccX,Metal resistance,Metals,Cupriavidus
+Mmeta-g0421_ncrA,ncrA,Metal_Resistance,Metal resistance,Metals,Serratia
+Mmeta-g0422_ncrA,ncrA,Metal_Resistance,Metal resistance,Metals,Klebsiella
+Mmult-g0423_arsBM,arsBM,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Salmonella
+Mmult-g0424_arsRM,arsRM,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Escherichia
+Mmult-g0425_cadA,cadA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Helicobacter
+Mmult-g0426_cadA,cadA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Helicobacter
+Mmult-g0427_cadX,cadX,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Streptococcus
+Mmult-g0428_cmtR,cmtR,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Nycobacterium
+Mmult-g0429_cnrA,cnrA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0430_cnrA,cnrA,Multi-metal_resistance_protein_partial,Multi-metal resistance,Metals,Bradyrhizobium
+Mmult-g0431_cnrA,cnrA,Multi-metal_resistance_protein_partial,Multi-metal resistance,Metals,Bradyrhizobium
+Mmult-g0432_cnrA,cnrA,Multi-metal_resistance_protein_partial,Multi-metal resistance,Metals,Bradyrhizobium
+Mmult-g0433_cnrA,cnrA,Multi-metal_resistance_protein_partial,Multi-metal resistance,Metals,Bradyrhizobium
+Mmult-g0434_cnrB,cnrB,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0435_cnrH,cnrH,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0436_cnrR,cnrR,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0437_cnrR,cnrR,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0438_coaR,coaR,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Synechocystis
+Mmult-g0439_copAM,copAM,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Archaeoglobus
+Mmult-g0440_copAM,copAM,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Helicobacter
+Mmult-g0441_corA,corA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Salmonella
+Mmult-g0442_corA,corA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Escherichia
+Mmult-g0443_corB,corB,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Salmonella
+Mmult-g0444_corC,corC,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Salmonella
+Mmult-g0445_corC,corC,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Salmonella
+Mmult-g0446_corD,corD,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Salmonella
+Mmult-g0447_ctpC,ctpC,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Nycobacterium
+Mmult-g0448_ctpD,ctpD,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Mycolicibacterium
+Mmult-g0449_cusA,cusA,Copper_Silver_export_system_RND_permease_CusA,Multi-metal resistance,Metals,Escherichia
+Mmult-g0450_cusB,cusB,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB,Multi-metal resistance,Metals,Escherichia
+Mmult-g0451_cusC,cusC,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC,Multi-metal resistance,Metals,Escherichia
+Mmult-g0452_cusF,cusF,Copper_Silver_efflux_RND_transporter_periplasmic_metallochaperone_CusF,Multi-metal resistance,Metals,Escherichia
+Mmult-g0453_cusR,cusR,TC_regulatory_system_response_regulator_CusR,Multi-metal resistance,Metals,Escherichia
+Mmult-g0454_cusS,cusS,Copper_Silver_sensor_histidine_kinase_CusS,Multi-metal resistance,Metals,Escherichia
+Mmult-g0455_czcA,czcA,Multi-metal_RND_efflux_pumps,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0456_czcA,czcA,Multi-metal_RND_efflux_pumps,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0457_czcB,czcB,Multi-metal_RND_efflux_pumps,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0458_czcB,czcB,Multi-metal_RND_efflux_pumps,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0459_czcB,czcB,Multi-metal_RND_efflux_pumps,Multi-metal resistance,Metals,Escherichia
+Mmult-g0460_czcC,czcC,Multi-metal_RND_efflux_regulator,Multi-metal resistance,Metals,Xanthomonas
+Mmult-g0461_czcCM,czcCM,Multi-metal_RND_efflux_regulator,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0462_czcCM,czcCM,Multi-metal_RND_efflux_regulator,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0463_czcCM,czcCM,Multi-metal_RND_efflux_regulator,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0464_czcD,czcD,Multi-metal_RND_efflux_regulator,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0465_czcE,czcE,Multi-metal_RND_efflux_pumps,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0466_czcP,czcP,Multi-metal_RND_efflux_pumps,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0467_czcR,czcR,Multi-metal_RND_efflux_regulator,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0468_czcR,czcR,Multi-metal_RND_efflux_regulator,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0469_czcS,czcS,Multi-metal_RND_efflux_regulator,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0470_czcS,czcS,Multi-metal_RND_efflux_regulator,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0471_cznA,cznA,Multi-metal_RND_efflux_pumps,Multi-metal resistance,Metals,Helicobacter
+Mmult-g0472_cznB,cznB,Multi-metal_RND_efflux_pumps,Multi-metal resistance,Metals,Helicobacter
+Mmult-g0473_cznC,cznC,Multi-metal_RND_efflux_pumps,Multi-metal resistance,Metals,Helicobacter
+Mmult-g0474_czrA,czrA,Multi-metal_RND_efflux_pumps,Multi-metal resistance,Metals,Pseudomonas
+Mmult-g0475_czrB,czrB,Multi-metal_RND_efflux_pumps,Multi-metal resistance,Metals,Pseudomonas
+Mmult-g0476_dmeF,dmeF,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0477_dmeF,dmeF,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Rhizobium
+Mmult-g0478_dmeR,dmeR,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Rhizobium
+Mmult-g0479_dsbA,dsbA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Escherichia
+Mmult-g0480_dsbB,dsbB,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Escherichia
+Mmult-g0481_dsbC,dsbC,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Escherichia
+Mmult-g0482_fbpA,fbpA,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Haemophilus
+Mmult-g0483_fbpB,fbpB,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Haemophilus
+Mmult-g0484_fbpB,fbpB,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Haemophilus
+Mmult-g0485_fbpC,fbpC,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Haemophilus
+Mmult-g0486_fbpC,fbpC,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Haemophilus
+Mmult-g0487_fecD,fecD,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Escherichia
+Mmult-g0488_fecE,fecE,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Escherichia
+Mmult-g0489_fptA,fptA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Pseudomonas
+Mmult-g0490_fpvA,fpvA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Pseudomonas
+Mmult-g0491_fpvA,fpvA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Pseudomonas
+Mmult-g0492_irlR,irlR,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Burkholderia
+Mmult-g0493_irlR,irlR,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Burkholderia
+Mmult-g0494_irlR,irlR,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Burkholderia
+Mmult-g0495_irlS,irlS,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Burkholderia
+Mmult-g0496_irlS,irlS,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Burkholderia
+Mmult-g0497_irlS,irlS,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Burkholderia
+Mmult-g0498_kmtR,kmtR,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Nycobacterium
+Mmult-g0499_mgtA,mgtA,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Salmonella
+Mmult-g0500_mgtA,mgtA,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Escherichia
+Mmult-g0501_mntA,mntA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Bacillus
+Mmult-g0502_mntH,mntH,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Escherichia
+Mmult-g0503_mntP,mntP,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Escherichia
+Mmult-g0504_mntR,mntR,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Shigella
+Mmult-g0505_modA,modA,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Escherichia
+Mmult-g0506_modA,modA,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Nitratidesulfovibrio
+Mmult-g0507_modB,modB,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Escherichia
+Mmult-g0508_modB,modB,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Nitratidesulfovibrio
+Mmult-g0509_modC,modC,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Escherichia
+Mmult-g0510_mreA,mreA,Multi-metal_resistance_protein_partial,Multi-metal resistance,Metals,Streptococcus
+Mmult-g0511_mymT,mymT,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Nycobacterium
+Mmult-g0512_nccA,nccA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Achromobacter
+Mmult-g0513_nccB,nccB,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Achromobacter
+Mmult-g0514_nccC,nccC,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0515_nccN,nccN,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0516_nccY,nccY,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Cupriavidus
+Mmult-g0517_ncrA,ncrA,Multi-metal_MFS_efflux_pumps,Multi-metal resistance,Metals,Hafnia
+Mmult-g0518_ncrB,ncrB,Multi-metal_MFS_efflux_regulator,Multi-metal resistance,Metals,Hafnia
+Mmult-g0519_ncrC,ncrC,Multi-metal_MFS_efflux_pumps,Multi-metal resistance,Metals,Hafnia
+Mmult-g0520_ncrC,ncrC,Multi-metal_MFS_efflux_pumps,Multi-metal resistance,Metals,Serratia
+Mmult-g0521_ncrC,ncrC,Ni(II)/Co(II)_efflux_transporter_permease_subunit_NcrC,Multi-metal resistance,Metals,Klebsiella
+Mmult-g0522_ncrY,ncrY,Multi-metal_MFS_efflux_regulator,Multi-metal resistance,Metals,Hafnia
+Mmult-g0523_nczA,nczA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Caulobacter
+Mmult-g0524_nia,nia,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Sinorhizobium
+Mmult-g0525_nmtR,nmtR,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Nycobacterium
+Mmult-g0526_nrsD,nrsD,Multi-metal_MFS_efflux_pumps,Multi-metal resistance,Metals,Synechocystis
+Mmult-g0527_perO,perO,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Rhodobacter
+Mmult-g0528_pfr,pfr,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Helicobacter
+Mmult-g0529_pfr,pfr,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Helicobacter
+Mmult-g0530_pgpA,pgpA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Leishmania
+Mmult-g0531_pitA,pitA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Escherichia
+Mmult-g0532_rcnA,rcnA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Escherichia
+Mmult-g0533_rcnB,rcnB,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Escherichia
+Mmult-g0534_rcnR,rcnR,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Escherichia
+Mmult-g0535_recGM,recGM,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Pseudomonas
+Mmult-g0536_ruvBM,ruvBM,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Pseudomonas
+Mmult-g0537_ruvBM,ruvBM,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Pseudomonas
+Mmult-g0538_smtA,smtA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Synechococcus
+Mmult-g0539_smtA,smtA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Synechococcus
+Mmult-g0540_smtB,smtB,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Synechococcus
+Mmult-g0541_trgB,trgB,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Cereibacter
+Mmult-g0542_troA,troA,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Treponema
+Mmult-g0543_troA,troA,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Treponema
+Mmult-g0544_troB,troB,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Treponema
+Mmult-g0545_troC,troC,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Treponema
+Mmult-g0546_troD,troD,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Treponema
+Mmult-g0547_troD,troD,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Treponema
+Mmult-g0548_troR,troR,Multi-metal_ABC_efflux_regulator,Multi-metal resistance,Metals,Treponema
+Mmult-g0549_tunR,tunR,Multi-metal_ABC_efflux_regulator,Multi-metal resistance,Metals,Nitratidesulfovibrio
+Mmult-g0550_wtpA,wtpA,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Pyrococcus
+Mmult-g0551_wtpB,wtpB,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Pyrococcus
+Mmult-g0552_wtpC,wtpC,Multi-metal_ABC_efflux_pumps,Multi-metal resistance,Metals,Pyrococcus
+Mmult-g0553_yfeA,yfeA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Yersinia
+Mmult-g0554_yfeA,yfeA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Yersinia
+Mmult-g0555_yfeC,yfeC,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Yersinia
+Mmult-g0556_yfeD,yfeD,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Yersinia
+Mmult-g0557_ygjH,ygjH,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Escherichia
+Mmult-g0558_zinT,zinT,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Shigella
+Mmult-g0559_zipB,zipB,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Bordetella
+Mmult-g0560_zntA,zntA,Multi-metal_resistance_protein,Multi-metal resistance,Metals,Escherichia
+Mmult-g0561_zraS,zraS,Multi-metal_resistance_regulator,Multi-metal resistance,Metals,Escherichia
+Mnick-g0562_cnrA,cnrA,nickel_efflux_RND_transporter_permease_subunit_CnrA,Nickel resistance,Metals,Cupriavidus
+Mnick-g0563_cnrC,cnrC,nickel_efflux_RND_transporter_outer_membrane_subunit_CnrC,Nickel resistance,Metals,Cupriavidus
+Mnick-g0564_cnrT,cnrT,nickel_diffusion_facilitator_CnrT,Nickel resistance,Metals,Cupriavidus
+Mnick-g0565_cnrY,cnrY,nickel_resistance_system_anti-sigma_factor_CnrY,Nickel resistance,Metals,Cupriavidus
+Mnick-g0566_hoxN,hoxN,Nickel_resistance_protein,Nickel resistance,Metals,Cupriavidus
+Mnick-g0567_hupE,hupE,Nickel_resistance_protein,Nickel resistance,Metals,Rhizobium
+Mnick-g0568_hupE,hupE,Nickel_resistance_protein,Nickel resistance,Metals,Rhizobium
+Mnick-g0569_hupN,hupN,Nickel_resistance_protein,Nickel resistance,Metals,Azotobacter
+Mnick-g0570_ncrB,ncrB,nickel-sensing_transcriptional_repressor_NcrB,Nickel resistance,Metals,Serratia
+Mnick-g0571_ncrB,ncrB,nickel-sensing_transcriptional_repressor_NcrB,Nickel resistance,Metals,Klebsiella
+Mnick-g0572_ncrY,ncrY,nickel_resistance_OB_fold_protein_NcrY,Nickel resistance,Metals,Klebsiella
+Mnick-g0573_nikA,nikA,Nickel_ABC_efflux_pumps,Nickel uptake,Metals,Escherichia
+Mnick-g0574_nikB,nikB,Nickel_ABC_efflux_pumps,Nickel uptake,Metals,Escherichia
+Mnick-g0575_nikC,nikC,Nickel_ABC_efflux_pumps,Nickel uptake,Metals,Escherichia
+Mnick-g0576_nikD,nikD,Nickel_ABC_efflux_pumps,Nickel uptake,Metals,Escherichia
+Mnick-g0577_nikE,nikE,Nickel_ABC_efflux_pumps,Nickel uptake,Metals,Escherichia
+Mnick-g0578_nikR,nikR,Nickel_ABC_efflux_regulator,Nickel uptake,Metals,Escherichia
+Mnick-g0579_nirA,nirA,Nickel_resistance_protein,Nickel resistance,Metals,Citrobacter
+Mnick-g0580_nirB,nirB,nickel-sensing_transcriptional_repressor_NirB,Nickel resistance,Metals,Citrobacter
+Mnick-g0581_nirC,nirC,Nickel_resistance_protein,Nickel resistance,Metals,Citrobacter
+Mnick-g0582_nirD,nirD,nickel_resistance_OB_fold_protein_NirD,Nickel resistance,Metals,Klebsiella
+Mnick-g0583_nixA,nixA,Nickel_resistance_protein,Nickel resistance,Metals,Helicobacter
+Mnick-g0584_nixA,nixA,Nickel_resistance_protein,Nickel resistance,Metals,Helicobacter
+Mnick-g0585_nreB,nreB,nickel_resistance_MFS_transporter_NreB,Nickel resistance,Metals,Acinetobacter
+Mnick-g0586_nrsA,nrsA,Nickel_RND_efflux_pumps,Nickel resistance,Metals,Synechocystis
+Mnick-g0587_nrsR,nrsR,Nickel_resistance_regulator,Nickel resistance,Metals,Synechocystis
+Mnick-g0588_nrsS,nrsS,Nickel_resistance_regulator,Nickel resistance,Metals,Synechocystis
+Msilv-g0589_silA,silA,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g0590_silB,silB,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_SilB_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g0593_silF,silF,Silver_resistance_protein_silF,Silver and copper resistance,Metals,Klebsiella
+Msilv-g0594_silP,silP,Silver-translocating_P-type_ATPase_SilP,Silver and copper resistance,Metals,Salmonella
+Msilv-g0595_silP,silP,Silver-translocating_P-type_ATPase_SilP_wild_type,Silver and copper resistance,Metals,Salmonella
+Msilv-g0596_silR,silR,Silver_resistance_regulator,Silver and copper resistance,Metals,Escherichia
+Msilv-g0597_silR,silR,Silver_resistance_regulator,Silver and copper resistance,Metals,Salmonella
+Msilv-g0598_silS,silS,Silver_Copper_sensing_histidine_kinase_SilS,Silver and copper resistance,Metals,Escherichia
+Msilv-g0599_chaA,chaA,Sodium_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g0600_nhaA,nhaA,Sodium_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g0601_nhaB,nhaB,Sodium_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g0602_actP1,actP1,Tellurium_resistance_protein,Silver and copper resistance,Metals,Rhodobacter
+Mtell-g0603_klaB,klaB,tellurium_resistance_system_protein_klaB,Tellurium resistance,Metals,Escherichia
+Mtell-g0604_klaC,klaC,tellurium_resistance_system_protein_klaC,Tellurium resistance,Metals,Escherichia
+Mtell-g0605_terB,terB,Tellurium_resistance_protein,Tellurium resistance,Metals,Klebsiella
+Mtell-g0606_terB,terB,Tellurium_resistance_protein,Tellurium resistance,Metals,Klebsiella
+Mtell-g0607_terC,terC,Tellurium_resistance_membrane_protein_TerC,Tellurium resistance,Metals,Citrobacter
+Mtell-g0608_terD,terD,Tellurium_resistance_membrane_protein_TerD,Tellurium resistance,Metals,Klebsiella
+Mtell-g0609_terE,terE,Tellurium_resistance_cAMP_binding_protein_TerE,Tellurium resistance,Metals,Citrobacter
+Mtell-g0610_terF,terF,Tellurium_resistance_protein_terF,Tellurium resistance,Metals,Escherichia
+Mtell-g0611_terW,terW,tellurium_resistance_protein_TerW,Tellurium resistance,Metals,Salmonella
+Mtell-g0612_terZ,terZ,Tellurium_resistance_protein,Tellurium resistance,Metals,Proteus
+Mtell-g0613_terZ,terZ,tellurium_resistance-associated_protein_TerZ,Tellurium resistance,Metals,Salmonella
+Mtell-g0614_trgA,trgA,Tellurium_resistance_protein,Tellurium resistance,Metals,Cereibacter
+Mtung-g0615_tupA,tupA,Tungsten_ABC_efflux_pumps,Tungsten uptake,Metals,Peptoclostridium
+Mtung-g0616_tupB,tupB,Tungsten_ABC_efflux_pumps,Tungsten uptake,Metals,Peptoclostridium
+Mtung-g0617_tupC,tupC,Tungsten_ABC_efflux_pumps,Tungsten uptake,Metals,Peptoclostridium
+Mzinc-g0618_zevA,zevA,Zinc_resistance_protein,Zinc resistance,Metals,Haemophilus
+Mzinc-g0619_zevB,zevB,Zinc_resistance_protein,Zinc resistance,Metals,Haemophilus
+Mzinc-g0620_ziaA,ziaA,Zinc_resistance_protein,Zinc resistance,Metals,Synechocystis
+Mzinc-g0621_ziaR,ziaR,Zinc_resistance_regulator,Zinc resistance,Metals,Synechocystis
+Mzinc-g0622_zitB,zitB,Zinc_resistance_protein,Zinc resistance,Metals,Shigella
+Mzinc-g0623_zneB,zneB,Zinc_resistance_protein,Zinc resistance,Metals,Cupriavidus
+Mzinc-g0624_zntR,zntR,Zinc_resistance_regulator,Zinc resistance,Metals,Escherichia
+Mzinc-g0625_znuA,znuA,Zinc_resistance_protein,Zinc uptake,Metals,Escherichia
+Mzinc-g0626_znuB,znuB,Zinc_resistance_protein,Zinc uptake,Metals,Escherichia
+Mzinc-g0627_znuC,znuC,Zinc_resistance_protein,Zinc uptake,Metals,Escherichia
+Mzinc-g0628_zraP,zraP,Zinc_resistance_associated_protein_partial,Zinc tolerance,Metals,Salmonella
+Mzinc-g0629_zraR,zraR,Zinc_resistance_regulator,Zinc tolerance,Metals,Escherichia
+Mzinc-g0630_zraR,zraR,Zinc_resistance_regulator,Zinc tolerance,Metals,Escherichia
+MUbio-g0631_actA,actA,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Sinorhizobium
+MUbio-g0632_actA,actA,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Sinorhizobium
+MUbio-g0633_actP,actP,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Sinorhizobium
+MUbio-g0634_actP,actP,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Sinorhizobium
+MUbio-g0635_actR,actR,Biocide_and_metal_resistance_regulator,Biocide and metal resistance,Multi-compound,Sinorhizobium
+MUbio-g0636_actS,actS,Biocide_and_metal_resistance_regulator,Biocide and metal resistance,Multi-compound,Sinorhizobium
+MUbio-g0637_chr,chr,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Pseudomonas
+MUbio-g0638_chr,chr,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Pseudomonas
+MUbio-g0639_chrB,chrB,Biocide_and_metal_resistance_regulator,Biocide and metal resistance,Multi-compound,Brucella
+MUbio-g0640_cuiD,cuiD,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Salmonella
+MUbio-g0641_cuiD,cuiD,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Salmonella
+MUbio-g0642_dpr,dpr,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Streptococcus
+MUbio-g0643_dpr,dpr,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Streptococcus
+MUbio-g0644_dpr,dpr,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Streptococcus
+MUbio-g0645_dpr,dpr,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Streptococcus
+MUbio-g0646_dpr,dpr,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Streptococcus
+MUbio-g0647_dpr,dpr,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Streptococcus
+MUbio-g0648_dpr,dpr,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Streptococcus
+MUbio-g0649_dpr,dpr,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Streptococcus
+MUbio-g0650_dpsA,dpsA,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Burkholderia
+MUbio-g0651_dpsA,dpsA,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Burkholderia
+MUbio-g0652_dpsA,dpsA,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Burkholderia
+MUbio-g0653_dpsA,dpsA,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Burkholderia
+MUbio-g0654_dpsA,dpsA,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Burkholderia
+MUbio-g0655_dpsA,dpsA,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Burkholderia
+MUbio-g0656_fetA,fetA,Biocide_and_metal_ABC_efflux_pumps,Biocide and metal resistance,Multi-compound,Escherichia
+MUbio-g0657_fetB,fetB,Biocide_and_metal_ABC_efflux_pumps,Biocide and metal resistance,Multi-compound,Escherichia
+MUbio-g0658_frnE,frnE,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Deinococcus
+MUbio-g0659_glpF,glpF,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Escherichia
+MUbio-g0660_glpF,glpF,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Shigella
+MUbio-g0661_hmrR,hmrR,Biocide_and_metal_resistance_regulator,Biocide and metal resistance,Multi-compound,Rhizobium
+MUbio-g0662_hmrR,hmrR,Biocide_and_metal_resistance_regulator,Biocide and metal resistance,Multi-compound,Sinorhizobium
+MUbio-g0663_ideR,ideR,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Mycobacterium
+MUbio-g0664_oscA,oscA,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Pseudomonas
+MUbio-g0665_ruvB,ruvB,Biocide_and_metal_resistance_protein_partial,Biocide and metal resistance,Multi-compound,Pseudomonas
+MUbio-g0666_sitA,sitA,Biocide_and_metal_ABC_efflux_pumps,Biocide and metal resistance,Multi-compound,Salmonella
+MUbio-g0667_tehA,tehA,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Escherichia
+MUbio-g0668_tehB,tehB,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Escherichia
+MUbio-g0669_ychH,ychH,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Shigella
+MUbio-g0670_ygiW,ygiW,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Pseudomonas
+MUbio-g0671_ygiW,ygiW,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Escherichia
+MUbio-g0672_ygiW,ygiW,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Shewanella
+MUbio-g0673_yhcN,yhcN,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Escherichia
+MUbio-g0674_yieF,yieF,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Escherichia
+MUbio-g0675_yjaA,yjaA,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Escherichia
+MUbio-g0676_yodB,yodB,Biocide_and_metal_resistance_protein,Biocide and metal resistance,Multi-compound,Shigella
+MUbio-g0677_zupT,zupT,Biocide_and_metal_resistance_protein,"Biocide and metal resistance, zinc uptake",Multi-compound,Escherichia
+MUdru-g0678_acrD,acrD,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Salmonella
+MUdru-g0679_acrD,acrD,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Escherichia
+MUdru-g0680_baeR,baeR,Drug_and_biocide_and_metal_RND_efflux_regulator,Drug and biocide and metal resistance,Multi-compound,Salmonella
+MUdru-g0681_baeR,baeR,Drug_and_biocide_and_metal_RND_efflux_regulator,Drug and biocide and metal resistance,Multi-compound,Escherichia
+MUdru-g0682_baeS,baeS,Drug_and_biocide_and_metal_RND_efflux_regulator,Drug and biocide and metal resistance,Multi-compound,Escherichia
+MUdru-g0683_baeS,baeS,Drug_and_biocide_and_metal_RND_efflux_regulator,Drug and biocide and metal resistance,Multi-compound,Salmonella
+MUdru-g0684_baeS,baeS,Drug_and_biocide_and_metal_RND_efflux_regulator,Drug and biocide and metal resistance,Multi-compound,Salmonella
+MUdru-g0685_cmeA,cmeA,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter
+MUdru-g0686_cmeA,cmeA,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter
+MUdru-g0687_cmeB,cmeB,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter
+MUdru-g0688_cmeB,cmeB,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter
+MUdru-g0689_cmeC,cmeC,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter
+MUdru-g0690_cmeC,cmeC,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter
+MUdru-g0691_cmeD,cmeD,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter
+MUdru-g0692_cmeE,cmeE,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter
+MUdru-g0693_cmeF,cmeF,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter
+MUdru-g0694_cmeR,cmeR,Drug_and_biocide_and_metal_RND_efflux_regulator,Drug and biocide and metal resistance,Multi-compound,Campylobacter
+MUdru-g0695_cmeR,cmeR,Drug_and_biocide_and_metal_RND_efflux_regulator,Drug and biocide and metal resistance,Multi-compound,Campylobacter
+MUdru-g0696_gesC,gesC,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Salmonella
+MUdru-g0697_mdrL,mdrL,Drug_and_biocide_and_metal_MFS_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Listeria
+MUdru-g0698_mdrL,mdrL,Drug_and_biocide_and_metal_MFS_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Listeria
+MUdru-g0699_mdrL,mdrL,Drug_and_biocide_and_metal_MFS_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Listeria
+MUdru-g0700_mdtA,mdtA,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Salmonella
+MUdru-g0701_mdtA,mdtA,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Streptococcus
+MUdru-g0702_mdtA,mdtA,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Escherichia
+MUdru-g0703_mdtB,mdtB,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Escherichia
+MUdru-g0704_mdtB,mdtB,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Salmonella
+MUdru-g0705_mdtC,mdtC,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Escherichia
+MUdru-g0706_mdtC,mdtC,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Salmonella
+MUdru-g0707_robA,robA,Drug_and_biocide_and_metal_RND_efflux_pumps,Drug and biocide and metal resistance,Multi-compound,Escherichia
+MUdru-g0708_soxS,soxS,Drug_and_biocide_and_metal_resistance_regulator,Drug and biocide and metal resistance,Multi-compound,Escherichia
+MUdru-g0709_soxS,soxS,Drug_and_biocide_and_metal_resistance_regulator,Drug and biocide and metal resistance,Multi-compound,Salmonella
+MUdru-g0710_ykkC,ykkC,Drug_and_biocide_and_metal_SMR_efflux_pump,Drug and biocide and metal resistance,Multi-compound,Bacillus
+MUdru-g0711_ykkC,ykkC,Drug_and_biocide_and_metal_SMR_efflux_pump,Drug and biocide and metal resistance,Multi-compound,Bacillus
+MUdru-g0712_abeM,abeM,Drug_and_biocide_MATE_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0713_abeM,abeM,Drug_and_biocide_MATE_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0714_abeS,abeS,Drug_and_biocide_SMR_efflux_pumps_partial,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0715_abeS,abeS,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0716_abeS,abeS,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0717_abeS,abeS,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0718_abeS,abeS,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0719_abeS,abeS,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0720_abeS,abeS,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0721_acrA,acrA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0722_acrA,acrA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0723_acrB,acrB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0724_acrB,acrB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Enterobacter
+MUdru-g0725_acrB,acrB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Salmonella
+MUdru-g0726_acrC,acrC,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Cupriavidus
+MUdru-g0727_acrE,acrE,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0728_acrF,acrF,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0729_acrR,acrR,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0730_acrR,acrR,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Listeria
+MUdru-g0731_acrR,acrR,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0732_acrR,acrR,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0733_acrR,acrR,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0734_acrS,acrS,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0735_adeA,adeA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0736_adeB,adeB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0737_adeF,adeF,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0738_adeF,adeF,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0739_adeG,adeG,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0740_adeH,adeH,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0741_adeI,adeI,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0742_adeI,adeI,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0743_adeI,adeI,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0744_adeI,adeI,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0745_adeI,adeI,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0746_adeI,adeI,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0747_adeJ,adeJ,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0748_adeK,adeK,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0749_adeK,adeK,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0750_adeK,adeK,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0751_adeK,adeK,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0752_adeK,adeK,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0753_adeK,adeK,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0754_adeL,adeL,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0755_adeL,adeL,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0756_adeN,adeN,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0757_adeN,adeN,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0758_adeR,adeR,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0759_adeS,adeS,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0760_adeT1,adeT1,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0761_adeT2,adeT2,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0762_amrA,amrA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Burkholderia
+MUdru-g0763_amrB,amrB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Burkholderia
+MUdru-g0764_armR,armR,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0765_axy,axy,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Achromobacter
+MUdru-g0766_axy,axy,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Achromobacter
+MUdru-g0767_axyZ,axyZ,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Achromobacter
+MUdru-g0768_bcr,bcr,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0769_bcr1,bcr1,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0770_bcrCM,bcrCM,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Listeria
+MUdru-g0771_bcrCM,bcrCM,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Listeria
+MUdru-g0772_blt,blt,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Bacillus
+MUdru-g0773_blt,blt,Drug_and_biocide_MFS_efflux_pumps_partial,Drug and biocide resistance,Multi-compound,Bacillus
+MUdru-g0774_bmr,bmr,Drug_and_biocide_MFS_efflux_regulator,Drug and biocide resistance,Multi-compound,Bacillus
+MUdru-g0775_bmr,bmr,Drug_and_biocide_MFS_efflux_regulator,Drug and biocide resistance,Multi-compound,Bacillus
+MUdru-g0776_bmr,bmr,Drug_and_biocide_MFS_efflux_regulator,Drug and biocide resistance,Multi-compound,Bacillus
+MUdru-g0777_cdeA,cdeA,Drug_and_biocide_MATE_efflux_pumps,Drug and biocide resistance,Multi-compound,Clostridioides
+MUdru-g0778_cdeA,cdeA,Drug_and_biocide_MATE_efflux_pumps,Drug and biocide resistance,Multi-compound,Clostridioides
+MUdru-g0779_ceoA,ceoA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Burkholderia
+MUdru-g0780_ceoB,ceoB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Burkholderia
+MUdru-g0781_cpxAR,cpxAR,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0782_crp,crp,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0783_efmA,efmA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Enterococcus
+MUdru-g0784_efpA,efpA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Mycobacterium
+MUdru-g0785_efrA,efrA,Drug_and_biocide_ABC_efflux_pumps_partial,Drug and biocide resistance,Multi-compound,Enterococcus
+MUdru-g0786_efrA,efrA,Drug_and_biocide_ABC_efflux_pumps,Drug and biocide resistance,Multi-compound,Enterococcus
+MUdru-g0787_efrB,efrB,Drug_and_biocide_ABC_efflux_pumps_partial,Drug and biocide resistance,Multi-compound,Enterococcus
+MUdru-g0788_emhC,emhC,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0789_emrA,emrA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0790_emrB,emrB,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0791_emrB,emrB,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0792_emrD,emrD,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0793_emrK,emrK,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0794_emrR,emrR,Drug_and_biocide_MFS_efflux_regulator,Drug and biocide resistance,Multi-compound,Shigella
+MUdru-g0795_emrRSM,emrRSM,Drug_and_biocide_MFS_efflux_regulator,Drug and biocide resistance,Multi-compound,Stenotrophomonas
+MUdru-g0796_emrY,emrY,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0797_emrY,emrY,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0798_evgS,evgS,Drug_and_biocide_MFS_efflux_regulator,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0799_farA,farA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Neisseria
+MUdru-g0800_farA,farA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Neisseria
+MUdru-g0801_farR,farR,Drug_and_biocide_MFS_efflux_regulator,Drug and biocide resistance,Multi-compound,Neisseria
+MUdru-g0802_fexA,fexA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0803_fexA,fexA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0804_fexA,fexA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Hafnia
+MUdru-g0805_fexA,fexA,Drug_and_biocide_MFS_efflux_pumps_partial,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0806_gadW,gadW,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0807_gadW,gadW,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0808_gadX,gadX,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0809_kmrA,kmrA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0810_kpn,kpn,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0811_kpnE,kpnE,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0812_kpnF,kpnF,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0813_kpnO,kpnO,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0814_marA,marA,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0815_marR,marR,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0816_mde,mde,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Streptococcus
+MUdru-g0817_mdfA,mdfA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0818_mdfA,mdfA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0819_mdfA,mdfA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0820_mdfA,mdfA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0821_mdtE,mdtE,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0822_mdtF,mdtF,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0823_mdtG,mdtG,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0824_mdtG,mdtG,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0825_mdtH,mdtH,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0826_mdtI,mdtI,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0827_mdtJ,mdtJ,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Shigella
+MUdru-g0828_mdtK,mdtK,Drug_and_biocide_MATE_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0829_mdtK,mdtK,Drug_and_biocide_MATE_efflux_pumps,Drug and biocide resistance,Multi-compound,Salmonella
+MUdru-g0830_mdtM,mdtM,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0831_mdtN,mdtN,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0832_mdtO,mdtO,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0833_mdtP,mdtP,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0834_mepA,mepA,Drug_and_biocide_MATE_efflux_pumps_partial,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0835_mepR,mepR,Drug_and_biocide_MATE_efflux_regulator,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0836_mexA,mexA,Drug_and_biocide_RND_efflux_pumps_partial,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0837_mexB,mexB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0838_mexB,mexB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0839_mexC,mexC,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0840_mexC,mexC,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0841_mexC,mexC,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0842_mexD,mexD,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0843_mexD1,mexD1,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0844_mexE,mexE,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0845_mexF,mexF,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0846_mexF,mexF,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0847_mexG,mexG,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0848_mexH,mexH,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0849_mexI,mexI,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0850_mexJ,mexJ,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0851_mexK,mexK,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0852_mexL,mexL,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0853_mexN,mexN,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0854_mexN,mexN,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0855_mexQ,mexQ,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0856_mexQ,mexQ,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0857_mexQ,mexQ,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0858_mexR,mexR,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0859_mexS,mexS,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0860_mexT,mexT,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0861_mexT,mexT,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Acinetobacter
+MUdru-g0862_mexY,mexY,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0863_mexZ,mexZ,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0864_mmr,mmr,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Mycobacterium
+MUdru-g0865_mtrA,mtrA,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Neisseria
+MUdru-g0866_mtrC,mtrC,Drug_and_biocide_RND_efflux_pumps_partial,Drug and biocide resistance,Multi-compound,Neisseria
+MUdru-g0867_mtrD,mtrD,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Neisseria
+MUdru-g0868_mtrD,mtrD,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Neisseria
+MUdru-g0869_mtrE,mtrE,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Neisseria
+MUdru-g0870_mtrE,mtrE,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Neisseria
+MUdru-g0871_mtrR,mtrR,Drug_and_biocide_MFS_efflux_regulator_partial,Drug and biocide resistance,Multi-compound,Neisseria
+MUdru-g0872_norA,norA,Drug_and_biocide_MFS_efflux_pumps_partial,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0873_norA,norA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0874_norA,norA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0875_norA,norA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0876_norB,norB,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0877_norC,norC,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0878_oprN,oprN,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0879_oprN,oprN,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0880_oprZ,oprZ,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Achromobacter
+MUdru-g0881_oqxA,oqxA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Salmonella
+MUdru-g0882_oqxA,oqxA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0883_oqxA,oqxA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0884_oqxA,oqxA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0885_oqxA,oqxA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0886_oqxA,oqxA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0887_oqxA,oqxA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0888_oqxA,oqxA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0889_oqxA,oqxA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0890_oqxA,oqxA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0891_oqxA,oqxA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0892_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0893_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0894_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0895_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0896_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0897_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0898_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0899_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0900_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0901_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0902_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0903_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0904_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0905_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0906_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0907_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0908_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0909_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0910_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Salmonella
+MUdru-g0911_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0912_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0913_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0914_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0915_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0916_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0917_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0918_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0919_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0920_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0921_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0922_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0923_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps_partial,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0924_oqxB,oqxB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0925_phoB,phoB,Drug_and_biocide_ABC_efflux_regulator,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0926_phoB,phoB,Drug_and_biocide_ABC_efflux_regulator,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0927_phoR,phoR,Drug_and_biocide_SMR_efflux_regulator,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0928_pmpM,pmpM,Drug_and_biocide_MATE_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0929_pmrA,pmrA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Streptococcus
+MUdru-g0930_pmrA,pmrA,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Streptococcus
+MUdru-g0931_qacAB,qacAB,Drug_and_biocide_MFS_efflux_pumps_partial,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0932_qacAB,qacAB,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0933_qacAB,qacAB,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0934_qacAB,qacAB,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0935_qacAB,qacAB,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0936_qacC,qacC,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Streptococcus
+MUdru-g0937_qacC,qacC,Drug_and_biocide_SMR_efflux_pumps_partial,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0938_qacD,qacD,Drug_and_biocide_SMR_efflux_pumps_partial,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0939_qacE,qacE,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0940_qacE,qacE,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0941_qacEDELTA1,qacEDELTA1,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0942_qacEDELTA1,qacEDELTA1,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0943_qacF,qacF,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Serratia
+MUdru-g0944_qacF,qacF,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0945_qacF,qacF,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Serratia
+MUdru-g0946_qacF,qacF,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0947_qacF,qacF,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas
+MUdru-g0948_qacF,qacF,quaternary_ammonium_compound_efflux_SMR_transporter_QacF,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g0949_qacF,qacF,Drug_and_biocide_SMR_efflux_pumps_partial,Drug and biocide resistance,Multi-compound,Cytobacillus
+MUdru-g0950_qacG,qacG,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0951_qacG,qacG,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,unknown
+MUdru-g0952_qacG,qacG,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,unknown
+MUdru-g0953_qacG,qacG,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,unknown
+MUdru-g0954_qacG,qacG,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,unknown
+MUdru-g0955_qacG,qacG,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Aeromonas
+MUdru-g0956_qacG,qacG,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0957_qacG,qacG,Drug_and_biocide_SMR_efflux_pumps_partial,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0958_qacH,qacH,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Listeria
+MUdru-g0959_qacH,qacH,Drug_and_biocide_SMR_efflux_pumps_partial,Drug and biocide resistance,Multi-compound,unknown
+MUdru-g0960_qacK,qacK,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,unknown
+MUdru-g0961_qacL,qacL,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Klebsiella
+MUdru-g0962_qacL,qacL,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Salmonella
+MUdru-g0963_qacL,qacL,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0964_qacL,qacL,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,unknown
+MUdru-g0965_qacL,qacL,Drug_and_biocide_SMR_efflux_pumps_partial,Drug and biocide resistance,Multi-compound,Vibrio
+MUdru-g0966_qacPB,qacPB,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,unknown
+MUdru-g0967_rsmA,rsmA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0968_sdeA,sdeA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Legionella
+MUdru-g0969_sdeX,sdeX,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Serratia
+MUdru-g0970_sdrM,sdrM,Drug_and_biocide_MFS_efflux_pumps,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0971_sepA,sepA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0972_sepA,sepA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Staphylococcus
+MUdru-g0973_sme,sme,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas
+MUdru-g0974_sme,sme,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas
+MUdru-g0975_sme,sme,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas
+MUdru-g0976_sme,sme,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas
+MUdru-g0977_sme,sme,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas
+MUdru-g0978_sme,sme,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas
+MUdru-g0979_sme,sme,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas
+MUdru-g0980_sme,sme,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas
+MUdru-g0981_smeT,smeT,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Stenotrophomonas
+MUdru-g0982_smr,smr,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Enterobacter
+MUdru-g0983_smr,smr,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas
+MUdru-g0984_smr,smr,Drug_and_biocide_SMR_efflux_pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas
+MUdru-g0985_soxR,soxR,Drug_and_biocide_ABC_efflux_regulator,Drug and biocide resistance,Multi-compound,Salmonella
+MUdru-g0986_ttgA,ttgA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0987_ttgB,ttgB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0988_ttgC,ttgC,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0989_ttgC,ttgC,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0990_ttgG,ttgG,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g0991_vceA,vceA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Vibrio
+MUdru-g0992_vceB,vceB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Vibrio
+MUdru-g0993_vceC,vceC,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Vibrio
+MUdru-g0994_vceR,vceR,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Vibrio
+MUdru-g0995_vcmA,vcmA,Drug_and_biocide_MATE_efflux_pumps,Drug and biocide resistance,Multi-compound,Vibrio
+MUdru-g996_vcmA,vcmA,Drug_and_biocide_MATE_efflux_pumps,Drug and biocide resistance,Multi-compound,Vibrio
+MUdru-g997_vexA,vexA,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Vibrio
+MUdru-g998_vexB,vexB,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Vibrio
+MUdru-g999_vexC,vexC,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Vibrio
+MUdru-g1000_vexD,vexD,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Vibrio
+MUdru-g1001_vexE,vexE,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Vibrio
+MUdru-g1002_vexF,vexF,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Vibrio
+MUdru-g1003_vexH,vexH,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Vibrio
+MUdru-g1004_vexK,vexK,Drug_and_biocide_RND_efflux_pumps,Drug and biocide resistance,Multi-compound,Vibrio
+MUdru-g1005_yajC,yajC,Drug_and_biocide_RND_efflux_regulator,Drug and biocide resistance,Multi-compound,Pseudomonas
+MUdru-g1006_yogI,yogI,Drug_and_biocide_ABC_efflux_pumps,Drug and biocide resistance,Multi-compound,Escherichia
+MUdru-g1007_pmrAM,pmrAM,Drug_and_metal_MFS_efflux_pumps,Drug and metal resistance,Multi-compound,Pectobacterium
+MUdru-g1008_pmrBM,pmrBM,Drug_and_metal_MFS_efflux_pumps,Drug and metal resistance,Multi-compound,Pectobacterium
+MUdru-g1009_pmrCM,pmrCM,Drug_and_metal_MFS_efflux_pumps,Drug and metal resistance,Multi-compound,Pectobacterium
+MUdru-g1010_pmrG,pmrG,Drug_and_metal_MFS_efflux_pumps,Drug and metal resistance,Multi-compound,Salmonella
+MUsil-g1011_ompC,ompC,Outer_membrane_porin_OmpC,"Silver resistance, biocide resistance",Multi-compound,Escherichia
+Msilv-g1012_silP,silP,Silver-translocating_P-type_ATPase_SilP_wild_type,Silver and copper resistance,Metals,Klebsiella
+Msilv-g1013_silA,silA,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Klebsiella
+Msilv-g1014_silB,silB,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_SilB_wild_type,Silver and copper resistance,Metals,Klebsiella
+Msilv-g1015_silC,silC,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_SilC_wild_type,Silver and copper resistance,Metals,Klebsiella
+Msilv-g1016_silR,silR,copper/silver_response_regulator_transcription_factor_SilR_wild_type,Silver and copper resistance,Metals,Klebsiella
+Msilv-g1017_silS,silS,Silver_Copper_sensing_histidine_kinase_SilS,Silver and copper resistance,Metals,Klebsiella
+Msilv-g1018_silE,silE,silver-binding_protein_SilE_wild_type,Silver and copper resistance,Metals,Klebsiella
+MUbio-g1019_sitA,sitA,Manganese_ABC_transporter_periplasmic-binding_protein_SitA,Biocide and metal resistance,Multi-compound,Escherichia
+MUbio-g1020_sitB,sitB,Manganese_ABC_transporter_ATP-binding_protein_SitB,Biocide and metal resistance,Multi-compound,Escherichia
+MUbio-g1021_sitC,sitC,Manganese_ABC_transporter_inner_membrane_permease_protein_SitC,Biocide and metal resistance,Multi-compound,Escherichia
+MUbio-g1022_sitD,sitD,Manganese_ABC_transporter_inner_membrane_permease_protein_SitD,Biocide and metal resistance,Multi-compound,Escherichia
+Mmult-g1023_cusS,cusS,Copper_Silver_sensor_histidine_kinase_CusS_wild_type,Multi-metal resistance,Metals,Klebsiella
+Mmult-g1024_cusS,cusS,Copper_Silver_sensor_histidine_kinase_CusS_resistant,Multi-metal resistance,Metals,Klebsiella
+Msilv-g1025_ompC,ompC,Outer_membrane_porin_OmpC_wild_type,"Silver resistance, biocide resistance",Multi-compound,Klebsiella
+Mzinc-g1026_zur,zur,Zinc_uptake_regulation_protein_Zur,Zinc uptake,Metals,Escherichia
+MUdru-g1027_emrK,emrK,Multidrug_efflux_system_EmrKY-TolC_membrane_fusion_component_EmrK,Drug and biocide resistance,Multi-compound,Escherichia
+Msilv-g1028_silS_sensitive,silS_sensitive,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Klebsiella
+MUdru-g1029_phoB,phoB,Phosphate_regulon_transcriptional_regulatory_protein_PhoB_SphR,Drug and biocide resistance,Multi-compound,Escherichia
+Msilv-g1030_silS_resistant,silS_resistant,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_RESISTANT_A13V,Silver and copper resistance,Metals,Klebsiella
+Mmerc-g1031_merD,merD,Mercuric_resistance_transcriptional_repressor_MerD,Mercury resistance,Metals,Escherichia
+Msilv-g1032_silS_resistant,silS_resistant,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_RESISTANT_L12F,Silver and copper resistance,Metals,Klebsiella
+Mmerc-g1033_merE,merE,Mercuric_transport_protein_MerE ,Mercury resistance,Metals,Escherichia
+Msilv-g1034_silS_resistant,silS_resistant,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_RESISTANT_W353R,Silver and copper resistance,Metals,Klebsiella
+Bquat-g1035_qacH,qacH,quaternary_ammonium_compound_efflux_SMR_transporter_QacH,Quaternary Ammonium Compounds (QACs) resistance,Biocides,Escherichia
+Msilv-g1036_silS_resistant,silS_resistant,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_RESISTANT_L322Q,Silver and copper resistance,Metals,Klebsiella
+Bquat-g1037_qacG,qacG,quaternary_ammonium_compound_efflux_SMR_transporter_QacG,Quaternary Ammonium Compounds (QACs) resistance,Biocides,Escherichia
+Msilv-g1038_silS_resistant,silS_resistant,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_RESISTANT_G210E,Silver and copper resistance,Metals,Klebsiella
+Bheat-g1039_clpL,clpL,Heat_resistance,Heat resistance,Biocides,Listeria
+Msilv-g1040_silS_resistant,silS_resistant,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_RESISTANT_F321C,Silver and copper resistance,Metals,Klebsiella
+Mtell-g1041_terA,terA,Tellurium_resistance_protein_TerA,Tellurium resistance,Metals,Klebsiella 
+Msilv-g1042_silS_resistant,silS_resistant,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_RESISTANT_A352D,Silver and copper resistance,Metals,Klebsiella
+Msilv-g1043_silS_resistant,silS_resistant,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_RESISTANT_A352D,Silver and copper resistance,Metals,Klebsiella
+Msilv-g1044_silS_resistant,silS_resistant,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_RESISTANT_S304Y,Silver and copper resistance,Metals,Klebsiella
+Msilv-g1045_silS_resistant,silS_resistant,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_RESISTANT_K255N,Silver and copper resistance,Metals,Klebsiella
+Msilv-g1046_silS_resistant,silS_resistant,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_RESISTANT_S196I,Silver and copper resistance,Metals,Klebsiella
+Msilv-g1047_silS_resistant,silS_resistant,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_RESISTANT_6_bp_deletion_after_n1309,Silver and copper resistance,Metals,Klebsiella
+Msilv-g1048_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1049_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1050_cusF_silver_sensitive,cusF_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_metallochaperone_CusF_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1051_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1052_pcoA_silver_sensitive,pcoA_silver_sensitive,multicopper_oxidase_PcoA,Silver and copper resistance,Metals,Escherichia
+Msilv-g1053_pcoB_silver_sensitive,pcoB_silver_sensitive,copper-binding_protein_PcoB,Silver and copper resistance,Metals,Escherichia
+Msilv-g1054_pcoD_silver_sensitive,pcoD_silver_sensitive,Copper_resistance_inner_membrane_protein_PcoD,Silver and copper resistance,Metals,Escherichia
+Msilv-g1055_pcoE_silver_sensitive,pcoE_silver_sensitive,Copper_resistance_system_metallochaperone_PcoE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1056_pcoF_silver_sensitive,pcoF_silver_sensitive,Copper_resistance_system_metallochaperone_PcoE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1057_pcoG_silver_sensitive,pcoG_silver_sensitive,Copper_resistance_protein_pcoG,Silver and copper resistance,Metals,Escherichia
+Msilv-g1058_pcoR_silver_sensitive,pcoR_silver_sensitive,copper_response_regulator_transcription_factor_PcoR,Silver and copper resistance,Metals,Escherichia
+Msilv-g1059_pcoS_silver_sensitive,pcoS_silver_sensitive,copper_resistance_membrane_spanning_protein_PcoS,Silver and copper resistance,Metals,Escherichia
+Msilv-g1060_silA_silver_sensitive,silA_silver_sensitive,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1061_silB_silver_sensitive,silB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_SilB_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1062_silC_silver_sensitive,silC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_SilC_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1063_silE_silver_sensitive,silE_silver_sensitive,silver-binding_protein_SilE_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1064_silP_silver_sensitive,silP_silver_sensitive,Silver-translocating_P-type_ATPase_SilP_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1065_silS_silver_sensitive,silS_silver_sensitive,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1066_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1067_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1068_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1069_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1070_cusF_silver_sensitive,cusF_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_metallochaperone_CusF_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1071_cusR_silver_sensitive,cusR_silver_sensitive,TC_regulatory_system_response_regulator_CusR_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1072_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1073_pcoA_silver_sensitive,pcoA_silver_sensitive,multicopper_oxidase_PcoA,Silver and copper resistance,Metals,Escherichia
+Msilv-g1074_pcoB_silver_sensitive,pcoB_silver_sensitive,copper-binding_protein_PcoB,Silver and copper resistance,Metals,Escherichia
+Msilv-g1075_pcoC_silver_sensitive,pcoC_silver_sensitive,copper_resistance_system_metallochaperone_PcoC,Silver and copper resistance,Metals,Escherichia
+Msilv-g1076_pcoD_silver_sensitive,pcoD_silver_sensitive,Copper_resistance_inner_membrane_protein_PcoD,Silver and copper resistance,Metals,Escherichia
+Msilv-g1077_pcoE_silver_sensitive,pcoE_silver_sensitive,Copper_resistance_system_metallochaperone_PcoE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1078_silA_silver_sensitive,silA_silver_sensitive,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1079_silB_silver_sensitive,silB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_SilB_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1080_silC_silver_sensitive,silC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_SilC_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1081_silF_silver_sensitive,silF_silver_sensitive,Silver_resistance_protein_silF,Silver and copper resistance,Metals,Escherichia
+Msilv-g1082_silP_silver_sensitive,silP_silver_sensitive,Silver-translocating_P-type_ATPase_SilP_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1083_silR_silver_sensitive,silR_silver_sensitive,copper/silver_response_regulator_transcription_factor_SilR_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1084_silS_silver_sensitive,silS_silver_sensitive,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1085_cusF_silver_sensitive,cusF_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_metallochaperone_CusF_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1086_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1087_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1088_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1089_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1090_cusF_silver_sensitive,cusF_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_metallochaperone_CusF_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1091_cusR_silver_sensitive,cusR_silver_sensitive,TC_regulatory_system_response_regulator_CusR_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1092_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1093_pcoB_silver_sensitive,pcoB_silver_sensitive,copper-binding_protein_PcoB,Silver and copper resistance,Metals,Escherichia
+Msilv-g1094_silA_silver_sensitive,silA_silver_sensitive,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1095_silB_silver_sensitive,silB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_SilB_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1096_silC_silver_sensitive,silC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_SilC_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1097_silE_silver_sensitive,silE_silver_sensitive,silver-binding_protein_SilE_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1098_silP_silver_sensitive,silP_silver_sensitive,Silver-translocating_P-type_ATPase_SilP_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1099_silR_silver_sensitive,silR_silver_sensitive,copper/silver_response_regulator_transcription_factor_SilR_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1100_silS_silver_sensitive,silS_silver_sensitive,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1101_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1102_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1103_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1104_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1105_cusF_silver_sensitive,cusF_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_metallochaperone_CusF_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1106_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1107_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1108_silA_silver_sensitive,silA_silver_sensitive,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1109_silB_silver_sensitive,silB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_SilB_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1110_silE_silver_sensitive,silE_silver_sensitive,silver-binding_protein_SilE_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1111_silP_silver_sensitive,silP_silver_sensitive,Silver-translocating_P-type_ATPase_SilP_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1112_silS_silver_sensitive,silS_silver_sensitive,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1113_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1114_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1115_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1116_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1117_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1118_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1119_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1120_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1121_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1122_cusF_silver_sensitive,cusF_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_metallochaperone_CusF_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1123_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1124_pcoC_silver_sensitive,pcoC_silver_sensitive,copper_resistance_system_metallochaperone_PcoC,Silver and copper resistance,Metals,Escherichia
+Msilv-g1125_pcoR_silver_sensitive,pcoR_silver_sensitive,copper_response_regulator_transcription_factor_PcoR,Silver and copper resistance,Metals,Escherichia
+Msilv-g1126_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1127_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1128_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1129_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1130_cusR_silver_sensitive,cusR_silver_sensitive,TC_regulatory_system_response_regulator_CusR_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1131_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1132_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1133_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1134_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1135_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1136_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1137_cusF_silver_sensitive,cusF_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_metallochaperone_CusF_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1138_cusR_silver_sensitive,cusR_silver_sensitive,TC_regulatory_system_response_regulator_CusR_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1139_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1140_silA_silver_sensitive,silA_silver_sensitive,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1141_silC_silver_sensitive,silC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_SilC_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1142_silP_silver_sensitive,silP_silver_sensitive,Silver-translocating_P-type_ATPase_SilP_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1143_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1144_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1145_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1146_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1147_cusF_silver_sensitive,cusF_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_metallochaperone_CusF_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1148_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1149_silA_silver_sensitive,silA_silver_sensitive,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1150_silC_silver_sensitive,silC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_SilC_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1151_silR_silver_sensitive,silR_silver_sensitive,copper/silver_response_regulator_transcription_factor_SilR_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1152_silE_silver_sensitive,silE_silver_sensitive,silver-binding_protein_SilE_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1153_pcoA_silver_sensitive,pcoA_silver_sensitive,multicopper_oxidase_PcoA,Silver and copper resistance,Metals,Escherichia
+Msilv-g1154_silA_silver_sensitive,silA_silver_sensitive,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1155_silA_silver_sensitive,silA_silver_sensitive,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1156_silP_silver_sensitive,silP_silver_sensitive,Silver-translocating_P-type_ATPase_SilP_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1157_cusR_silver_sensitive,cusR_silver_sensitive,TC_regulatory_system_response_regulator_CusR_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1158_silA_silver_sensitive,silA_silver_sensitive,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1159_silB_silver_sensitive,silB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_SilB_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1160_silC_silver_sensitive,silC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_SilC_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1161_silF_silver_sensitive,silF_silver_sensitive,Silver_resistance_protein_silF,Silver and copper resistance,Metals,Escherichia
+Msilv-g1162_silP_silver_sensitive,silP_silver_sensitive,Silver-translocating_P-type_ATPase_SilP_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1163_silR_silver_sensitive,silR_silver_sensitive,copper/silver_response_regulator_transcription_factor_SilR_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1164_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1167_silC_silver_sensitive,silC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_SilC_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1168_silP_silver_sensitive,silP_silver_sensitive,Silver-translocating_P-type_ATPase_SilP_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1169_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1170_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1171_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1172_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1173_cusF_silver_sensitive,cusF_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_metallochaperone_CusF_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1174_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1175_silC_silver_sensitive,silC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_SilC_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1176_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1177_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1178_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1179_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1180_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1181_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1182_silA_silver_sensitive,silA_silver_sensitive,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1183_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1184_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1185_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1186_cusF_silver_sensitive,cusF_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_metallochaperone_CusF_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1187_cusR_silver_sensitive,cusR_silver_sensitive,TC_regulatory_system_response_regulator_CusR_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1188_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1189_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1190_pcoA_silver_sensitive,pcoA_silver_sensitive,multicopper_oxidase_PcoA,Silver and copper resistance,Metals,Escherichia
+Msilv-g1191_pcoE_silver_sensitive,pcoE_silver_sensitive,Copper_resistance_system_metallochaperone_PcoE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1192_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1193_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1194_cusF_silver_sensitive,cusF_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_metallochaperone_CusF_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1195_pcoD_silver_sensitive,pcoD_silver_sensitive,Copper_resistance_inner_membrane_protein_PcoD,Silver and copper resistance,Metals,Escherichia
+Msilv-g1196_pcoR_silver_sensitive,pcoR_silver_sensitive,copper_response_regulator_transcription_factor_PcoR,Silver and copper resistance,Metals,Escherichia
+Msilv-g1197_pcoS_silver_sensitive,pcoS_silver_sensitive,copper_resistance_membrane_spanning_protein_PcoS,Silver and copper resistance,Metals,Escherichia
+Msilv-g1198_silA_silver_sensitive,silA_silver_sensitive,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1199_silA_silver_sensitive,silA_silver_sensitive,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1200_silB_silver_sensitive,silB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_SilB_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1203_silF_silver_sensitive,silF_silver_sensitive,Silver_resistance_protein_silF,Silver and copper resistance,Metals,Escherichia
+Msilv-g1204_silR_silver_sensitive,silR_silver_sensitive,copper/silver_response_regulator_transcription_factor_SilR_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1205_silS_silver_sensitive,silS_silver_sensitive,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1206_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1207_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1208_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1209_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1210_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1211_cusR_silver_sensitive,cusR_silver_sensitive,TC_regulatory_system_response_regulator_CusR_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1212_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1213_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1214_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1215_silE_silver_sensitive,silE_silver_sensitive,silver-binding_protein_SilE_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1216_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1217_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1218_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1219_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1220_cusF_silver_sensitive,cusF_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_metallochaperone_CusF_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1221_cusR_silver_sensitive,cusR_silver_sensitive,TC_regulatory_system_response_regulator_CusR_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1222_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1223_silP_silver_sensitive,silP_silver_sensitive,Silver-translocating_P-type_ATPase_SilP_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1224_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1225_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1226_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1227_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1228_cusR_silver_sensitive,cusR_silver_sensitive,TC_regulatory_system_response_regulator_CusR_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1229_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1230_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1231_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1232_cusR_silver_sensitive,cusR_silver_sensitive,TC_regulatory_system_response_regulator_CusR_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1233_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1234_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1235_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1236_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1237_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1238_pcoA_silver_sensitive,pcoA_silver_sensitive,multicopper_oxidase_PcoA,Silver and copper resistance,Metals,Escherichia
+Msilv-g1239_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1240_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1241_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1242_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1243_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1244_cusR_silver_sensitive,cusR_silver_sensitive,TC_regulatory_system_response_regulator_CusR_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1245_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1246_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1247_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1248_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1249_cusC_silver_sensitive,cusC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_CusC_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1250_cusF_silver_sensitive,cusF_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_metallochaperone_CusF_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1251_cusS_silver_sensitive,cusS_silver_sensitive,Copper_Silver_sensor_histidine_kinase_CusS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1252_silA_silver_sensitive,silA_silver_sensitive,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1253_silC_silver_sensitive,silC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_SilC_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1254_silP_silver_sensitive,silP_silver_sensitive,Silver-translocating_P-type_ATPase_SilP_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1255_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1256_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1257_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1258_pcoA_silver_sensitive,pcoA_silver_sensitive,multicopper_oxidase_PcoA,Silver and copper resistance,Metals,Escherichia
+Msilv-g1259_pcoD_silver_sensitive,pcoD_silver_sensitive,Copper_resistance_inner_membrane_protein_PcoD,Silver and copper resistance,Metals,Escherichia
+Msilv-g1260_pcoE_silver_sensitive,pcoE_silver_sensitive,Copper_resistance_system_metallochaperone_PcoE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1261_pcoS_silver_sensitive,pcoS_silver_sensitive,copper_resistance_membrane_spanning_protein_PcoS,Silver and copper resistance,Metals,Escherichia
+Msilv-g1262_silA_silver_sensitive,silA_silver_sensitive,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1263_silB_silver_sensitive,silB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_SilB_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1264_silC_silver_sensitive,silC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_SilC_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1265_silE_silver_sensitive,silE_silver_sensitive,silver-binding_protein_SilE_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1266_silF_silver_sensitive,silF_silver_sensitive,Silver_resistance_protein_silF,Silver and copper resistance,Metals,Escherichia
+Msilv-g1267_silP_silver_sensitive,silP_silver_sensitive,Silver-translocating_P-type_ATPase_SilP_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1268_silS_silver_sensitive,silS_silver_sensitive,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1269_pcoC_silver_sensitive,pcoC_silver_sensitive,copper_resistance_system_metallochaperone_PcoC,Silver and copper resistance,Metals,Escherichia
+Msilv-g1270_silA_silver_sensitive,silA_silver_sensitive,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1271_silB_silver_sensitive,silB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_SilB_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1272_silC_silver_sensitive,silC_silver_sensitive,Copper_Silver_efflux_RND_transporter_outer_membrane_channel_SilC_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1273_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1274_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1275_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1276_cusB_silver_sensitive,cusB_silver_sensitive,Copper_Silver_efflux_RND_transporter_periplasmic_adaptor_subunit_CusB_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1277_pcoA_silver_sensitive,pcoA_silver_sensitive,multicopper_oxidase_PcoA,Silver and copper resistance,Metals,Escherichia
+Msilv-g1278_silS_silver_sensitive,silS_silver_sensitive,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1279_copA_silver_sensitive,copA_silver_sensitive,Copper_resistance_protein,Silver and copper resistance,Metals,Escherichia
+Msilv-g1280_cusA_silver_sensitive,cusA_silver_sensitive,Copper_Silver_export_system_RND_permease_CusA_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia
+Msilv-g1281_pcoA_silver_sensitive,pcoA_silver_sensitive,multicopper_oxidase_PcoA,Silver and copper resistance,Metals,Escherichia
+Msilv-g1282_silA_silver_sensitive,silA_silver_sensitive,Copper_Silver_efflux_RND_transporter_permease_subunit_SilA_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1283_silP_silver_sensitive,silP_silver_sensitive,Silver-translocating_P-type_ATPase_SilP_wild_type,Silver and copper resistance,Metals,Escherichia
+Msilv-g1284_silS_silver_sensitive,silS_silver_sensitive,Silver_Copper_sensing_histidine_kinase_SilS_SILVER_SENSITIVE,Silver and copper resistance,Metals,Escherichia

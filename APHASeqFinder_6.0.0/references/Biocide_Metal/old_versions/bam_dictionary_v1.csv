@@ -1,0 +1,1141 @@
+id,gene,gene_function,sub_class,class,source_organism,1st_blast_match,1st_blast_cov,2nd_blast_match,2nd_blast_cov,3rd_blast_match,3rd_blast_cov
+Bacet-g0001_iclR,iclR,Acetate resistance protein,Acetate resistance,Biocides,Escherichia coli,Bacet-g0002_iclR,100,NA,NA,NA,NA
+Bacet-g0002_iclR,iclR,Acetate resistance protein,Acetate resistance,Biocides,Escherichia coli,Bacet-g0001_iclR,95,NA,NA,NA,NA
+Bacet-g0003_lpdT,lpdT,Acetate resistance protein,Acetate resistance,Biocides,Escherichia coli,NA,NA,NA,NA,NA,NA
+Bacid-g0004_ariR,ariR,biofilm/acid-resistance regulator AriR,Acid resistance,Biocides,Escherichia coli,NA,NA,NA,NA,NA,NA
+Bacid-g0005_asr,asr,Acid resistance repetitive basic protein Asr,Acid resistance,Biocides,Escherichia coli,Bacid-g0006_asr,100,NA,NA,NA,NA
+Bacid-g0006_asr,asr,Acid resistance repetitive basic protein Asr,Acid resistance,Biocides,Escherichia coli,Bacid-g0005_asr,92,NA,NA,NA,NA
+Bacid-g0007_eefA,eefA,Acid resistance protein,Acid resistance,Biocides,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+Bacid-g0008_eefX,eefX,Acid resistance protein,Acid resistance,Biocides,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+Bacid-g0009_evgA,evgA,Acid resistance regulator,Acid resistance,Biocides,Escherichia coli,NA,NA,NA,NA,NA,NA
+Bacid-g0010_gadA,gadA,Acid resistance protein,Acid resistance,Biocides,Escherichia coli,Bacid-g0011_gadB,100,NA,NA,NA,NA
+Bacid-g0011_gadB,gadB,Acid resistance protein,Acid resistance,Biocides,Escherichia coli,Bacid-g0010_gadA,100,NA,NA,NA,NA
+Bacid-g0012_gadC,gadC,Acid resistance protein,Acid resistance,Biocides,Escherichia coli,NA,NA,NA,NA,NA,NA
+Bacid-g0013_gadE,gadE,Acid resistance regulator,Acid resistance,Biocides,Shigella sonnei,NA,NA,NA,NA,NA,NA
+Bacid-g0014_hdeA,hdeA,Acid resistance protein,Acid resistance,Biocides,Escherichia coli,NA,NA,NA,NA,NA,NA
+Bacid-g0015_hdeB,hdeB,Acid resistance protein,Acid resistance,Biocides,Escherichia coli,Bacid-g0016_hdeB,100,NA,NA,NA,NA
+Bacid-g0016_hdeB,hdeB,Acid resistance protein,Acid resistance,Biocides,Escherichia coli,Bacid-g0015_hdeB,96,NA,NA,NA,NA
+Bacid-g0017_hefA,hefA,Acid resistance protein,Acid resistance,Biocides,Helicobacter pylori P12,NA,NA,NA,NA,NA,NA
+Bacid-g0018_hefC,hefC,Acid resistance protein,Acid resistance,Biocides,Helicobacter pylori P12,NA,NA,NA,NA,NA,NA
+Bacid-g0019_ydeP,ydeP,Acid resistance protein,Acid resistance,Biocides,Escherichia coli,NA,NA,NA,NA,NA,NA
+Balde-g0020_frmA,frmA,S-(hydroxymethyl)glutathione dehydrogenase,Aldehyde resistance,Biocides,Enterobacter hormaechei,Balde-g0022_frmA,100,Balde-g0021_frmA,80.918,NA,NA
+Balde-g0021_frmA,frmA,S-(hydroxymethyl)glutathione dehydrogenase,Aldehyde resistance,Biocides,Escherichia coli,Balde-g0022_frmA,100,Balde-g0020_frmA,80.918,NA,NA
+Balde-g0022_frmA,frmA,S-(hydroxymethyl)glutathione dehydrogenase,Aldehyde resistance,Biocides,Escherichia coli,Balde-g0021_frmA,100,Balde-g0020_frmA,81.098,NA,NA
+Bethi-g0023_emhA,emhA,efflux RND transporter periplasmic adaptor subunit EmhA,"Ethidium bromide, Crystal Violet, Sodium Dodecyl Sulfate (SDS) resistance",Biocides,Pseudomonas protegens,NA,NA,NA,NA,NA,NA
+Bfatt-g0024_farB,farB,fatty acid resistance MFS efflux transporter permease subunit FarB,Fatty acid resistance,Biocides,Neisseria gonorrhoeae,Bfatt-g0025_farB,100,NA,NA,NA,NA
+Bfatt-g0025_farB,farB,fatty acid resistance MFS efflux transporter permease subunit FarB,Fatty acid resistance,Biocides,Neisseria meningitidis,Bfatt-g0024_farB,100,NA,NA,NA,NA
+Bfluo-g0026_crcB,crcB,fluoride efflux transporter CrcB,Fluoride resistance,Biocides,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+Bfusi-g0027_fusB,fusB,fusidic acid resistance EF-G-binding protein FusB,Fusidic acid resistance,Biocides,Staphylococcus epidermidis,NA,NA,NA,NA,NA,NA
+Bfusi-g0028_fusC,fusC,fusidic acid resistance EF-G-binding protein FusC,Fusidic acid resistance,Biocides,Staphylococcus hominis subsp. hominis,NA,NA,NA,NA,NA,NA
+Bfusi-g0029_fusF,fusF,fusidic acid resistance EF-G-binding protein FusF,Fusidic acid resistance,Biocides,Staphylococcus ureilyticus,NA,NA,NA,NA,NA,NA
+Bfusi-g0030_fusH,fusH,fusidic acid esterase FusH,Fusidic acid resistance,Biocides,Streptomyces lividans,NA,NA,NA,NA,NA,NA
+Bmult-g0031_abuO,abuO,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Shigella flexneri,Bmult-g0032_ebrA,95,Bmult-g0033_ebrB,97.284,NA,NA
+Bmult-g0032_ebrA,ebrA,Multi-biocide SMR efflux pump,Multi-biocide resistance,Biocides,Shigella flexneri,Bmult-g0033_ebrB,97,Bmult-g0031_abuO,97.087,NA,NA
+Bmult-g0033_ebrB,ebrB,Multi-biocide SMR efflux pump,Multi-biocide resistance,Biocides,Shigella sonnei,Bmult-g0032_ebrA,100,Bmult-g0031_abuO,97.284,NA,NA
+Bmult-g0034_emhR,emhR,Multi-biocide RND efflux regulator,Multi-biocide resistance,Biocides,Acinetobacter baumannii,NA,NA,NA,NA,NA,NA
+Bmult-g0035_emmdR,emmdR,Multi-biocide MATE efflux pump,Multi-biocide resistance,Biocides,Bacillus spizizenii ATCC 6633 = JCM 2499,NA,NA,NA,NA,NA,NA
+Bmult-g0036_hasF,hasF,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Bacillus atrophaeus ATCC 9372,NA,NA,NA,NA,NA,NA
+Bmult-g0037_hsmR,hsmR,Multi-biocide resistance protein,Multi-biocide resistance,Biocides,Pseudomonas protegens,NA,NA,NA,NA,NA,NA
+Bmult-g0038_kexD,kexD,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Enterobacter cloacae,NA,NA,NA,NA,NA,NA
+Bmult-g0039_ldE,ldE,Multi-biocide MFS efflux pump,Multi-biocide resistance,Biocides,Serratia marcescens,NA,NA,NA,NA,NA,NA
+Bmult-g0040_mdeA,mdeA,Multi-biocide resistance protein,Multi-biocide resistance,Biocides,Halobacterium salinarum,NA,NA,NA,NA,NA,NA
+Bmult-g0041_mexV,mexV,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Klebsiella pneumoniae subsp. pneumoniae MGH 78578,NA,NA,NA,NA,NA,NA
+Bmult-g0042_mexW,mexW,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+Bmult-g0043_oprJ,oprJ,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Pseudomonas putida,NA,NA,NA,NA,NA,NA
+Bmult-g0044_oprJ,oprJ,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+Bmult-g0045_oprM,oprM,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Pseudomonas aeruginosa,MUdru-g1017_mtrC,17,NA,NA,NA,NA
+Bmult-g0046_oprM,oprM,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Pseudomonas aeruginosa,Bmult-g0047_oxyrkP,100,NA,NA,NA,NA
+Bmult-g0047_oxyrkP,oxyrkP,Multi-biocide resistance regulator,Multi-biocide resistance,Biocides,Pseudomonas aeruginosa,Bmult-g0046_oprM,100,NA,NA,NA,NA
+Bmult-g0048_pcM,pcM,Multi-biocide resistance regulator (partial gene),Multi-biocide resistance,Biocides,Pseudomonas aeruginosa,Bmult-g0049_pdrM,100,NA,NA,NA,NA
+Bmult-g0049_pdrM,pdrM,Multi-biocide MATE efflux pump,Multi-biocide resistance,Biocides,Pseudomonas aeruginosa,Bmult-g0048_pcM,61,Bpoly-g0139_ttgD,78.068,MUman-g1129_sitB,76.89
+Bmult-g0050_smrA,smrA,Multi-biocide ABC efflux pump,Multi-biocide resistance,Biocides,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+Bmult-g0051_smvA,smvA,Multi-biocide MFS efflux pump,Multi-biocide resistance,Biocides,Stenotrophomonas maltophilia,NA,NA,NA,NA,NA,NA
+Bmult-g0052_soxrB,soxrB,Multi-biocide resistance regulator,Multi-biocide resistance,Biocides,Streptococcus pneumoniae,NA,NA,NA,NA,NA,NA
+Bmult-g0053_soxrB,soxrB,Multi-biocide resistance regulator (partial gene),Multi-biocide resistance,Biocides,Stenotrophomonas maltophilia,NA,NA,NA,NA,NA,NA
+Bmult-g0054_ssmE,ssmE,Multi-biocide SMR efflux pump,Multi-biocide resistance,Biocides,Salmonella enterica,NA,NA,NA,NA,NA,NA
+Bmult-g0055_sugE,sugE,Multi-biocide SMR efflux pump,Multi-biocide resistance,Biocides,Escherichia coli,Bmult-g0056_sugE,100,NA,NA,NA,NA
+Bmult-g0056_sugE,sugE,Multi-biocide SMR efflux pump,Multi-biocide resistance,Biocides,Escherichia coli,Bmult-g0055_sugE,100,NA,NA,NA,NA
+Bmult-g0057_sugE,sugE,Multi-biocide SMR efflux pump,Multi-biocide resistance,Biocides,Serratia marcescens,NA,NA,NA,NA,NA,NA
+Bmult-g0058_sugE,sugE,Multi-biocide SMR efflux pump,Multi-biocide resistance,Biocides,Escherichia coli,Bmult-g0060_tolC,100,Bmult-g0059_tolC,100,Bmult-g0061_tolC,99.371
+Bmult-g0059_tolC,tolC,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Escherichia coli,Bmult-g0058_sugE,100,Bmult-g0061_tolC,99.371,Bmult-g0060_tolC,99.371
+Bmult-g0060_tolC,tolC,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Escherichia coli K-12,Bmult-g0058_sugE,87,Bmult-g0061_tolC,100,Bmult-g0059_tolC,99.371
+Bmult-g0061_tolC,tolC,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Escherichia coli K-12,Bmult-g0060_tolC,100,Bmult-g0059_tolC,99.371,Bmult-g0058_sugE,99.371
+Bmult-g0062_tolC,tolC,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Escherichia coli,Bmult-g0066_ttgF,100,Bmult-g0063_tolC,100,Bmult-g0065_ttgF,97.844
+Bmult-g0063_tolC,tolC,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Escherichia coli,Bmult-g0062_tolC,100,Bmult-g0066_ttgF,99.933,Bmult-g0065_ttgF,97.844
+Bmult-g0064_tolCsm,tolCsm,Multi-biocide RND efflux pump (partial gene),Multi-biocide resistance,Biocides,Shigella sonnei,Bmult-g0066_ttgF,100,Bmult-g0062_tolC,100,Bmult-g0065_ttgF,100
+Bmult-g0065_ttgF,ttgF,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Escherichia coli K-12,Bmult-g0063_tolC,100,Bmult-g0062_tolC,97.844,Bmult-g0066_ttgF,97.776
+Bmult-g0066_ttgF,ttgF,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Escherichia coli K-12,Bmult-g0062_tolC,100,Bmult-g0063_tolC,99.933,Bmult-g0065_ttgF,97.776
+Bmult-g0067_ttgW,ttgW,Multi-biocide RND efflux regulator,Multi-biocide resistance,Biocides,Stenotrophomonas maltophilia,NA,NA,NA,NA,NA,NA
+Bmult-g0068_vcaM,vcaM,Multi-biocide ABC efflux pump,Multi-biocide resistance,Biocides,Pseudomonas sp. 13159349,Bmult-g0069_vcrM,86,NA,NA,NA,NA
+Bmult-g0069_vcrM,vcrM,Multi-biocide MATE efflux pump,Multi-biocide resistance,Biocides,Pseudomonas sp. 13159349,Bmult-g0068_vcaM,100,NA,NA,NA,NA
+Bmult-g0070_vmeA,vmeA,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Pseudomonas putida DOT-T1E,NA,NA,NA,NA,NA,NA
+Bmult-g0071_vmeA,vmeA,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio cholerae C6706,NA,NA,NA,NA,NA,NA
+Bmult-g0072_vmeA,vmeA,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio cholerae C6706,NA,NA,NA,NA,NA,NA
+Bmult-g0073_vmeA,vmeA,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,Bmult-g0085_vmeB,100,Bmult-g0074_vmeA,99.211,Bmult-g0075_vmeA,99.123
+Bmult-g0074_vmeA,vmeA,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,Bmult-g0085_vmeB,100,Bmult-g0083_vmeA,99.649,Bmult-g0080_vmeA,99.561
+Bmult-g0075_vmeA,vmeA,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,Bmult-g0077_vmeA,100,Bmult-g0074_vmeA,99.211,Bmult-g0085_vmeB,99.123
+Bmult-g0076_vmeA,vmeA,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,Bmult-g0077_vmeA,100,Bmult-g0079_vmeA,99.035,Bmult-g0082_vmeA,98.947
+Bmult-g0077_vmeA,vmeA,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,Bmult-g0082_vmeA,100,Bmult-g0084_vmeB,99.561,Bmult-g0076_vmeA,99.298
+Bmult-g0078_vmeA,vmeA,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,Bmult-g0085_vmeB,100,Bmult-g0080_vmeA,98.86,Bmult-g0083_vmeA,98.772
+Bmult-g0079_vmeA,vmeA,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,Bmult-g0086_vmeC,100,Bmult-g0085_vmeB,99.474,Bmult-g0083_vmeA,99.386
+Bmult-g0080_vmeA,vmeA,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,Bmult-g0074_vmeA,100,Bmult-g0085_vmeB,99.474,Bmult-g0082_vmeA,99.298
+Bmult-g0081_vmeA,vmeA,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,Bmult-g0079_vmeA,100,Bmult-g0085_vmeB,99.035,Bmult-g0086_vmeC,98.947
+Bmult-g0082_vmeA,vmeA,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,Bmult-g0084_vmeB,100,Bmult-g0077_vmeA,99.649,Bmult-g0080_vmeA,99.298
+Bmult-g0083_vmeA,vmeA,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,Bmult-g0085_vmeB,100,Bmult-g0074_vmeA,99.649,Bmult-g0079_vmeA,99.386
+Bmult-g0084_vmeB,vmeB,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,Bmult-g0082_vmeA,100,Bmult-g0077_vmeA,99.561,Bmult-g0080_vmeA,99.211
+Bmult-g0085_vmeB,vmeB,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,Bmult-g0083_vmeA,100,Bmult-g0074_vmeA,99.737,Bmult-g0080_vmeA,99.474
+Bmult-g0086_vmeC,vmeC,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,Bmult-g0079_vmeA,100,Bmult-g0085_vmeB,99.035,Bmult-g0080_vmeA,99.035
+Bmult-g0087_vmeD,vmeD,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,Bmult-g0088_vmeE,100,MUdru-g0885_adeK,73.874,MUdru-g0885_adeK,100
+Bmult-g0088_vmeE,vmeE,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,Bmult-g0087_vmeD,100,MUdru-g0885_adeK,74.081,NA,NA
+Bmult-g0089_vmeF,vmeF,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,NA,NA,NA,NA,NA,NA
+Bmult-g0090_vmeG,vmeG,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,MUzin-g1139_baeS,99,NA,NA,NA,NA
+Bmult-g0091_vmeH,vmeH,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,NA,NA,NA,NA,NA,NA
+Bmult-g0092_vmeI,vmeI,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,NA,NA,NA,NA,NA,NA
+Bmult-g0093_vmeJ,vmeJ,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,NA,NA,NA,NA,NA,NA
+Bmult-g0094_vmeK,vmeK,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,NA,NA,NA,NA,NA,NA
+Bmult-g0095_vmeP,vmeP,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,NA,NA,NA,NA,NA,NA
+Bmult-g0096_vmeQ,vmeQ,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,NA,NA,NA,NA,NA,NA
+Bmult-g0097_vmeT,vmeT,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,NA,NA,NA,NA,NA,NA
+Bmult-g0098_vmeU,vmeU,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,NA,NA,NA,NA,NA,NA
+Bmult-g0099_vmeV,vmeV,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,MUdru-g1014_mexZ,1,MUdru-g1013_mexY,100,NA,NA
+Bmult-g0100_vmeY,vmeY,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,NA,NA,NA,NA,NA,NA
+Bmult-g0101_vmeZ,vmeZ,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,NA,NA,NA,NA,NA,NA
+Bmult-g0102_vmrA,vmrA,Multi-biocide MATE efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,NA,NA,NA,NA,NA,NA
+Bmult-g0103_vpoC,vpoC,Multi-biocide RND efflux pump,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,NA,NA,NA,NA,NA,NA
+Bmult-g0104_ydeO,ydeO,Multi-biocide resistance regulator,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,NA,NA,NA,NA,NA,NA
+Bmult-g0105_yjcG,yjcG,Multi-biocide resistance protein,Multi-biocide resistance,Biocides,Vibrio parahaemolyticus,NA,NA,NA,NA,NA,NA
+Bpara-g0106_nmpC,nmpC,Paraquat resistance protein,Paraquat resistance,Biocides,Vibrio parahaemolyticus,NA,NA,NA,NA,NA,NA
+Bpara-g0107_nmpC,nmpC,Paraquat resistance protein,Paraquat resistance,Biocides,Escherichia coli,NA,NA,NA,NA,NA,NA
+Bpara-g0108_yddG,yddG,Paraquat efflux pump,Paraquat resistance,Biocides,Escherichia coli,NA,NA,NA,NA,NA,NA
+Bpero-g0109_ibpA,ibpA,Peroxide resistance stress protein,Peroxide resistance,Biocides,Salmonella enterica,NA,NA,NA,NA,NA,NA
+Bpero-g0110_ibpB,ibpB,Peroxide resistance stress protein,Peroxide resistance,Biocides,Salmonella enterica subsp. enterica serovar Typhimurium,NA,NA,NA,NA,NA,NA
+Bpero-g0111_katP,katP,catalase/peroxidase KatP,Peroxide resistance,Biocides,Escherichia coli,NA,NA,NA,NA,NA,NA
+Bpero-g0112_perR,perR,peroxide resistance regulator,Peroxide resistance,Biocides,Shigella sonnei,Bpero-g0113_sodA,100,NA,NA,NA,NA
+Bpero-g0113_sodA,sodA,peroxide resistance protein,Peroxide resistance,Biocides,Shigella sonnei,Bpero-g0112_perR,99,NA,NA,NA,NA
+Bpero-g0114_sodA,sodA,peroxide resistance protein,Peroxide resistance,Biocides,Escherichia coli O157:H7,NA,NA,NA,NA,NA,NA
+Bpero-g0115_sodA,sodA,peroxide resistance protein,Peroxide resistance,Biocides,Staphylococcus aureus,NA,NA,NA,NA,NA,NA
+Bpero-g0116_sodA,sodA,peroxide resistance protein,Peroxide resistance,Biocides,Escherichia coli,Bpero-g0118_sodB,100,NA,NA,NA,NA
+Bpero-g0117_sodB,sodB,peroxide resistance protein,Peroxide resistance,Biocides,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+Bpero-g0118_sodB,sodB,peroxide resistance protein,Peroxide resistance,Biocides,Escherichia coli,Bpero-g0116_sodA,100,NA,NA,NA,NA
+Bpero-g0119_ydeI,ydeI,peroxide resistance protein,Peroxide resistance,Biocides,Pseudomonas aeruginosa,Bphen-g0121_fabI,100,NA,NA,NA,NA
+Bphen-g0120_fabG,fabG,Triclosan-resistant mutation,Phenolic compound resistance,Biocides,Escherichia coli,NA,NA,NA,NA,NA,NA
+Bphen-g0121_fabI,fabI,Phenolic resistance protein,Phenolic compound resistance,Biocides,Pseudomonas aeruginosa,Bpero-g0119_ydeI,100,NA,NA,NA,NA
+Bphen-g0122_fabI,fabI,Phenolic resistance protein,Phenolic compound resistance,Biocides,Escherichia coli,NA,NA,NA,NA,NA,NA
+Bphen-g0123_fabK,fabK,Phenolic resistance protein,Phenolic compound resistance,Biocides,Shigella sonnei,NA,NA,NA,NA,NA,NA
+Bphen-g0124_fabL,fabL,Phenolic resistance protein,Phenolic compound resistance,Biocides,Staphylococcus aureus,NA,NA,NA,NA,NA,NA
+Bphen-g0125_fabV,fabV,Phenolic resistance protein,Phenolic compound resistance,Biocides,Escherichia coli,NA,NA,NA,NA,NA,NA
+Bphen-g0126_fabV,fabV,Phenolic resistance protein,Phenolic compound resistance,Biocides,Streptococcus pneumoniae,NA,NA,NA,NA,NA,NA
+Bphen-g0127_triA,triA,Phenolic RND efflux pump,Phenolic compound resistance,Biocides,Bacillus subtilis,NA,NA,NA,NA,NA,NA
+Bphen-g0128_triaP,triaP,Phenolic RND efflux pump,Phenolic compound resistance,Biocides,Vibrio cholerae C6706,NA,NA,NA,NA,NA,NA
+Bphen-g0129_triB,triB,Phenolic RND efflux pump,Phenolic compound resistance,Biocides,Vibrio cholerae O1 biovar El Tor,NA,NA,NA,NA,NA,NA
+Bphen-g0130_tribP,tribP,Phenolic RND efflux pump,Phenolic compound resistance,Biocides,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+Bphen-g0131_triC,triC,Phenolic RND efflux pump,Phenolic compound resistance,Biocides,Yersinia pseudotuberculosis IP 32953,NA,NA,NA,NA,NA,NA
+Bphen-g0132_tricP,tricP,Phenolic RND efflux pump,Phenolic compound resistance,Biocides,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+Bpoly-g0133_bltD,bltD,Spermine/spermidine acetyltransferase,Polyamine resistance,Biocides,Yersinia pseudotuberculosis IP 32953,NA,NA,NA,NA,NA,NA
+Bpoly-g0134_bltD,bltD,Spermine/spermidine acetyltransferase,Polyamine resistance,Biocides,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+Bpoly-g0135_emhB,emhB,efflux RND transporter permease subunit EmhB,Polycyclic aromatic hydrocarbon resistance,Biocides,Yersinia pseudotuberculosis IP 32953,NA,NA,NA,NA,NA,NA
+Bpoly-g0136_emhC,emhC,Efflux RND transporter outer membrane subunit EmhC,Polycyclic aromatic hydrocarbon resistance,Biocides,Bacillus subtilis subsp. subtilis str. 168,Bpoly-g0137_emhC,100,NA,NA,NA,NA
+Bpoly-g0137_emhC,emhC,Efflux RND transporter outer membrane subunit EmhC,Polycyclic aromatic hydrocarbon resistance,Biocides,Bacillus subtilis subsp. subtilis str. 168,Bpoly-g0136_emhC,100,NA,NA,NA,NA
+Bpoly-g0138_srpB,srpB,solvent efflux RND transporter permease subunit SrpB,Polycyclic aromatic hydrocarbon resistance,Biocides,Pseudomonas fluorescens,MUman-g1128_sitB,98,MUdru-g1007_mexR,80.347,MUdru-g1011_mexT,72.993
+Bpoly-g0139_ttgD,ttgD,toluene efflux RND transporter periplasmic adaptor subunit TtgD,Polycyclic aromatic hydrocarbon resistance,Biocides,Pseudomonas protegens,Bqacs-g0140_bcrB,100,MUman-g1129_sitB,81.14,Bmult-g0049_pdrM,78.068
+Bqacs-g0140_bcrB,bcrB,quaternary ammonium compound efflux SMR transporter BcrB,QACs and biocides resistance,Biocides,Pseudomonas fluorescens,Bpoly-g0139_ttgD,100,MUman-g1129_sitB,77.438,Bmult-g0049_pdrM,75.431
+Bqacs-g0141_emeA,emeA,QAC efflux pump,QACs and biocides resistance,Biocides,Pseudomonas putida,NA,NA,NA,NA,NA,NA
+Bqacs-g0142_galE,galE,QAC-resistant protein UDP glucose 4 epimerase,QACs and biocides resistance,Biocides,Pseudomonas sp. 13159349,MUdru-g1112_vcmA,100,MUman-g1130_sitC,100,NA,NA
+Bqacs-g0143_qacA,qacA,quaternary ammonium compound efflux MFS transporter QacA,QACs and biocides resistance,Biocides,Staphylococcus aureus,Bqacs-g0148_qacB,100,MUdru-g1103_ttgB,99.87,Bqacs-g0144_qacA,99.741
+Bqacs-g0144_qacA,qacA,quaternary ammonium compound efflux MFS transporter QacA,QACs and biocides resistance,Biocides,Staphylococcus epidermidis,Bqacs-g0148_qacB,100,Bqacs-g0143_qacA,99.741,MUdru-g1103_ttgB,99.741
+Bqacs-g0145_qacB,qacB,quaternary ammonium compound efflux MFS transporter QacB,QACs and biocides resistance,Biocides,Staphylococcus aureus,Bqacs-g0149_qacB,100,Bqacs-g0146_qacB,99.741,Bqacs-g0147_qacB,99.676
+Bqacs-g0146_qacB,qacB,quaternary ammonium compound efflux MFS transporter QacB,QACs and biocides resistance,Biocides,Staphylococcus aureus,Bqacs-g0147_qacB,100,Bqacs-g0149_qacB,99.871,Bqacs-g0145_qacB,99.741
+Bqacs-g0147_qacB,qacB,quaternary ammonium compound efflux MFS transporter QacB,QACs and biocides resistance,Biocides,Staphylococcus aureus,Bqacs-g0149_qacB,100,Bqacs-g0146_qacB,99.935,Bqacs-g0145_qacB,99.676
+Bqacs-g0148_qacB,qacB,quaternary ammonium compound efflux MFS transporter QacB,QACs and biocides resistance,Biocides,Staphylococcus hominis,Bqacs-g0143_qacA,100,MUdru-g1103_ttgB,99.935,Bqacs-g0144_qacA,99.806
+Bqacs-g0149_qacB,qacB,quaternary ammonium compound efflux MFS transporter QacB,QACs and biocides resistance,Biocides,Staphylococcus aureus,Bqacs-g0147_qacB,100,Bqacs-g0146_qacB,99.871,Bqacs-g0145_qacB,99.741
+Bqacs-g0150_qacC,qacC,quaternary ammonium compound efflux SMR transporter QacC,QACs and biocides resistance,Biocides,Staphylococcus saprophyticus,MUdru-g1104_ttgC,100,NA,NA,NA,NA
+Bqacs-g0151_qacC,qacC,quaternary ammonium compound efflux SMR transporter QacC,QACs and biocides resistance,Biocides,Streptococcus oralis,NA,NA,NA,NA,NA,NA
+Bqacs-g0152_qacEdelta1,qacEdelta1,quaternary ammonium compound efflux SMR transporter QacE delta 1,QACs and biocides resistance,Biocides,Escherichia coli,Bqacs-g0154_qacEdelta1,100,Bqacs-g0153_qacEdelta1,99.713,MUdru-g1106_ttgG,100
+Bqacs-g0153_qacEdelta1,qacEdelta1,quaternary ammonium compound efflux SMR transporter QacE delta 1,QACs and biocides resistance,Biocides,Pseudomonas aeruginosa,Bqacs-g0152_qacEdelta1,100,Bqacs-g0154_qacEdelta1,99.425,MUdru-g1106_ttgG,100
+Bqacs-g0154_qacEdelta1,qacEdelta1,quaternary ammonium compound efflux SMR transporter QacE delta 1,QACs and biocides resistance,Biocides,Pseudomonas aeruginosa,Bqacs-g0152_qacEdelta1,100,Bqacs-g0153_qacEdelta1,99.425,MUdru-g1106_ttgG,99.645
+Bqacs-g0155_qacEdelta1,qacEdelta1,quaternary ammonium compound efflux SMR transporter QacE delta 1,QACs and biocides resistance,Biocides,uncultured bacterium,NA,NA,NA,NA,NA,NA
+Bqacs-g0156_qacF,qacF,quaternary ammonium compound efflux SMR transporter QacF,QACs and biocides resistance,Biocides,Pseudomonas aeruginosa,Bqacs-g0161_qacF,100,Bqacs-g0158_qacF,99.7,Bqacs-g0173_qacJ,99.399
+Bqacs-g0157_qacF,qacF,quaternary ammonium compound efflux SMR transporter QacF,QACs and biocides resistance,Biocides,Serratia marcescens,Bqacs-g0162_qacF,100,Bqacs-g0160_qacF,99.399,Bqacs-g0158_qacF,99.399
+Bqacs-g0158_qacF,qacF,quaternary ammonium compound efflux SMR transporter QacF,QACs and biocides resistance,Biocides,Pseudomonas putida,Bqacs-g0173_qacJ,100,Bqacs-g0162_qacF,99.7,Bqacs-g0159_qacF,99.7
+Bqacs-g0159_qacF,qacF,quaternary ammonium compound efflux SMR transporter QacF,QACs and biocides resistance,Biocides,Serratia marcescens,Bqacs-g0158_qacF,100,Bqacs-g0173_qacJ,99.399,Bqacs-g0162_qacF,99.399
+Bqacs-g0160_qacF,qacF,quaternary ammonium compound efflux SMR transporter QacF,QACs and biocides resistance,Biocides,Pseudomonas aeruginosa,Bqacs-g0162_qacF,100,Bqacs-g0158_qacF,99.399,Bqacs-g0157_qacF,99.399
+Bqacs-g0161_qacF,qacF,quaternary ammonium compound efflux SMR transporter QacF,QACs and biocides resistance,Biocides,Stenotrophomonas maltophilia,Bqacs-g0156_qacF,100,Bqacs-g0158_qacF,99.399,Bqacs-g0173_qacJ,99.099
+Bqacs-g0162_qacF,qacF,quaternary ammonium compound efflux SMR transporter QacF,QACs and biocides resistance,Biocides,Klebsiella pneumoniae,Bqacs-g0160_qacF,100,Bqacs-g0158_qacF,99.7,Bqacs-g0157_qacF,99.7
+Bqacs-g0163_qacG,qacG,quaternary ammonium compound efflux SMR transporter QacG,QACs and biocides resistance,Biocides,Staphylococcus aureus,NA,NA,NA,NA,NA,NA
+Bqacs-g0164_qacG,qacG,quaternary ammonium compound efflux SMR transporter QacG,QACs and biocides resistance,Biocides,Pseudomonas aeruginosa,Bqacs-g0168_qacG,100,Bqacs-g0167_qacG,99.399,Bqacs-g0165_qacG,99.399
+Bqacs-g0165_qacG,qacG,quaternary ammonium compound efflux SMR transporter QacG,QACs and biocides resistance,Biocides,uncultured bacterium,Bqacs-g0166_qacG,100,Bqacs-g0168_qacG,99.399,Bqacs-g0167_qacG,99.399
+Bqacs-g0166_qacG,qacG,quaternary ammonium compound efflux SMR transporter QacG,QACs and biocides resistance,Biocides,uncultured bacterium,Bqacs-g0165_qacG,100,Bqacs-g0168_qacG,99.099,Bqacs-g0167_qacG,99.099
+Bqacs-g0167_qacG,qacG,quaternary ammonium compound efflux SMR transporter QacG,QACs and biocides resistance,Biocides,uncultured bacterium,Bqacs-g0169_qacG,100,Bqacs-g0168_qacG,99.399,Bqacs-g0165_qacG,99.399
+Bqacs-g0168_qacG,qacG,quaternary ammonium compound efflux SMR transporter QacG,QACs and biocides resistance,Biocides,uncultured bacterium,Bqacs-g0170_qacG,100,Bqacs-g0169_qacG,99.7,Bqacs-g0167_qacG,99.399
+Bqacs-g0169_qacG,qacG,quaternary ammonium compound efflux SMR transporter QacG,QACs and biocides resistance,Biocides,Aeromonas caviae,Bqacs-g0168_qacG,100,Bqacs-g0167_qacG,99.7,Bqacs-g0170_qacG,99.399
+Bqacs-g0170_qacG,qacG,quaternary ammonium compound efflux SMR transporter QacG,QACs and biocides resistance,Biocides,Pseudomonas aeruginosa,Bqacs-g0168_qacG,100,Bqacs-g0169_qacG,99.399,Bqacs-g0167_qacG,99.099
+Bqacs-g0171_qacH,qacH,quaternary ammonium compound efflux SMR transporter QacH,QACs and biocides resistance,Biocides,Staphylococcus saprophyticus,Bsodi-g0182_nhaB,100,NA,NA,NA,NA
+Bqacs-g0172_qacH,qacH,quaternary ammonium compound efflux SMR transporter QacH,QACs and biocides resistance,Biocides,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+Bqacs-g0173_qacJ,qacJ,quaternary ammonium compound efflux SMR transporter QacJ,QACs and biocides resistance,Biocides,bacterium,Bqacs-g0158_qacF,100,Bqacs-g0162_qacF,99.399,Bqacs-g0159_qacF,99.399
+Bqacs-g0174_qacL,qacL,quaternary ammonium compound efflux SMR transporter QacL,QACs and biocides resistance,Biocides,Klebsiella pneumoniae,Bqacs-g0175_qacL,100,Bqacs-g0177_qacL,99.099,Bqacs-g0176_qacL,93.093
+Bqacs-g0175_qacL,qacL,quaternary ammonium compound efflux SMR transporter QacL,QACs and biocides resistance,Biocides,Salmonella enterica,Bqacs-g0174_qacL,100,Bqacs-g0177_qacL,99.399,Bqacs-g0176_qacL,93.393
+Bqacs-g0176_qacL,qacL,quaternary ammonium compound efflux SMR transporter QacL,QACs and biocides resistance,Biocides,Pseudomonas aeruginosa,Bqacs-g0158_qacF,100,Bqacs-g0173_qacJ,97.598,Bqacs-g0162_qacF,97.598
+Bqacs-g0177_qacL,qacL,quaternary ammonium compound efflux SMR transporter QacL,QACs and biocides resistance,Biocides,uncultured bacterium,Bqacs-g0175_qacL,100,Bqacs-g0174_qacL,99.099,Bqacs-g0176_qacL,92.793
+Bqacs-g0178_qacL,qacL,quaternary ammonium compound efflux SMR transporter QacL,QACs and biocides resistance,Biocides,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+Bqacs-g0179_qacZ,qacZ,quaternary ammonium compound efflux SMR transporter QacH,QACs and biocides resistance,Biocides,Enterococcus faecalis ATCC 29212,NA,NA,NA,NA,NA,NA
+Bsodi-g0180_chaA,chaA,Sodium resistance protein,Sodium resistance,Biocides,uncultured bacterium,NA,NA,NA,NA,NA,NA
+Bsodi-g0181_nhaA,nhaA,Sodium resistance protein,Sodium resistance,Biocides,Staphylococcus aureus,NA,NA,NA,NA,NA,NA
+Bsodi-g0182_nhaB,nhaB,Sodium resistance protein,Sodium resistance,Biocides,Enterococcus faecalis V583,Bqacs-g0171_qacH,100,NA,NA,NA,NA
+Bsodi-g0183_nhaB,nhaB,Sodium resistance protein,Sodium resistance,Biocides,Escherichia coli,NA,NA,NA,NA,NA,NA
+Btolu-g0184_ttgA,ttgA,Toluene efflux RND transporter periplasmic adaptor subunit TtgA,Toluene resistance,Biocides,Escherichia coli,NA,NA,NA,NA,NA,NA
+Btolu-g0185_ttgA,ttgA,Toluene efflux RND transporter periplasmic adaptor subunit TtgA,Toluene resistance,Biocides,Escherichia coli,Btrib-g0186_tbtR,100,NA,NA,NA,NA
+Btrib-g0186_tbtR,tbtR,tribuytltin resistance regulator TbtR,Tribuyltin resistance,Biocides,Escherichia coli,Btolu-g0185_ttgA,98,NA,NA,NA,NA
+Malum-g0187_alu1P,alu1P,Aluminum resistance protein,Aluminum resistance,Metals,Pseudomonas putida DOT-T1E,Malum-g0188_G2alt,100,NA,NA,NA,NA
+Malum-g0188_G2alt,G2alt,Aluminum ATPase ,Aluminum resistance,Metals,Pseudomonas putida,Malum-g0187_alu1P,100,NA,NA,NA,NA
+Marse-g0189_acr3,acr3,arsenite efflux transporter Acr3,Arsenic resistance,Metals,Stutzerimonas stutzeri,NA,NA,NA,NA,NA,NA
+Marse-g0190_acr3,acr3,arsenite efflux transporter Acr3,Arsenic resistance,Metals,Anoxybacillus gonensis,NA,NA,NA,NA,NA,NA
+Marse-g0191_aioA,aioA,Arsenite oxidase,Arsenic resistance,Metals,Campylobacter jejuni,NA,NA,NA,NA,NA,NA
+Marse-g0192_aioA,aioA,Arsenite oxidase,Arsenic resistance,Metals,Synechocystis sp. IPPAS B-1465,NA,NA,NA,NA,NA,NA
+Marse-g0193_aioB,aioB,Arsenite oxidase,Arsenic resistance,Metals,Bacillus subtilis subsp. subtilis str. 168,Marse-g0264_arsB,100,NA,NA,NA,NA
+Marse-g0194_aioE,aioE,Arsenite oxidase,Arsenic resistance,Metals,Herminiimonas arsenicoxydans,Marse-g0195_aioR,100,NA,NA,NA,NA
+Marse-g0195_aioR,aioR,Arsenite oxidase regulator,Arsenic resistance,Metals,Herminiimonas arsenicoxydans,Marse-g0194_aioE,100,NA,NA,NA,NA
+Marse-g0196_aioS,aioS,Arsenite oxidase regulator,Arsenic resistance,Metals,Herminiimonas arsenicoxydans,NA,NA,NA,NA,NA,NA
+Marse-g0197_aioX,aioX,Arsenite oxidase regulator,Arsenic resistance,Metals,Agrobacterium tumefaciens GW4,NA,NA,NA,NA,NA,NA
+Marse-g0198_arrA,arrA,Arsenic resistance protein,Arsenic resistance,Metals,Agrobacterium tumefaciens,NA,NA,NA,NA,NA,NA
+Marse-g0199_arrA,arrA,Arsenic resistance protein,Arsenic resistance,Metals,Agrobacterium tumefaciens,NA,NA,NA,NA,NA,NA
+Marse-g0200_arrB,arrB,Arsenic resistance protein,Arsenic resistance,Metals,Agrobacterium tumefaciens,NA,NA,NA,NA,NA,NA
+Marse-g0201_arsA,arsA,arsenite efflux transporter ATPase subunit ArsA,Arsenic resistance,Metals,Shewanella sp. ANA-3,Marse-g0202_arsA,100,NA,NA,NA,NA
+Marse-g0202_arsA,arsA,arsenite efflux transporter ATPase subunit ArsA,Arsenic resistance,Metals,Shewanella putrefaciens,Marse-g0201_arsA,100,NA,NA,NA,NA
+Marse-g0203_arsA,arsA,arsenite efflux transporter ATPase subunit ArsA,Arsenic resistance,Metals,Shewanella sp. ANA-3,NA,NA,NA,NA,NA,NA
+Marse-g0204_arsA,arsA,arsenite efflux transporter ATPase subunit ArsA,Arsenic resistance,Metals,Salmonella enterica subsp. enterica serovar Typhimurium,Marse-g0207_arsC,99,Marse-g0205_arsA,76.531,NA,NA
+Marse-g0205_arsA,arsA,arsenite efflux transporter ATPase subunit ArsA,Arsenic resistance,Metals,Escherichia coli,Marse-g0207_arsC,99,Marse-g0204_arsA,76.531,NA,NA
+Marse-g0206_arsA,arsA,arsenite efflux transporter ATPase subunit ArsA,Arsenic resistance,Metals,Listeria monocytogenes,Marse-g0208_arsC,35,NA,NA,NA,NA
+Marse-g0207_arsC,arsC,glutaredoxin-dependent arsenate reductase ArsC,Arsenic resistance,Metals,Klebsiella pneumoniae,Marse-g0204_arsA,99,Marse-g0205_arsA,78.797,NA,NA
+Marse-g0208_arsC,arsC,glutaredoxin-dependent arsenate reductase ArsC,Arsenic resistance,Metals,Enterococcus faecalis,Marse-g0206_arsA,35,NA,NA,NA,NA
+Marse-g0209_arsC,arsC,glutaredoxin-dependent arsenate reductase ArsC,Arsenic resistance,Metals,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+Marse-g0210_arsC,arsC,glutaredoxin-dependent arsenate reductase ArsC,Arsenic resistance,Metals,Salmonella enterica subsp. enterica serovar Typhimurium,Marse-g0212_arsC,100,Marse-g0217_arsC,84.977,Marse-g0222_arsD,83.607
+Marse-g0211_arsC,arsC,glutaredoxin-dependent arsenate reductase ArsC,Arsenic resistance,Metals,Staphylococcus aureus,Marse-g0214_arsC,100,NA,NA,NA,NA
+Marse-g0212_arsC,arsC,glutaredoxin-dependent arsenate reductase ArsC,Arsenic resistance,Metals,Escherichia coli,Marse-g0210_arsC,100,Marse-g0222_arsD,84.778,Marse-g0221_arsD,84.309
+Marse-g0213_arsC,arsC,glutaredoxin-dependent arsenate reductase ArsC,Arsenic resistance,Metals,Yersinia enterocolitica,Marse-g0217_arsC,100,Marse-g0210_arsC,77.804,Marse-g0212_arsC,76.995
+Marse-g0214_arsC,arsC,glutaredoxin-dependent arsenate reductase ArsC,Arsenic resistance,Metals,Staphylococcus xylosus,Marse-g0211_arsC,100,NA,NA,NA,NA
+Marse-g0215_arsC,arsC,glutaredoxin-dependent arsenate reductase ArsC,Arsenic resistance,Metals,Synechocystis sp. IPPAS B-1465,NA,NA,NA,NA,NA,NA
+Marse-g0216_arsC,arsC,glutaredoxin-dependent arsenate reductase ArsC,Arsenic resistance,Metals,Bacillus subtilis subsp. subtilis str. 168,NA,NA,NA,NA,NA,NA
+Marse-g0217_arsC,arsC,glutaredoxin-dependent arsenate reductase ArsC,Arsenic resistance,Metals,Klebsiella pneumoniae,Marse-g0222_arsD,100,Marse-g0210_arsC,84.977,Marse-g0212_arsC,84.272
+Marse-g0218_arsC,arsC,glutaredoxin-dependent arsenate reductase ArsC,Arsenic resistance,Metals,Staphylococcus aureus,Marse-g0219_arsC,98,Marse-g0220_arsD,96.97,NA,NA
+Marse-g0219_arsC,arsC,glutaredoxin-dependent arsenate reductase ArsC,Arsenic resistance,Metals,Staphylococcus aureus,Marse-g0220_arsD,99,Marse-g0218_arsC,98.205,NA,NA
+Marse-g0220_arsD,arsD,arsenite efflux transporter metallochaperone ArsD,Arsenic resistance,Metals,Staphylococcus aureus,Marse-g0219_arsC,98,Marse-g0218_arsC,96.97,NA,NA
+Marse-g0221_arsD,arsD,arsenite efflux transporter metallochaperone ArsD,Arsenic resistance,Metals,Escherichia coli,Marse-g0222_arsD,100,Marse-g0212_arsC,84.309,Marse-g0210_arsC,83.607
+Marse-g0222_arsD,arsD,arsenite efflux transporter metallochaperone ArsD,Arsenic resistance,Metals,Shigella sonnei,Marse-g0221_arsD,100,Marse-g0217_arsC,86.62,Marse-g0212_arsC,84.778
+Marse-g0223_arsD,arsD,arsenite efflux transporter metallochaperone ArsD,Arsenic resistance,Metals,Salmonella enterica subsp. enterica serovar Typhimurium,Marse-g0229_arsM,100,NA,NA,NA,NA
+Marse-g0224_arsD,arsD,arsenite efflux transporter metallochaperone ArsD,Arsenic resistance,Metals,Escherichia coli,Marse-g0246_arsT,56,NA,NA,NA,NA
+Marse-g0225_arsD,arsD,arsenite efflux transporter metallochaperone ArsD,Arsenic resistance,Metals,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+Marse-g0226_arsD,arsD,arsenite efflux transporter metallochaperone ArsD,Arsenic resistance,Metals,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+Marse-g0227_arsD,arsD,arsenite efflux transporter metallochaperone ArsD,Arsenic resistance,Metals,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+Marse-g0228_arsH,arsH,Arsenic resistance NADPH-dependent reductase ArsH,Arsenic resistance,Metals,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+Marse-g0229_arsM,arsM,Arsenic resistance protein ArsM,Arsenic resistance,Metals,Escherichia coli,Marse-g0223_arsD,100,NA,NA,NA,NA
+Marse-g0230_arsP,arsP,organoarsenical efflux permease ArsP,Arsenic resistance,Metals,Synechocystis sp. IPPAS B-1465,NA,NA,NA,NA,NA,NA
+Marse-g0231_arsR,arsR,As(III)-sensing metalloregulatory transcriptional repressor ArsR,Arsenic resistance,Metals,Yersinia pestis,NA,NA,NA,NA,NA,NA
+Marse-g0232_arsR,arsR,As(III)-sensing metalloregulatory transcriptional repressor ArsR,Arsenic resistance,Metals,Rhodopseudomonas palustris,NA,NA,NA,NA,NA,NA
+Marse-g0233_arsR,arsR,As(III)-sensing metalloregulatory transcriptional repressor ArsR,Arsenic resistance,Metals,Campylobacter jejuni,NA,NA,NA,NA,NA,NA
+Marse-g0234_arsR,arsR,As(III)-sensing metalloregulatory transcriptional repressor ArsR,Arsenic resistance,Metals,Enterococcus faecalis,NA,NA,NA,NA,NA,NA
+Marse-g0235_arsR,arsR,As(III)-sensing metalloregulatory transcriptional repressor ArsR,Arsenic resistance,Metals,Escherichia coli,Marse-g0241_arsR,93,NA,NA,NA,NA
+Marse-g0236_arsR,arsR,As(III)-sensing metalloregulatory transcriptional repressor ArsR,Arsenic resistance,Metals,Staphylococcus aureus,Marse-g0237_arsR,99,NA,NA,NA,NA
+Marse-g0237_arsR,arsR,As(III)-sensing metalloregulatory transcriptional repressor ArsR,Arsenic resistance,Metals,Staphylococcus xylosus,Marse-g0236_arsR,99,NA,NA,NA,NA
+Marse-g0238_arsR,arsR,As(III)-sensing metalloregulatory transcriptional repressor ArsR,Arsenic resistance,Metals,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+Marse-g0239_arsR,arsR,As(III)-sensing metalloregulatory transcriptional repressor ArsR,Arsenic resistance,Metals,Yersinia enterocolitica subsp. palearctica,Marse-g0243_arsR,100,NA,NA,NA,NA
+Marse-g0240_arsR,arsR,As(III)-sensing metalloregulatory transcriptional repressor ArsR,Arsenic resistance,Metals,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+Marse-g0241_arsR,arsR,As(III)-sensing metalloregulatory transcriptional repressor ArsR,Arsenic resistance,Metals,Klebsiella pneumoniae,Marse-g0235_arsR,94,Marse-g0246_arsT,85.152,Marse-g0245_arsR,85.152
+Marse-g0242_arsR,arsR,As(III)-sensing metalloregulatory transcriptional repressor ArsR,Arsenic resistance,Metals,Escherichia coli,Marse-g0247_pstA,100,NA,NA,NA,NA
+Marse-g0243_arsR,arsR,As(III)-sensing metalloregulatory transcriptional repressor ArsR,Arsenic resistance,Metals,Yersinia enterocolitica,Marse-g0239_arsR,90,NA,NA,NA,NA
+Marse-g0244_arsR,arsR,As(III)-sensing metalloregulatory transcriptional repressor ArsR,Arsenic resistance,Metals,Bacillus subtilis subsp. subtilis str. 168,NA,NA,NA,NA,NA,NA
+Marse-g0245_arsR,arsR,As(III)-sensing metalloregulatory transcriptional repressor ArsR,Arsenic resistance,Metals,Escherichia coli,Marse-g0246_arsT,100,Marse-g0241_arsR,85.152,NA,NA
+Marse-g0246_arsT,arsT,Arsenic resistance protein (partial gene),Arsenic resistance,Metals,Escherichia coli,Marse-g0245_arsR,59,Marse-g0224_arsD,100,Marse-g0241_arsR,85.152
+Marse-g0247_pstA,pstA,Arsenic resistance protein,Arsenic resistance,Metals,Escherichia coli,Marse-g0242_arsR,100,NA,NA,NA,NA
+Marse-g0248_pstB,pstB,Arsenic resistance protein,Arsenic resistance,Metals,Glaesserella parasuis,NA,NA,NA,NA,NA,NA
+Marse-g0249_pstC,pstC,Arsenic resistance protein,Arsenic resistance,Metals,Microbacterium sp. str. 'China',NA,NA,NA,NA,NA,NA
+Marse-g0250_pstS,pstS,Arsenic resistance protein,Arsenic resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Marse-g0251_pstS,pstS,Arsenic resistance protein,Arsenic resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Marse-g0252_arsB,arsB,Arsenite/antimonite:H+ antiporter ArsB,"Arsenic resistance, antimony resistance",Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Marse-g0253_arsB,arsB,Arsenite/antimonite:H+ antiporter ArsB,"Arsenic resistance, antimony resistance",Metals,Escherichia coli,Marse-g0254_arsB,100,NA,NA,NA,NA
+Marse-g0254_arsB,arsB,Arsenite/antimonite:H+ antiporter ArsB,"Arsenic resistance, antimony resistance",Metals,Escherichia coli,Marse-g0253_arsB,100,NA,NA,NA,NA
+Marse-g0255_arsB,arsB,Arsenite/antimonite:H+ antiporter ArsB,"Arsenic resistance, antimony resistance",Metals,Staphylococcus aureus,Marse-g0258_arsB,100,NA,NA,NA,NA
+Marse-g0256_arsB,arsB,Arsenite/antimonite:H+ antiporter ArsB,"Arsenic resistance, antimony resistance",Metals,Escherichia coli,Mcadm-g0267_cadA,100,Marse-g0261_arsB,84.145,Mcadm-g0265_cadA,82.135
+Marse-g0257_arsB,arsB,Arsenite/antimonite:H+ antiporter ArsB,"Arsenic resistance, antimony resistance",Metals,Yersinia enterocolitica,Mcadm-g0267_cadA,100,NA,NA,NA,NA
+Marse-g0258_arsB,arsB,Arsenite/antimonite:H+ antiporter ArsB,"Arsenic resistance, antimony resistance",Metals,Staphylococcus xylosus,Marse-g0255_arsB,100,NA,NA,NA,NA
+Marse-g0259_arsB,arsB,Arsenite/antimonite:H+ antiporter ArsB,"Arsenic resistance, antimony resistance",Metals,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+Marse-g0260_arsB,arsB,Arsenite/antimonite:H+ antiporter ArsB,"Arsenic resistance, antimony resistance",Metals,Listeria monocytogenes,Marse-g0263_arsB,97,NA,NA,NA,NA
+Marse-g0261_arsB,arsB,Arsenite/antimonite:H+ antiporter ArsB,"Arsenic resistance, antimony resistance",Metals,Klebsiella pneumoniae,Mcadm-g0267_cadA,100,Marse-g0256_arsB,84.145,Mcadm-g0265_cadA,83.101
+Marse-g0262_arsB,arsB,Arsenite/antimonite:H+ antiporter ArsB,"Arsenic resistance, antimony resistance",Metals,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+Marse-g0263_arsB,arsB,Arsenite/antimonite:H+ antiporter ArsB,"Arsenic resistance, antimony resistance",Metals,Listeria monocytogenes,Marse-g0260_arsB,97,NA,NA,NA,NA
+Marse-g0264_arsB,arsB,Arsenite/antimonite:H+ antiporter ArsB,"Arsenic resistance, antimony resistance",Metals,Bacillus subtilis,Marse-g0193_aioB,100,NA,NA,NA,NA
+Mcadm-g0265_cadA,cadA,Cadmium-translocating P-type ATPase CadA,Cadmium resistance,Metals,Escherichia coli,Marse-g0261_arsB,100,Mcadm-g0267_cadA,82.921,Marse-g0256_arsB,82.135
+Mcadm-g0266_cadA,cadA,Cadmium-translocating P-type ATPase CadA,Cadmium resistance,Metals,Staphylococcus aureus,NA,NA,NA,NA,NA,NA
+Mcadm-g0267_cadA,cadA,Cadmium-translocating P-type ATPase CadA,Cadmium resistance,Metals,Salmonella enterica subsp. enterica serovar Typhimurium,Marse-g0261_arsB,100,Marse-g0256_arsB,84.895,Mcadm-g0265_cadA,82.921
+Mcadm-g0268_cadA,cadA,Cadmium-translocating P-type ATPase CadA,Cadmium resistance,Metals,Streptococcus suis,Mcadm-g0272_cadC,100,Mcadm-g0274_cadR,99.615,Mcadm-g0271_cadC,99.615
+Mcadm-g0269_cadC,cadC,Cd(II)/Pb(II)/Zn(II)-sensing metalloregulatory transcriptional repressor CadC,Cadmium resistance,Metals,Streptococcus suis,Mcadm-g0271_cadC,100,Mcadm-g0268_cadA,99.422,Mcadm-g0273_cadD,99.229
+Mcadm-g0270_cadC,cadC,Cd(II)/Pb(II)/Zn(II)-sensing metalloregulatory transcriptional repressor CadC,Cadmium resistance,Metals,Streptococcus suis,Mcadm-g0271_cadC,100,Mcadm-g0268_cadA,99.422,Mcadm-g0272_cadC,99.229
+Mcadm-g0271_cadC,cadC,Cd(II)/Pb(II)/Zn(II)-sensing metalloregulatory transcriptional repressor CadC,Cadmium resistance,Metals,Streptococcus suis,Mcadm-g0270_cadC,100,Mcadm-g0268_cadA,99.615,Mcadm-g0272_cadC,99.422
+Mcadm-g0272_cadC,cadC,Cd(II)/Pb(II)/Zn(II)-sensing metalloregulatory transcriptional repressor CadC,Cadmium resistance,Metals,Streptococcus suis,Mcadm-g0268_cadA,100,Mcadm-g0274_cadR,99.422,Mcadm-g0271_cadC,99.422
+Mcadm-g0273_cadD,cadD,cadmium resistance transporter CadD,Cadmium resistance,Metals,Streptococcus suis,Mcadm-g0269_cadC,100,Mcadm-g0274_cadR,99.037,Mcadm-g0271_cadC,99.037
+Mcadm-g0274_cadR,cadR,cadmium resistance transcriptional regulator CadR,Cadmium resistance,Metals,Streptococcus suis,Mcadm-g0268_cadA,100,Mcadm-g0272_cadC,99.422,Mcadm-g0271_cadC,99.229
+Mchro-g0275_ceuE,ceuE,Chromate ABC efflux pump,Chromium resistance,Metals,Streptococcus suis,Mcadm-g0273_cadD,100,Mcadm-g0274_cadR,97.115,Mcadm-g0271_cadC,97.115
+Mchro-g0276_chrA,chrA,Chromate resistance efflux protein ChrA,Chromium resistance,Metals,Burkholderia pseudomallei,Mchro-g0281_chrB1,100,Mchro-g0280_chrB1,99.591,Mchro-g0279_chrA,99.591
+Mchro-g0277_chrA,chrA,Chromate resistance efflux protein ChrA,Chromium resistance,Metals,Burkholderia pseudomallei,Mchro-g0281_chrB1,100,Mchro-g0280_chrB1,99.591,Mchro-g0279_chrA,99.591
+Mchro-g0278_chrA,chrA,Chromate resistance efflux protein ChrA,Chromium resistance,Metals,Burkholderia pseudomallei,Mchro-g0281_chrB1,100,Mchro-g0280_chrB1,99.591,Mchro-g0279_chrA,99.591
+Mchro-g0279_chrA,chrA,Chromate resistance efflux protein ChrA,Chromium resistance,Metals,Burkholderia pseudomallei MSHR491,Mchro-g0281_chrB1,100,Mchro-g0280_chrB1,99.591,Mchro-g0278_chrA,99.591
+Mchro-g0280_chrB1,chrB1,Chromium resistance protein,Chromium resistance,Metals,Burkholderia pseudomallei,Mchro-g0281_chrB1,100,Mchro-g0279_chrA,99.591,Mchro-g0278_chrA,99.591
+Mchro-g0281_chrB1,chrB1,Chromium resistance protein,Chromium resistance,Metals,Burkholderia pseudomallei,Mchro-g0280_chrB1,100,Mchro-g0279_chrA,99.591,Mchro-g0278_chrA,99.591
+Mchro-g0282_chrC,chrC,Chromium resistance protein,Chromium resistance,Metals,Enterococcus saigonensis,NA,NA,NA,NA,NA,NA
+Mchro-g0283_chrE,chrE,Chromium resistance protein,Chromium resistance,Metals,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+Mchro-g0284_chrF,chrF,Chromium resistance regulator,Chromium resistance,Metals,Helicobacter pylori,Mchro-g0285_chrI,100,NA,NA,NA,NA
+Mchro-g0285_chrI,chrI,Chromium resistance regulator,Chromium resistance,Metals,Helicobacter pylori,Mchro-g0284_chrF,100,NA,NA,NA,NA
+Mchro-g0286_chrR,chrR,Class I chromate reductase ChrR,Chromium resistance,Metals,Enterococcus faecalis,NA,NA,NA,NA,NA,NA
+Mchro-g0287_chrR,chrR,Class I chromate reductase ChrR,Chromium resistance,Metals,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+Mchro-g0288_nfsA,nfsA,Chromium resistance protein,Chromium resistance,Metals,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+Mchro-g0289_recG,recG,Chromium resistance protein,Chromium resistance,Metals,Staphylococcus aureus,NA,NA,NA,NA,NA,NA
+Mchro-g0290_srpcC,srpcC,Chromium resistance protein,Chromium resistance,Metals,Staphylococcus aureus,NA,NA,NA,NA,NA,NA
+Mcoba-g0291_czcB,czcB,Multi-metal RND efflux pumps,"Cobalt (Co), Zinc (Zn), Cadmium (Cd)",Metals,Pseudomonas asiatica,NA,NA,NA,NA,NA,NA
+Mcoba-g0292_czcB,czcB,Multi-metal RND efflux pumps,"Cobalt (Co), Zinc (Zn), Cadmium (Cd)",Metals,Helicobacter mustelae,NA,NA,NA,NA,NA,NA
+Mcoba-g0293_czcB,czcB,Multi-metal RND efflux pumps,"Cobalt (Co), Zinc (Zn), Cadmium (Cd)",Metals,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+Mcoba-g0294_czcB,czcB,Multi-metal RND efflux pumps,"Cobalt (Co), Zinc (Zn), Cadmium (Cd)",Metals,Brucella tritici,NA,NA,NA,NA,NA,NA
+Mcoba-g0295_corT,corT,Cobalt transporting ATPase,Cobalt resistance,Metals,Cupriavidus metallidurans,Mcoba-g0296_nhlF,93,NA,NA,NA,NA
+Mcoba-g0296_nhlF,nhlF,Cobalt transporting ATPase,Cobalt resistance,Metals,Cupriavidus metallidurans,Mcoba-g0295_corT,100,NA,NA,NA,NA
+Mcopp-g0297_pcoF,pcoF,Promoter of copper resistance operon pcoABCDRSE,Copper (Cu),Metals,Cupriavidus metallidurans,Mcopp-g0298_pcoG,92,NA,NA,NA,NA
+Mcopp-g0298_pcoG,pcoG,Copper resistance protein,Copper (Cu),Metals,Cupriavidus metallidurans,Mcopp-g0297_pcoF,100,NA,NA,NA,NA
+Mcopp-g0299_cusA,cusA,Multi-metal RND efflux pumps,"Copper (Cu), Silver (Ag) resistance",Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mcopp-g0300_cusB,cusB,Multi-metal RND efflux pumps,"Copper (Cu), Silver (Ag) resistance",Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mcopp-g0301_cusC,cusC,Multi-metal RND efflux pumps,"Copper (Cu), Silver (Ag) resistance",Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mcopp-g0302_cusC,cusC,Multi-metal RND efflux pumps,"Copper (Cu), Silver (Ag) resistance",Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mcopp-g0303_cusC,cusC,Multi-metal RND efflux pumps,"Copper (Cu), Silver (Ag) resistance",Metals,Pseudomonas sp. KBS0802,NA,NA,NA,NA,NA,NA
+Mcopp-g0304_cusF,cusF,"Copper/silver efflux RND transporter, periplasmic protein CusF","Copper (Cu), Silver (Ag) resistance",Metals,Pseudomonas sp.,NA,NA,NA,NA,NA,NA
+Mcopp-g0305_cusR,cusR,Multi-metal RND efflux regulator,"Copper (Cu), Silver (Ag) resistance",Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mcopp-g0306_cusR,cusR,Multi-metal RND efflux regulator,"Copper (Cu), Silver (Ag) resistance",Metals,Synechococcus elongatus PCC 7942 = FACHB-805,NA,NA,NA,NA,NA,NA
+Mcopp-g0307_cusS,cusS,Copper sensory histidine kinase CusS - mutation induces endogenous Silver resistance,"Copper (Cu), Silver (Ag) resistance",Metals,Cupriavidus metallidurans CH34,Mcopp-g0308_silA,100,NA,NA,NA,NA
+Mcopp-g0308_silA,silA,Cu(+)/Ag(+) efflux RND transporter permease subunit SilA,Copper and silver resistance,Metals,Cupriavidus gilardii,Mcopp-g0307_cusS,100,NA,NA,NA,NA
+Mcopp-g0309_silA,silA,Cu(+)/Ag(+) efflux RND transporter permease subunit SilA,Copper and silver resistance,Metals,Escherichia coli O157:H7,NA,NA,NA,NA,NA,NA
+Mcopp-g0310_silB,silB,Cu(+)/Ag(+) efflux RND transporter periplasmic adaptor subunit SilB,Copper and silver resistance,Metals,Synechocystis sp. IPPAS B-1465,NA,NA,NA,NA,NA,NA
+Mcopp-g0311_silC,silC,Cu(+)/Ag(+) efflux RND transporter outer membrane channel SilC,Copper and silver resistance,Metals,Rhodococcus rhodochrous,NA,NA,NA,NA,NA,NA
+Mcopp-g0312_silC,silC,Cu(+)/Ag(+) efflux RND transporter outer membrane channel SilC,Copper and silver resistance,Metals,Salmonella enterica,NA,NA,NA,NA,NA,NA
+Mcopp-g0313_silC,silC,Cu(+)/Ag(+) efflux RND transporter outer membrane channel SilC,Copper and silver resistance,Metals,Salmonella enterica,NA,NA,NA,NA,NA,NA
+Mcopp-g0314_silE,silE,silver-binding protein SilE,Copper and silver resistance,Metals,Escherichia coli,Mmult-g0677_troB,100,Mmult-g0678_troC,99.559,Mmult-g0676_troA,97.357
+Mcopp-g0315_silE,silE,silver-binding protein SilE,Copper and silver resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mcopp-g0316_silE,silE,silver-binding protein SilE,Copper and silver resistance,Metals,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+Mcopp-g0317_silF,silF,"Copper/silver efflux RND transporter, periplasmic protein SilF",Copper and silver resistance,Metals,Atlantibacter hermannii,Mcopp-g0318_silF,99,NA,NA,NA,NA
+Mcopp-g0318_silF,silF,"Copper/silver efflux RND transporter, periplasmic protein SilF",Copper and silver resistance,Metals,Escherichia coli;Escherichia coli ETEC H10407,Mcopp-g0317_silF,99,NA,NA,NA,NA
+Mcopp-g0319_silF,silF,"Copper/silver efflux RND transporter, periplasmic protein SilF",Copper and silver resistance,Metals,Atlantibacter hermannii,Mcopp-g0320_silF,100,NA,NA,NA,NA
+Mcopp-g0320_silF,silF,"Copper/silver efflux RND transporter, periplasmic protein SilF",Copper and silver resistance,Metals,Escherichia coli;Escherichia coli ETEC H10407,Mcopp-g0319_silF,100,NA,NA,NA,NA
+Mcopp-g0321_silF,silF,"Copper/silver efflux RND transporter, periplasmic protein SilF",Copper and silver resistance,Metals,Escherichia coli,Mcopp-g0323_silP,100,Mcopp-g0322_silP,97.475,NA,NA
+Mcopp-g0322_silP,silP,"Pb, Ca, Zn, Ag, Co, Hg-transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5) (EC 3.6.3.4)",Copper and silver resistance,Metals,Klebsiella pneumoniae,Mcopp-g0321_silF,100,Mcopp-g0323_silP,97.186,NA,NA
+Mcopp-g0323_silP,silP,"Pb, Ca, Zn, Ag, Co, Hg-transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5) (EC 3.6.3.4)",Copper and silver resistance,Metals,Escherichia coli,Mcopp-g0321_silF,82,Mcopp-g0322_silP,97.186,Mmult-g0676_troA,100
+Mcopp-g0324_silP,silP,"Pb, Ca, Zn, Ag, Co, Hg-transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5) (EC 3.6.3.4)",Copper and silver resistance,Metals,Rhizobium leguminosarum bv. viciae,NA,NA,NA,NA,NA,NA
+Mcopp-g0325_silP,silP,"Pb, Ca, Zn, Ag, Co, Hg-transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5) (EC 3.6.3.4)",Copper and silver resistance,Metals,Shigella sonnei,NA,NA,NA,NA,NA,NA
+Mcopp-g0326_silR,silR,Copper-sensing two-component system response regulator SilR,Copper and silver resistance,Metals,Pseudomonas syringae pv. tomato,NA,NA,NA,NA,NA,NA
+Mcopp-g0327_silR,silR,Copper-sensing two-component system response regulator SilR,Copper and silver resistance,Metals,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+Mcopp-g0328_silR,silR,Copper-sensing two-component system response regulator SilR,Copper and silver resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mcopp-g0329_silR,silR,Copper-sensing two-component system response regulator SilR,Copper and silver resistance,Metals,Xanthomonas arboricola pv. juglandis,NA,NA,NA,NA,NA,NA
+Mcopp-g0330_silS,silS,Copper sensory histidine kinase SilS,Copper and silver resistance,Metals,Escherichia coli K-12,Mcopp-g0331_silS,100,Mcopp-g0335_bhsA,99.531,NA,NA
+Mcopp-g0331_silS,silS,Copper sensory histidine kinase SilS,Copper and silver resistance,Metals,Escherichia coli,Mcopp-g0330_silS,100,Mcopp-g0335_bhsA,99.531,NA,NA
+Mcopp-g0332_silS,silS,Copper sensory histidine kinase SilS,Copper and silver resistance,Metals,Aeromonas veronii bv. sobria,NA,NA,NA,NA,NA,NA
+Mcopp-g0333_silS,silS,Copper sensory histidine kinase SilS,Copper and silver resistance,Metals,Xanthomonas euvesicatoria,NA,NA,NA,NA,NA,NA
+Mcopp-g0334_actpC,actpC,Copper resistance protein,Copper resistance,Metals,Achromobacter sp. AO22,NA,NA,NA,NA,NA,NA
+Mcopp-g0335_bhsA,bhsA,Copper resistance regulator,Copper resistance,Metals,Escherichia coli,Mcopp-g0331_silS,100,Mcopp-g0330_silS,99.531,NA,NA
+Mcopp-g0336_bind,bind,copper-binding protein CopB,Copper resistance,Metals,Enterococcus hirae,NA,NA,NA,NA,NA,NA
+Mcopp-g0337_cinA,cinA,Copper resistance protein,Copper resistance,Metals,Helicobacter pylori,Mcopp-g0413_cutA,100,NA,NA,NA,NA
+Mcopp-g0338_comR,comR,Copper resistance regulator,Copper resistance,Metals,Bacillus subtilis subsp. subtilis str. 168,NA,NA,NA,NA,NA,NA
+Mcopp-g0339_copA,copA,Cu+ P-type ATPase CopA,Copper resistance,Metals,Archaeoglobus fulgidus DSM 8774,NA,NA,NA,NA,NA,NA
+Mcopp-g0340_copA,copA,Cu+ P-type ATPase CopA,Copper resistance,Metals,Helicobacter felis ATCC 49179,NA,NA,NA,NA,NA,NA
+Mcopp-g0341_copA,copA,Cu+ P-type ATPase CopA,Copper resistance,Metals,Xanthomonas citri pv. citri,Mcopp-g0342_copA,100,NA,NA,NA,NA
+Mcopp-g0342_copA,copA,Cu+ P-type ATPase CopA,Copper resistance,Metals,Xanthomonas perforans,Mcopp-g0341_copA,100,NA,NA,NA,NA
+Mcopp-g0343_copA,copA,Cu+ P-type ATPase CopA,Copper resistance,Metals,Enterococcus hirae,NA,NA,NA,NA,NA,NA
+Mcopp-g0344_copA,copA,Cu+ P-type ATPase CopA,Copper resistance,Metals,Aeromonas veronii bv. sobria,NA,NA,NA,NA,NA,NA
+Mcopp-g0345_copA,copA,Cu+ P-type ATPase CopA,Copper resistance,Metals,Pseudomonas putida,NA,NA,NA,NA,NA,NA
+Mcopp-g0346_copA,copA,Cu+ P-type ATPase CopA,Copper resistance,Metals,Achromobacter sp. AO22,NA,NA,NA,NA,NA,NA
+Mcopp-g0347_copA,copA,Cu+ P-type ATPase CopA,Copper resistance,Metals,Archaeoglobus fulgidus DSM 8774,NA,NA,NA,NA,NA,NA
+Mcopp-g0348_copA,copA,Cu+ P-type ATPase CopA,Copper resistance,Metals,Pseudomonas syringae pv. tomato,NA,NA,NA,NA,NA,NA
+Mcopp-g0349_copA,copA,Cu+ P-type ATPase CopA,Copper resistance,Metals,Aeromonas dhakensis,NA,NA,NA,NA,NA,NA
+Mcopp-g0350_copA,copA,Cu+ P-type ATPase CopA,Copper resistance,Metals,Xanthomonas euvesicatoria,NA,NA,NA,NA,NA,NA
+Mcopp-g0351_copB,copB,Copper-binding protein CopB,Copper resistance,Metals,Pseudomonas putida,NA,NA,NA,NA,NA,NA
+Mcopp-g0352_copB,copB,Copper-binding protein CopB,Copper resistance,Metals,Pseudomonas amygdali pv. tabaci str. ATCC 11528,NA,NA,NA,NA,NA,NA
+Mcopp-g0353_copB,copB,Copper-binding protein CopB,Copper resistance,Metals,Pseudomonas sp. J380,NA,NA,NA,NA,NA,NA
+Mcopp-g0354_copB,copB,Copper-binding protein CopB,Copper resistance,Metals,Stenotrophomonas maltophilia,NA,NA,NA,NA,NA,NA
+Mcopp-g0355_copB,copB,Copper-binding protein CopB,Copper resistance,Metals,Stenotrophomonas maltophilia,NA,NA,NA,NA,NA,NA
+Mcopp-g0356_copB,copB,Copper-binding protein CopB,Copper resistance,Metals,Pseudomonas syringae,NA,NA,NA,NA,NA,NA
+Mcopp-g0357_copB,copB,Copper-binding protein CopB,Copper resistance,Metals,Pseudomonas syringae pv. tomato,NA,NA,NA,NA,NA,NA
+Mcopp-g0358_copC,copC,Copper resistance protein CopC,Copper resistance,Metals,Pseudomonas putida,NA,NA,NA,NA,NA,NA
+Mcopp-g0359_copC,copC,Copper resistance protein CopC,Copper resistance,Metals,Pseudomonas fluorescens,NA,NA,NA,NA,NA,NA
+Mcopp-g0360_copC,copC,Copper resistance protein CopC,Copper resistance,Metals,Xanthomonas citri pv. citri,NA,NA,NA,NA,NA,NA
+Mcopp-g0361_copC,copC,Copper resistance protein CopC,Copper resistance,Metals,Achromobacter sp. AO22,NA,NA,NA,NA,NA,NA
+Mcopp-g0362_copC,copC,Copper resistance protein CopC,Copper resistance,Metals,Stenotrophomonas maltophilia,NA,NA,NA,NA,NA,NA
+Mcopp-g0363_copC,copC,Copper resistance protein CopC,Copper resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mcopp-g0364_copC,copC,Copper resistance protein CopC,Copper resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mcopp-g0365_copD,copD,Copper resistance protein CopD,Copper resistance,Metals,Stenotrophomonas acidaminiphila,Mcopp-g0367_copD,88,Mcopp-g0366_copD,93.333,NA,NA
+Mcopp-g0366_copD,copD,Copper resistance protein CopD,Copper resistance,Metals,Xanthomonas citri pv. citri,Mcopp-g0365_copD,100,Mcopp-g0367_copD,92.954,NA,NA
+Mcopp-g0367_copD,copD,Copper resistance protein CopD,Copper resistance,Metals,Stenotrophomonas acidaminiphila,Mcopp-g0365_copD,100,Mcopp-g0366_copD,92.954,NA,NA
+Mcopp-g0368_copD,copD,Copper resistance protein CopD,Copper resistance,Metals,Xanthomonas citri pv. citri,NA,NA,NA,NA,NA,NA
+Mcopp-g0369_copD,copD,Copper resistance protein CopD,Copper resistance,Metals,Synechocystis sp. IPPAS B-1465,NA,NA,NA,NA,NA,NA
+Mcopp-g0370_copF,copF,Copper resistance protein CopD,Copper resistance,Metals,Helicobacter felis ATCC 49179,NA,NA,NA,NA,NA,NA
+Mcopp-g0371_copG,copG,Copper resistance protein CopD,Copper resistance,Metals,Helicobacter pylori,Mcopp-g0414_cutC,97,Mcopp-g0417_cutF,94.527,Mcopp-g0416_cutE,95.361
+Mcopp-g0372_copG,copG,Copper resistance protein CopD,Copper resistance,Metals,Pseudomonas syringae pv. tomato,NA,NA,NA,NA,NA,NA
+Mcopp-g0373_copJ,copJ,Copper resistance protein CopD,Copper resistance,Metals,Pseudomonas fluorescens,Mcopp-g0374_copK,52,NA,NA,NA,NA
+Mcopp-g0374_copK,copK,Copper resistance protein CopD,Copper resistance,Metals,Xanthomonas euvesicatoria,Mcopp-g0373_copJ,52,NA,NA,NA,NA
+Mcopp-g0375_copL,copL,Copper resistance protein CopD,Copper resistance,Metals,Saccharolobus solfataricus,NA,NA,NA,NA,NA,NA
+Mcopp-g0376_copL,copL,Copper resistance protein CopD,Copper resistance,Metals,Achromobacter sp. AO22,Mcopp-g0381_copP,4,NA,NA,NA,NA
+Mcopp-g0377_copL,copL,Copper resistance protein CopD,Copper resistance,Metals,Xanthomonas citri pv. citri,NA,NA,NA,NA,NA,NA
+Mcopp-g0378_copM,copM,Copper resistance protein CopD,Copper resistance,Metals,Pseudomonas syringae,NA,NA,NA,NA,NA,NA
+Mcopp-g0379_copM,copM,Copper resistance protein CopD,Copper resistance,Metals,Pseudomonas fluorescens,NA,NA,NA,NA,NA,NA
+Mcopp-g0380_copP,copP,Copper-binding metallochaperone CopP,Copper resistance,Metals,Xanthomonas euvesicatoria,NA,NA,NA,NA,NA,NA
+Mcopp-g0381_copP,copP,Copper-binding metallochaperone CopP,Copper resistance,Metals,Achromobacter sp. AO22,Mcopp-g0376_copL,2,NA,NA,NA,NA
+Mcopp-g0382_copR,copR,Heavy metal response regulator transcription factor CopR,Copper resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mcopp-g0383_copR,copR,Heavy metal response regulator transcription factor CopR,Copper resistance,Metals,Enterococcus hirae,NA,NA,NA,NA,NA,NA
+Mcopp-g0384_copR,copR,Heavy metal response regulator transcription factor CopR,Copper resistance,Metals,Staphylococcus aureus,NA,NA,NA,NA,NA,NA
+Mcopp-g0385_copR,copR,Heavy metal response regulator transcription factor CopR,Copper resistance,Metals,Bacillus subtilis subsp. subtilis str. 168,NA,NA,NA,NA,NA,NA
+Mcopp-g0386_copR,copR,Heavy metal response regulator transcription factor CopR,Copper resistance,Metals,Enterococcus hirae,NA,NA,NA,NA,NA,NA
+Mcopp-g0387_copR,copR,Heavy metal response regulator transcription factor CopR,Copper resistance,Metals,Myxococcus xanthus,NA,NA,NA,NA,NA,NA
+Mcopp-g0388_copS,copS,Copper resistance membrane spanning protein CopS,Copper resistance,Metals,Myxococcus xanthus,NA,NA,NA,NA,NA,NA
+Mcopp-g0389_copS,copS,Copper resistance membrane spanning protein CopS,Copper resistance,Metals,Helicobacter pylori,NA,NA,NA,NA,NA,NA
+Mcopp-g0390_copS,copS,Copper resistance membrane spanning protein CopS,Copper resistance,Metals,Helicobacter pylori,NA,NA,NA,NA,NA,NA
+Mcopp-g0391_copS,copS,Copper resistance membrane spanning protein CopS,Copper resistance,Metals,Helicobacter pylori,Mcopp-g0392_copV,100,NA,NA,NA,NA
+Mcopp-g0392_copV,copV,Copper resistance protein,Copper resistance,Metals,Helicobacter pylori,Mcopp-g0391_copS,100,NA,NA,NA,NA
+Mcopp-g0393_copY,copY,Copper resistance regulator,Copper resistance,Metals,Helicobacter pylori,NA,NA,NA,NA,NA,NA
+Mcopp-g0394_copZ,copZ,Copper resistance regulator,Copper resistance,Metals,Bacillus subtilis subsp. subtilis str. 168,NA,NA,NA,NA,NA,NA
+Mcopp-g0395_copZ,copZ,Copper resistance regulator,Copper resistance,Metals,Mycobacterium tuberculosis,NA,NA,NA,NA,NA,NA
+Mcopp-g0396_copZ,copZ,Copper resistance regulator,Copper resistance,Metals,Mycobacterium tuberculosis,Mcopp-g0397_corR,97,NA,NA,NA,NA
+Mcopp-g0397_corR,corR,Copper resistance regulator,Copper resistance,Metals,Mycobacterium tuberculosis,Mcopp-g0396_copZ,100,NA,NA,NA,NA
+Mcopp-g0398_corS,corS,Copper resistance regulator,Copper resistance,Metals,Pseudomonas sp. B10,NA,NA,NA,NA,NA,NA
+Mcopp-g0399_crdA,crdA,Copper resistance protein,Copper resistance,Metals,Escherichia coli,MUbio-g0804_tehA,76,MUbio-g0803_sitD,79.389,NA,NA
+Mcopp-g0400_crdB,crdB,Copper resistance protein,Copper resistance,Metals,Salmonella enterica,NA,NA,NA,NA,NA,NA
+Mcopp-g0401_crdR,crdR,Copper resistance regulator,Copper resistance,Metals,Bacillus subtilis,NA,NA,NA,NA,NA,NA
+Mcopp-g0402_crdR,crdR,Copper resistance regulator,Copper resistance,Metals,Shigella sonnei,NA,NA,NA,NA,NA,NA
+Mcopp-g0403_crdS,crdS,Copper resistance regulator,Copper resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mcopp-g0404_csoR,csoR,Copper resistance regulator,Copper resistance,Metals,Escherichia coli,Mcopp-g0405_ctpG,100,NA,NA,NA,NA
+Mcopp-g0405_ctpG,ctpG,Copper resistance protein,Copper resistance,Metals,Escherichia coli,Mcopp-g0404_csoR,100,NA,NA,NA,NA
+Mcopp-g0406_ctpV,ctpV,Copper resistance protein,Copper resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mcopp-g0407_ctpV,ctpV,Copper resistance protein,Copper resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mcopp-g0408_cueA,cueA,copper resistance metal-translocating P1-type ATPase CueA,Copper resistance,Metals,Rhodobacter capsulatus SB 1003,NA,NA,NA,NA,NA,NA
+Mcopp-g0409_cueO,cueO,Copper resistance protein,Copper resistance,Metals,Rhodobacter capsulatus SB 1003,NA,NA,NA,NA,NA,NA
+Mcopp-g0410_cueP,cueP,Copper resistance protein,Copper resistance,Metals,Mycobacterium tuberculosis,Mcopp-g0411_cueR,100,NA,NA,NA,NA
+Mcopp-g0411_cueR,cueR,Copper resistance regulator,Copper resistance,Metals,Mycobacterium tuberculosis,Mcopp-g0410_cueP,100,NA,NA,NA,NA
+Mcopp-g0412_cueR,cueR,Copper resistance regulator,Copper resistance,Metals,Salmonella enterica,NA,NA,NA,NA,NA,NA
+Mcopp-g0413_cutA,cutA,Copper resistance protein,Copper resistance,Metals,Helicobacter pylori,Mcopp-g0337_cinA,100,NA,NA,NA,NA
+Mcopp-g0414_cutC,cutC,Copper resistance protein,Copper resistance,Metals,Helicobacter pylori,Mcopp-g0416_cutE,100,Mcopp-g0415_cutC,97.015,Mcopp-g0371_copG,97.423
+Mcopp-g0415_cutC,cutC,Copper resistance protein,Copper resistance,Metals,Helicobacter pylori,Mcopp-g0416_cutE,100,Mcopp-g0414_cutC,97.015,Mcopp-g0371_copG,95.361
+Mcopp-g0416_cutE,cutE,Copper resistance protein,Copper resistance,Metals,Helicobacter pylori,Mcopp-g0415_cutC,100,Mcopp-g0414_cutC,97.015,Mcopp-g0371_copG,95.361
+Mcopp-g0417_cutF,cutF,Copper resistance protein,Copper resistance,Metals,Helicobacter pylori,Mcopp-g0371_copG,100,Mcopp-g0416_cutE,94.845,Mcopp-g0415_cutC,94.845
+Mcopp-g0418_cutO,cutO,Copper resistance protein,Copper resistance,Metals,Staphylococcus aureus,NA,NA,NA,NA,NA,NA
+Mcopp-g0419_cutR,cutR,Copper resistance protein,Copper resistance,Metals,Mycobacterium tuberculosis,Mcopp-g0420_dnaK,98,NA,NA,NA,NA
+Mcopp-g0420_dnaK,dnaK,Copper resistance protein,Copper resistance,Metals,Mycobacterium tuberculosis,Mcopp-g0419_cutR,100,NA,NA,NA,NA
+Mcopp-g0421_dnaK,dnaK,Copper resistance protein,Copper resistance,Metals,Mycobacterium tuberculosis,NA,NA,NA,NA,NA,NA
+Mcopp-g0422_golT,golT,gold/copper-translocating P-type ATPase GolT,Copper resistance,Metals,Salmonella enterica,NA,NA,NA,NA,NA,NA
+Mcopp-g0423_hpcopA,hpcopA,Copper resistance protein,Copper resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mcopp-g0424_hpcopP,hpcopP,Copper resistance protein,Copper resistance,Metals,Xanthomonas arboricola pv. juglandis,NA,NA,NA,NA,NA,NA
+Mcopp-g0425_hpcopP,hpcopP,Copper resistance protein,Copper resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mcopp-g0426_hpcopP,hpcopP,Copper resistance protein,Copper resistance,Metals,Xanthomonas arboricola pv. juglandis,NA,NA,NA,NA,NA,NA
+Mcopp-g0427_hpcopP,hpcopP,Copper resistance protein,Copper resistance,Metals,Citrobacter youngae,NA,NA,NA,NA,NA,NA
+Mcopp-g0428_mco,mco,multi-copper oxidase Mco,Copper resistance,Metals,Xanthomonas arboricola pv. juglandis,NA,NA,NA,NA,NA,NA
+Mcopp-g0429_mctB,mctB,Copper resistance protein,Copper resistance,Metals,Salmonella enterica subsp. enterica serovar Brandenburg,NA,NA,NA,NA,NA,NA
+Mcopp-g0430_mctB,mctB,Copper resistance protein,Copper resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mcopp-g0431_mmcO,mmcO,Copper resistance protein,Copper resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mcopp-g0432_pcoA,pcoA,multicopper oxidase PcoA,Copper resistance,Metals,Mycobacterium tuberculosis,NA,NA,NA,NA,NA,NA
+Mcopp-g0433_pcoB,pcoB,copper-binding protein PcoB,Copper resistance,Metals,Enterococcus faecium,NA,NA,NA,NA,NA,NA
+Mcopp-g0434_pcoB,pcoB,copper-binding protein PcoB,Copper resistance,Metals,Enterococcus faecium,NA,NA,NA,NA,NA,NA
+Mcopp-g0435_pcoC,pcoC,copper resistance system metallochaperone PcoC,Copper resistance,Metals,Enterococcus faecium,NA,NA,NA,NA,NA,NA
+Mcopp-g0436_pcoC,pcoC,copper resistance system metallochaperone PcoC,Copper resistance,Metals,Enterococcus faecium,NA,NA,NA,NA,NA,NA
+Mcopp-g0437_pcoD,pcoD,copper resistance inner membrane protein PcoD,Copper resistance,Metals,Bacillus subtilis,Mcopp-g0438_pcoD,100,NA,NA,NA,NA
+Mcopp-g0438_pcoD,pcoD,copper resistance inner membrane protein PcoD,Copper resistance,Metals,Bacillus subtilis subsp. subtilis str. 168,Mcopp-g0437_pcoD,100,NA,NA,NA,NA
+Mcopp-g0439_pcoE,pcoE,copper resistance system metallochaperone PcoE,Copper resistance,Metals,Bacillus subtilis subsp. subtilis str. 168,NA,NA,NA,NA,NA,NA
+Mcopp-g0440_pcoR,pcoR,copper response regulator transcription factor PcoR,Copper resistance,Metals,Bacillus subtilis subsp. subtilis str. 168,NA,NA,NA,NA,NA,NA
+Mcopp-g0441_pcoS,pcoS,copper resistance membrane spanning protein PcoS,Copper resistance,Metals,Bacillus subtilis subsp. subtilis str. 168,NA,NA,NA,NA,NA,NA
+Mcopp-g0442_ricR,ricR,Copper resistance regulator,Copper resistance,Metals,Salmonella enterica,NA,NA,NA,NA,NA,NA
+Mcopp-g0443_tcrA,tcrA,Copper resistance protein,Copper resistance,Metals,Mycobacterium tuberculosis,NA,NA,NA,NA,NA,NA
+Mcopp-g0444_tcrB,tcrB,copper-translocating P-type ATPase TcrB,Copper resistance,Metals,Mycobacterium tuberculosis,NA,NA,NA,NA,NA,NA
+Mcopp-g0445_tcrY,tcrY,Copper resistance protein,Copper resistance,Metals,Mycobacterium tuberculosis,Mcopp-g0446_tcrZ,100,NA,NA,NA,NA
+Mcopp-g0446_tcrZ,tcrZ,Copper resistance protein,Copper resistance,Metals,Mycobacterium tuberculosis,Mcopp-g0445_tcrY,98,NA,NA,NA,NA
+Mcopp-g0447_ycnJ,ycnJ,Copper resistance protein,Copper resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mcopp-g0448_ycnJ,ycnJ,Copper resistance protein,Copper resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mcopp-g0449_ycnK,ycnK,Copper resistance regulator,Copper resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mcopp-g0450_yfmO,yfmO,Copper resistance protein,Copper resistance,Metals,Herbaspirillum seropedicae,NA,NA,NA,NA,NA,NA
+Mcopp-g0451_yfmP,yfmP,Copper resistance regulator,Copper resistance,Metals,Achromobacter xylosoxidans A8,NA,NA,NA,NA,NA,NA
+Mgold-g0452_golS,golS,Au(I) sensor transcriptional regulator GolS,Gold resistance,Metals,Bacillus cereus,NA,NA,NA,NA,NA,NA
+Miron-g0453_acN,acN,Iron resistance protein,Iron resistance,Metals,Acidithiobacillus ferrooxidans,Miron-g0455_furA,82,Mlead-g0458_pbrB,83.454,Mlead-g0461_pbrT,82.324
+Miron-g0454_bfrA,bfrA,Iron resistance protein,Iron resistance,Metals,Pseudomonas sp. K-62,NA,NA,NA,NA,NA,NA
+Miron-g0455_furA,furA,Iron resistance regulator,Iron resistance,Metals,Stutzerimonas stutzeri,Mlead-g0458_pbrB,99,Mlead-g0461_pbrT,81.899,Miron-g0453_acN,83.525
+Miron-g0456_furA,furA,Iron resistance regulator,Iron resistance,Metals,Tenacibaculum discolor,NA,NA,NA,NA,NA,NA
+Mlead-g0457_pbrA,pbrA,Lead P-type ATPase transporter,Lead resistance,Metals,Staphylococcus aureus,NA,NA,NA,NA,NA,NA
+Mlead-g0458_pbrB,pbrB,Lead P-type ATPase transporter,Lead resistance,Metals,Pseudomonas putida,Miron-g0455_furA,99,Mlead-g0461_pbrT,81.075,Miron-g0453_acN,83.454
+Mlead-g0459_pbrD,pbrD,Lead P-type ATPase transporter (partial gene),Lead resistance,Metals,Escherichia coli O157:H7,Mlead-g0458_pbrB,99,Miron-g0455_furA,91.011,Mlead-g0461_pbrT,87.151
+Mlead-g0460_pbrR,pbrR,Lead P-type ATPase regulator (partial gene),Lead resistance,Metals,Escherichia coli O157:H7,Mlead-g0458_pbrB,100,Miron-g0455_furA,86.421,Mmerc-g0462_merA,79.961
+Mlead-g0461_pbrT,pbrT,Lead P-type ATPase transporter,Lead resistance,Metals,Escherichia coli,Mmerc-g0462_merA,73,Miron-g0455_furA,81.899,Mlead-g0458_pbrB,81.075
+Mmerc-g0462_merA,merA,mercury(II) reductase,Mercury resistance,Metals,Escherichia coli,Mlead-g0461_pbrT,99,Miron-g0455_furA,79.217,Mlead-g0458_pbrB,78.492
+Mmerc-g0463_merA,merA,mercury(II) reductase,Mercury resistance,Metals,Staphylococcus aureus,NA,NA,NA,NA,NA,NA
+Mmerc-g0464_merA,merA,mercury(II) reductase,Mercury resistance,Metals,Escherichia coli O157:H7,Mmerc-g0472_merB,100,NA,NA,NA,NA
+Mmerc-g0465_merA,merA,mercury(II) reductase,Mercury resistance,Metals,Pseudomonas sp. K-62,NA,NA,NA,NA,NA,NA
+Mmerc-g0466_merA,merA,mercury(II) reductase,Mercury resistance,Metals,Ralstonia mannitolilytica,NA,NA,NA,NA,NA,NA
+Mmerc-g0467_merA,merA,mercury(II) reductase,Mercury resistance,Metals,Pseudomonas putida,NA,NA,NA,NA,NA,NA
+Mmerc-g0468_merA,merA,mercury(II) reductase,Mercury resistance,Metals,Bacillus cereus,Mmerc-g0474_merB,100,Mmerc-g0473_merB,99.848,NA,NA
+Mmerc-g0469_merA,merA,mercury(II) reductase,Mercury resistance,Metals,Bacillus cereus,NA,NA,NA,NA,NA,NA
+Mmerc-g0470_merA,merA,mercury(II) reductase,Mercury resistance,Metals,Bacillus cereus,Mmerc-g0471_merA,90,NA,NA,NA,NA
+Mmerc-g0471_merA,merA,mercury(II) reductase,Mercury resistance,Metals,Bacillus cereus,Mmerc-g0470_merA,100,NA,NA,NA,NA
+Mmerc-g0472_merB,merB,Organomercurial lyase MerB (EC 4.99.1.2),Mercury resistance,Metals,Escherichia coli O157:H7,Mmerc-g0464_merA,100,NA,NA,NA,NA
+Mmerc-g0473_merB,merB,Organomercurial lyase MerB (EC 4.99.1.2),Mercury resistance,Metals,Bacillus cereus,Mmerc-g0468_merA,100,Mmerc-g0474_merB,99.696,NA,NA
+Mmerc-g0474_merB,merB,Organomercurial lyase MerB (EC 4.99.1.2),Mercury resistance,Metals,Bacillus thuringiensis,Mmerc-g0468_merA,100,Mmerc-g0473_merB,99.696,NA,NA
+Mmerc-g0475_merB,merB,Organomercurial lyase MerB (EC 4.99.1.2),Mercury resistance,Metals,Acidithiobacillus sp. 'AMD consortium',NA,NA,NA,NA,NA,NA
+Mmerc-g0476_merB,merB,Organomercurial lyase MerB (EC 4.99.1.2),Mercury resistance,Metals,Stutzerimonas stutzeri,NA,NA,NA,NA,NA,NA
+Mmerc-g0477_merB,merB,Organomercurial lyase MerB (EC 4.99.1.2),Mercury resistance,Metals,Escherichia coli,Mmerc-g0478_merB,100,NA,NA,NA,NA
+Mmerc-g0478_merB,merB,Organomercurial lyase MerB (EC 4.99.1.2),Mercury resistance,Metals,Escherichia coli,Mmerc-g0477_merB,92,NA,NA,NA,NA
+Mmerc-g0479_merB,merB,Organomercurial lyase MerB (EC 4.99.1.2),Mercury resistance,Metals,Escherichia coli O157:H7,Mmerc-g0481_merB,100,Mmerc-g0483_merB1,91.53,Mmerc-g0480_merB,91.53
+Mmerc-g0480_merB,merB,Organomercurial lyase MerB (EC 4.99.1.2),Mercury resistance,Metals,Stutzerimonas stutzeri,Mmerc-g0484_merB1,100,Mmerc-g0483_merB1,97.541,Mmerc-g0482_merB,97.268
+Mmerc-g0481_merB,merB,Organomercurial lyase MerB (EC 4.99.1.2),Mercury resistance,Metals,Pseudomonas sp. K-62,Mmerc-g0479_merB,100,Mmerc-g0483_merB1,88.525,Mmerc-g0480_merB,88.525
+Mmerc-g0482_merB,merB,Organomercurial lyase MerB (EC 4.99.1.2),Mercury resistance,Metals,Pseudomonas putida,Mmerc-g0483_merB1,100,Mmerc-g0480_merB,97.268,Mmerc-g0484_merB1,95.902
+Mmerc-g0483_merB1,merB1,organomercurial lyase MerB1,Mercury resistance,Metals,Pseudomonas aeruginosa,Mmerc-g0482_merB,100,Mmerc-g0480_merB,97.541,Mmerc-g0484_merB1,96.175
+Mmerc-g0484_merB1,merB1,organomercurial lyase MerB1,Mercury resistance,Metals,Stutzerimonas stutzeri,Mmerc-g0480_merB,100,Mmerc-g0483_merB1,96.175,Mmerc-g0482_merB,95.902
+Mmerc-g0485_merC,merC,organomercurial transporter MerC,Mercury resistance,Metals,Escherichia coli O157:H7,Mmerc-g0486_merC,100,NA,NA,NA,NA
+Mmerc-g0486_merC,merC,organomercurial transporter MerC,Mercury resistance,Metals,Pseudomonas sp. NY5710,Mmerc-g0485_merC,100,Mmerc-g0487_merC,82.741,NA,NA
+Mmerc-g0487_merC,merC,organomercurial transporter MerC,Mercury resistance,Metals,Pseudomonas aeruginosa,Mmerc-g0486_merC,83,NA,NA,NA,NA
+Mmerc-g0488_merD,merD,Mercury resistance co-regulator MerD,Mercury resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mmerc-g0489_merD,merD,Mercury resistance co-regulator MerD,Mercury resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mmerc-g0490_merD,merD,Mercury resistance co-regulator MerD,Mercury resistance,Metals,Pseudomonas sp. NY5710,NA,NA,NA,NA,NA,NA
+Mmerc-g0491_merD,merD,Mercury resistance co-regulator MerD,Mercury resistance,Metals,Pseudomonas aeruginosa PA96,NA,NA,NA,NA,NA,NA
+Mmerc-g0492_merD,merD,Mercury resistance co-regulator MerD,Mercury resistance,Metals,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+Mmerc-g0493_merD,merD,Mercury resistance co-regulator MerD,Mercury resistance,Metals,Mycobacterium marinum,NA,NA,NA,NA,NA,NA
+Mmerc-g0494_merD,merD,Mercury resistance co-regulator MerD,Mercury resistance,Metals,Escherichia coli O157:H7,Mmerc-g0497_merE,100,Mmerc-g0498_merE,87.452,NA,NA
+Mmerc-g0495_merE,merE,broad-spectrum mercury transporter MerE,Mercury resistance,Metals,Acidithiobacillus ferrooxidans,NA,NA,NA,NA,NA,NA
+Mmerc-g0496_merE,merE,broad-spectrum mercury transporter MerE,Mercury resistance,Metals,Pseudomonas sp. K-62,NA,NA,NA,NA,NA,NA
+Mmerc-g0497_merE,merE,broad-spectrum mercury transporter MerE,Mercury resistance,Metals,Pseudomonas aeruginosa,Mmerc-g0494_merD,100,Mmerc-g0498_merE,87.121,NA,NA
+Mmerc-g0498_merE,merE,broad-spectrum mercury transporter MerE,Mercury resistance,Metals,Ralstonia mannitolilytica,Mmerc-g0494_merD,95,Mmerc-g0497_merE,87.121,NA,NA
+Mmerc-g0499_merE,merE,broad-spectrum mercury transporter MerE,Mercury resistance,Metals,Flavobacterium sp. CS20,NA,NA,NA,NA,NA,NA
+Mmerc-g0500_merF,merF,Mercury resistance system transport protein MerF,Mercury resistance,Metals,Bacillus cereus,NA,NA,NA,NA,NA,NA
+Mmerc-g0501_merF,merF,Mercury resistance system transport protein MerF,Mercury resistance,Metals,Bacillus cereus,NA,NA,NA,NA,NA,NA
+Mmerc-g0502_merG,merG,phenylmercury resistance protein MerG,Mercury resistance,Metals,Acidithiobacillus ferrooxidans,Mmerc-g0506_merP,86,Mmerc-g0507_merP,88.25,Mmerc-g0505_merP,87.531
+Mmerc-g0503_merH,merH,Mercury resistance protein,Mercury resistance,Metals,Pseudomonas aeruginosa,Mmerc-g0505_merP,100,Mmerc-g0511_merR,95.408,NA,NA
+Mmerc-g0504_merP,merP,Mercury resistance system periplasmic binding protein MerP,Mercury resistance,Metals,Pseudomonas sp. KBS0802,Mmerc-g0506_merP,92,Mmerc-g0502_merG,87.75,NA,NA
+Mmerc-g0505_merP,merP,Mercury resistance system periplasmic binding protein MerP,Mercury resistance,Metals,Escherichia coli,Mmerc-g0503_merH,100,Mmerc-g0506_merP,88.783,Mmerc-g0511_merR,88.52
+Mmerc-g0506_merP,merP,Mercury resistance system periplasmic binding protein MerP,Mercury resistance,Metals,Pseudomonas aeruginosa,Mmerc-g0504_merP,92,Mmerc-g0502_merG,90.585,Mmerc-g0505_merP,88.783
+Mmerc-g0507_merP,merP,Mercury resistance system periplasmic binding protein MerP,Mercury resistance,Metals,Pseudomonas aeruginosa,Mmerc-g0506_merP,94,Mmerc-g0502_merG,88.25,Mmerc-g0505_merP,87.136
+Mmerc-g0508_merP,merP,Mercury resistance system periplasmic binding protein MerP,Mercury resistance,Metals,Bacillus cereus,NA,NA,NA,NA,NA,NA
+Mmerc-g0509_merP,merP,Mercury resistance system periplasmic binding protein MerP,Mercury resistance,Metals,Staphylococcus aureus,NA,NA,NA,NA,NA,NA
+Mmerc-g0510_merP,merP,Mercury resistance system periplasmic binding protein MerP,Mercury resistance,Metals,Tenacibaculum discolor,NA,NA,NA,NA,NA,NA
+Mmerc-g0511_merR,merR,Mercury resistance transcriptional regulator MerR,Mercury resistance,Metals,Escherichia coli,Mmerc-g0503_merH,90,Mmerc-g0505_merP,88.52,NA,NA
+Mmerc-g0512_merR,merR,Mercury resistance transcriptional regulator MerR,Mercury resistance,Metals,Bacillus cereus,NA,NA,NA,NA,NA,NA
+Mmerc-g0513_merR,merR,Mercury resistance transcriptional regulator MerR,Mercury resistance,Metals,Escherichia coli,Mmerc-g0516_merR,100,Mmerc-g0515_merR,84.33,NA,NA
+Mmerc-g0514_merR,merR,Mercury resistance transcriptional regulator MerR,Mercury resistance,Metals,Pseudomonas aeruginosa,Mmerc-g0518_merR,100,Mmerc-g0516_merR,91.738,Mmerc-g0520_merR,91.667
+Mmerc-g0515_merR,merR,Mercury resistance transcriptional regulator MerR,Mercury resistance,Metals,Acidithiobacillus ferrooxidans,Mmerc-g0516_merR,99,Mmerc-g0518_merR,85.387,Mmerc-g0520_merR,84.9
+Mmerc-g0516_merR,merR,Mercury resistance transcriptional regulator MerR,Mercury resistance,Metals,Escherichia coli,Mmerc-g0518_merR,100,Mmerc-g0514_merR,91.738,Mmerc-g0520_merR,91.092
+Mmerc-g0517_merR,merR,Mercury resistance transcriptional regulator MerR,Mercury resistance,Metals,Staphylococcus aureus,NA,NA,NA,NA,NA,NA
+Mmerc-g0518_merR,merR,Mercury resistance transcriptional regulator MerR,Mercury resistance,Metals,Ralstonia mannitolilytica,Mmerc-g0514_merR,100,Mmerc-g0516_merR,92.593,Mmerc-g0520_merR,89.943
+Mmerc-g0519_merR,merR,Mercury resistance transcriptional regulator MerR,Mercury resistance,Metals,Tenacibaculum discolor,NA,NA,NA,NA,NA,NA
+Mmerc-g0520_merR,merR,Mercury resistance transcriptional regulator MerR,Mercury resistance,Metals,Pseudomonas aeruginosa,Mmerc-g0514_merR,99,Mmerc-g0516_merR,91.092,Mmerc-g0518_merR,89.943
+Mmerc-g0521_merR,merR,Mercury resistance transcriptional regulator MerR,Mercury resistance,Metals,Klebsiella pneumoniae,Mmerc-g0522_merT,95,NA,NA,NA,NA
+Mmerc-g0522_merT,merT,Mercuric transport protein MerT,Mercury resistance,Metals,Escherichia coli,Mmerc-g0521_merR,95,NA,NA,NA,NA
+Mmerc-g0523_merT,merT,Mercuric transport protein MerT,Mercury resistance,Metals,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+Mmerc-g0524_merT,merT,Mercuric transport protein MerT,Mercury resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mmerc-g0525_merT,merT,Mercuric transport protein MerT,Mercury resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mmerc-g0526_merT,merT,Mercuric transport protein MerT,Mercury resistance,Metals,Streptococcus salivarius,NA,NA,NA,NA,NA,NA
+Mmerc-g0527_merT,merT,Mercuric transport protein MerT,Mercury resistance,Metals,Mycobacterium tuberculosis,NA,NA,NA,NA,NA,NA
+Mmerc-g0528_merT,merT,Mercuric transport protein MerT,Mercury resistance,Metals,Cupriavidus metallidurans CH34,Mmeta-g0530_mrdH,100,Mmult-g0637_mreA,80.634,NA,NA
+Mmeta-g0529_fieF,fieF,CDF family cation-efflux transporter FieF (partial gene),Metal resistance,Metals,Bradyrhizobium sp. STM 2465,NA,NA,NA,NA,NA,NA
+Mmeta-g0530_mrdH,mrdH,Ni(II)/Co(II) efflux transporter permease subunit MrdH,Metal resistance,Metals,Cupriavidus metallidurans,Mmerc-g0528_merT,100,Mmult-g0637_mreA,80.885,NA,NA
+Mmeta-g0531_nccH,nccH,nickel/cobalt/cadmium resistance ECF sigma factor NccH,Metal resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mmeta-g0532_nccX,nccX,periplasmic metal sensor NccX,Metal resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mmult-g0533_cadX,cadX,Multi-metal resistance regulator,Multi-metal resistance,Metals,Cupriavidus metallidurans CH34,Mmult-g0534_cmtR,100,NA,NA,NA,NA
+Mmult-g0534_cmtR,cmtR,Multi-metal resistance regulator,Multi-metal resistance,Metals,Cupriavidus metallidurans,Mmult-g0533_cadX,100,NA,NA,NA,NA
+Mmult-g0535_cnrA,cnrA,Cobalt/nickel efflux RND transporter permease subunit CnrA,Multi-metal resistance,Metals,Synechocystis sp. IPPAS B-1465,NA,NA,NA,NA,NA,NA
+Mmult-g0536_cnrA,cnrA,Cobalt/nickel efflux RND transporter permease subunit CnrA,Multi-metal resistance,Metals,Salmonella enterica subsp. enterica serovar Typhimurium,Mmult-g0539_cnrA,100,Mmult-g0538_cnrA,88.433,Mmult-g0537_cnrA,88.433
+Mmult-g0537_cnrA,cnrA,Cobalt/nickel efflux RND transporter permease subunit CnrA,Multi-metal resistance,Metals,Escherichia coli str. K-12 substr. MG1655,Mmult-g0539_cnrA,100,Mmult-g0538_cnrA,99.79,Mmult-g0536_cnrA,88.433
+Mmult-g0538_cnrA,cnrA,Cobalt/nickel efflux RND transporter permease subunit CnrA,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0537_cnrA,100,Mmult-g0539_cnrA,99.58,Mmult-g0536_cnrA,88.433
+Mmult-g0539_cnrA,cnrA,Cobalt/nickel efflux RND transporter permease subunit CnrA,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0537_cnrA,100,Mmult-g0538_cnrA,99.58,Mmult-g0536_cnrA,88.644
+Mmult-g0540_cnrA,cnrA,Cobalt/nickel efflux RND transporter permease subunit CnrA,Multi-metal resistance,Metals,Salmonella enterica subsp. enterica serovar Typhimurium,NA,NA,NA,NA,NA,NA
+Mmult-g0541_cnrB,cnrB,Multi-metal resistance protein,Multi-metal resistance,Metals,Salmonella enterica subsp. enterica serovar Typhimurium,Mmult-g0543_cnrR,100,Mmult-g0542_cnrH,99.27,NA,NA
+Mmult-g0542_cnrH,cnrH,Multi-metal resistance regulator (partial gene),Multi-metal resistance,Metals,Salmonella enterica subsp. enterica serovar Typhimurium,Mmult-g0543_cnrR,99,Mmult-g0541_cnrB,99.27,NA,NA
+Mmult-g0543_cnrR,cnrR,Multi-metal resistance regulator,Multi-metal resistance,Metals,Salmonella enterica,Mmult-g0541_cnrB,100,Mmult-g0542_cnrH,99.757,NA,NA
+Mmult-g0544_cnrR,cnrR,Multi-metal resistance regulator,Multi-metal resistance,Metals,Salmonella enterica subsp. enterica serovar Typhimurium,Mmult-g0545_coaR,100,NA,NA,NA,NA
+Mmult-g0545_coaR,coaR,Multi-metal resistance regulator,Multi-metal resistance,Metals,Salmonella enterica,Mmult-g0544_cnrR,100,NA,NA,NA,NA
+Mmult-g0546_corA,corA,Multi-metal resistance protein,Multi-metal resistance,Metals,Mycobacterium tuberculosis,NA,NA,NA,NA,NA,NA
+Mmult-g0547_corA,corA,Multi-metal resistance protein,Multi-metal resistance,Metals,Mycolicibacterium smegmatis,NA,NA,NA,NA,NA,NA
+Mmult-g0548_corA,corA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mmult-g0549_corA,corA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mmult-g0550_corB,corB,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0551_corC,99,NA,NA,NA,NA
+Mmult-g0551_corC,corC,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli RS218,Mmult-g0550_corB,99,NA,NA,NA,NA
+Mmult-g0552_corC,corC,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mmult-g0553_corD,corD,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mmult-g0554_corD,corD,Multi-metal resistance protein,Multi-metal resistance,Metals,Cupriavidus metallidurans CH34,Mmult-g0555_ctpC,100,NA,NA,NA,NA
+Mmult-g0555_ctpC,ctpC,Multi-metal resistance protein,Multi-metal resistance,Metals,Cupriavidus metallidurans,Mmult-g0554_corD,100,NA,NA,NA,NA
+Mmult-g0556_ctpD,ctpD,Multi-metal resistance protein,Multi-metal resistance,Metals,Xanthomonas euvesicatoria,NA,NA,NA,NA,NA,NA
+Mmult-g0557_czcA,czcA,Multi-metal RND efflux pumps,Multi-metal resistance,Metals,Cupriavidus metallidurans,Mmult-g0559_czcC,100,Mmult-g0558_czcA,100,NA,NA
+Mmult-g0558_czcA,czcA,Multi-metal RND efflux pumps,Multi-metal resistance,Metals,Cupriavidus metallidurans,Mmult-g0557_czcA,100,Mmult-g0559_czcC,99.383,NA,NA
+Mmult-g0559_czcC,czcC,Multi-metal RND efflux regulator,Multi-metal resistance,Metals,Cupriavidus metallidurans CH34,Mmult-g0557_czcA,100,Mmult-g0558_czcA,99.383,NA,NA
+Mmult-g0560_czcC,czcC,Multi-metal RND efflux regulator,Multi-metal resistance,Metals,Cupriavidus gilardii,NA,NA,NA,NA,NA,NA
+Mmult-g0561_czcC,czcC,Multi-metal RND efflux regulator,Multi-metal resistance,Metals,Cupriavidus gilardii,NA,NA,NA,NA,NA,NA
+Mmult-g0562_czcC,czcC,Multi-metal RND efflux regulator,Multi-metal resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mmult-g0563_czcD,czcD,Multi-metal RND efflux regulator,Multi-metal resistance,Metals,Cupriavidus metallidurans CH34,Mmult-g0564_czcE,100,NA,NA,NA,NA
+Mmult-g0564_czcE,czcE,Multi-metal RND efflux pumps,Multi-metal resistance,Metals,Cupriavidus metallidurans,Mmult-g0563_czcD,100,NA,NA,NA,NA
+Mmult-g0565_czcP,czcP,Multi-metal RND efflux pumps,Multi-metal resistance,Metals,Cupriavidus metallidurans CH34,Mmult-g0566_czcR,100,NA,NA,NA,NA
+Mmult-g0566_czcR,czcR,Multi-metal RND efflux regulator,Multi-metal resistance,Metals,Cupriavidus gilardii,Mmult-g0565_czcP,100,NA,NA,NA,NA
+Mmult-g0567_czcR,czcR,Multi-metal RND efflux regulator,Multi-metal resistance,Metals,Helicobacter mustelae,NA,NA,NA,NA,NA,NA
+Mmult-g0568_czcS,czcS,Multi-metal RND efflux regulator,Multi-metal resistance,Metals,Helicobacter mustelae,NA,NA,NA,NA,NA,NA
+Mmult-g0569_czcS,czcS,Multi-metal RND efflux regulator,Multi-metal resistance,Metals,Helicobacter mustelae,NA,NA,NA,NA,NA,NA
+Mmult-g0570_cznA,cznA,Multi-metal RND efflux pumps,Multi-metal resistance,Metals,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+Mmult-g0571_cznB,cznB,Multi-metal RND efflux pumps,Multi-metal resistance,Metals,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+Mmult-g0572_cznC,cznC,Multi-metal RND efflux pumps,Multi-metal resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mmult-g0573_czrA,czrA,Multi-metal RND efflux pumps,Multi-metal resistance,Metals,Rhizobium johnstonii,NA,NA,NA,NA,NA,NA
+Mmult-g0574_czrB,czrB,Multi-metal RND efflux pumps,Multi-metal resistance,Metals,Rhizobium leguminosarum bv. trifolii,NA,NA,NA,NA,NA,NA
+Mmult-g0575_dmeF,dmeF,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0592_dsbA,100,Mmult-g0591_dsbA,99.522,Mmult-g0590_dsbA,99.522
+Mmult-g0576_dmeF,dmeF,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0586_dsbA,100,Mmult-g0591_dsbA,99.522,Mmult-g0590_dsbA,99.522
+Mmult-g0577_dmeR,dmeR,Multi-metal resistance regulator,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0592_dsbA,100,Mmult-g0591_dsbA,99.522,Mmult-g0590_dsbA,99.522
+Mmult-g0578_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0585_dsbA,100,Mmult-g0583_dsbA,99.681,Mmult-g0588_dsbA,99.522
+Mmult-g0579_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0591_dsbA,100,Mmult-g0588_dsbA,99.522,Mmult-g0590_dsbA,99.362
+Mmult-g0580_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0591_dsbA,100,Mmult-g0587_dsbA,99.522,Mmult-g0585_dsbA,99.522
+Mmult-g0581_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0585_dsbA,100,Mmult-g0586_dsbA,99.522,Mmult-g0584_dsbA,99.522
+Mmult-g0582_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0588_dsbA,100,Mmult-g0586_dsbA,99.681,Mmult-g0587_dsbA,99.522
+Mmult-g0583_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0578_dsbA,100,Mmult-g0591_dsbA,99.522,Mmult-g0587_dsbA,99.522
+Mmult-g0584_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0586_dsbA,100,Mmult-g0585_dsbA,99.522,Mmult-g0581_dsbA,99.522
+Mmult-g0585_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0581_dsbA,100,Mmult-g0578_dsbA,99.681,Mmult-g0591_dsbA,99.522
+Mmult-g0586_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0582_dsbA,100,Mmult-g0576_dmeF,99.681,Mmult-g0591_dsbA,99.522
+Mmult-g0587_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0591_dsbA,100,Mmult-g0586_dsbA,99.522,Mmult-g0585_dsbA,99.522
+Mmult-g0588_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0582_dsbA,100,Mmult-g0589_dsbA,99.522,Mmult-g0579_dsbA,99.522
+Mmult-g0589_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0588_dsbA,100,Mmult-g0576_dmeF,99.522,Mmult-g0585_dsbA,99.363
+Mmult-g0590_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0591_dsbA,100,Mmult-g0586_dsbA,99.522,Mmult-g0577_dmeR,99.522
+Mmult-g0591_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0590_dsbA,100,Mmult-g0587_dsbA,99.522,Mmult-g0586_dsbA,99.522
+Mmult-g0592_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Shigella sonnei,Mmult-g0575_dmeF,100,Mmult-g0577_dmeR,99.522,Mmult-g0591_dsbA,99.362
+Mmult-g0593_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0594_dsbA,99,NA,NA,NA,NA
+Mmult-g0594_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0593_dsbA,100,NA,NA,NA,NA
+Mmult-g0595_dsbA,dsbA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0596_dsbB,100,NA,NA,NA,NA
+Mmult-g0596_dsbB,dsbB,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0595_dsbA,100,NA,NA,NA,NA
+Mmult-g0597_dsbB,dsbB,Multi-metal resistance protein,Multi-metal resistance,Metals,Haemophilus influenzae,NA,NA,NA,NA,NA,NA
+Mmult-g0598_dsbC,dsbC,Multi-metal resistance protein,Multi-metal resistance,Metals,Haemophilus influenzae,Mmult-g0599_dsbC,93,NA,NA,NA,NA
+Mmult-g0599_dsbC,dsbC,Multi-metal resistance protein,Multi-metal resistance,Metals,Haemophilus influenzae Rd KW20,Mmult-g0598_dsbC,100,NA,NA,NA,NA
+Mmult-g0600_fbpA,fbpA,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Haemophilus influenzae,Mmult-g0601_fbpB,98,NA,NA,NA,NA
+Mmult-g0601_fbpB,fbpB,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Haemophilus influenzae Rd KW20,Mmult-g0600_fbpA,99,NA,NA,NA,NA
+Mmult-g0602_fbpB,fbpB,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0603_fbpC,100,Mmult-g0604_fbpC,99.791,NA,NA
+Mmult-g0603_fbpC,fbpC,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0604_fbpC,100,Mmult-g0602_fbpB,99.791,NA,NA
+Mmult-g0604_fbpC,fbpC,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0603_fbpC,100,Mmult-g0602_fbpB,99.791,NA,NA
+Mmult-g0605_fecD,fecD,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0606_fecD,100,NA,NA,NA,NA
+Mmult-g0606_fecD,fecD,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0605_fecD,100,NA,NA,NA,NA
+Mmult-g0607_fecD,fecD,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+Mmult-g0608_fecE,fecE,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Pseudomonas aeruginosa,Mmult-g0609_fecE,100,NA,NA,NA,NA
+Mmult-g0609_fecE,fecE,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Pseudomonas aeruginosa,Mmult-g0608_fecE,100,NA,NA,NA,NA
+Mmult-g0610_fptA,fptA,Multi-metal resistance protein,Multi-metal resistance,Metals,Burkholderia pseudomallei 1026b,Mmult-g0611_fpvA,100,Mmult-g0612_fpvA,99.71,NA,NA
+Mmult-g0611_fpvA,fpvA,Multi-metal resistance protein,Multi-metal resistance,Metals,Burkholderia pseudomallei,Mmult-g0612_fpvA,100,Mmult-g0610_fptA,99.855,NA,NA
+Mmult-g0612_fpvA,fpvA,Multi-metal resistance protein,Multi-metal resistance,Metals,Burkholderia pseudomallei,Mmult-g0611_fpvA,100,Mmult-g0610_fptA,99.71,NA,NA
+Mmult-g0613_irlR,irlR,Multi-metal resistance regulator,Multi-metal resistance,Metals,Burkholderia pseudomallei 1026b,Mmult-g0614_irlR,100,Mmult-g0615_irlR,99.57,NA,NA
+Mmult-g0614_irlR,irlR,Multi-metal resistance regulator,Multi-metal resistance,Metals,Burkholderia pseudomallei,Mmult-g0613_irlR,100,Mmult-g0615_irlR,99.713,NA,NA
+Mmult-g0615_irlR,irlR,Multi-metal resistance regulator,Multi-metal resistance,Metals,Burkholderia pseudomallei K96243,Mmult-g0614_irlR,100,Mmult-g0613_irlR,99.57,NA,NA
+Mmult-g0616_irlS,irlS,Multi-metal resistance regulator,Multi-metal resistance,Metals,Mycobacterium tuberculosis,NA,NA,NA,NA,NA,NA
+Mmult-g0617_irlS,irlS,Multi-metal resistance regulator,Multi-metal resistance,Metals,Salmonella enterica,Mmult-g0619_kmtR,91,Mmult-g0618_irlS,82.047,NA,NA
+Mmult-g0618_irlS,irlS,Multi-metal resistance regulator,Multi-metal resistance,Metals,Escherichia coli str. K-12 substr. MG1655,Mmult-g0619_kmtR,100,Mmult-g0617_irlS,82.047,NA,NA
+Mmult-g0619_kmtR,kmtR,Multi-metal resistance regulator,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0618_irlS,100,Mmult-g0617_irlS,82.08,NA,NA
+Mmult-g0620_mgtA,mgtA,Multi-metal resistance regulator,Multi-metal resistance,Metals,Bacillus subtilis subsp. subtilis str. 168,NA,NA,NA,NA,NA,NA
+Mmult-g0621_mgtA,mgtA,Multi-metal resistance regulator,Multi-metal resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mmult-g0622_mgtA,mgtA,Multi-metal resistance regulator,Multi-metal resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mmult-g0623_mntA,mntA,Multi-metal resistance protein,Multi-metal resistance,Metals,Shigella sonnei,NA,NA,NA,NA,NA,NA
+Mmult-g0624_mntH,mntH,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mmult-g0625_mntP,mntP,Multi-metal resistance protein,Multi-metal resistance,Metals,Nitratidesulfovibrio vulgaris RCH1,NA,NA,NA,NA,NA,NA
+Mmult-g0626_mntR,mntR,Multi-metal resistance protein (partial gene),Multi-metal resistance,Metals,Escherichia coli,Mmult-g0627_modA,99,Mmult-g0628_modA,99.669,NA,NA
+Mmult-g0627_modA,modA,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0628_modA,100,Mmult-g0626_mntR,100,NA,NA
+Mmult-g0628_modA,modA,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0627_modA,100,Mmult-g0626_mntR,99.669,NA,NA
+Mmult-g0629_modB,modB,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Nitratidesulfovibrio vulgaris RCH1,NA,NA,NA,NA,NA,NA
+Mmult-g0630_modB,modB,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0631_modB,100,Mmult-g0632_modB,99.338,NA,NA
+Mmult-g0631_modB,modB,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0632_modB,100,Mmult-g0630_modB,99.558,NA,NA
+Mmult-g0632_modB,modB,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0631_modB,100,Mmult-g0630_modB,99.338,NA,NA
+Mmult-g0633_modC,modC,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Nitratidesulfovibrio vulgaris RCH1,NA,NA,NA,NA,NA,NA
+Mmult-g0634_modC,modC,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mmult-g0635_modC,modC,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+Mmult-g0636_modC,modC,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Mycobacterium tuberculosis,NA,NA,NA,NA,NA,NA
+Mmult-g0637_mreA,mreA,Cd/Ni-sensing transcriptional repressor MreA,Multi-metal resistance,Metals,Achromobacter xylosoxidans,Mmeta-g0530_mrdH,98,Mmerc-g0528_merT,80.634,NA,NA
+Mmult-g0638_mreA,mreA,Cd/Ni-sensing transcriptional repressor MreA,Multi-metal resistance,Metals,Achromobacter xylosoxidans,NA,NA,NA,NA,NA,NA
+Mmult-g0639_mymT,mymT,Multi-metal resistance protein,Multi-metal resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mmult-g0640_nccA,nccA,Multi-metal resistance protein,Multi-metal resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mmult-g0641_nccB,nccB,Multi-metal resistance protein,Multi-metal resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mmult-g0642_nccC,nccC,Multi-metal resistance protein,Multi-metal resistance,Metals,Serratia marcescens,Mmult-g0643_nccN,100,Mtell-g0726_terB,84.343,Mmult-g0644_nccY,88.789
+Mmult-g0643_nccN,nccN,Multi-metal resistance protein,Multi-metal resistance,Metals,Klebsiella pneumoniae,Mtell-g0726_terB,82,Mmult-g0642_nccC,84.385,Mmult-g0644_nccY,89.117
+Mmult-g0644_nccY,nccY,Multi-metal resistance protein,Multi-metal resistance,Metals,Hafnia alvei,Mmult-g0643_nccN,93,Mmult-g0642_nccC,88.789,Mtell-g0726_terB,92.432
+Mmult-g0645_ncrA,ncrA,Ni(II)/Co(II)-sensing efflux pumps,Multi-metal resistance,Metals,Hafnia alvei,Mtell-g0726_terB,57,Mmult-g0643_nccN,87.109,Mmult-g0647_ncrA,90.074
+Mmult-g0646_ncrA,ncrA,Ni(II)/Co(II)-sensing efflux pumps,Multi-metal resistance,Metals,Serratia marcescens,Mmult-g0647_ncrA,100,Mtell-g0727_terC,87.546,Mmult-g0645_ncrA,85.24
+Mmult-g0647_ncrA,ncrA,Ni(II)/Co(II)-sensing efflux pumps,Multi-metal resistance,Metals,Klebsiella pneumoniae,Mtell-g0727_terC,100,Mmult-g0645_ncrA,90.074,Mmult-g0646_ncrA,87.823
+Mmult-g0648_ncrB,ncrB,Ni(II)/Co(II)-sensing transcriptional repressor NcrB,Multi-metal resistance,Metals,Hafnia alvei,Mmult-g0650_ncrB,100,Mtell-g0728_terD,91.525,NA,NA
+Mmult-g0649_ncrB,ncrB,Ni(II)/Co(II)-sensing transcriptional repressor NcrB,Multi-metal resistance,Metals,Serratia marcescens,Mtell-g0728_terD,67,NA,NA,NA,NA
+Mmult-g0650_ncrB,ncrB,Ni(II)/Co(II)-sensing transcriptional repressor NcrB,Multi-metal resistance,Metals,Klebsiella pneumoniae,Mtell-g0728_terD,80,Mmult-g0648_ncrB,90.414,NA,NA
+Mmult-g0651_ncrC,ncrC,Ni(II)/Co(II) efflux transporter permease subunit NcrC,Multi-metal resistance,Metals,Hafnia alvei,Mmult-g0652_ncrC,99,NA,NA,NA,NA
+Mmult-g0652_ncrC,ncrC,Ni(II)/Co(II) efflux transporter permease subunit NcrC,Multi-metal resistance,Metals,Klebsiella pneumoniae,Mtell-g0729_terE,88,Mmult-g0651_ncrC,85.34,NA,NA
+Mmult-g0653_ncrC,ncrC,Ni(II)/Co(II) efflux transporter permease subunit NcrC,Multi-metal resistance,Metals,Caulobacter vibrioides,NA,NA,NA,NA,NA,NA
+Mmult-g0654_ncrY,ncrY,Ni(II)/Co(II) efflux regulator,Multi-metal resistance,Metals,Sinorhizobium meliloti,NA,NA,NA,NA,NA,NA
+Mmult-g0655_ncrY,ncrY,Ni(II)/Co(II) efflux regulator,Multi-metal resistance,Metals,Mycobacterium tuberculosis,NA,NA,NA,NA,NA,NA
+Mmult-g0656_nczA,nczA,Multi-metal resistance protein,Multi-metal resistance,Metals,Synechocystis sp. IPPAS B-1465,NA,NA,NA,NA,NA,NA
+Mmult-g0657_niA,niA,Multi-metal resistance protein,Multi-metal resistance,Metals,Rhodobacter capsulatus SB 1003,NA,NA,NA,NA,NA,NA
+Mmult-g0658_nmtR,nmtR,Multi-metal resistance regulator,Multi-metal resistance,Metals,Helicobacter pylori,Mmult-g0659_nrsD,100,NA,NA,NA,NA
+Mmult-g0659_nrsD,nrsD,Multi-metal MFS efflux pumps,Multi-metal resistance,Metals,Helicobacter pylori,Mmult-g0658_nmtR,100,NA,NA,NA,NA
+Mmult-g0660_perO,perO,Multi-metal resistance protein,Multi-metal resistance,Metals,NA,NA,NA,NA,NA,NA,NA
+Mmult-g0661_pfR,pfR,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mmult-g0662_pfR,pfR,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mmult-g0663_pgpA,pgpA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mmult-g0664_pitA,pitA,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mmult-g0665_rcnA,rcnA,Multi-metal resistance protein,Multi-metal resistance,Metals,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+Mmult-g0666_rcnB,rcnB,Multi-metal resistance protein,Multi-metal resistance,Metals,Salmonella enterica subsp. enterica serovar Schwarzengrund,Mmult-g0669_smtA,100,Mmult-g0670_smtA,95.48,Mmult-g0668_regG,94.49
+Mmult-g0667_rcnR,rcnR,Multi-metal resistance regulator,Multi-metal resistance,Metals,Salmonella enterica subsp. enterica serovar Typhimurium,Mmult-g0666_rcnB,100,Mmult-g0669_smtA,98.625,Mmult-g0670_smtA,94.158
+Mmult-g0668_regG,regG,Multi-metal resistance protein,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0669_smtA,100,Mmult-g0666_rcnB,94.49,Mmult-g0670_smtA,92.562
+Mmult-g0669_smtA,smtA,Metallothionein smtA,Multi-metal resistance,Metals,Klebsiella pneumoniae,Mmult-g0666_rcnB,100,Mmult-g0670_smtA,95.48,Mmult-g0668_regG,94.766
+Mmult-g0670_smtA,smtA,Metallothionein smtA,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0669_smtA,100,Mmult-g0666_rcnB,95.48,Mmult-g0668_regG,92.562
+Mmult-g0671_smtA,smtA,Metallothionein smtA,Multi-metal resistance,Metals,Klebsiella pneumoniae,Mmult-g0675_troA,100,Mmult-g0676_troA,95.154,Mmult-g0678_troC,94.273
+Mmult-g0672_smtA,smtA,Metallothionein smtA,Multi-metal resistance,Metals,Salmonella enterica,Mmult-g0673_smtB,100,Mmult-g0674_trgB,95.757,NA,NA
+Mmult-g0673_smtB,smtB,Multi-metal resistance regulator,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0672_smtA,100,Mmult-g0674_trgB,96.491,NA,NA
+Mmult-g0674_trgB,trgB,Multi-metal resistance regulator,Multi-metal resistance,Metals,Salmonella enterica subsp. enterica serovar Typhimurium,Mmult-g0673_smtB,99,Mmult-g0672_smtA,95.757,NA,NA
+Mmult-g0675_troA,troA,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Salmonella enterica subsp. enterica serovar Typhimurium,Mmult-g0671_smtA,100,Mmult-g0676_troA,93.886,Mmult-g0678_troC,93.013
+Mmult-g0676_troA,troA,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Escherichia coli,Mcopp-g0314_silE,100,Mmult-g0678_troC,97.21,Mmult-g0677_troB,97.21
+Mmult-g0677_troB,troB,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Salmonella enterica subsp. enterica serovar Infantis,Mcopp-g0314_silE,100,Mmult-g0678_troC,99.706,Mmult-g0676_troA,97.21
+Mmult-g0678_troC,troC,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0677_troB,100,Mcopp-g0314_silE,99.559,Mmult-g0676_troA,97.21
+Mmult-g0679_troD,troD,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Klebsiella pneumoniae,Mmult-g0682_tunR,100,Mmult-g0681_troR,97.153,Mmult-g0680_troD,95.158
+Mmult-g0680_troD,troD,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Salmonella enterica subsp. enterica serovar Typhimurium,Mmult-g0681_troR,100,Mmult-g0679_troD,95.158,Mmult-g0682_tunR,94.351
+Mmult-g0681_troR,troR,Multi-metal ABC efflux regulator,Multi-metal resistance,Metals,Escherichia coli,Mmult-g0680_troD,100,Mmult-g0679_troD,97.153,Mmult-g0682_tunR,96.61
+Mmult-g0682_tunR,tunR,Multi-metal ABC efflux regulator,Multi-metal resistance,Metals,Salmonella enterica,Mmult-g0679_troD,100,Mmult-g0681_troR,96.61,Mmult-g0680_troD,94.351
+Mmult-g0683_wtpA,wtpA,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Synechococcus elongatus UTEX 3055,Mmult-g0684_wtpB,100,NA,NA,NA,NA
+Mmult-g0684_wtpB,wtpB,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Synechococcus elongatus PCC 7942 = FACHB-805,Mmult-g0683_wtpA,100,NA,NA,NA,NA
+Mmult-g0685_wtpC,wtpC,Multi-metal ABC efflux pumps,Multi-metal resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mmult-g0686_yfeA,yfeA,Multi-metal resistance protein,Multi-metal resistance,Metals,Enterococcus faecium DO,NA,NA,NA,NA,NA,NA
+Mmult-g0687_yfeA,yfeA,Multi-metal resistance protein,Multi-metal resistance,Metals,Synechococcus elongatus PCC 7942 = FACHB-805,NA,NA,NA,NA,NA,NA
+Mmult-g0688_yfeC,yfeC,Multi-metal resistance protein,Multi-metal resistance,Metals,Cereibacter sphaeroides,NA,NA,NA,NA,NA,NA
+Mmult-g0689_yfeD,yfeD,Multi-metal resistance protein,Multi-metal resistance,Metals,Treponema pallidum,Mmult-g0690_ygjH,97,NA,NA,NA,NA
+Mmult-g0690_ygjH,ygjH,Multi-metal resistance protein,Multi-metal resistance,Metals,Treponema pallidum,Mmult-g0689_yfeD,100,NA,NA,NA,NA
+Mmult-g0691_zinT,zinT,Multi-metal resistance protein,Multi-metal resistance,Metals,Treponema pallidum,Mmult-g0692_zipB,4,NA,NA,NA,NA
+Mmult-g0692_zipB,zipB,Multi-metal resistance protein,Multi-metal resistance,Metals,Treponema pallidum,Mmult-g0691_zinT,3,NA,NA,NA,NA
+Mmult-g0693_zntA,zntA,Multi-metal resistance protein,Multi-metal resistance,Metals,Treponema pallidum,Mmult-g0694_zraS,100,NA,NA,NA,NA
+Mmult-g0694_zraS,zraS,Multi-metal resistance regulator,Multi-metal resistance,Metals,Treponema pallidum,Mmult-g0693_zntA,100,NA,NA,NA,NA
+Mmult-g0695_zraS,zraS,Multi-metal resistance regulator,Multi-metal resistance,Metals,Treponema pallidum,NA,NA,NA,NA,NA,NA
+Mnick-g0696_cnrC,cnrC,nickel efflux RND transporter outer membrane subunit CnrC,Nickel resistance,Metals,Nitratidesulfovibrio vulgaris RCH1,NA,NA,NA,NA,NA,NA
+Mnick-g0697_cnrT,cnrT,nickel diffusion facilitator CnrT,Nickel resistance,Metals,Pyrococcus furiosus DSM 3638,NA,NA,NA,NA,NA,NA
+Mnick-g0698_cnrY,cnrY,nickel resistance system anti-sigma factor CnrY,Nickel resistance,Metals,Pyrococcus furiosus DSM 3638,NA,NA,NA,NA,NA,NA
+Mnick-g0699_hoxN,hoxN,Nickel resistance protein,Nickel resistance,Metals,Pyrococcus furiosus DSM 3638,NA,NA,NA,NA,NA,NA
+Mnick-g0700_hupE,hupE,Nickel resistance protein,Nickel resistance,Metals,Yersinia pestis,Mnick-g0701_hupE,100,NA,NA,NA,NA
+Mnick-g0701_hupE,hupE,Nickel resistance protein,Nickel resistance,Metals,Yersinia pestis,Mnick-g0700_hupE,100,NA,NA,NA,NA
+Mnick-g0702_hupN,hupN,Nickel resistance protein,Nickel resistance,Metals,Yersinia pestis,MUdru-g0823_cmeA,19,Mzinc-g0752_znuC,76.744,NA,NA
+Mnick-g0703_nikA,nikA,Nickel ABC efflux pumps,Nickel resistance,Metals,Yersinia pestis,NA,NA,NA,NA,NA,NA
+Mnick-g0704_nikB,nikB,Nickel ABC efflux pumps,Nickel resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mnick-g0705_nikB,nikB,Nickel ABC efflux pumps,Nickel resistance,Metals,Shigella sonnei,NA,NA,NA,NA,NA,NA
+Mnick-g0706_nikC,nikC,Nickel ABC efflux pumps,Nickel resistance,Metals,Bordetella bronchiseptica,NA,NA,NA,NA,NA,NA
+Mnick-g0707_nikD,nikD,Nickel ABC efflux pumps,Nickel resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mnick-g0708_nikE,nikE,Nickel ABC efflux pumps,Nickel resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mnick-g0709_nikE,nikE,Nickel ABC efflux pumps,Nickel resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mnick-g0710_nikR,nikR,Nickel ABC efflux regulator,Nickel resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mnick-g0711_nikR,nikR,Nickel ABC efflux regulator,Nickel resistance,Metals,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+Mnick-g0712_nirA,nirA,Nickel resistance protein,Nickel resistance,Metals,Cupriavidus necator H16,NA,NA,NA,NA,NA,NA
+Mnick-g0713_nirB,nirB,nickel-sensing transcriptional repressor NirB,Nickel resistance,Metals,Rhizobium leguminosarum bv. viciae,NA,NA,NA,NA,NA,NA
+Mnick-g0714_nirC,nirC,Nickel resistance protein,Nickel resistance,Metals,Rhizobium leguminosarum bv. viciae,NA,NA,NA,NA,NA,NA
+Mnick-g0715_nirD,nirD,nickel resistance OB fold protein NirD,Nickel resistance,Metals,Azotobacter chroococcum NCIMB 8003,NA,NA,NA,NA,NA,NA
+Mnick-g0716_nixA,nixA,Nickel resistance protein,Nickel resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mnick-g0717_nixA,nixA,Nickel resistance protein,Nickel resistance,Metals,Escherichia coli,Mnick-g0718_nreB,100,NA,NA,NA,NA
+Mnick-g0718_nreB,nreB,nickel resistance MFS transporter NreB,Nickel resistance,Metals,Escherichia coli K-12,Mnick-g0717_nixA,100,NA,NA,NA,NA
+Mnick-g0719_nrsA,nrsA,Nickel RND efflux pumps,Nickel resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mnick-g0720_nrsR,nrsR,Nickel resistance regulator,Nickel resistance,Metals,Escherichia coli,Mnick-g0721_nrsS,100,NA,NA,NA,NA
+Mnick-g0721_nrsS,nrsS,Nickel resistance regulator,Nickel resistance,Metals,Escherichia coli K-12,Mnick-g0720_nrsR,100,NA,NA,NA,NA
+Mtell-g0722_actP1,actP1,Tellurium resistance protein,Tellurium resistance,Metals,Escherichia coli,Mtell-g0723_klaB,100,NA,NA,NA,NA
+Mtell-g0723_klaB,klaB,tellurium resistance system protein klaB,Tellurium resistance,Metals,Escherichia coli K-12,Mtell-g0722_actP1,100,NA,NA,NA,NA
+Mtell-g0724_klaC,klaC,tellurium resistance system protein klaC (partial gene),Tellurium resistance,Metals,Escherichia coli str. K-12 substr. W3110,Mtell-g0725_terB,75,NA,NA,NA,NA
+Mtell-g0725_terB,terB,Tellurium resistance protein,Tellurium resistance,Metals,Escherichia coli,Mtell-g0724_klaC,22,NA,NA,NA,NA
+Mtell-g0726_terB,terB,Tellurium resistance protein,Tellurium resistance,Metals,Citrobacter sp. Y3,Mmult-g0643_nccN,100,Mmult-g0642_nccC,84.343,Mmult-g0644_nccY,92.432
+Mtell-g0727_terC,terC,tellurium resistance membrane protein TerC,Tellurium resistance,Metals,Citrobacter sp. Y3,Mmult-g0647_ncrA,100,Mmult-g0646_ncrA,87.546,NA,NA
+Mtell-g0728_terD,terD,tellurium resistance membrane protein TerD,Tellurium resistance,Metals,Citrobacter sp. Y3,Mmult-g0650_ncrB,99,Mmult-g0648_ncrB,91.525,Mmult-g0649_ncrB,83.691
+Mtell-g0729_terE,terE,tellurium resistance cAMP binding protein TerE,Tellurium resistance,Metals,Klebsiella oxytoca,Mmult-g0652_ncrC,75,NA,NA,NA,NA
+Mtell-g0730_terW,terW,tellurium resistance protein TerW,Tellurium resistance,Metals,Helicobacter pylori,Mtell-g0731_terZ,93,NA,NA,NA,NA
+Mtell-g0731_terZ,terZ,Tellurium resistance-associated protein TerZ,Tellurium resistance,Metals,Helicobacter pylori,Mtell-g0730_terW,100,NA,NA,NA,NA
+Mtell-g0732_terZ,terZ,Tellurium resistance-associated protein TerZ,Tellurium resistance,Metals,Acinetobacter pittii PHEA-2,NA,NA,NA,NA,NA,NA
+Mtell-g0733_trgA,trgA,Tellurium resistance protein,Tellurium resistance,Metals,Synechocystis sp. IPPAS B-1465,NA,NA,NA,NA,NA,NA
+Mtung-g0734_tupA,tupA,Tungsten ABC efflux pumps,Tungsten Resistance,Metals,Synechocystis sp. IPPAS B-1465,NA,NA,NA,NA,NA,NA
+Mtung-g0735_tupB,tupB,Tungsten ABC efflux pumps,Tungsten Resistance,Metals,Synechocystis sp. IPPAS B-1465,NA,NA,NA,NA,NA,NA
+Mtung-g0736_tupC,tupC,Tungsten ABC efflux pumps,Tungsten Resistance,Metals,Escherichia coli,MUbio-g0760_actP,100,MUbio-g0762_actR,91.455,NA,NA
+Mzinc-g0737_hns,hns,DNA-binding transcriptional regulator H-NS (mutation linked to zinc resistance),Zinc resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mzinc-g0738_qorB,qorB,NAD(P)H:quinone oxidoreductase QorB (mutation linked to zinc resistance),Zinc resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mzinc-g0739_rpmJ,rpmJ,Knockout causes zinc resistance,Zinc resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mzinc-g0740_topA,topA,Type I DNA topoisomerase,Zinc resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mzinc-g0741_zevA,zevA,Zinc resistance protein,Zinc resistance,Metals,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+Mzinc-g0742_zevB,zevB,Zinc resistance protein,Zinc resistance,Metals,Rhodobacter capsulatus SB 1003,NA,NA,NA,NA,NA,NA
+Mzinc-g0743_ziaA,ziaA,Zinc resistance protein,Zinc resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mzinc-g0744_ziaR,ziaR,Zinc resistance regulator,Zinc resistance,Metals,Escherichia coli,NA,NA,NA,NA,NA,NA
+Mzinc-g0745_zitB,zitB,Zinc resistance protein,Zinc resistance,Metals,Klebsiella michiganensis,NA,NA,NA,NA,NA,NA
+Mzinc-g0746_zneB,zneB,Zinc resistance protein,Zinc resistance,Metals,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+Mzinc-g0747_zntR,zntR,Zinc resistance regulator,Zinc resistance,Metals,Citrobacter sp. Y3,NA,NA,NA,NA,NA,NA
+Mzinc-g0748_znuA,znuA,Zinc resistance protein,Zinc resistance,Metals,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+Mzinc-g0749_znuA,znuA,Zinc resistance protein,Zinc resistance,Metals,Citrobacter sp. Y3,MUdru-g0824_cmeA,100,Mzinc-g0750_znuB,75.229,MUdru-g0823_cmeA,75.311
+Mzinc-g0750_znuB,znuB,Zinc resistance protein,Zinc resistance,Metals,Salmonella enterica subsp. enterica serovar Worthington,MUdru-g0823_cmeA,100,MUdru-g0824_cmeA,75.382,Mzinc-g0749_znuA,75.229
+Mzinc-g0751_znuB,znuB,Zinc resistance protein,Zinc resistance,Metals,Salmonella enterica subsp. enterica serovar Worthington,NA,NA,NA,NA,NA,NA
+Mzinc-g0752_znuC,znuC,Zinc resistance protein,Zinc resistance,Metals,Proteus mirabilis,MUdru-g0823_cmeA,100,Mnick-g0702_hupN,76.744,NA,NA
+Mzinc-g0753_zraP,zraP,Zinc resistance sensor/chaperone ZraP,Zinc resistance,Metals,Cereibacter sphaeroides,Mzinc-g0754_zraP,100,NA,NA,NA,NA
+Mzinc-g0754_zraP,zraP,Zinc resistance sensor/chaperone ZraP,Zinc resistance,Metals,Peptoclostridium acidaminophilum DSM 3953,Mzinc-g0753_zraP,100,NA,NA,NA,NA
+Mzinc-g0755_zraR,zraR,Zinc resistance regulator,Zinc resistance,Metals,Peptoclostridium acidaminophilum DSM 3953,NA,NA,NA,NA,NA,NA
+Mzinc-g0756_zraR,zraR,Zinc resistance regulator,Zinc resistance,Metals,Peptoclostridium acidaminophilum,Mzinc-g0757_zuR,100,NA,NA,NA,NA
+Mzinc-g0757_zuR,zuR,Zinc resistance regulator,Zinc resistance,Metals,Haemophilus influenzae,Mzinc-g0756_zraR,100,NA,NA,NA,NA
+MUbio-g0758_actA,actA,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Haemophilus influenzae,NA,NA,NA,NA,NA,NA
+MUbio-g0759_actA,actA,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Synechocystis sp. CACIAM 05,NA,NA,NA,NA,NA,NA
+MUbio-g0760_actP,actP,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Synechocystis sp. CACIAM 05,MUbio-g0762_actR,79,Mtung-g0736_tupC,92.148,NA,NA
+MUbio-g0761_actP,actP,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Shigella sonnei,NA,NA,NA,NA,NA,NA
+MUbio-g0762_actR,actR,Biocide and metal resistance regulator,Biocide and metal resistance,Multi-compound,Cupriavidus metallidurans,MUbio-g0760_actP,100,Mtung-g0736_tupC,91.455,NA,NA
+MUbio-g0763_actS,actS,Biocide and metal resistance regulator,Biocide and metal resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUbio-g0764_chR,chR,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUbio-g0765_chR,chR,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUbio-g0766_chrB,chrB,Biocide and metal resistance regulator (partial gene),Biocide and metal resistance,Multi-compound,Escherichia coli,MUbio-g0767_cuiD,80,NA,NA,NA,NA
+MUbio-g0767_cuiD,cuiD,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,MUbio-g0766_chrB,98,NA,NA,NA,NA
+MUbio-g0768_cuiD,cuiD,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUbio-g0769_dpR,dpR,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUbio-g0770_dpR,dpR,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUbio-g0771_dpR,dpR,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUbio-g0772_dpR,dpR,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUbio-g0773_dpR,dpR,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Sinorhizobium medicae WSM419,NA,NA,NA,NA,NA,NA
+MUbio-g0774_dpR,dpR,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Sinorhizobium medicae,NA,NA,NA,NA,NA,NA
+MUbio-g0775_dpsA,dpsA,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Sinorhizobium medicae WSM419,NA,NA,NA,NA,NA,NA
+MUbio-g0776_dpsA,dpsA,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Sinorhizobium medicae WSM419,NA,NA,NA,NA,NA,NA
+MUbio-g0777_dpsA,dpsA,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Sinorhizobium medicae,NA,NA,NA,NA,NA,NA
+MUbio-g0778_dpsA,dpsA,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Sinorhizobium medicae,NA,NA,NA,NA,NA,NA
+MUbio-g0779_dpsA,dpsA,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Pseudomonas canadensis,NA,NA,NA,NA,NA,NA
+MUbio-g0780_dpsA,dpsA,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Pseudomonas canadensis,NA,NA,NA,NA,NA,NA
+MUbio-g0781_emrE,emrE,SMR family multidrug efflux protein EmrE,Biocide and metal resistance,Multi-compound,Brucella tritici,NA,NA,NA,NA,NA,NA
+MUbio-g0782_fetA,fetA,Biocide and metal ABC efflux pumps,Biocide and metal resistance,Multi-compound,Salmonella enterica subsp. enterica serovar Typhimurium,NA,NA,NA,NA,NA,NA
+MUbio-g0783_fetB,fetB,Biocide and metal ABC efflux pumps,Biocide and metal resistance,Multi-compound,Salmonella enterica,NA,NA,NA,NA,NA,NA
+MUbio-g0784_fetB,fetB,Biocide and metal ABC efflux pumps,Biocide and metal resistance,Multi-compound,Escherichia coli,MUbio-g0785_frnE,95,NA,NA,NA,NA
+MUbio-g0785_frnE,frnE,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,MUbio-g0784_fetB,100,NA,NA,NA,NA
+MUbio-g0786_glpF,glpF,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,MUbio-g0787_glpF,100,NA,NA,NA,NA
+MUbio-g0787_glpF,glpF,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,MUbio-g0786_glpF,35,NA,NA,NA,NA
+MUbio-g0788_glpF,glpF,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Deinococcus radiodurans,NA,NA,NA,NA,NA,NA
+MUbio-g0789_hmrR,hmrR,Biocide and metal resistance regulator,Biocide and metal resistance,Multi-compound,Escherichia coli HB101,NA,NA,NA,NA,NA,NA
+MUbio-g0790_hmrR,hmrR,Biocide and metal resistance regulator,Biocide and metal resistance,Multi-compound,Shigella sonnei,NA,NA,NA,NA,NA,NA
+MUbio-g0791_ideR,ideR,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli K-12,MUbio-g0792_oscA,100,NA,NA,NA,NA
+MUbio-g0792_oscA,oscA,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Rhizobium leguminosarum bv. viciae,MUbio-g0791_ideR,100,NA,NA,NA,NA
+MUbio-g0793_ruvB,ruvB,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Sinorhizobium medicae WSM419,MUbio-g0794_ruvB,90,NA,NA,NA,NA
+MUbio-g0794_ruvB,ruvB,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Mycobacterium tuberculosis,MUbio-g0793_ruvB,100,NA,NA,NA,NA
+MUbio-g0795_ruvB,ruvB,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Pseudomonas rhizophila,MUbio-g0796_sitA,100,NA,NA,NA,NA
+MUbio-g0796_sitA,sitA,Biocide and metal ABC efflux pumps,Biocide and metal resistance,Multi-compound,Pseudomonas aeruginosa,MUbio-g0795_ruvB,100,NA,NA,NA,NA
+MUbio-g0797_sitA,sitA,Biocide and metal ABC efflux pumps,Biocide and metal resistance,Multi-compound,Pseudomonas aeruginosa PAO1,NA,NA,NA,NA,NA,NA
+MUbio-g0798_sitABCD,sitABCD,Biocide and metal ABC efflux pumps,Biocide and metal resistance,Multi-compound,Salmonella enterica subsp. enterica serovar Typhi,NA,NA,NA,NA,NA,NA
+MUbio-g0799_sitB,sitB,Biocide and metal ABC efflux pumps,Biocide and metal resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUbio-g0800_sitC,sitC,Biocide and metal ABC efflux pumps,Biocide and metal resistance,Multi-compound,Salmonella enterica subsp. enterica serovar Goldcoast,NA,NA,NA,NA,NA,NA
+MUbio-g0801_sitD,sitD,Biocide and metal ABC efflux pumps,Biocide and metal resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUbio-g0802_sitD,sitD,Biocide and metal ABC efflux pumps,Biocide and metal resistance,Multi-compound,Salmonella enterica,NA,NA,NA,NA,NA,NA
+MUbio-g0803_sitD,sitD,Biocide and metal ABC efflux pumps,Biocide and metal resistance,Multi-compound,Escherichia coli O55:H7,MUbio-g0804_tehA,100,Mcopp-g0399_crdA,79.389,NA,NA
+MUbio-g0804_tehA,tehA,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Salmonella enterica,MUbio-g0803_sitD,100,Mcopp-g0399_crdA,79.407,NA,NA
+MUbio-g0805_tehB,tehB,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUbio-g0806_ychH,ychH,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Salmonella enterica subsp. enterica serovar Goldcoast,MUbio-g0807_yhcN,6,NA,NA,NA,NA
+MUbio-g0807_yhcN,yhcN,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,MUbio-g0808_yhcN,97,MUbio-g0806_ychH,100,NA,NA
+MUbio-g0808_yhcN,yhcN,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,MUbio-g0807_yhcN,100,NA,NA,NA,NA
+MUbio-g0809_yieF,yieF,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Shigella sonnei,NA,NA,NA,NA,NA,NA
+MUbio-g0810_yjaA,yjaA,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,MUbio-g0811_yodB,100,MUbio-g0812_zupT,99.291,NA,NA
+MUbio-g0811_yodB,yodB,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,MUbio-g0812_zupT,100,MUbio-g0810_yjaA,99.409,NA,NA
+MUbio-g0812_zupT,zupT,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,MUbio-g0811_yodB,100,MUbio-g0810_yjaA,99.291,NA,NA
+MUbio-g0813_zupT,zupT,Biocide and metal resistance protein,Biocide and metal resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUcad-g0814_ygiW,ygiW,Biocide and metal resistance protein,"Cadmium (Cd), Tributyltin (TBT) [class: Organo-tin], Hydrogen Peroxide (H2O2) [class: Peroxides]",Multi-compound,Shigella sonnei,NA,NA,NA,NA,NA,NA
+MUcad-g0815_ygiW,ygiW,Biocide and metal resistance protein,"Cadmium (Cd), Tributyltin (TBT) [class: Organo-tin], Hydrogen Peroxide (H2O2) [class: Peroxides]",Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUcad-g0816_ygiW,ygiW,Biocide and metal resistance protein,"Cadmium (Cd), Tributyltin (TBT) [class: Organo-tin], Hydrogen Peroxide (H2O2) [class: Peroxides]",Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUdru-g0817_acrD,acrD,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Pseudomonas aeruginosa,MUdru-g0818_acrD,100,NA,NA,NA,NA
+MUdru-g0818_acrD,acrD,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Escherichia coli,MUdru-g0817_acrD,100,NA,NA,NA,NA
+MUdru-g0819_acrD,acrD,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Shewanella oneidensis MR-1,NA,NA,NA,NA,NA,NA
+MUdru-g0820_acrD,acrD,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Salmonella enterica subsp. enterica serovar Typhimurium,MUdru-g0822_baeR,100,NA,NA,NA,NA
+MUdru-g0821_baeR,baeR,Drug and biocide and metal RND efflux regulator,Drug and biocide and metal resistance,Multi-compound,Escherichia coli,MUdru-g0823_cmeA,100,NA,NA,NA,NA
+MUdru-g0822_baeR,baeR,Drug and biocide and metal RND efflux regulator,Drug and biocide and metal resistance,Multi-compound,Escherichia coli,MUdru-g0820_acrD,100,NA,NA,NA,NA
+MUdru-g0823_cmeA,cmeA,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Escherichia coli,MUdru-g0821_baeR,26,Mzinc-g0752_znuC,99.767,MUdru-g0827_cmeC,99.65
+MUdru-g0824_cmeA,cmeA,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Salmonella enterica,Mzinc-g0749_znuA,100,Mzinc-g0750_znuB,75.382,MUdru-g0823_cmeA,75.466
+MUdru-g0825_cmeB,cmeB,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUdru-g0826_cmeB,cmeB,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter jejuni subsp. jejuni,MUdru-g0828_cmeC,100,NA,NA,NA,NA
+MUdru-g0827_cmeC,cmeC,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter jejuni subsp. doylei,MUdru-g0823_cmeA,100,NA,NA,NA,NA
+MUdru-g0828_cmeC,cmeC,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter jejuni,MUdru-g0826_cmeB,100,NA,NA,NA,NA
+MUdru-g0829_cmeD,cmeD,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter jejuni subsp. doylei,NA,NA,NA,NA,NA,NA
+MUdru-g0830_cmeE,cmeE,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter jejuni subsp. jejuni 81-176,NA,NA,NA,NA,NA,NA
+MUdru-g0831_cmeF,cmeF,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter jejuni subsp. jejuni,NA,NA,NA,NA,NA,NA
+MUdru-g0832_cmeR,cmeR,Drug and biocide and metal RND efflux regulator,Drug and biocide and metal resistance,Multi-compound,Campylobacter jejuni,MUdru-g0833_cmeR,84,NA,NA,NA,NA
+MUdru-g0833_cmeR,cmeR,Drug and biocide and metal RND efflux regulator,Drug and biocide and metal resistance,Multi-compound,Campylobacter jejuni,MUdru-g0832_cmeR,100,NA,NA,NA,NA
+MUdru-g0834_gesC,gesC,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter jejuni,NA,NA,NA,NA,NA,NA
+MUdru-g0835_mdrL,mdrL,Drug and biocide and metal MFS efflux pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter jejuni,NA,NA,NA,NA,NA,NA
+MUdru-g0836_mdrL,mdrL,Drug and biocide and metal MFS efflux pumps,Drug and biocide and metal resistance,Multi-compound,Campylobacter jejuni,NA,NA,NA,NA,NA,NA
+MUdru-g0837_mdrL,mdrL,Drug and biocide and metal MFS efflux pumps,Drug and biocide and metal resistance,Multi-compound,Salmonella enterica,MUdru-g0838_mdtA,97,NA,NA,NA,NA
+MUdru-g0838_mdtA,mdtA,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Listeria monocytogenes EGD-e,MUdru-g0837_mdrL,100,NA,NA,NA,NA
+MUdru-g0839_mdtA,mdtA,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+MUdru-g0840_mdtA,mdtA,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+MUdru-g0841_mdtB,mdtB,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Salmonella enterica,NA,NA,NA,NA,NA,NA
+MUdru-g0842_mdtB,mdtB,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Streptococcus parasuis,MUdru-g0845_robA,100,MUdru-g0844_mdtC,81.751,MUdru-g0843_mdtC,81.428
+MUdru-g0843_mdtC,mdtC,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Escherichia coli,MUdru-g0845_robA,100,MUdru-g0844_mdtC,99.487,MUdru-g0842_mdtB,81.428
+MUdru-g0844_mdtC,mdtC,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Escherichia coli,MUdru-g0845_robA,100,MUdru-g0843_mdtC,99.487,MUdru-g0842_mdtB,81.751
+MUdru-g0845_robA,robA,Drug and biocide and metal RND efflux pumps,Drug and biocide and metal resistance,Multi-compound,Salmonella enterica,MUdru-g0844_mdtC,100,MUdru-g0843_mdtC,99.519,MUdru-g0842_mdtB,81.783
+MUdru-g0846_soxS,soxS,Drug and biocide and metal resistance regulator,Drug and biocide and metal resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUdru-g0847_soxS,soxS,Drug and biocide and metal resistance regulator,Drug and biocide and metal resistance,Multi-compound,Salmonella enterica,NA,NA,NA,NA,NA,NA
+MUdru-g0848_ykkC,ykkC,Drug and biocide and metal SMR efflux pump,Drug and biocide and metal resistance,Multi-compound,Escherichia coli,MUdru-g0849_ykkC,100,NA,NA,NA,NA
+MUdru-g0849_ykkC,ykkC,Drug and biocide and metal SMR efflux pump,Drug and biocide and metal resistance,Multi-compound,Escherichia coli,MUdru-g0848_ykkC,100,NA,NA,NA,NA
+MUdru-g0850_abeM,abeM,Drug and biocide MATE efflux pumps,Drug and biocide resistance,Multi-compound,Salmonella enterica,MUdru-g0851_abeM,100,NA,NA,NA,NA
+MUdru-g0851_abeM,abeM,Drug and biocide MATE efflux pumps,Drug and biocide resistance,Multi-compound,Bacillus subtilis subsp. subtilis str. 168,MUdru-g0850_abeM,100,NA,NA,NA,NA
+MUdru-g0852_abeS,abeS,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Bacillus subtilis subsp. subtilis str. 168,MUdru-g0853_abeS,100,NA,NA,NA,NA
+MUdru-g0853_abeS,abeS,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0852_abeS,100,NA,NA,NA,NA
+MUdru-g0854_abeS,abeS,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,NA,NA,NA,NA,NA,NA
+MUdru-g0855_abeS,abeS,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,NA,NA,NA,NA,NA,NA
+MUdru-g0856_abeS,abeS,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0857_abeS,100,NA,NA,NA,NA
+MUdru-g0857_abeS,abeS,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0856_abeS,100,NA,NA,NA,NA
+MUdru-g0858_acrA,acrA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,NA,NA,NA,NA,NA,NA
+MUdru-g0859_acrA,acrA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0861_acrB,100,MUdru-g0860_acrB,99.581,NA,NA
+MUdru-g0860_acrB,acrB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0859_acrA,100,MUdru-g0861_acrB,99.497,NA,NA
+MUdru-g0861_acrB,acrB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0859_acrA,100,MUdru-g0860_acrB,99.497,NA,NA
+MUdru-g0862_acrB,acrB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+MUdru-g0863_acrC,acrC,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUdru-g0864_acrE,acrE,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Enterobacter cloacae,NA,NA,NA,NA,NA,NA
+MUdru-g0865_acrF,acrF,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150,NA,NA,NA,NA,NA,NA
+MUdru-g0866_acrR,acrR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Cupriavidus metallidurans,NA,NA,NA,NA,NA,NA
+MUdru-g0867_acrR,acrR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0868_acrR,99,NA,NA,NA,NA
+MUdru-g0868_acrR,acrR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0867_acrR,99,NA,NA,NA,NA
+MUdru-g0869_acrR,acrR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUdru-g0870_acrR,acrR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Listeria monocytogenes,NA,NA,NA,NA,NA,NA
+MUdru-g0871_acrS,acrS,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Klebsiella aerogenes,NA,NA,NA,NA,NA,NA
+MUdru-g0872_adeA,adeA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+MUdru-g0873_adeB,adeB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+MUdru-g0874_adeF,adeF,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0875_adeF,100,NA,NA,NA,NA
+MUdru-g0875_adeF,adeF,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0874_adeF,100,NA,NA,NA,NA
+MUdru-g0876_adeG,adeG,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0881_adeI,100,MUdru-g0882_adeI,99.388,MUdru-g0880_adeI,98.471
+MUdru-g0877_adeH,adeH,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0880_adeI,100,MUdru-g0882_adeI,98.485,MUdru-g0879_adeI,98.182
+MUdru-g0878_adeI,adeI,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0880_adeI,100,MUdru-g0882_adeI,98.485,MUdru-g0879_adeI,98.182
+MUdru-g0879_adeI,adeI,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0882_adeI,100,MUdru-g0880_adeI,98.788,MUdru-g0881_adeI,98.485
+MUdru-g0880_adeI,adeI,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0877_adeH,100,MUdru-g0882_adeI,99.091,MUdru-g0879_adeI,98.788
+MUdru-g0881_adeI,adeI,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0876_adeG,99,MUdru-g0882_adeI,99.394,MUdru-g0880_adeI,98.485
+MUdru-g0882_adeI,adeI,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0881_adeI,100,MUdru-g0880_adeI,99.091,MUdru-g0879_adeI,99.091
+MUdru-g0883_adeI,adeI,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0884_adeJ,97,MUdru-g1110_vceR,74.045,NA,NA
+MUdru-g0884_adeJ,adeJ,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0886_adeK,100,MUdru-g0883_adeI,78.578,NA,NA
+MUdru-g0885_adeK,adeK,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0887_adeK,99,MUdru-g0890_adeK,73.684,Bmult-g0088_vmeE,74.033
+MUdru-g0886_adeK,adeK,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0884_adeJ,100,NA,NA,NA,NA
+MUdru-g0887_adeK,adeK,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0885_adeK,99,MUdru-g0890_adeK,73.423,MUdru-g1007_mexR,75.86
+MUdru-g0888_adeK,adeK,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,NA,NA,NA,NA,NA,NA
+MUdru-g0889_adeK,adeK,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,NA,NA,NA,NA,NA,NA
+MUdru-g0890_adeK,adeK,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0885_adeK,99,MUdru-g0887_adeK,73.414,NA,NA
+MUdru-g0891_adeL,adeL,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,NA,NA,NA,NA,NA,NA
+MUdru-g0892_adeL,adeL,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,NA,NA,NA,NA,NA,NA
+MUdru-g0893_adeN,adeN,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0894_adeN,96,MUdru-g0895_adeR,77.548,NA,NA
+MUdru-g0894_adeN,adeN,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii ATCC 17978,MUdru-g0895_adeR,100,MUdru-g0893_adeN,78.185,NA,NA
+MUdru-g0895_adeR,adeR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0894_adeN,100,MUdru-g0893_adeN,77.548,NA,NA
+MUdru-g0896_adeS,adeS,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,NA,NA,NA,NA,NA,NA
+MUdru-g0897_adet1,adet1,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,NA,NA,NA,NA,NA,NA
+MUdru-g0898_adet2,adet2,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,NA,NA,NA,NA,NA,NA
+MUdru-g0899_amrA,amrA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g0900_amrB,100,MUdru-g1012_mexY,97.625,NA,NA
+MUdru-g0900_amrB,amrB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii ATCC 17978,MUdru-g0899_amrA,100,MUdru-g1012_mexY,97.625,NA,NA
+MUdru-g0901_armR,armR,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii ATCC 17978,NA,NA,NA,NA,NA,NA
+MUdru-g0902_axyY,axyY,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Burkholderia pseudomallei,NA,NA,NA,NA,NA,NA
+MUdru-g0903_axyY,axyY,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Burkholderia pseudomallei,MUdru-g0905_bcr,100,MUdru-g0908_bcr1,99.68,MUdru-g0907_bcr,99.68
+MUdru-g0904_axyZ,axyZ,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,MUdru-g0906_bcr,100,MUdru-g0908_bcr1,99.6,MUdru-g0907_bcr,99.6
+MUdru-g0905_bcr,bcr,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Achromobacter xylosoxidans,MUdru-g0907_bcr,100,MUdru-g0903_axyY,99.76,MUdru-g0906_bcr,99.68
+MUdru-g0906_bcr,bcr,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Achromobacter xylosoxidans,MUdru-g0904_axyZ,100,MUdru-g0908_bcr1,99.76,MUdru-g0907_bcr,99.76
+MUdru-g0907_bcr,bcr,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Achromobacter xylosoxidans,MUdru-g0906_bcr,100,MUdru-g0905_bcr,99.76,MUdru-g0908_bcr1,99.68
+MUdru-g0908_bcr1,bcr1,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0906_bcr,100,MUdru-g0907_bcr,99.68,MUdru-g0903_axyY,99.68
+MUdru-g0909_bcrC,bcrC,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUdru-g0910_bcrC,bcrC,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0914_bmR,100,MUdru-g0913_bmR,98.969,MUdru-g0911_blT,98.9
+MUdru-g0911_blT,blT,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,MUdru-g0913_bmR,100,MUdru-g0912_blT,98.9,MUdru-g0910_bcrC,98.9
+MUdru-g0912_blT,blT,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Listeria monocytogenes,MUdru-g0913_bmR,100,MUdru-g0911_blT,98.9,MUdru-g0914_bmR,98.763
+MUdru-g0913_bmR,bmR,Drug and biocide MFS efflux regulator,Drug and biocide resistance,Multi-compound,Listeria monocytogenes,MUdru-g0912_blT,100,MUdru-g0911_blT,98.969,MUdru-g0910_bcrC,98.969
+MUdru-g0914_bmR,bmR,Drug and biocide MFS efflux regulator,Drug and biocide resistance,Multi-compound,Bacillus subtilis subsp. subtilis str. 168,MUdru-g0910_bcrC,100,MUdru-g0912_blT,98.763,MUdru-g0913_bmR,98.694
+MUdru-g0915_cdeA,cdeA,Drug and biocide MATE efflux pumps,Drug and biocide resistance,Multi-compound,Bacillus subtilis subsp. subtilis str. 168,MUdru-g0916_cdeA,100,NA,NA,NA,NA
+MUdru-g0916_cdeA,cdeA,Drug and biocide MATE efflux pumps,Drug and biocide resistance,Multi-compound,Bacillus subtilis subsp. subtilis str. 168,MUdru-g0915_cdeA,100,NA,NA,NA,NA
+MUdru-g0917_ceoA,ceoA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Bacillus subtilis subsp. subtilis str. 168,MUdru-g0918_ceoB,100,NA,NA,NA,NA
+MUdru-g0918_ceoB,ceoB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Clostridioides difficile,MUdru-g0917_ceoA,100,NA,NA,NA,NA
+MUdru-g0919_cpxA-cpxR,cpxA-cpxR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Clostridioides difficile,NA,NA,NA,NA,NA,NA
+MUdru-g0920_cpxA-cpxR,cpxA-cpxR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Burkholderia cepacia,NA,NA,NA,NA,NA,NA
+MUdru-g0921_cpxA-cpxR,cpxA-cpxR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Burkholderia cepacia,NA,NA,NA,NA,NA,NA
+MUdru-g0922_cpxA-cpxR,cpxA-cpxR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+MUdru-g0923_cpxA-cpxR,cpxA-cpxR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+MUdru-g0924_cpxA-cpxR,cpxA-cpxR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,MUdru-g0926_cpxA-cpxR,98,MUdru-g1035_oqxA,76.055,MUdru-g1034_oqxA,75.814
+MUdru-g0925_cpxA-cpxR,cpxA-cpxR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Shigella dysenteriae,NA,NA,NA,NA,NA,NA
+MUdru-g0926_cpxA-cpxR,cpxA-cpxR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Escherichia coli O55:H7,MUdru-g1035_oqxA,97,MUdru-g1034_oqxA,78.907,MUdru-g0924_cpxA-cpxR,76.803
+MUdru-g0927_crP,crP,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Escherichia coli O55:H7,NA,NA,NA,NA,NA,NA
+MUdru-g0928_efmA,efmA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUdru-g0929_efpA,efpA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Shigella sonnei,MUdru-g0930_efrA,100,MUdru-g0931_efrA,99.735,NA,NA
+MUdru-g0930_efrA,efrA,Drug and biocide ABC efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0929_efpA,95,MUdru-g0931_efrA,99.735,NA,NA
+MUdru-g0931_efrA,efrA,Drug and biocide ABC efflux pumps,Drug and biocide resistance,Multi-compound,Enterococcus faecium,MUdru-g0930_efrA,100,MUdru-g0929_efpA,99.735,NA,NA
+MUdru-g0932_efrB,efrB,Drug and biocide ABC efflux pumps,Drug and biocide resistance,Multi-compound,Mycobacterium tuberculosis,NA,NA,NA,NA,NA,NA
+MUdru-g0933_emrA,emrA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Enterococcus faecalis,NA,NA,NA,NA,NA,NA
+MUdru-g0934_emrB,emrB,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli str. K-12 substr. W3110,NA,NA,NA,NA,NA,NA
+MUdru-g0935_emrD,emrD,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0937_emrK,100,NA,NA,NA,NA
+MUdru-g0936_emrK,emrK,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli str. K-12 substr. W3110,NA,NA,NA,NA,NA,NA
+MUdru-g0937_emrK,emrK,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0935_emrD,100,NA,NA,NA,NA
+MUdru-g0938_emrR,emrR,Drug and biocide MFS efflux regulator,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0939_emrR,100,NA,NA,NA,NA
+MUdru-g0939_emrR,emrR,Drug and biocide MFS efflux regulator,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0938_emrR,100,NA,NA,NA,NA
+MUdru-g0940_emrRsm,emrRsm,Drug and biocide MFS efflux regulator,Drug and biocide resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUdru-g0941_emrY,emrY,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Shigella sonnei,MUdru-g1014_mexZ,49,MUdru-g1022_norA,72.984,MUdru-g0924_cpxA-cpxR,73.166
+MUdru-g0942_evgS,evgS,Drug and biocide MFS efflux regulator,Drug and biocide resistance,Multi-compound,Stenotrophomonas maltophilia,MUdru-g0948_fexA,100,MUdru-g0944_evgS,84.549,MUdru-g0946_farA,84.406
+MUdru-g0943_evgS,evgS,Drug and biocide MFS efflux regulator,Drug and biocide resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUdru-g0944_evgS,evgS,Drug and biocide MFS efflux regulator,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0946_farA,100,MUdru-g0948_fexA,99.428,MUdru-g0942_evgS,84.549
+MUdru-g0945_farA,farA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli O157:H7,MUdru-g0947_farR,100,NA,NA,NA,NA
+MUdru-g0946_farA,farA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli O157:H7,MUdru-g0944_evgS,100,MUdru-g0948_fexA,99.428,MUdru-g0942_evgS,84.406
+MUdru-g0947_farR,farR,Drug and biocide MFS efflux regulator,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0945_farA,100,NA,NA,NA,NA
+MUdru-g0948_fexA,fexA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Neisseria gonorrhoeae,MUdru-g0946_farA,100,MUdru-g0944_evgS,99.428,MUdru-g0942_evgS,84.549
+MUdru-g0949_fexA,fexA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Neisseria meningitidis,NA,NA,NA,NA,NA,NA
+MUdru-g0950_fexA,fexA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Neisseria meningitidis,NA,NA,NA,NA,NA,NA
+MUdru-g0951_fexA,fexA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Staphylococcus warneri,NA,NA,NA,NA,NA,NA
+MUdru-g0952_gadW,gadW,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Staphylococcus simulans,MUdru-g0953_gadW,99,NA,NA,NA,NA
+MUdru-g0953_gadW,gadW,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Hafnia alvei,MUdru-g0952_gadW,83,NA,NA,NA,NA
+MUdru-g0954_gadX,gadX,Drug and biocide RND efflux regulator (partial gene),Drug and biocide resistance,Multi-compound,Staphylococcus aureus,NA,NA,NA,NA,NA,NA
+MUdru-g0955_kmrA,kmrA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0956_kpN,100,NA,NA,NA,NA
+MUdru-g0956_kpN,kpN,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0955_kmrA,100,NA,NA,NA,NA
+MUdru-g0957_kpN,kpN,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0958_kpnE,100,MUdru-g0982_mepA,99.675,NA,NA
+MUdru-g0958_kpnE,kpnE,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g0982_mepA,100,MUdru-g0957_kpN,99.74,NA,NA
+MUdru-g0959_kpnF,kpnF,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+MUdru-g0960_kpnO,kpnO,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0961_marA,91,NA,NA,NA,NA
+MUdru-g0961_marA,marA,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g0960_kpnO,100,NA,NA,NA,NA
+MUdru-g0962_marA,marA,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+MUdru-g0963_marR,marR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+MUdru-g0964_mdE,mdE,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUdru-g0965_mdfA,mdfA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0966_mdfA,100,NA,NA,NA,NA
+MUdru-g0966_mdfA,mdfA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0965_mdfA,100,NA,NA,NA,NA
+MUdru-g0967_mdfA,mdfA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Streptococcus mutans,MUdru-g0968_mdfA,100,MUdru-g0969_mdtE,96.939,NA,NA
+MUdru-g0968_mdfA,mdfA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli K-12,MUdru-g0967_mdfA,100,MUdru-g0969_mdtE,96.967,NA,NA
+MUdru-g0969_mdtE,mdtE,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0968_mdfA,100,MUdru-g0967_mdfA,96.939,NA,NA
+MUdru-g0970_mdtF,mdtF,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli HB101,MUdru-g0971_mdtG,97,NA,NA,NA,NA
+MUdru-g0971_mdtG,mdtG,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0970_mdtF,100,NA,NA,NA,NA
+MUdru-g0972_mdtG,mdtG,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUdru-g0973_mdtH,mdtH,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0976_mdtK,100,MUdru-g0975_mdtK,99.86,MUdru-g0974_mdtJ,99.79
+MUdru-g0974_mdtJ,mdtJ,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0975_mdtK,100,MUdru-g0976_mdtK,99.86,MUdru-g0973_mdtH,99.79
+MUdru-g0975_mdtK,mdtK,Drug and biocide MATE efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0976_mdtK,100,MUdru-g0974_mdtJ,99.93,MUdru-g0973_mdtH,99.86
+MUdru-g0976_mdtK,mdtK,Drug and biocide MATE efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0975_mdtK,99,MUdru-g0973_mdtH,99.93,MUdru-g0974_mdtJ,99.86
+MUdru-g0977_mdtK,mdtK,Drug and biocide MATE efflux pumps,Drug and biocide resistance,Multi-compound,Shigella sonnei,MUdru-g0978_mdtM,100,NA,NA,NA,NA
+MUdru-g0978_mdtM,mdtM,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli str. K-12 substr. MG1655,MUdru-g0977_mdtK,100,NA,NA,NA,NA
+MUdru-g0979_mdtN,mdtN,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUdru-g0980_mdtO,mdtO,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Salmonella enterica subsp. enterica serovar Typhimurium,NA,NA,NA,NA,NA,NA
+MUdru-g0981_mdtP,mdtP,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli B,NA,NA,NA,NA,NA,NA
+MUdru-g0982_mepA,mepA,Drug and biocide MATE efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g0958_kpnE,100,MUdru-g0957_kpN,99.675,NA,NA
+MUdru-g0983_mepR,mepR,Drug and biocide MATE efflux regulator,Drug and biocide resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUdru-g0984_mexA,mexA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUdru-g0985_mexB,mexB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Staphylococcus aureus,NA,NA,NA,NA,NA,NA
+MUdru-g0986_mexC,mexC,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+MUdru-g0987_mexC,mexC,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,MUdru-g0988_mexD,100,MUdru-g0989_mexD1,99.595,MUdru-g0990_mexE,98.058
+MUdru-g0988_mexD,mexD,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,MUdru-g0989_mexD1,100,MUdru-g0987_mexC,99.676,MUdru-g0990_mexE,98.378
+MUdru-g0989_mexD1,mexD1,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,MUdru-g0988_mexD,100,MUdru-g0987_mexC,99.595,MUdru-g0990_mexE,98.459
+MUdru-g0990_mexE,mexE,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,MUdru-g0989_mexD1,100,MUdru-g0988_mexD,98.378,MUdru-g0987_mexC,98.058
+MUdru-g0991_mexF,mexF,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+MUdru-g0992_mexF,mexF,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1007_mexR,15,MUdru-g1121_yajC,74.79,MUdru-g1115_vexC,74.79
+MUdru-g0993_mexG,mexG,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii SDF,MUdru-g0994_mexH,100,NA,NA,NA,NA
+MUdru-g0994_mexH,mexH,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas protegens,MUdru-g0993_mexG,100,NA,NA,NA,NA
+MUdru-g0995_mexI,mexI,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+MUdru-g0996_mexJ,mexJ,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+MUdru-g0997_mexK,mexK,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,MUdru-g0998_mexL,100,NA,NA,NA,NA
+MUdru-g0998_mexL,mexL,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,MUdru-g0997_mexK,100,NA,NA,NA,NA
+MUdru-g0999_mexN,mexN,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+MUdru-g1000_mexN,mexN,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+MUdru-g1001_mexQ,mexQ,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+MUdru-g1002_mexQ,mexQ,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+MUdru-g1003_mexQ,mexQ,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+MUdru-g1004_mexR,mexR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+MUdru-g1005_mexR,mexR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+MUdru-g1006_mexR,mexR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+MUdru-g1007_mexR,mexR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,MUman-g1128_sitB,98,Bpoly-g0138_srpB,80.353,MUdru-g0887_adeK,75.877
+MUdru-g1008_mexS,mexS,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,MUdru-g1009_mexT,100,NA,NA,NA,NA
+MUdru-g1009_mexT,mexT,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,MUdru-g1008_mexS,100,NA,NA,NA,NA
+MUdru-g1010_mexT,mexT,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,MUdru-g1011_mexT,98,MUdru-g1035_oqxA,78.549,MUdru-g1035_oqxA,76.49
+MUdru-g1011_mexT,mexT,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa PAK,MUdru-g1010_mexT,98,MUdru-g0926_cpxA-cpxR,77.723,MUdru-g1121_yajC,81.586
+MUdru-g1012_mexY,mexY,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa PAO1,MUdru-g0900_amrB,100,MUdru-g0899_amrA,97.625,NA,NA
+MUdru-g1013_mexY,mexY,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa PAO1,MUdru-g1014_mexZ,99,MUdru-g1022_norA,73.258,MUdru-g1076_pmrA,72.132
+MUdru-g1014_mexZ,mexZ,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Acinetobacter baumannii,MUdru-g1013_mexY,99,MUdru-g0941_emrY,74.688,MUdru-g1022_norA,74.081
+MUdru-g1015_mmR,mmR,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa PAO1,NA,NA,NA,NA,NA,NA
+MUdru-g1016_mtrA,mtrA,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+MUdru-g1017_mtrC,mtrC,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,Bmult-g0045_oprM,16,MUdru-g1014_mexZ,75.362,MUdru-g1007_mexR,85.714
+MUdru-g1018_mtrD,mtrD,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Mycobacterium tuberculosis,NA,NA,NA,NA,NA,NA
+MUdru-g1019_mtrD,mtrD,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Neisseria gonorrhoeae,NA,NA,NA,NA,NA,NA
+MUdru-g1020_mtrE,mtrE,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Neisseria gonorrhoeae,NA,NA,NA,NA,NA,NA
+MUdru-g1021_mtrR,mtrR,Drug and biocide MFS efflux regulator,Drug and biocide resistance,Multi-compound,Neisseria meningitidis,NA,NA,NA,NA,NA,NA
+MUdru-g1022_norA,norA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Neisseria gonorrhoeae,MUdru-g1014_mexZ,46,MUdru-g1013_mexY,73.258,MUdru-g0941_emrY,72.946
+MUdru-g1023_norA,norA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Neisseria gonorrhoeae,NA,NA,NA,NA,NA,NA
+MUdru-g1024_norB,norB,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Staphylococcus aureus,MUdru-g1026_oprN,100,MUdru-g1025_norC,99.321,MUdru-g1027_oprN,98.416
+MUdru-g1025_norC,norC,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Staphylococcus epidermidis,MUdru-g1026_oprN,100,MUdru-g1024_norB,99.321,MUdru-g1027_oprN,98.643
+MUdru-g1026_oprN,oprN,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Staphylococcus aureus,MUdru-g1025_norC,100,MUdru-g1024_norB,99.548,MUdru-g1027_oprN,98.869
+MUdru-g1027_oprN,oprN,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Staphylococcus aureus,MUdru-g1029_oqxA,100,MUdru-g1028_oprZ,99.324,MUdru-g1026_oprN,98.869
+MUdru-g1028_oprZ,oprZ,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Staphylococcus aureus,MUdru-g1027_oprN,100,MUdru-g1029_oqxA,99.099,MUdru-g1026_oprN,98.643
+MUdru-g1029_oqxA,oqxA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa PAO1,MUdru-g1027_oprN,100,MUdru-g1028_oprZ,99.099,MUdru-g1026_oprN,98.643
+MUdru-g1030_oqxA,oqxA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,NA,NA,NA,NA,NA,NA
+MUdru-g1031_oqxA,oqxA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Achromobacter xylosoxidans,MUdru-g1032_oqxA,100,NA,NA,NA,NA
+MUdru-g1032_oqxA,oqxA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Salmonella enterica subsp. enterica serovar Enteritidis,MUdru-g1031_oqxA,88,NA,NA,NA,NA
+MUdru-g1033_oqxA,oqxA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+MUdru-g1034_oqxA,oqxA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1035_oqxA,100,MUdru-g0926_cpxA-cpxR,78.893,MUdru-g0924_cpxA-cpxR,75.806
+MUdru-g1035_oqxA,oqxA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1034_oqxA,100,MUdru-g0926_cpxA-cpxR,79.241,MUdru-g0924_cpxA-cpxR,76.063
+MUdru-g1036_oqxA,oqxA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+MUdru-g1037_oqxA,oqxA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+MUdru-g1038_oqxA,oqxA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+MUdru-g1039_oqxA,oqxA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+MUdru-g1040_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1041_oqxB,100,MUdru-g0926_cpxA-cpxR,83.505,NA,NA
+MUdru-g1041_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1040_oqxB,100,MUdru-g0926_cpxA-cpxR,83.505,NA,NA
+MUdru-g1042_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1043_oqxB,100,NA,NA,NA,NA
+MUdru-g1043_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1042_oqxB,100,NA,NA,NA,NA
+MUdru-g1044_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+MUdru-g1045_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1046_oqxB,100,MUdru-g1048_oqxB,87.526,NA,NA
+MUdru-g1046_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1048_oqxB,99,MUdru-g1045_oqxB,99.585,NA,NA
+MUdru-g1047_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUdru-g1048_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1046_oqxB,99,MUdru-g1045_oqxB,87.526,NA,NA
+MUdru-g1049_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUdru-g1050_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,NA,NA,NA,NA,NA,NA
+MUdru-g1051_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1052_oqxB,100,NA,NA,NA,NA
+MUdru-g1052_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella variicola,MUdru-g1051_oqxB,100,NA,NA,NA,NA
+MUdru-g1053_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella variicola,NA,NA,NA,NA,NA,NA
+MUdru-g1054_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1057_oqxB,100,MUdru-g1061_oqxB,99.405,MUdru-g1060_oqxB,99.405
+MUdru-g1055_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1060_oqxB,100,MUdru-g1063_oqxB,99.575,MUdru-g1064_oqxB,99.49
+MUdru-g1056_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1063_oqxB,100,MUdru-g1060_oqxB,99.575,MUdru-g1064_oqxB,99.49
+MUdru-g1057_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1056_oqxB,100,MUdru-g1054_oqxB,99.49,MUdru-g1063_oqxB,99.405
+MUdru-g1058_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1059_oqxB,100,MUdru-g1061_oqxB,99.49,MUdru-g1056_oqxB,99.405
+MUdru-g1059_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1058_oqxB,100,MUdru-g1061_oqxB,99.575,MUdru-g1056_oqxB,99.49
+MUdru-g1060_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1055_oqxB,100,MUdru-g1063_oqxB,99.66,MUdru-g1064_oqxB,99.575
+MUdru-g1061_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Salmonella enterica subsp. enterica serovar Typhimurium,MUdru-g1059_oqxB,100,MUdru-g1060_oqxB,99.49,MUdru-g1058_oqxB,99.49
+MUdru-g1062_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g1064_oqxB,100,MUdru-g1059_oqxB,99.405,MUdru-g1056_oqxB,99.405
+MUdru-g1063_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1064_oqxB,100,MUdru-g1060_oqxB,99.66,MUdru-g1056_oqxB,99.575
+MUdru-g1064_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1063_oqxB,100,MUdru-g1060_oqxB,99.575,MUdru-g1056_oqxB,99.49
+MUdru-g1065_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1075_pmpM,100,MUdru-g1074_phoR,99.112,MUdru-g1086_sdrM,99.049
+MUdru-g1066_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1077_pmrA,100,MUdru-g1067_oqxB,99.968,MUdru-g1088_sepA,99.334
+MUdru-g1067_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1066_oqxB,100,MUdru-g1077_pmrA,99.937,MUdru-g1088_sepA,99.302
+MUdru-g1068_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1081_qacE,100,MUdru-g1078_pmrA,99.493,MUdru-g1091_smE,99.334
+MUdru-g1069_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1095_smE,100,MUdru-g1070_oqxB,99.493,MUdru-g1071_oqxB,99.461
+MUdru-g1070_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1095_smE,100,MUdru-g1071_oqxB,99.841,MUdru-g1090_smE,99.556
+MUdru-g1071_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1095_smE,100,MUdru-g1070_oqxB,99.841,MUdru-g1090_smE,99.524
+MUdru-g1072_oqxB,oqxB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1082_qacK,100,MUdru-g1078_pmrA,99.397,MUdru-g1091_smE,99.366
+MUdru-g1073_phoB,phoB,Drug and biocide ABC efflux regulator,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1082_qacK,100,MUdru-g1088_sepA,99.049,MUdru-g1087_sepA,99.017
+MUdru-g1074_phoR,phoR,Drug and biocide SMR efflux regulator,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g1075_pmpM,100,MUdru-g1086_sdrM,99.112,MUdru-g1065_oqxB,99.112
+MUdru-g1075_pmpM,pmpM,Drug and biocide MATE efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1074_phoR,100,MUdru-g1065_oqxB,99.112,MUdru-g1086_sdrM,98.953
+MUdru-g1076_pmrA,pmrA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1082_qacK,100,MUdru-g1078_pmrA,98.795,MUdru-g1085_sdeX,98.763
+MUdru-g1077_pmrA,pmrA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1066_oqxB,100,MUdru-g1067_oqxB,99.937,MUdru-g1088_sepA,99.302
+MUdru-g1078_pmrA,pmrA,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,MUdru-g1068_oqxB,100,MUdru-g1082_qacK,99.461,MUdru-g1072_oqxB,99.397
+MUdru-g1079_qacaB,qacaB,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Streptococcus pneumoniae,MUdru-g1080_qacD,100,MUdru-g1082_qacK,99.271,MUdru-g1072_oqxB,99.207
+MUdru-g1080_qacD,qacD,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Streptococcus pneumoniae TIGR4,MUdru-g1091_smE,100,MUdru-g1082_qacK,99.366,MUdru-g1072_oqxB,99.366
+MUdru-g1081_qacE,qacE,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Pectobacterium parmentieri,MUdru-g1068_oqxB,100,MUdru-g1078_pmrA,99.302,MUdru-g1091_smE,99.207
+MUdru-g1082_qacK,qacK,Drug and biocide SMR efflux pump (partial gene),Drug and biocide resistance,Multi-compound,Staphylococcus aureus,MUdru-g1072_oqxB,100,MUdru-g1078_pmrA,99.461,MUdru-g1080_qacD,99.366
+MUdru-g1083_rsmA,rsmA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Escherichia coli,MUdru-g1088_sepA,100,MUdru-g1090_smE,99.397,MUdru-g1089_smE,99.397
+MUdru-g1084_sdeA,sdeA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Klebsiella pneumoniae,MUdru-g1085_sdeX,100,MUdru-g1091_smE,99.429,MUdru-g1080_qacD,99.334
+MUdru-g1085_sdeX,sdeX,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,uncultured bacterium,MUdru-g1084_sdeA,100,MUdru-g1091_smE,99.461,MUdru-g1080_qacD,99.334
+MUdru-g1086_sdrM,sdrM,Drug and biocide MFS efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,MUdru-g1074_phoR,100,MUdru-g1065_oqxB,99.049,MUdru-g1075_pmpM,98.953
+MUdru-g1087_sepA,sepA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Legionella longbeachae,MUdru-g1088_sepA,100,MUdru-g1090_smE,99.271,MUdru-g1089_smE,99.271
+MUdru-g1088_sepA,sepA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Serratia marcescens,MUdru-g1083_rsmA,100,MUdru-g1090_smE,99.366,MUdru-g1089_smE,99.366
+MUdru-g1089_smE,smE,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Staphylococcus aureus,MUdru-g1090_smE,100,MUdru-g1095_smE,99.556,MUdru-g1092_smE,99.556
+MUdru-g1090_smE,smE,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas sp. 13159349,MUdru-g1089_smE,100,MUdru-g1095_smE,99.556,MUdru-g1092_smE,99.556
+MUdru-g1091_smE,smE,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Staphylococcus argenteus,MUdru-g1085_sdeX,100,MUdru-g1084_sdeA,99.429,MUdru-g1080_qacD,99.366
+MUdru-g1092_smE,smE,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas maltophilia,MUdru-g1090_smE,100,MUdru-g1089_smE,99.556,MUdru-g1095_smE,99.366
+MUdru-g1093_smE,smE,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas maltophilia,MUdru-g1091_smE,100,MUdru-g1082_qacK,99.207,MUdru-g1085_sdeX,99.175
+MUdru-g1094_smE,smE,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas maltophilia,MUdru-g1069_oqxB,100,MUdru-g1095_smE,99.918,MUdru-g1070_oqxB,99.918
+MUdru-g1095_smE,smE,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas maltophilia,MUdru-g1070_oqxB,100,MUdru-g1071_oqxB,99.841,MUdru-g1090_smE,99.556
+MUdru-g1096_smE,smE,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas maltophilia,MUdru-g1097_smeT,94,NA,NA,NA,NA
+MUdru-g1097_smeT,smeT,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Stenotrophomonas maltophilia,MUdru-g1096_smE,100,NA,NA,NA,NA
+MUdru-g1098_smR,smR,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas maltophilia,NA,NA,NA,NA,NA,NA
+MUdru-g1099_smR,smR,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas maltophilia,NA,NA,NA,NA,NA,NA
+MUdru-g1100_smR,smR,Drug and biocide SMR efflux pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas maltophilia,MUdru-g1101_soxR,100,MUdru-g1101_soxR,99.578,NA,NA
+MUdru-g1101_soxR,soxR,Drug and biocide ABC efflux regulator,Drug and biocide resistance,Multi-compound,Enterobacter hormaechei,MUdru-g1100_smR,94,MUdru-g1100_smR,99.578,NA,NA
+MUdru-g1102_soxR,soxR,Drug and biocide ABC efflux regulator,Drug and biocide resistance,Multi-compound,Stenotrophomonas maltophilia,NA,NA,NA,NA,NA,NA
+MUdru-g1103_ttgB,ttgB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Stenotrophomonas maltophilia,Bqacs-g0148_qacB,99,Bqacs-g0143_qacA,99.87,Bqacs-g0144_qacA,99.741
+MUdru-g1104_ttgC,ttgC,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,Bqacs-g0150_qacC,16,NA,NA,NA,NA
+MUdru-g1105_ttgC,ttgC,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Salmonella enterica subsp. enterica serovar Typhi,MUdru-g1106_ttgG,100,Bqacs-g0153_qacEdelta1,99.291,Bqacs-g0152_qacEdelta1,99.291
+MUdru-g1106_ttgG,ttgG,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas sp. KBS0802,MUdru-g1105_ttgC,100,Bqacs-g0153_qacEdelta1,100,Bqacs-g0152_qacEdelta1,100
+MUdru-g1107_vceA,vceA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas putida DOT-T1E,NA,NA,NA,NA,NA,NA
+MUdru-g1108_vceB,vceB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas sp. 13159349,NA,NA,NA,NA,NA,NA
+MUdru-g1109_vceC,vceC,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas putida,NA,NA,NA,NA,NA,NA
+MUdru-g1110_vceR,vceR,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Vibrio cholerae,MUdru-g0883_adeI,96,NA,NA,NA,NA
+MUdru-g1111_vcmA,vcmA,Drug and biocide MATE efflux pumps,Drug and biocide resistance,Multi-compound,Vibrio cholerae,NA,NA,NA,NA,NA,NA
+MUdru-g1112_vcmA,vcmA,Drug and biocide MATE efflux pumps,Drug and biocide resistance,Multi-compound,Vibrio cholerae C6706,Bqacs-g0142_galE,95,MUman-g1130_sitC,100,NA,NA
+MUdru-g1113_vexA,vexA,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Vibrio cholerae,NA,NA,NA,NA,NA,NA
+MUdru-g1114_vexB,vexB,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Vibrio cholerae C6706,NA,NA,NA,NA,NA,NA
+MUdru-g1115_vexC,vexC,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Vibrio cholerae non-O1,MUdru-g1121_yajC,100,MUdru-g1007_mexR,75.526,MUman-g1128_sitB,73.79
+MUdru-g1116_vexD,vexD,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Vibrio cholerae C6706,NA,NA,NA,NA,NA,NA
+MUdru-g1117_vexE,vexE,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Vibrio cholerae,NA,NA,NA,NA,NA,NA
+MUdru-g1118_vexF,vexF,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Vibrio cholerae C6706,NA,NA,NA,NA,NA,NA
+MUdru-g1119_vexH,vexH,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Vibrio cholerae C6706,MUdru-g1121_yajC,16,MUdru-g1115_vexC,83.068,MUdru-g1007_mexR,83.371
+MUdru-g1120_vexK,vexK,Drug and biocide RND efflux pumps,Drug and biocide resistance,Multi-compound,Vibrio cholerae,NA,NA,NA,NA,NA,NA
+MUdru-g1121_yajC,yajC,Drug and biocide RND efflux regulator,Drug and biocide resistance,Multi-compound,Vibrio cholerae,MUdru-g1115_vexC,100,MUdru-g1007_mexR,75.461,MUman-g1128_sitB,73.725
+MUdru-g1122_ydgE,ydgE,Multidrug efflux system protein MdtI,Drug and biocide resistance,Multi-compound,Vibrio cholerae C6706,NA,NA,NA,NA,NA,NA
+MUdru-g1123_ydgF,ydgF,Biocide efflux protein,Drug and biocide resistance,Multi-compound,Vibrio cholerae C6706,NA,NA,NA,NA,NA,NA
+MUdru-g1124_yogI,yogI,Drug and biocide ABC efflux pumps,Drug and biocide resistance,Multi-compound,Pseudomonas aeruginosa,MUdru-g1125_pmrB,99,NA,NA,NA,NA
+MUdru-g1125_pmrB,pmrB,Drug and metal MFS efflux pumps,Drug and metal resistance,Multi-compound,Escherichia coli,MUdru-g1124_yogI,99,NA,NA,NA,NA
+MUdru-g1126_pmrC,pmrC,Drug and metal MFS efflux pumps (partial gene),Drug and metal resistance,Multi-compound,Bacillus subtilis subsp. subtilis str. 168,NA,NA,NA,NA,NA,NA
+MUdru-g1127_pmrG,pmrG,Drug and metal MFS efflux pumps,Drug and metal resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUman-g1128_sitB,sitB,Biocide and metal ABC efflux pumps,"Manganese (Mn), Iron (Fe), Hydrogen Peroxide (H2O2) [class: Peroxides]",Multi-compound,Pectobacterium parmentieri,Bpoly-g0138_srpB,98,MUdru-g1007_mexR,81.198,MUdru-g1115_vexC,73.756
+MUman-g1129_sitB,sitB,Biocide and metal ABC efflux pumps,"Manganese (Mn), Iron (Fe), Hydrogen Peroxide (H2O2) [class: Peroxides]",Multi-compound,Pectobacterium carotovorum subsp. carotovorum,Bpoly-g0139_ttgD,94,Bqacs-g0140_bcrB,77.438,Bmult-g0049_pdrM,76.874
+MUman-g1130_sitC,sitC,Biocide and metal ABC efflux pumps,"Manganese (Mn), Iron (Fe), Hydrogen Peroxide (H2O2) [class: Peroxides]",Multi-compound,Salmonella enterica,MUdru-g1112_vcmA,100,Bqacs-g0142_galE,100,NA,NA
+MUman-g1131_sitC,sitC,Biocide and metal ABC efflux pumps,"Manganese (Mn), Iron (Fe), Hydrogen Peroxide (H2O2) [class: Peroxides]",Multi-compound,Salmonella enterica,NA,NA,NA,NA,NA,NA
+MUmul-g1132_bltR,bltR,Multi-biocide resistance regulator,Multi-biocide resistance,Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUmul-g1133_bltR,bltR,Multi-biocide resistance regulator,Multi-biocide resistance,Multi-compound,Salmonella enterica,NA,NA,NA,NA,NA,NA
+MUzin-g1134_rpoS,rpoS,Multi-biocide and zinc resistance regulator,"Zinc (Zn), Hydrochloric acid (HCl) [class: Acid],  Sodium hydroxide (NaOH) [class: Base]",Multi-compound,Escherichia coli,NA,NA,NA,NA,NA,NA
+MUzin-g1135_rpoS,rpoS,Multi-biocide and zinc resistance regulator,"Zinc (Zn), Hydrochloric acid (HCl) [class: Acid],  Sodium hydroxide (NaOH) [class: Base]",Multi-compound,Bacillus subtilis subsp. subtilis str. 168,NA,NA,NA,NA,NA,NA
+MUzin-g1136_rpoS,rpoS,Multi-biocide and zinc resistance regulator,"Zinc (Zn), Hydrochloric acid (HCl) [class: Acid],  Sodium hydroxide (NaOH) [class: Base]",Multi-compound,Bacillus subtilis subsp. subtilis str. 168,MUzin-g1137_baeS,99,NA,NA,NA,NA
+MUzin-g1137_baeS,baeS,Drug and biocide and metal RND efflux regulator,"Zinc (Zn), Tungsten (W), Sodium Deoxycholate (SDC) [class: Acid]",Multi-compound,Escherichia coli,MUzin-g1136_rpoS,100,NA,NA,NA,NA
+MUzin-g1138_baeS,baeS,Drug and biocide and metal RND efflux regulator,"Zinc (Zn), Tungsten (W), Sodium Deoxycholate (SDC) [class: Acid]",Multi-compound,Salmonella enterica subsp. enterica serovar Typhimurium,NA,NA,NA,NA,NA,NA
+MUzin-g1139_baeS,baeS,Drug and biocide and metal RND efflux regulator,"Zinc (Zn), Tungsten (W), Sodium Deoxycholate (SDC) [class: Acid]",Multi-compound,Escherichia coli,Bmult-g0090_vmeG,99,NA,NA,NA,NA
+MUzin-g1140_baeS,baeS,Drug and biocide and metal RND efflux regulator,"Zinc (Zn), Tungsten (W), Sodium Deoxycholate (SDC) [class: Acid]",Multi-compound,Salmonella enterica subsp. enterica serovar Typhimurium,NA,NA,NA,NA,NA,NA
